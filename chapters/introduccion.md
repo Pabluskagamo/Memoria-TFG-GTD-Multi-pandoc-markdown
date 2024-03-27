@@ -1,16 +1,18 @@
 # Introducción
 
+Explicar que es GTD y el proyecto introductoriamente.
+
 ## Motivación
 
-Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. Sin embargo, es precisamente en ese entorno donde la productividad personal, guiada por la metodología GTD, se vuelve una herramienta fundamental para poder combatir ésta problemática. 
+Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. Sin embargo, es precisamente en ese entorno donde la productividad personal, guiada por la metodología *GTD*, se vuelve una herramienta fundamental para poder combatir ésta problemática. 
 
-El sistema GTD (Getting Things Done), es conocido por su eficacia tanto a nivel personal como profesional en la organización, planificación y administración de tareas y proyectos. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. 
+El sistema *GTD* (*Getting Things Done*), es conocido por su eficacia tanto a nivel personal como profesional en la organización, planificación y administración de tareas y proyectos. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. 
 
 En primer lugar, muchas de estas aplicaciones carecen de un enfoque en materia de protección de datos, ya sea por falta de transparencia de los mismos, pues no especifican cómo es el tratamiento y procesamiento de los mismos. O porque las medidas que han llegado a poner en práctica, no son lo suficientemente robustas para proteger la información que alojan sus usuarios (p.e: los datos son alojados en servidores de terceros y no sabemos los protocolos de seguridad que tienen éstos)
 
 Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un parque de dispositivos limitado. Condicionando de esta forma el acceso de esta metodología a un público más generalista.
 
-Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología GTD, destaque por su interfaz intuitiva y amigable, guiada por una infraestructura REST, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos.
+Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una infraestructura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos.
 
 ## Objetivos
 
@@ -38,12 +40,14 @@ La aplicación debe proporcionar una serie de funcionalidades para el seguimient
 
 ### Diagrama de bloques del sistema
 
+![Diagrama de bloques del sistema](img/diagramabloques.png){width=100% #fig:bloqusis}
 
+El sistema está compuesto principalmente por 2 módulos principales, Una aplicación cliente, disponible para diversos dispositivos y un backend el cual cuenta con una *API Rest* con un sistema de autorización seguro.
+
+En primer lugar tenemos la aplicación cliente la cual está implementada con el framework multiplataforma *React Native*, pudiendo ser ejecutada en diversos clientes. Los clientes interactúan mediante el protocolo *HTTPS* con el backend.
+
+El backend implementa 2 módulos principales y una base de datos. Por una parte está el módulo *OAuth 2.0* el cual se encarga de gestionar el flujo de autenticación y autorización, es decir gestiona el acceso de los usuarios de las aplicaciones cliente a la información y a los servicios que proporciona el backend. Por otra parte, el backend también está compuesto por una *API* que sigue la arquitectura *REST* e implementa y expone mediante diversos endpoints los diferentes servicios de la aplicación. Por último el Backend contiene también la base de datos de la aplicación, la cual contiene tanto las tablas que utiliza el módulo *API Rest* como el módulo *OAuth 2.0*. Todos los servicios que contiene el backend están gestionados mediante contenedores *Docker*, de esta manera es posible arrancar, conectar y configurar los diversos módulos de manera sencilla y ágil, con el fin de poder desplegar dichos servicios en cualquier máquina sin necesidad de más configuración particular a cada entorno.
+
+Por último, el sistema también dispone de la posibilidad de conectar algunos agentes conversacionales con la aplicación. Desde los clientes es posible realizar dicha configuración de agentes mediante la generación de una clave especial para estos, de manera que los agentes una vez configurados puedan acceder a los servicios del backend mediante comandos de voz.
 
 ## Plan de Trabajo
-
-
-
-
-
-
