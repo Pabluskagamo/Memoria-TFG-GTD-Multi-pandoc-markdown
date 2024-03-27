@@ -4,17 +4,15 @@
 
 Esto es solo un ejemplo de capítulo. Vamos a citar algo  [@mauerer-book;@amba].
 
-
-
 En la figura \ref{fig:label1} se muestra el escudo de la Universidad Complutense de Madrid.
 
 ![Esto es el título](img/ucmlogo.png){width=30% #fig:label1}
 
-
-
 * UNO
 * DOS
 * TRES
+* CUATRO
+* TEST DE CAPITULO
 
 | OK      | A           | B          |
 | ------- | ----------- | ---------- |
@@ -22,20 +20,13 @@ En la figura \ref{fig:label1} se muestra el escudo de la Universidad Complutense
 | SADHJHJ | ASHJDFHJASH | ASDASD     |
 |         |             |            |
 
-
-
 Tras esta breve introducción al capítulo continuamos con la sección \ref{sec:cool}.
-
-
 
 ## Ejemplo de sección { #sec:cool }
 
-
-
 ```C
 #ifdef CONFIG_PMC_PERF
-	int safety_control;
-	unsigned char prof_enabled;
+    int safety_control;
+    unsigned char prof_enabled;
 #endif
 ```
-
