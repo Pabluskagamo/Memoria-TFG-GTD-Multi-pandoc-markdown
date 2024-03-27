@@ -72,8 +72,8 @@ Una vez terminadas las distintas tareas previas al desarrollo comentadas anterio
 
 ##### Backend
 
-![Diagrama de Gantt backend] (img/backendgantt){width=100%}
+![Diagrama de Gantt backend] (img/bakendgantt){width=100%}
 
 ##### Frontend
 
-![Diagrama de Gantt frontend] (img/frontendgantt){width=100%}
+![](https://lh7-us.googleusercontent.com/OB4RKDc-LPFoJE8Hs4tyBQWd5dAF2XbuIb59In-L7qJ_FvrO8bEfTNL1oVvE4uZaUf7wwDBzMX-r_CWE_TB0CFoWEnMcLJauwe2FWaAM2Zp8C_lxGBKJ3MrEglfa9EjnAuaN1nDHPuczI21_AxpQzrc)
