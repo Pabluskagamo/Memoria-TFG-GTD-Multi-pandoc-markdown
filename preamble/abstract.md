@@ -2,21 +2,9 @@
 
 # Resumen {.unnumbered}
 
-Los procesadores multicore integran en un mismo chip múltiples núcleos de procesamiento 
-que co mparten recursos, como niveles de la jerarquía cache o el controlador de memoria. 
-Sin embargo, el hardware por sí mismo no otorga a las aplicaciones una fracción de los 
-recursos compartidos proporcional a la prioridad que establece el usuario. Esto supone un 
-serio problema para el sistema operativo, ya que la contención por recursos compartidos 
-puede afectar muy negativamente a la calidad del servicio que el sistema ofrece al usuario. 
-Para mitigar este problema, los procesadores más recientes de Intel, como 
-los de la famila Xeon E5-v4, incoporan la tecnología Intel CAT (Cache Allocation Technology), que permite 
-que el sistema operativo asigne espacio en cache a las aplicaciones en base a sus características y prioridad. 
-El objetivo de este proyecto es incluir el soporte necesario en el planificador de Linux para explotar el potencial de Intel CAT 
-y de otras tecnologías relacionadas como Intel Cache Monitoring (CMT) e Intel Memory Bandwidth Monitoring  (MBM)
+La metodología de productividad personal conocida como "Getting Things Done" (GTD), creada por David Allen, es uno de los métodos más efectivos para la organización de tareas en la actualidad. Su objetivo es maximizar la productividad a través de la consolidación de todas las tareas, proyectos y actividades en un solo lugar. Aunque existen muchas aplicaciones disponibles para ayudar a poner en práctica la filosofía GTD, la mayoría son propiedad de empresas que pueden tener acceso a la información personal de los usuarios, lo que puede violar su privacidad.
 
-**palabras clave**: Intel MBM, Intel CAT, planificación, kernel Linux, procesadores Multicore
-
-
+**palabras clave**: GTD, React Native, REST API, OAuth 2.0, Multiplataforma
 
 # Abstract {.unnumbered}
 

@@ -1,20 +1,24 @@
 # Introducción
 
+La metodología GTD (Getting Things Done) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro que recibe el mismo nombre [@gtd-book] y fue traducido al español como "Organízate con eficacia".
+
+El flujo de trabajo que establece GTD pasa por diversas etapas cada una con una finalidad específica que da validez a la efectividad del método. También propone definir en cada tarea el lugar físico donde se realizará, con el fin de asociar los distintos lugares que una persona visita durante el día a tus tareas pendientes. En la sección 2.1 se explica la idea con más detalle.
+
 ## Motivación
 
-Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. Sin embargo, es precisamente en ese entorno donde la productividad personal, guiada por la metodología GTD, se vuelve una herramienta fundamental para poder combatir ésta problemática. 
+Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. Sin embargo, es precisamente en ese entorno donde la productividad personal, guiada por la metodología *GTD*, se vuelve una herramienta fundamental para poder combatir ésta problemática. 
 
-El sistema GTD (Getting Things Done), es conocido por su eficacia tanto a nivel personal como profesional en la organización, planificación y administración de tareas y proyectos. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. 
+El sistema *GTD* (*Getting Things Done*), es conocido por su eficacia tanto a nivel personal como profesional en la organización, planificación y administración de tareas y proyectos. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. 
 
 En primer lugar, muchas de estas aplicaciones carecen de un enfoque en materia de protección de datos, ya sea por falta de transparencia de los mismos, pues no especifican cómo es el tratamiento y procesamiento de los mismos. O porque las medidas que han llegado a poner en práctica, no son lo suficientemente robustas para proteger la información que alojan sus usuarios (p.e: los datos son alojados en servidores de terceros y no sabemos los protocolos de seguridad que tienen éstos)
 
 Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un parque de dispositivos limitado. Condicionando de esta forma el acceso de esta metodología a un público más generalista.
 
-Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología GTD, destaque por su interfaz intuitiva y amigable, guiada por una infraestructura REST, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos.
+Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una infraestructura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos.
 
 ## Objetivos
 
-El objetivo central de este proyecto es desarrollar una aplicación multiplataforma GTD. Para ello hemos utilizado el framework *React Native* que permite crear una interfaz de usuario coherente que funcione en todos los sistemas operativos principales, como *Android*, *iOS*, *MacOS *y *Windows*, y garantiza que los usuarios puedan gestionar sus tareas y proyectos de manera eficiente desde cualquier dispositivo, sin importar la plataforma que utilicen. 
+El objetivo central de este proyecto es desarrollar una aplicación multiplataforma GTD. Para ello hemos utilizado el framework *React Native* que permite crear una interfaz de usuario coherente que funcione en todos los sistemas operativos principales, como *Android*, *iOS*, *MacOS* y *Windows*, y garantiza que los usuarios puedan gestionar sus tareas y proyectos de manera eficiente desde cualquier dispositivo, sin importar la plataforma que utilicen. 
 
 La utilización de *React Native* simplifica el desarrollo, mantenimiento y escalabilidad del proyecto, lo que resulta en una aplicación ágil y adaptable a futuras actualizaciones y cambios en las plataformas de destino.
 
@@ -58,7 +62,7 @@ La aplicación proporciona un modo offline que permite gestionar tareas sin cone
 
 El sistema está compuesto principalmente por 2 módulos principales, Una aplicación cliente, disponible para diversos dispositivos y un backend el cual cuenta con una *API Rest* con un sistema de autorización seguro.
 
-En primer lugar tenemos la aplicación cliente la cual está implementada con el framework multiplataforma *React Native*, pudiendo ser ejecutada en diversos clientes. Los clientes interactúan mediante el protocolo *HTTPS* con el backend.
+En primer lugar tenemos la aplicación cliente la cual está implementada con el framework multiplataforma *React Native*, pudiendo ser ejecutada en diversos dispositivos. Los clientes interactúan mediante el protocolo *HTTPS* con el backend.
 
 El backend implementa 2 módulos principales y una base de datos. Por una parte está el módulo *OAuth 2.0* el cual se encarga de gestionar el flujo de autenticación y autorización, es decir gestiona el acceso de los usuarios de las aplicaciones cliente a la información y a los servicios que proporciona el backend. Por otra parte, el backend también está compuesto por una *API* que sigue la arquitectura *REST* e implementa y expone mediante diversos endpoints los diferentes servicios de la aplicación. Por último el Backend contiene también la base de datos de la aplicación, la cual contiene tanto las tablas que utiliza el módulo *API Rest* como el módulo *OAuth 2.0*. Todos los servicios que contiene el backend están gestionados mediante contenedores *Docker*, de esta manera es posible arrancar, conectar y configurar los diversos módulos de manera sencilla y ágil, con el fin de poder desplegar dichos servicios en cualquier máquina sin necesidad de más configuración particular a cada entorno.
 
@@ -66,7 +70,7 @@ Por último, el sistema también dispone de la posibilidad de conectar algunos a
 
 ## Plan de Trabajo
 
-#### Tareas
+### Tareas
 
 Para el correcto desarrollo del proyecto hemos dividido las tareas realizadas en varias fases que se comentan a continuación.
 
@@ -78,12 +82,12 @@ A continuación, tuvimos una fase de aprendizaje en la cual buscamos informació
 
 Una vez terminadas las distintas tareas previas al desarrollo comentadas anteriormente, comenzamos con la programación del backend que nos llevó aproximadamente cuatro meses, durante este tiempo estuvimos implementando los servicios principales de la aplicación además del sistema de autenticación y autorización. Una vez terminada la parte esencial del backend, comenzamos con el desarrollo del frontend, que ha sido la fase más costosa en tiempo y esfuerzo ya que hemos querido implementar con énfasis una interfaz amigable y usable además de funcionalidad extensa (filtrado, búsqueda, edición…) y es por ello que hemos ido realizando actualizaciones necesarias en backend para el correcto funcionamiento de la aplicación.
 
-#### Diagramas de Gantt
+### Diagramas de Gantt
 
 ##### Backend
 
-![Diagrama de Gantt backend] (img/bakendgantt){width=100%}
+![Diagrama de Gantt backend](img/backendgantt.png){width=100% #fig:ganttback}
 
 ##### Frontend
 
-![](https://lh7-us.googleusercontent.com/OB4RKDc-LPFoJE8Hs4tyBQWd5dAF2XbuIb59In-L7qJ_FvrO8bEfTNL1oVvE4uZaUf7wwDBzMX-r_CWE_TB0CFoWEnMcLJauwe2FWaAM2Zp8C_lxGBKJ3MrEglfa9EjnAuaN1nDHPuczI21_AxpQzrc)
+![Diagrama de Gantt frontend](img/frontendgantt.png){width=100% #fig:ganttfront}
