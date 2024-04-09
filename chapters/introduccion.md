@@ -72,15 +72,15 @@ Por último, el sistema también dispone de la posibilidad de conectar algunos a
 
 ### Tareas
 
-Para el correcto desarrollo del proyecto hemos dividido las tareas realizadas en varias fases que se comentan a continuación.
+Para llevar a cabo el desarrollo del proyecto hemos dividido las tareas a realizar en varias fases que se comentan a continuación.
 
-En primer lugar y de manera individual, realizamos una labor de búsqueda comparando nuestro modelo de proyecto con otras aplicaciones existentes en el mercado para posteriormente poner en común las distintas ideas. Cada uno se instaló una de estas aplicaciones y fue apuntando las posibles mejoras que podríamos implementar para mejorar nuestro producto. Gracias a este ejercicio, llegamos a muchas de las conclusiones explicadas en el apartado de motivación.
+En primer lugar y de manera individual, realizamos una labor de búsqueda comparando nuestro modelo de proyecto con otras aplicaciones existentes en el mercado para posteriormente poner en común las distintas ideas. Cada miembro del equipo se instaló una de estas aplicaciones y fue apuntando las posibles mejoras que podríamos implementar para aportar más valor a nuestro producto. Gracias a este ejercicio, llegamos a muchas de las conclusiones explicadas en la **sección 1.1**.
 
 Posteriormente, hubo una fase de diseño en la cual realizamos un *mockup* de como nos gustaría que fuese nuestra aplicación.
 
-A continuación, tuvimos una fase de aprendizaje en la cual buscamos información y experimentamos con las distintas herramientas y componentes necesarios para montar nuestra aplicación, entre estos componentes buscamos familiarizarnos con *express*, *docker*, *AWS*, *React Native*, *firebase* entre otros para realizar una comparación y escoger las tecnologías que mejor se adaptaban a nuestras necesidades para el futuro desarrollo de nuestra aplicación.
+A continuación, tuvimos una fase de aprendizaje en la cual buscamos información y experimentamos con las distintas herramientas y componentes necesarios para montar nuestra aplicación. Entre estos componentes buscamos familiarizarnos con *express*, *docker*, *AWS*, *React Native*, *firebase* entre otros para realizar una comparación y escoger las tecnologías que mejor se adaptaban a nuestras necesidades para el futuro desarrollo de nuestra aplicación.
 
-Una vez terminadas las distintas tareas previas al desarrollo comentadas anteriormente, comenzamos con la programación del backend que nos llevó aproximadamente cuatro meses, durante este tiempo estuvimos implementando los servicios principales de la aplicación además del sistema de autenticación y autorización. Una vez terminada la parte esencial del backend, comenzamos con el desarrollo del frontend, que ha sido la fase más costosa en tiempo y esfuerzo ya que hemos querido implementar con énfasis una interfaz amigable y usable además de funcionalidad extensa (filtrado, búsqueda, edición…) y es por ello que hemos ido realizando actualizaciones necesarias en backend para el correcto funcionamiento de la aplicación.
+Una vez terminadas las distintas tareas previas al desarrollo comentadas anteriormente, comenzamos con la programación del *backend* que nos llevó aproximadamente cuatro meses, durante este tiempo estuvimos implementando los servicios principales de la aplicación además del sistema de autenticación y autorización. Una vez terminada la parte esencial del *backend*, comenzamos con el desarrollo del *frontend*, que ha sido la fase más costosa en tiempo y esfuerzo, ya que hemos dedicado un gran trabajo a crear una interfaz amigable y usable además de funcionalidad extensa (filtrado, búsqueda, edición…). Es por ello que hemos ido realizando actualizaciones necesarias en *backend* para el correcto funcionamiento de la aplicación.
 
 ### Diagramas de Gantt
 
