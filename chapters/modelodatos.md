@@ -12,9 +12,9 @@ Por último, analizaremos aspectos críticos como la seguridad de la base de dat
 
 ## Descripción de entidades
 
-A continuación, desarrollamos las principales entidades de nuestra aplicación, junto con sus atributos y funciones dentro del sistema:
+A continuación, desarrollaremos las principales entidades de nuestra aplicación, junto con sus atributos y funciones dentro del sistema:
 
-- **Tareas:** Representa las actividades a realizar dentro de la aplicación. Cada tarea es creada por un usuario y puede contener atributos como título, descripción, fecha límite y prioridad. Además, las tareas pueden ser modificadas en cualquier momento por el usuario propietario, completadas cuando se finalicen, o ser asignadas a proyectos específicos o etiquetadas con etiquetas relevantes para una mejor organización.
+- **Tareas:** Representa las actividades a realizar dentro de la aplicación. Cada tarea es creada por un usuario y puede contener atributos como título, descripción, fecha límite y prioridad. Además, las tareas pueden ser modificadas en cualquier momento por el usuario propietario, completadas cuando se finalicen, ser asignadas a proyectos específicos o etiquetadas con etiquetas relevantes para una mejor organización.
 
 - **Usuarios:** Los usuarios tienen un rol central en la organización y gestión de la aplicación, ya que tienen la capacidad de crear, modificar y eliminar tanto tareas como proyectos. Pueden también crear y gestionar áreas para una organización más eficiente de su espacio de trabajo. Además, tienen el control sobre aspectos de personalización de la aplicación, junto con la capacidad de modificar su propio perfil.
 
@@ -28,7 +28,7 @@ A continuación, desarrollamos las principales entidades de nuestra aplicación,
 
 ## Relaciones entre entidades
 
-En esta sección, exploramos las relaciones entre las diferentes entidades dentro del Modelo de Datos de nuestra aplicación. Estas relaciones son fundamentales para comprender cómo interactúan los distintos componentes del sistema y cómo se organiza la información.
+En esta sección, exploraremos las relaciones entre las diferentes entidades dentro del Modelo de Datos de nuestra aplicación. Estas relaciones son fundamentales para comprender cómo interactúan los distintos componentes del sistema y cómo se organiza la información.
 
 - **Tareas y Usuarios:**
 
@@ -48,7 +48,7 @@ Las etiquetas se utilizan para clasificar y categorizar las tareas según temas 
 
 - **Usuarios y Proyectos/Áreas:**
 
-Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. Esta relación permite a los usuario organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
+Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. (AHORA MISMO ÁREAS CREO QUE NO SE PUEDEN MODIFICAR NO?) Esta relación permite a los usuario organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
 
 ## Modelo físico de la BD
 
