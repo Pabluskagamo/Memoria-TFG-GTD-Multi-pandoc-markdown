@@ -48,7 +48,7 @@ Las etiquetas se utilizan para clasificar y categorizar las tareas según temas 
 
 - **Usuarios y Proyectos/Áreas:**
 
-Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. (AHORA MISMO ÁREAS CREO QUE NO SE PUEDEN MODIFICAR NO?) Esta relación permite a los usuario organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
+Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. Esta relación permite a los usuario organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
 
 ## Modelo físico de la BD
 
@@ -104,7 +104,7 @@ Empezamos con las descripciones detalladas de las tablas que componen la base de
    - "client_id": Identificador del cliente
    - "user_id": Identificador del usuario que recibe el código
 - **oauth_clients:**
-   - 'client_id': Identificador del cliente
+   - "client_id": Identificador del cliente
    - "client_secret": Número secreto del cliente
    - "redirect_uri": Dirección a la que te redirige si la obtención del código de autenticación es correcto.
    - "grants": Indica los flujos de Oauth configurados para el cliente.
