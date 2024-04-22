@@ -56,3 +56,64 @@ A continuación, vamos a detallar la implementación concreta del Modelo de Dato
 
 Empezamos con las descripciones detalladas de las tablas que componen la base de datos:
 
+- **tasks:**
+    - "task_id": Identificador único de la tarea
+    - "user_id": Identificador del usuario al que pertenece la tarea (obligatorio).
+    - "context_id": Identificador del área/contexto en el que puede estar una tarea (opcional).
+    - "project_id": Identificador del proyecto al que pertenece la tarea (opcional).
+    - "title": Título de la tarea (obligatorio).
+    - "description": Descripción de la tarea (opcional).
+    - "state": Sección en la que se encuentra la tarea (Inbox, Cuanto Antes, Programadas, etc.).
+    - "completed": Booleano que indica si la tarea está completa o no.
+    - "important_fixed": Booleano que indica si la tarea es importante (prioridad a la hora de hacer tareas).
+    - "date_added": Fecha en la que se añade la tarea.
+    - "date_completed": Fecha en la que se completa la tarea.
+    - "date_limit": Fecha límite para realizar la tarea (opcional).
+    - "date_changed": Fecha en la que se realiza algún cambio en la tarea.
+    - "num_version": Número de versión por la que se va en la tarea (por cada cambio).
+- **users:**
+    - "user_id": Identificador del usuario
+    - "name": Nombre del usuario
+    - "email": Correo del usuario
+    - "password": Contraseña del usuario
+- **projects:**
+   - "project_id": Identificador del proyecto
+   - "title": Título del proyecto
+   - "description": Descripción del proyecto
+   - "user_id": Identificador del usuario al que pertenece el proyecto
+   - "completed": Boolean que indica si está completo el proyecto o no
+   - "date_added": Fecha en la que se añade el proyecto
+   - "date_changed": Fecha en la que se modifica el proyecto
+   - "date_completed": Fecha en la que el proyecto ha sido completado
+   - "num_version": Número de version en la que se encuentra el proyecto
+   - "colour": Color que corresponde al proyecto (EN LA BD ESTA PUESTO color no COLOUR, INCONCLUENCIA)
+- **areas_contexts:**
+   - "context_id": Identificador del área/contexto
+   - "name": Nombre del área
+   - "user_id": Identificador del usuario al que corresponde el área
+- **tags:**
+   - "name": Nombre de la tag
+   - "colour": Color de la tag
+- **tagstotask:**
+   - "task_id": Identificador de la tarea a la que pertenece la tag
+   - "nametag": Nombre de la tag
+- **oauth_authcode:**
+   - "authorization_code": Código de autorización
+   - "expires_at": Fecha de expiración del código
+   - "redirect_uri": Dirección a la que te redirige si la obtención del código de autenticación es correcto.
+   - "client_id": Identificador del cliente
+   - "user_id": Identificador del usuario que recibe el código
+- **oauth_clients:**
+   - 'client_id': Identificador del cliente
+   - "client_secret": Número secreto del cliente
+   - "redirect_uri": Dirección a la que te redirige si la obtención del código de autenticación es correcto.
+   - "grants": Indica los flujos de Oauth configurados para el cliente.
+- **oauth_tokens:**
+   - "access_token": Token de acceso
+   - "access_token_expires_at":  Fecha de expiración del token
+   - "refresh_token": Token refrescado
+   - "refresh_token_expires_at": Fecha de expiración del token refrescado
+   - "client_id": Identificador del cliente
+   - "user_id": Identificador del usuario
+
+
