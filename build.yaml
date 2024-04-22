@@ -13,6 +13,7 @@ pandoc_common:
 ## Include chapters here    
   - chapters/introduccion.md
   - chapters/planificacion.md
+  - chapters/modelodatos.md
   - chapters/test_chapter.md
   - separators/backmatter.md
 ## Include appendices here      
