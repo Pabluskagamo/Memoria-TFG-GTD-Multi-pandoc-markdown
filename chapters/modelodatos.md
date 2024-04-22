@@ -26,4 +26,33 @@ A continuación, desarrollamos las principales entidades de nuestra aplicación,
 
 - **Relaciones de _OAuth_:** Las entidades *oauth_authcode*, *oauth_clients *y *oauth_tokens* están relacionadas con el proceso de autorización _OAuth_ para la utenticación de usuarios en la aplicación, facilitando la seguridad y la gestión de accesos.
 
+## Relaciones entre entidades
+
+En esta sección, exploramos las relaciones entre las diferentes entidades dentro del Modelo de Datos de nuestra aplicación. Estas relaciones son fundamentales para comprender cómo interactúan los distintos componentes del sistema y cómo se organiza la información.
+
+- **Tareas y Usuarios:**
+
+Cada tarea de la aplicación está asociada a un usuario que la crea y gestiona. Esta relación permite a los usuarios tener control total sobre sus propias tareas, incluyendo la creación, modificación y eliminación.
+
+- **Tareas y Proyectos:**
+
+Las tareas pueden estar vinculadas a proyectos específicos, lo que facilita la organización y seguimiento de las actividades dentro de entornos más amplios. Esta relación permite a los usuarios agrupar las tareas relacionadas bajo un objetivo común y gestionarlas de manera eficiente.
+
+- **Tareas y Áreas:**
+
+Las tareas también pueden estar asociadas a áreas o contextos específicos, lo que proporciona una categorización adicional para una mejor organización. Los usuarios pueden asignar tareas a áreas relevantes según entorno en el que deben realizarse, lo que facilita la priorización y gestión de estas.
+
+- **Tareas y Etiquetas:**
+
+Las etiquetas se utilizan para clasificar y categorizar las tareas según temas o características comunes. Las tareas pueden estar etiquetadas con una o más etiquetas, lo que permite una organización más detallada y organizada. Esta relación permite a los usuario filtrar y buscar tareas según etiquetas específicas para una gestión más eficiente.
+
+- **Usuarios y Proyectos/Áreas:**
+
+Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. Esta relación permite a los usuario organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
+
+## Modelo físico de la BD
+
+A continuación, vamos a detallar la implementación concreta del Modelo de Datos en la base de datos real que respalda nuestra aplicación. Describimos la estructura de tablas, los tipos de datos utilizados, así como las relaciones y restricciones de integridad referencial.
+
+Empezamos con las descripciones detalladas de las tablas que componen la base de datos:
 
