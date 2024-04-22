@@ -1,8 +1,8 @@
 # Introducción
 
-La metodología GTD (Getting Things Done) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro que recibe el mismo nombre [@gtd-book] y fue traducido al español como "Organízate con eficacia".
+La metodología *GTD*(*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro que recibe el mismo nombre [@gtd-book] y fue traducido al español como "Organízate con eficacia".
 
-El flujo de trabajo que establece GTD pasa por diversas etapas cada una con una finalidad específica que da validez a la efectividad del método. También propone definir en cada tarea el lugar físico donde se realizará, con el fin de asociar los distintos lugares que una persona visita durante el día a tus tareas pendientes. En la sección 2.1 se explica la idea con más detalle.
+El flujo de trabajo que establece *GTD* pasa por diversas etapas cada una con una finalidad específica que da validez a la efectividad del método. También propone definir en cada tarea el lugar físico donde se realizará, con el fin de asociar los distintos lugares que una persona visita durante el día a tus tareas pendientes. En la sección 2.1 se explica la idea con más detalle.
 
 ## Motivación
 
@@ -18,43 +18,45 @@ Por ello, motivados por poner solución a esta problemática, buscamos desarroll
 
 ## Objetivos
 
-El objetivo central de este proyecto es desarrollar una aplicación multiplataforma GTD. Para ello hemos utilizado el framework *React Native* que permite crear una interfaz de usuario coherente que funcione en todos los sistemas operativos principales, como *Android*, *iOS*, *MacOS* y *Windows*, y garantiza que los usuarios puedan gestionar sus tareas y proyectos de manera eficiente desde cualquier dispositivo, sin importar la plataforma que utilicen. 
+El objetivo central de este proyecto es desarrollar una aplicación multiplataforma *GTD*. Para ello hemos utilizado el framework *React Native* que permite crear una interfaz de usuario coherente que funcione en todos los sistemas operativos principales, como *Android*, *iOS*, *MacOS*, *GNU/Linux* y *Windows*, y garantiza que los usuarios puedan gestionar sus tareas y proyectos de manera eficiente desde cualquier dispositivo, sin importar la plataforma que utilicen. 
 
 La utilización de *React Native* simplifica el desarrollo, mantenimiento y escalabilidad del proyecto, lo que resulta en una aplicación ágil y adaptable a futuras actualizaciones y cambios en las plataformas de destino.
 
-Nuestra aplicación GTD destaca gracias a su modo offline, que permite a los usuarios gestionar tareas incluso sin conexión a Internet. A diferencia de otras alternativas, nuestra app garantiza una experiencia ininterrumpida al almacenar datos localmente y sincronizar automáticamente con el servidor cuando se recupera la conexión, asegurando la disponibilidad constante de la información en todos los dispositivos del usuario.
+Nuestra aplicación *GTD* destaca por su modo offline, que permite a los usuarios gestionar tareas incluso sin conexión a Internet (como puede darse el caso en dispositivos móviles). A diferencia de otras alternativas, nuestra app garantiza una experiencia ininterrumpida al almacenar datos localmente y sincronizar automáticamente con el servidor cuando se recupera la conexión, asegurando la disponibilidad constante de la información en todos los dispositivos del usuario.
 
-En el desarrollo de nuestra aplicación GTD, la *API REST* desempeña un papel crucial al proporcionar puntos finales para la comunicación cliente-servidor, permitiendo operaciones *CRUD* en los datos. Además, la implementación de sólidas prácticas de seguridad, como autenticación y cifrado de datos, asegura la integridad y confidencialidad de la información, garantizando una experiencia segura para nuestros usuarios.
+En el desarrollo de nuestra aplicación *GTD*, la *API REST* desempeña un papel crucial al proporcionar *endpoints* para la comunicación cliente-servidor, permitiendo operaciones *CRUD* en los datos, como por ejemplo, tener un _endpoint_ '/tareas' para la creación y lectura de tareas. De esta manera, la _API REST_ proporciona una interfaz estandarizada y eficiente para la manipulación de datos en nuestra plataforma _GTD_. Además, la implementación de sólidas prácticas de seguridad, como autenticación y cifrado de datos, asegura la integridad y confidencialidad de la información, garantizando una experiencia segura para nuestros usuarios.
 
-### Requisitos de alto nivel
+Al desarrollar nuestra aplicación perseguimos una serie de objetivos específicos que quedaron representados mediantes los siguientes requisitos de alto nivel:
 
-#### Gestión de tareas centralizadas
+- **Gestión de tareas centralizadas:**
+  
+  La aplicación debe permitir a los usuarios crear nuevas tareas, las cuales por defecto se agregarán al *Inbox* (almacén de tareas sin organizar dentro de la metodología _GTD_). Desde allí, los usuarios podrán asignarles etiquetas, vincularlas a proyectos o áreas específicas, y moverlas entre diferentes secciones.
 
-La aplicación debe permitir a los usuarios crear nuevas tareas, las cuales por defecto se agregarán al *Inbox*. Desde allí, los usuarios podrán asignarles etiquetas, vincularlas a proyectos o áreas específicas, y moverlas entre diferentes secciones.
+- **Flexibilidad en la Organización:**
+  
+  Los usuarios deben tener la capacidad de organizar sus tareas de manera flexible, añadiéndolas a proyectos o áreas relevantes, y asignándoles etiquetas para una clasificación más detallada. Además, la aplicación debe permitir la edición y eliminación de tareas según sea necesario
 
-#### Flexibilidad en la Organización
+- **Seguimiento y Priorización:**
+  
+  La aplicación debe proporcionar una serie de funcionalidades para el seguimiento y la priorización de las tareas de manera eficiente y efectiva. Los usuarios deben tener la capacidad de completar tareas y asignarles una importancia relativa. Además, la aplicación debe facilitar el acceso a información detallada sobre cada tarea, incluyendo su estado actual, fecha de vencimiento y cualquier nota asociada. Es crucial que las tareas se prioricen automáticamente según su relevancia para el usuario.
 
-Los usuarios deben tener la capacidad de organizar sus tareas de manera flexible, añadiéndolas a proyectos o áreas relevantes, y asignándoles etiquetas para una clasificación más detallada. Además, la aplicación debe permitir la edición y eliminación de tareas según sea necesario
+- **Seguridad:**
+  
+  Nuestra aplicación GTD debe implementar un robusto sistema de autenticación y autorización para garantizar que solo usuarios autorizados puedan acceder y manipular los datos a través de la *API REST*. Además, se requiere cifrado de extremo a extremo para proteger la confidencialidad de la información durante su transmisión y almacenamiento, asegurando así una experiencia segura para todos los usuarios.
 
-#### Seguimiento y Priorización
+- **Funcionalidades de Búsqueda y Filtrado:**
+  
+  Los usuarios deben poder buscar y filtrar sus tareas según etiquetas, áreas, proyectos u otros criterios relevantes, lo que facilita la gestión y visualización de las tareas.
 
-La aplicación debe proporcionar una serie de funcionalidades para el seguimiento y la priorización de las tareas de manera eficiente y efectiva. Los usuarios deben tener la capacidad de completar tareas y asignarles una importancia relativa. Además, la aplicación debe facilitar el acceso a información detallada sobre cada tarea, incluyendo su estado actual, fecha de vencimiento y cualquier nota asociada. Es crucial que las tareas se prioricen automáticamente según su relevancia para el usuario. La priorización se manifiesta en la gestión efectiva de las fechas de vencimiento, destacando las tareas relevantes para el día actual. Las tareas sin fecha asignada se seleccionan y resaltan automáticamente, optimizando la gestión diaria del usuario
+- **Usabilidad:**
+  
+  La aplicación proporciona un modo offline que permite gestionar tareas sin conexión almacenando los datos localmente en el dispositivo del usuario y asegurando la continuidad del trabajo sin importar la disponibilidad de conexión.
 
-#### Registro y Personalización
+- **Integración con agentes conversacionales:**
+  
+  La aplicación se integra con agentes conversacionales como _Alexa_ y _Google Assistant_ ofreciendo una experiencia más versátil, permitiendo así a los usuarios interactuar con la aplicación mediante comandos de voz, simplificando aún más la entrada y gestión de tareas de forma intuitiva y sin esfuerzo.
 
-La aplicación requiere un sistema de registro e inicio de sesión para los usuarios, con la capacidad de personalizar sus etiquetas, tareas, proyectos y áreas. Esto garantiza una experiencia personalizada y segura para cada usuario.
-
-#### Seguridad
-
-Nuestra aplicación GTD debe implementar un robusto sistema de autenticación y autorización para garantizar que solo usuarios autorizados puedan acceder y manipular los datos a través de la *API REST*. Además, se requiere cifrado de extremo a extremo para proteger la confidencialidad de la información durante su transmisión y almacenamiento, asegurando así una experiencia segura para todos los usuarios.
-
-#### Funcionalidades de Búsqueda y Filtrado
-
-Los usuarios deben poder buscar y filtrar sus tareas según etiquetas, áreas, proyectos u otros criterios relevantes, lo que facilita la gestión y visualización de las tareas.
-
-#### Usabilidad y accesibilidad
-
-La aplicación proporciona un modo offline que permite gestionar tareas sin conexión almacenando los datos localmente en el dispositivo del usuario y asegurando la continuidad del trabajo sin importar la disponibilidad de conexión. También integra agentes conversacionales como *Alexa* y *Google Assistant* ofreciendo una experiencia más versátil, permitiendo así a los usuarios interactuar con la aplicación mediante comandos de voz, simplificando aún más la entrada y gestión de tareas de forma intuitiva y sin esfuerzo.
+Estos requisitos proporcionan una base sólida para el desarrollo de la aplicación *GTD*, garantizando una experiencia integral que cumpla con los principios fundamentales de la metodología *GTD* y satisfaga las necesidades de los usuarios en la gestión efectiva de sus tareas y proyectos.
 
 ### Diagrama de bloques del sistema
 
