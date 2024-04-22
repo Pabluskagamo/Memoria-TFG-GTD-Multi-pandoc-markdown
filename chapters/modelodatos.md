@@ -115,5 +115,37 @@ Empezamos con las descripciones detalladas de las tablas que componen la base de
    - "refresh_token_expires_at": Fecha de expiración del token refrescado
    - "client_id": Identificador del cliente
    - "user_id": Identificador del usuario
+A continuación, comentamos cómo se establecen las relaciones entre las tablas para mantener la coherencia de los datos y garantizar su integridad:
+
+- Usuarios con Tareas/Proyectos/Áreas:
+La tabla de "users" con las tablas "tasks", "projects", "areas_contexts" tiene una relación uno a muchos. (Creo que se podría quitar) Un usuario puede tener muchas tareas, proyectos y áreas, pero cada una de ellas pertenece a un solo usuario. Esta relación uno a muchos se establece mediante la clave foránea "user_id" en las tablas "tasks", "projects" y "areas_contexts", que referencia al identificador único del usuario en la tabla "users".
+
+- Proyectos y Tareas:
+La tabla "projects" tiene una relación uno a muchos con la tabla "tasks". Un proyecto puede tener muchas tareas, pero cada tarea pertenece solo a un proyecto. Esta relación uno a muchos se establece mediante la clave foránea "project_id" en la tabla "tasks", que referencia al identificador único del proyeto en la tabla "projects".
+
+- Áreas y Tareas:
+La tabla "areas_contexts" tiene una relación uno a muchos con la tabla "tasks". Un área puede tener muchas tareas, pero cada tarea pertenece solo a un área. Esta relación uno a muchos se establece mediante la clave foránea "context_id" en la tabla "tasks", que referencia al identificador único del área en la tabla "areas_contexts.
+
+- Tareas y Tags:
+Una tarea puede tener muchas etiquetas, y una etiqueta puede estar asociada a muchas tareas. Esta relación muchos a muchos se implementa mediante una tabla intermedia "tagstotask", que contiene las claves foráneas "task_id" y "nametag" que relacionan las "tasks" con las "tags".
+
+
+## Rendimiento y Escalabilidad de la Base de Datos
+En esta sección, detallamos la estructura y el desempeño de la base de datos implementada. Describimos las acciones concretas llevadas a cabo para mejorar la eficiencia y capacidad de respuesta del sistema ante un crecimiento progresivo de carga de trabajo.
+
+Para mejorar el rendimiento de la base de datos hemos realizado una optimización de consultas, definiendo claves primarias en las tablas pertinentes para garantizar la unicidad de las filas y mejorar el rendimiento de las consultas. Además de diseñar consultas eficientes para minimizar la carga en el servidor de la base de datos.
+
+Con respecto a la escalabilidad, hemos diseñado la base de datos para ser escalable tanto vertical como horizontal. Hemos optimizado el hardware del servidor de la base de datos para aumentar la capacidad de procesamiento, memoria y almacenamiento según sea necesario. Además, se ha considerado la posibilidad de distribuir la carga de trabajo entre múltiples sevidores o nodos en el futuro para escalar horizontalmente.
+
+## Seguridad de la Base de Datos
+La seguridad de la base de datos es un componente fundamental para proteger la integridad, confidencialidad y disponibilidad de los datos almacenados. En esta implementación, hemos adoptado diversas medidas para garantizar un entorno seguro:
+- Autenticación y Autorización: Hemos implementado un sistema de autenticación robusto que requiere credenciales válidas para acceder a la base de datos. Se hablará de este sistema en los siguientes apartados. 
+
+- Encriptación de datos: Aplicamos técnicas de encriptación para proteger la información sensible almacenada en la base de datos que pueda ser vulnerable a accesos no autorizados (contraseñas).
+
+- Registro de actividades: Hemos llevado a cabo un seguimiento detallado de todas las actividades realizadas en la base de datos mediante la implementación de registros.
+
+Para finalizar este capítulo, es crucial destacar la importancia del diseño y la implementación eficientes del modelo de datos en nuestra aplicación de Gestión de Tareas. A través de un análisis exhaustivo de las entidades, relaciones y consideraciones técnicas, hemos establecido una base sólida para el funcionamiento óptimo de nuestra base de datos. Al comprender la estructura subyacente y las decisiones de diseño, estamos mejor preparados para abordar los desafíos futuros y garantizar la integridad, seguridad y escalabilidad continuas de nuestra aplicación *GTD*.
+
 
 
