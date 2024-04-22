@@ -12,6 +12,7 @@ pandoc_common:
   - separators/mainmatter.md
 ## Include chapters here    
   - chapters/introduccion.md
+  - chapters/planificacion.md
   - chapters/test_chapter.md
   - separators/backmatter.md
 ## Include appendices here      
