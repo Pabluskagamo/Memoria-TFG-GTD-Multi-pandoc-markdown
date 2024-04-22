@@ -86,14 +86,14 @@ Empezamos con las descripciones detalladas de las tablas que componen la base de
    - "date_changed": Fecha en la que se modifica el proyecto
    - "date_completed": Fecha en la que el proyecto ha sido completado
    - "num_version": Número de version en la que se encuentra el proyecto
-   - "colour": Color que corresponde al proyecto (EN LA BD ESTA PUESTO color no COLOUR, INCONCLUENCIA)
+   - "color": Color que corresponde al proyecto
 - **areas_contexts:**
    - "context_id": Identificador del área/contexto
    - "name": Nombre del área
    - "user_id": Identificador del usuario al que corresponde el área
 - **tags:**
    - "name": Nombre de la tag
-   - "colour": Color de la tag
+   - "color": Color de la tag
 - **tagstotask:**
    - "task_id": Identificador de la tarea a la que pertenece la tag
    - "nametag": Nombre de la tag
