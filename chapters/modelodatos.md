@@ -124,7 +124,7 @@ La tabla de "users" con las tablas "tasks", "projects", "areas_contexts" tiene u
 La tabla "projects" tiene una relación uno a muchos con la tabla "tasks". Un proyecto puede tener muchas tareas, pero cada tarea pertenece solo a un proyecto. Esta relación uno a muchos se establece mediante la clave foránea "project_id" en la tabla "tasks", que referencia al identificador único del proyeto en la tabla "projects".
 
 - Áreas y Tareas:
-La tabla "areas_contexts" tiene una relación uno a muchos con la tabla "tasks". Un área puede tener muchas tareas, pero cada tarea pertenece solo a un área. Esta relación uno a muchos se establece mediante la clave foránea "context_id" en la tabla "tasks", que referencia al identificador único del área en la tabla "areas_contexts.
+La tabla "areas_contexts" tiene una relación uno a muchos con la tabla "tasks". Un área puede tener muchas tareas, pero cada tarea pertenece solo a un área. Esta relación uno a muchos se establece mediante la clave foránea "context_id" en la tabla "tasks", que referencia al identificador único del área en la tabla "areas_contexts".
 
 - Tareas y Tags:
 Una tarea puede tener muchas etiquetas, y una etiqueta puede estar asociada a muchas tareas. Esta relación muchos a muchos se implementa mediante una tabla intermedia "tagstotask", que contiene las claves foráneas "task_id" y "nametag" que relacionan las "tasks" con las "tags".
