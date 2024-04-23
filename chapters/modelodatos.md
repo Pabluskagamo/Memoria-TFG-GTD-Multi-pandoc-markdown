@@ -1,12 +1,12 @@
 # Modelo de datos e implementación de la Base de datos
 
-La presente sección tiene como objetivo explorar en detalle el modelo de datos utilizado en nuestra aplicación de gestión de tareas (GTD), proporcionando una visión exhaustiva de cómo se organizan y relacionan los datos esenciales para su funcionamiento.
+La presente sección tiene como objetivo explorar en detalle el modelo de datos utilizado en nuestra aplicación de gestión de tareas (*GTD*), proporcionando una visión exhaustiva de cómo se organizan y relacionan los datos esenciales para su funcionamiento.
 
 En primer lugar, presentaremos las principales entidades que componen nuestro modelo, incluyendo tareas, usuarios, proyectos, áreas, etiquetas y las relaciones asociadas a la autorización _OAuth_. Cada entidad es examinada en profundidad, detallando sus atributos y el propósito que cumplen dentro del contexto de la aplicación _GTD_.
 
 Posteriormente, analizaremos las relaciones entre estas entidades, destacando cómo se conectan y cómo estas conexiones facilitan el flujo de información y la interacción dentro de la aplicación.
 
-Además, discutiremos la implementación física del modelo de datos en la base de datos. Nuestra base de datos está alojada en un entorno _Docker_ en _AWS_ (_Amazon Web Services_ ), utilizando _PostgreSQL_ como sistema de gestión de bases de datos. Describiremos la estructura de tablas, índices y restricciones de integridad referencial, resaltando cómo estas decisiones de diseño se traducen en la configuración final de la base de datos.
+Además, discutiremos la implementación física del modelo de datos en la base de datos. Nuestra base de datos está alojada en un entorno _Docker_ en _AWS_ (_Amazon Web Services_), utilizando _PostgreSQL_ como sistema de gestión de bases de datos. Describiremos la estructura de tablas, índices y restricciones de integridad referencial, resaltando cómo estas decisiones de diseño se traducen en la configuración final de la base de datos.
 
 Por último, analizaremos aspectos críticos como la seguridad de la base de datos, las consideraciones de rendimiento y escalabilidad. Estos temas son esenciales para garantizar la integridad, confidencialidad y disponibilidad de los datos, así como para mantener la aplicación en un estado óptimo a lo largo del tiempo.
 
@@ -24,7 +24,7 @@ A continuación, desarrollaremos las principales entidades de nuestra aplicació
 
 - **Etiquetas:** La entidad etiquetas permite etiquetar las tareas con palabras clave relevantes para una clasificación más detallada. Los usuarios pueden crear, editar y eliminar etiquetas, y asignarlas a tareas individuales para una organización más flexible y personalizada.
 
-- **Relaciones de _OAuth_:** Las entidades *oauth_authcode*, *oauth_clients *y *oauth_tokens* están relacionadas con el proceso de autorización _OAuth_ para la utenticación de usuarios en la aplicación, facilitando la seguridad y la gestión de accesos.
+- **Relaciones de _OAuth_:** Las entidades *oauth_authcode*, *oauth_clients* y *oauth_tokens* están relacionadas con el proceso de autorización _OAuth_ para la utenticación de usuarios en la aplicación, facilitando la seguridad y la gestión de accesos.
 
 ## Relaciones entre entidades
 
@@ -57,80 +57,98 @@ A continuación, vamos a detallar la implementación concreta del Modelo de Dato
 Empezamos con las descripciones detalladas de las tablas que componen la base de datos:
 
 - **tasks:**
-    - "task_id": Identificador único de la tarea
-    - "user_id": Identificador del usuario al que pertenece la tarea (obligatorio).
-    - "context_id": Identificador del área/contexto en el que puede estar una tarea (opcional).
-    - "project_id": Identificador del proyecto al que pertenece la tarea (opcional).
-    - "title": Título de la tarea (obligatorio).
-    - "description": Descripción de la tarea (opcional).
-    - "state": Sección en la que se encuentra la tarea (Inbox, Cuanto Antes, Programadas, etc.).
-    - "completed": Booleano que indica si la tarea está completa o no.
-    - "important_fixed": Booleano que indica si la tarea es importante (prioridad a la hora de hacer tareas).
-    - "date_added": Fecha en la que se añade la tarea.
-    - "date_completed": Fecha en la que se completa la tarea.
-    - "date_limit": Fecha límite para realizar la tarea (opcional).
-    - "date_changed": Fecha en la que se realiza algún cambio en la tarea.
-    - "num_version": Número de versión por la que se va en la tarea (por cada cambio).
+  
+  - "task_id": Identificador único de la tarea
+  - "user_id": Identificador del usuario al que pertenece la tarea (obligatorio).
+  - "context_id": Identificador del área/contexto en el que puede estar una tarea (opcional).
+  - "project_id": Identificador del proyecto al que pertenece la tarea (opcional).
+  - "title": Título de la tarea (obligatorio).
+  - "description": Descripción de la tarea (opcional).
+  - "state": Sección en la que se encuentra la tarea (Inbox, Cuanto Antes, Programadas, etc.).
+  - "completed": Booleano que indica si la tarea está completa o no.
+  - "important_fixed": Booleano que indica si la tarea es importante (prioridad a la hora de hacer tareas).
+  - "date_added": Fecha en la que se añade la tarea.
+  - "date_completed": Fecha en la que se completa la tarea.
+  - "date_limit": Fecha límite para realizar la tarea (opcional).
+  - "date_changed": Fecha en la que se realiza algún cambio en la tarea.
+  - "num_version": Número de versión por la que se va en la tarea (por cada cambio).
+
 - **users:**
-    - "user_id": Identificador del usuario
-    - "name": Nombre del usuario
-    - "email": Correo del usuario
-    - "password": Contraseña del usuario
+  
+  - "user_id": Identificador del usuario
+  - "name": Nombre del usuario
+  - "email": Correo del usuario
+  - "password": Contraseña del usuario
+
 - **projects:**
-   - "project_id": Identificador del proyecto
-   - "title": Título del proyecto
-   - "description": Descripción del proyecto
-   - "user_id": Identificador del usuario al que pertenece el proyecto
-   - "completed": Boolean que indica si está completo el proyecto o no
-   - "date_added": Fecha en la que se añade el proyecto
-   - "date_changed": Fecha en la que se modifica el proyecto
-   - "date_completed": Fecha en la que el proyecto ha sido completado
-   - "num_version": Número de version en la que se encuentra el proyecto
-   - "color": Color que corresponde al proyecto
+  
+  - "project_id": Identificador del proyecto
+  - "title": Título del proyecto
+  - "description": Descripción del proyecto
+  - "user_id": Identificador del usuario al que pertenece el proyecto
+  - "completed": Boolean que indica si está completo el proyecto o no
+  - "date_added": Fecha en la que se añade el proyecto
+  - "date_changed": Fecha en la que se modifica el proyecto
+  - "date_completed": Fecha en la que el proyecto ha sido completado
+  - "num_version": Número de version en la que se encuentra el proyecto
+  - "color": Color que corresponde al proyecto
+
 - **areas_contexts:**
-   - "context_id": Identificador del área/contexto
-   - "name": Nombre del área
-   - "user_id": Identificador del usuario al que corresponde el área
+  
+  - "context_id": Identificador del área/contexto
+  - "name": Nombre del área
+  - "user_id": Identificador del usuario al que corresponde el área
+
 - **tags:**
-   - "name": Nombre de la tag
-   - "color": Color de la tag
+  
+  - "name": Nombre de la tag
+  - "color": Color de la tag
+
 - **tagstotask:**
-   - "task_id": Identificador de la tarea a la que pertenece la tag
-   - "nametag": Nombre de la tag
+  
+  - "task_id": Identificador de la tarea a la que pertenece la tag
+  - "nametag": Nombre de la tag
+
 - **oauth_authcode:**
-   - "authorization_code": Código de autorización
-   - "expires_at": Fecha de expiración del código
-   - "redirect_uri": Dirección a la que te redirige si la obtención del código de autenticación es correcto.
-   - "client_id": Identificador del cliente
-   - "user_id": Identificador del usuario que recibe el código
+  
+  - "authorization_code": Código de autorización
+  - "expires_at": Fecha de expiración del código
+  - "redirect_uri": Dirección a la que te redirige si la obtención del código de autenticación es correcto.
+  - "client_id": Identificador del cliente
+  - "user_id": Identificador del usuario que recibe el código
+
 - **oauth_clients:**
-   - "client_id": Identificador del cliente
-   - "client_secret": Número secreto del cliente
-   - "redirect_uri": Dirección a la que te redirige si la obtención del código de autenticación es correcto.
-   - "grants": Indica los flujos de Oauth configurados para el cliente.
+  
+  - "client_id": Identificador del cliente
+  - "client_secret": Número secreto del cliente
+  - "redirect_uri": Dirección a la que te redirige si la obtención del código de autenticación es correcto.
+  - "grants": Indica los flujos de Oauth configurados para el cliente.
+
 - **oauth_tokens:**
-   - "access_token": Token de acceso
-   - "access_token_expires_at":  Fecha de expiración del token
-   - "refresh_token": Token refrescado
-   - "refresh_token_expires_at": Fecha de expiración del token refrescado
-   - "client_id": Identificador del cliente
-   - "user_id": Identificador del usuario
+  
+  - "access_token": Token de acceso
+  - "access_token_expires_at":  Fecha de expiración del token
+  - "refresh_token": Token refrescado
+  - "refresh_token_expires_at": Fecha de expiración del token refrescado
+  - "client_id": Identificador del cliente
+  - "user_id": Identificador del usuario
+
 A continuación, comentamos cómo se establecen las relaciones entre las tablas para mantener la coherencia de los datos y garantizar su integridad:
 
-- Usuarios con Tareas/Proyectos/Áreas:
-La tabla de "users" con las tablas "tasks", "projects", "areas_contexts" tiene una relación uno a muchos. (Creo que se podría quitar) Un usuario puede tener muchas tareas, proyectos y áreas, pero cada una de ellas pertenece a un solo usuario. Esta relación uno a muchos se establece mediante la clave foránea "user_id" en las tablas "tasks", "projects" y "areas_contexts", que referencia al identificador único del usuario en la tabla "users".
+- **Usuarios con Tareas/Proyectos/Áreas:**
+  La tabla de "users" con las tablas "tasks", "projects", "areas_contexts" tiene una relación uno a muchos. (Creo que se podría quitar) Un usuario puede tener muchas tareas, proyectos y áreas, pero cada una de ellas pertenece a un solo usuario. Esta relación uno a muchos se establece mediante la clave foránea "user_id" en las tablas "tasks", "projects" y "areas_contexts", que referencia al identificador único del usuario en la tabla "users".
 
-- Proyectos y Tareas:
-La tabla "projects" tiene una relación uno a muchos con la tabla "tasks". Un proyecto puede tener muchas tareas, pero cada tarea pertenece solo a un proyecto. Esta relación uno a muchos se establece mediante la clave foránea "project_id" en la tabla "tasks", que referencia al identificador único del proyeto en la tabla "projects".
+- **Proyectos y Tareas:**
+  La tabla "projects" tiene una relación uno a muchos con la tabla "tasks". Un proyecto puede tener muchas tareas, pero cada tarea pertenece solo a un proyecto. Esta relación uno a muchos se establece mediante la clave foránea "project_id" en la tabla "tasks", que referencia al identificador único del proyeto en la tabla "projects".
 
-- Áreas y Tareas:
-La tabla "areas_contexts" tiene una relación uno a muchos con la tabla "tasks". Un área puede tener muchas tareas, pero cada tarea pertenece solo a un área. Esta relación uno a muchos se establece mediante la clave foránea "context_id" en la tabla "tasks", que referencia al identificador único del área en la tabla "areas_contexts".
+- **Áreas y Tareas:**
+  La tabla "areas_contexts" tiene una relación uno a muchos con la tabla "tasks". Un área puede tener muchas tareas, pero cada tarea pertenece solo a un área. Esta relación uno a muchos se establece mediante la clave foránea "context_id" en la tabla "tasks", que referencia al identificador único del área en la tabla "areas_contexts".
 
-- Tareas y Tags:
-Una tarea puede tener muchas etiquetas, y una etiqueta puede estar asociada a muchas tareas. Esta relación muchos a muchos se implementa mediante una tabla intermedia "tagstotask", que contiene las claves foráneas "task_id" y "nametag" que relacionan las "tasks" con las "tags".
-
+- **Tareas y Tags:**
+  Una tarea puede tener muchas etiquetas, y una etiqueta puede estar asociada a muchas tareas. Esta relación muchos a muchos se implementa mediante una tabla intermedia "tagstotask", que contiene las claves foráneas "task_id" y "nametag" que relacionan las "tasks" con las "tags".
 
 ## Rendimiento y Escalabilidad de la Base de Datos
+
 En esta sección, detallamos la estructura y el desempeño de la base de datos implementada. Describimos las acciones concretas llevadas a cabo para mejorar la eficiencia y capacidad de respuesta del sistema ante un crecimiento progresivo de carga de trabajo.
 
 Para mejorar el rendimiento de la base de datos hemos realizado una optimización de consultas, definiendo claves primarias en las tablas pertinentes para garantizar la unicidad de las filas y mejorar el rendimiento de las consultas. Además de diseñar consultas eficientes para minimizar la carga en el servidor de la base de datos.
@@ -138,14 +156,13 @@ Para mejorar el rendimiento de la base de datos hemos realizado una optimizació
 Con respecto a la escalabilidad, hemos diseñado la base de datos para ser escalable tanto vertical como horizontal. Hemos optimizado el hardware del servidor de la base de datos para aumentar la capacidad de procesamiento, memoria y almacenamiento según sea necesario. Además, se ha considerado la posibilidad de distribuir la carga de trabajo entre múltiples sevidores o nodos en el futuro para escalar horizontalmente.
 
 ## Seguridad de la Base de Datos
+
 La seguridad de la base de datos es un componente fundamental para proteger la integridad, confidencialidad y disponibilidad de los datos almacenados. En esta implementación, hemos adoptado diversas medidas para garantizar un entorno seguro:
-- Autenticación y Autorización: Hemos implementado un sistema de autenticación robusto que requiere credenciales válidas para acceder a la base de datos. Se hablará de este sistema en los siguientes apartados. 
 
-- Encriptación de datos: Aplicamos técnicas de encriptación para proteger la información sensible almacenada en la base de datos que pueda ser vulnerable a accesos no autorizados (contraseñas).
+- **Autenticación y Autorización:** Hemos implementado un sistema de autenticación robusto que requiere credenciales válidas para acceder a la base de datos. Se hablará de este sistema en los siguientes apartados. 
 
-- Registro de actividades: Hemos llevado a cabo un seguimiento detallado de todas las actividades realizadas en la base de datos mediante la implementación de registros.
+- **Encriptación de datos:** Aplicamos técnicas de encriptación para proteger la información sensible almacenada en la base de datos que pueda ser vulnerable a accesos no autorizados (contraseñas).
 
-Para finalizar este capítulo, es crucial destacar la importancia del diseño y la implementación eficientes del modelo de datos en nuestra aplicación de Gestión de Tareas. A través de un análisis exhaustivo de las entidades, relaciones y consideraciones técnicas, hemos establecido una base sólida para el funcionamiento óptimo de nuestra base de datos. Al comprender la estructura subyacente y las decisiones de diseño, estamos mejor preparados para abordar los desafíos futuros y garantizar la integridad, seguridad y escalabilidad continuas de nuestra aplicación *GTD*.
+- **Registro de actividades:** Hemos llevado a cabo un seguimiento detallado de todas las actividades realizadas en la base de datos mediante la implementación de registros.
 
-
-
+Para finalizar este capítulo, es crucial destacar la importancia del diseño y la implementación eficientes del modelo de datos en nuestra aplicación de gestión de tareas. A través de un análisis exhaustivo de las entidades, relaciones y consideraciones técnicas, hemos establecido una base sólida para el funcionamiento óptimo de nuestra base de datos. Al comprender la estructura subyacente y las decisiones de diseño, estamos mejor preparados para abordar los desafíos futuros y garantizar la integridad, seguridad y escalabilidad continuas de nuestra aplicación *GTD*.
