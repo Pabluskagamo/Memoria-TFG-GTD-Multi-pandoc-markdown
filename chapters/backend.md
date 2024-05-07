@@ -10,7 +10,7 @@ Por otro lado aunque REST permite la comunicación entre el cliente y el servido
 
 ## Diseño de la API
 
-## Descripción tecnologías: Node JS + Express
+### Descripción tecnologías: Node JS + Express
 
 Para el desarrollo del *backend* nos hemos decantado por el uso del entorno Node.js en conjunto con el *framework* de este mismo llamado Express.js el cual proporciona una manera muy sencilla de implementar gran cantidad de servicios de aplicaciones web.
 
@@ -18,7 +18,7 @@ Node.js es una entorno de ejecución multiplataforma basado en el lenguaje de pr
 
 Desarrollar en el entorno Node.js permite además utilizar gran cantidad de paquetes que se gestionan a través de la herramienta *npm*. Con esta herramienta, que se incluye con la instalación del entorno, puedes descargar e instalar paquetes de los repositorios de *npm* con gran facilidad ya que gestiona de manera automática todas las dependencias. Una vez instalas paquetes, *npm* genera el fichero *package.json* y *package-lock.json* el cual contiene información sobre todos los paquetes instalados y sus dependencias, de esta manera el proyecto puede ser instalado y ejecutado en cualquier máquina resolviendo *npm* todo el proceso de instalación. Esta característica de Node.js nos ha facilitado bastante la colaboración en el proceso de desarrollo de la API ya que en nuestros repositorios hemos incluido los ficheros mencionados previamente y *npm* ha gestionado completamente la instalación del entorno.
 
-## Express.js
+### Express.js
 
 Para la implementación de la API hemos utilizado el *framework* Express.js el cual proporciona herramientas para implementar gran variedad de servicios de *backend* de una manera muy minimalista y sencilla. Express proporciona principalmente herramientas para gestionar el enrutamiento en tu aplicación web, facilita el manejo de *requests* y *responses* de HTTP y la implementación de *middlewares* entre otras características. La razón por la que hemos escogido este *framework* es su sencillez para definir manejadores de ruta con los cuales podíamos implementar los diferentes *endpoints* de nuestra API además de las facilidades que te proporciona para gestionar tanto *requests* como *responses* lo que nos ha servido para gestionar la de entrada de datos y los errores. 
 
@@ -32,35 +32,36 @@ Entre estas prácticas que hemos seguido para nombrar los *endpoints*, están ut
 
 ## Endpoints
 
-| Endpoint | /task/ |
-| ------------- | ------------- |
-| Descripción | Crea una tarea para el usuario que lo solicita |
-| Método HTTP | POST |
-| Código HTTP (OK) | 201 |
-| Código HTTP (KO) | 409 |
+| Endpoint         | /task/                                         |
+| ---------------- | ---------------------------------------------- |
+| Descripción      | Crea una tarea para el usuario que lo solicita |
+| Método HTTP      | POST                                           |
+| Código HTTP (OK) | 201                                            |
+| Código HTTP (KO) | 409                                            |
 
-| Endpoint | /task/:id |
-| ------------- | ------------- |
-| Descripción | Modifica una tarea del usuario que lo solicita |
-| Método HTTP | POST |
-| Código HTTP (OK) | 200 |
-| Código HTTP (KO) | 409 |
+| Endpoint         | /task/:id                                      |
+| ---------------- | ---------------------------------------------- |
+| Descripción      | Modifica una tarea del usuario que lo solicita |
+| Método HTTP      | POST                                           |
+| Código HTTP (OK) | 200                                            |
+| Código HTTP (KO) | 409                                            |
 
-| Endpoint | /task/:id |
-| ------------- | ------------- |
-| Descripción | Devuelve el contenido de una tarea |
-| Método HTTP | GET |
-| Código HTTP (OK) | 200 |
-| Código HTTP (KO) | 404 |
+| Endpoint         | /task/:id                          |
+| ---------------- | ---------------------------------- |
+| Descripción      | Devuelve el contenido de una tarea |
+| Método HTTP      | GET                                |
+| Código HTTP (OK) | 200                                |
+| Código HTTP (KO) | 404                                |
 
-| Endpoint | /task/ |
-| ------------- | ------------- |
-| Descripción | Devuelve todas las tareas no completadas del usuario que las solicita |
-| Método HTTP | GET |
-| Código HTTP (OK) | 200 |
-| Código HTTP (KO) | 404 |
+| Endpoint         | /task/                                                                |
+| ---------------- | --------------------------------------------------------------------- |
+| Descripción      | Devuelve todas las tareas no completadas del usuario que las solicita |
+| Método HTTP      | GET                                                                   |
+| Código HTTP (OK) | 200                                                                   |
+| Código HTTP (KO) | 404                                                                   |
 
 ## Aspectos de seguridad de la API
+
 Introducir estos aspectos
 
 ## Implementación de OAuth 2.0

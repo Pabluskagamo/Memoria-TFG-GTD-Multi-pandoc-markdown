@@ -14,6 +14,7 @@ pandoc_common:
   - chapters/introduccion.md
   - chapters/planificacion.md
   - chapters/modelodatos.md
+  - chapters/backend.md
   - chapters/agentesconversacionales.md
   - chapters/test_chapter.md
   - separators/backmatter.md
