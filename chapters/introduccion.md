@@ -58,7 +58,7 @@ Al desarrollar nuestra aplicación perseguimos una serie de objetivos específic
 
 Estos requisitos proporcionan una base sólida para el desarrollo de la aplicación *GTD*, garantizando una experiencia integral que cumpla con los principios fundamentales de la metodología *GTD* y satisfaga las necesidades de los usuarios en la gestión efectiva de sus tareas y proyectos.
 
-### Arquitectura del sistema
+### Arquitectura del sistema { #sec:arqui }
 
 ![Diagrama de bloques del sistema](img/diagramabloques.png){width=100% #fig:bloqusis}
 
