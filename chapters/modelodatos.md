@@ -12,7 +12,9 @@ Por último, analizaremos aspectos críticos como la seguridad de la base de dat
 
 ## Descripción de entidades
 
-En la figura 4.1 se muestra la relación entre las distintas entidades. A continuación, desarrollaremos las principales entidades de nuestra aplicación, junto con sus atributos y funciones dentro del sistema:
+![Diagrama Entidad-Relación de la aplicación](img/diagramaer.png){width=100% #fig:diagramaer}
+
+En la figura \ref{fig:diagramaer} se muestra la relación entre las distintas entidades. A continuación, desarrollaremos las principales entidades de nuestra aplicación, junto con sus atributos y funciones dentro del sistema:
 
 - **Tarea:** Representa las actividades a realizar dentro de la aplicación. Cada tarea es creada por un usuario y puede contener atributos como título, descripción, fecha límite y prioridad. Además, las tareas pueden ser modificadas en cualquier momento por el usuario propietario, completadas cuando se finalicen, ser asignadas a proyectos específicos o etiquetadas con *tags* relevantes para una mejor organización.
 
@@ -143,11 +145,11 @@ Para mejorar el rendimiento de la base de datos hemos realizado una optimizació
 
 Con respecto a la escalabilidad, hemos diseñado la estructura de la base de datos con flexibilidad y adaptabilidad, permitiendo una fácil expansión y ajuste para satisfacer futuras necesidades de crecimiento. Cada aspecto del diseño ha sido cuidadosamente planificado para garantizar la escalabilidad del sistema y facilitar la incorporación de nuevas funcionalidades según sea necesario, sin comprometer la integridad de los datos ni la eficiencia del sistema.
 
-## Seguridad de la Base de Datos
+## Seguridad de la Base de Datos { #sec:secdb }
 
 La seguridad de la base de datos es un componente fundamental para proteger la integridad, confidencialidad y disponibilidad de los datos almacenados. En esta implementación, hemos adoptado diversas medidas para garantizar un entorno seguro:
 
-- **Autenticación y Autorización:** Hemos implementado un sistema de autenticación robusto que requiere credenciales válidas para acceder a la base de datos. Se hablará de este sistema en los siguientes apartados.
+- **Autenticación y Autorización:** Hemos implementado un sistema de autenticación robusto que requiere credenciales válidas para acceder a la base de datos. Se hablará de este sistema en la sección \ref{sec:oauth}.
 
 - **Cifrado de datos:** Implementamos técnicas de cifrado utilizando la biblioteca *bcrypt* para proteger la información sensible almacenada en la base de datos que pueda ser vulnerable a accesos no autorizados (contraseñas). *Bycript* es un algoritmo de hashing adaptativo diseñado específicamente para almacenar contraseñas de manera segura. Este enfoque garantiza que las contraseñas estén protegidas contra ataques de fuerza bruta y de diccionario, proporcionando una capa adicional de seguridad para mantener la informacion confidencial protegida en todo momento.
 

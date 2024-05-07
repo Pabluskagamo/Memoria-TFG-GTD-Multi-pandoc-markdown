@@ -50,7 +50,7 @@ Al desarrollar nuestra aplicación perseguimos una serie de objetivos específic
 
 - **Usabilidad:**
   
-  La aplicación proporciona un modo offline que permite gestionar tareas sin conexión almacenando los datos localmente en el dispositivo del usuario y asegurando la continuidad del trabajo sin importar la disponibilidad de conexión.
+  La aplicación proporciona un modo *offline* que permite gestionar tareas sin conexión almacenando los datos localmente en el dispositivo del usuario y asegurando la continuidad del trabajo sin importar la disponibilidad de conexión.
 
 - **Integración con agentes conversacionales:**
   

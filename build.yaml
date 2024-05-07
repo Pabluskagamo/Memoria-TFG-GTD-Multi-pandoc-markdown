@@ -12,6 +12,7 @@ pandoc_common:
   - separators/mainmatter.md
 ## Include chapters here    
   - chapters/introduccion.md
+  - chapters/metodologia.md
   - chapters/planificacion.md
   - chapters/modelodatos.md
   - chapters/backend.md
