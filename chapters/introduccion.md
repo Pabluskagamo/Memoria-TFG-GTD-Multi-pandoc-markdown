@@ -58,17 +58,17 @@ Al desarrollar nuestra aplicación perseguimos una serie de objetivos específic
 
 Estos requisitos proporcionan una base sólida para el desarrollo de la aplicación *GTD*, garantizando una experiencia integral que cumpla con los principios fundamentales de la metodología *GTD* y satisfaga las necesidades de los usuarios en la gestión efectiva de sus tareas y proyectos.
 
-### Diagrama de bloques del sistema
+### Arquitectura del sistema
 
 ![Diagrama de bloques del sistema](img/diagramabloques.png){width=100% #fig:bloqusis}
 
-El sistema está compuesto principalmente por 2 módulos principales, Una aplicación cliente, disponible para diversos dispositivos y un backend el cual cuenta con una *API Rest* con un sistema de autorización seguro.
+La figura \ref{fig:bloqusis} muestra el diagrama de bloques del sistema, que está compuesto principalmente por 2 componentes principales, una aplicación cliente, disponible para diversos dispositivos y un *backend* el cual cuenta con una *API Rest* con un sistema de autorización seguro.
 
-En primer lugar tenemos la aplicación cliente la cual está implementada con el framework multiplataforma *React Native*, pudiendo ser ejecutada en diversos dispositivos. Los clientes interactúan mediante el protocolo *HTTPS* con el backend.
+La aplicación cliente está implementada con el framework multiplataforma *React Native*, pudiendo ser ejecutada en diversos dispositivos. Los clientes interactúan mediante *REST* sobre *HTTPS* con el *backend*.
 
-El backend implementa 2 módulos principales y una base de datos. Por una parte está el módulo *OAuth 2.0* el cual se encarga de gestionar el flujo de autenticación y autorización, es decir gestiona el acceso de los usuarios de las aplicaciones cliente a la información y a los servicios que proporciona el backend. Por otra parte, el backend también está compuesto por una *API* que sigue la arquitectura *REST* e implementa y expone mediante diversos endpoints los diferentes servicios de la aplicación. Por último el Backend contiene también la base de datos de la aplicación, la cual contiene tanto las tablas que utiliza el módulo *API Rest* como el módulo *OAuth 2.0*. Todos los servicios que contiene el backend están gestionados mediante contenedores *Docker*, de esta manera es posible arrancar, conectar y configurar los diversos módulos de manera sencilla y ágil, con el fin de poder desplegar dichos servicios en cualquier máquina sin necesidad de más configuración particular a cada entorno.
+El *backend* implementa 2 componentes principales e incluye una base de datos. Por una parte está el módulo *OAuth 2.0* el cual se encarga de gestionar el flujo de autenticación y autorización, es decir gestiona el acceso de los usuarios de las aplicaciones cliente a la información y a los servicios que proporciona el *backend*. Por otra parte, el *backend* también está compuesto por una *API* que sigue la arquitectura *REST* e implementa y expone mediante diversos *endpoint*s los diferentes servicios de la aplicación. Por último el *backend* contiene también la base de datos de la aplicación, la cual contiene tanto las tablas que utiliza el módulo *API Rest* como el módulo *OAuth 2.0*. Todos los servicios que contiene el *backend* están gestionados mediante contenedores *Docker*, de esta manera es posible arrancar, conectar y configurar los diversos módulos de manera sencilla y ágil, con el fin de poder desplegar dichos servicios en cualquier máquina sin necesidad de más configuración particular a cada entorno.
 
-Por último, el sistema también dispone de la posibilidad de conectar algunos agentes conversacionales con la aplicación. Desde los clientes es posible realizar dicha configuración de agentes mediante la generación de una clave especial para estos, de manera que los agentes una vez configurados puedan acceder a los servicios del backend mediante comandos de voz.
+Por último, el sistema contiene un tercer componente el cual permite conectar algunos agentes conversacionales con la aplicación. Desde los clientes es posible realizar dicha configuración de agentes mediante la generación de una clave especial para estos, de manera que los agentes una vez configurados puedan acceder a los servicios del *backend* mediante comandos de voz.
 
 ## Plan de Trabajo
 
