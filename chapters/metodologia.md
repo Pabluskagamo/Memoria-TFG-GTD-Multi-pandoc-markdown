@@ -27,7 +27,7 @@ apoya en cinco fases “collect”, “process”, “organize”, “review” 
 
 En su libro, Allen nos relata este apartado teniendo por analogía la *RAM* de un ordenador. Al igual que este, somos seres secuenciales, sin embargo, podemos realizar cierta multitarea y trabajar en muchos aspectos en paralelo. No obstante, para poder lograrlo, no solo debemos tener bastante capacidad de almacenaje, sino también saber cómo administrarla de forma eficiente. Para ello, se deben seguir las cinco fases del método *GTD*:
 
-### Collect {unnumbered} { sec:collect }
+### Collect {#sec:collect .unnumbered} 
 
 Se trata de una de las fases fundamentales en las que se basa la filosofía *GTD*, en ella debemos recopilar todas las tareas que durante el día nos han ido surgiendo a la mente; independientemente de la importancia de las mismas, pudiendo ir desde tareas tan triviales como “limpiar los platos” a “entregar un proyecto antes de cierto plazo”.
 
@@ -35,7 +35,7 @@ La idea es que, como indica Allen en su libro, “saquemos todo lo que nos preoc
 
 Sin embargo, de nada sirve que cumplamos lo anterior si periódicamente no hacemos una limpieza a nuestra *RAM*. De lo contrario, tendríamos un cajón desastre abocado a la procrastinación, motivo que queremos evitar con *GTD*.
 
-### Process {unnumbered} { sec:process }
+### Process {#sec:process  .unnumbered} 
 
 Una vez recopiladas, debemos encontrar un hueco para poder catalogarlas, es decir, clasificarlas y procesarlas. Para ello, llega el momento donde nos haremos ciertas preguntas como ¿qué es esto que he apuntado?, ¿requiere más de una acción? ¿necesito clarificarla?
 
@@ -59,7 +59,7 @@ Una vez recopiladas, debemos encontrar un hueco para poder catalogarlas, es deci
    
    - **Diferir su naturaleza**: Se tarda más de 2 minutos en completarla y necesitamos que se finalice una acción previa para clasificarla en los puntos 1 o 2.
 
-### Organize {unnumbered}
+### Organize {.unnumbered}
 
 En esta fase tratamos con mayor énfasis las tareas anteriormente procesadas. De esta forma, facilitamos su seguimiento y ejecución, listándolas en categorías más concretas como por ejemplo “Siguientes” o “Calendario” para tareas que requieren menos de 2 minutos y que debíamos “Diferir su naturaleza” y no tienen múltiples pasos o por el contrario, proyectos. Por otro lado, tenemos la posibilidad de listarlas en “Esperando”, esta en si tiene una pequeña peculiaridad ya que se trata de tareas que necesitamos *aplazarlas*, porque estamos pendientes de que finalice un evento anterior que nos permita avanzar. Sin embargo, estas pueden estar en “Siguientes” teniendo en
 cuenta lo mencionado anteriormente.
@@ -74,13 +74,13 @@ Por último Allen, deja claro en su libro qué tipo de material puede ir o no en
 
 - **Siguientes**: Categoría encargada de listar las tareas que requieren hacerse “cuanto antes”. Es decir, tareas que sin tener fecha específica de finalización, conviene acabarlas en el menor tiempo posible.
 
-### Review {unnumbered}
+### Review {.unnumbered}
 
 Llegados a este momento, debemos realizar un seguimiento, aproximadamente semanal, en el que volvemos a ejecutar la fases anteriores observando si ha cambiado la naturaleza de alguna tarea o por el contrario existan algunas “rezagadas”, evitando que éstas queden en el olvido.
 
 En otras palabras, si queremos que un ordenador funcione como el primer día, debemos ejecutar periódicamente un mantenimiento, una *fase de review*, eliminando todos los archivos que no se estén utilizando, depurando el sistema y aligerando la carga de la memoria *RAM*.
 
-### Do {unnumbered}
+### Do {.unnumbered}
 
 Por último, tenemos la fase *Do*. En esta fase ya hemos terminado de *capturar*, *procesar*, *organizar* y *revisar* por tanto deberíamos tener un sistema coherente y preciso. No obstante, Allen en su libro nos explica que aún podemos mejorar el sistema, ya que si sobrecargamos la categoría “Siguientes”, podríamos llegar a cuestionarnos, ¿Por qué tarea deberíamos empezar? La respuesta corta es seguir nuestra intuición, sin embargo, esto puede que no sea correcto en algunos casos. Por ello, a pesar de que en el libro nos explican tres modelos, creemos que para mantener una visión simple e intuitiva deberíamos seguir uno de los tres, en concreto, el modelo de los *cuatro criterios*:
 
