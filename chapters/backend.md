@@ -8,9 +8,7 @@ Una de las características a destacar es el uso de la arquitectura *REST* para 
 
 Por otro lado aunque *REST* permite la comunicación entre el cliente y el servidor mediante cualquier formato usamos el formato *JSON* ya que es un formato muy sencillo de comprender y manipular en comparación a otros como por ejemplo *XML* donde además *JSON* es mucho más ligero en cuanto a demanda de ancho de banda respecto a este.
 
-## Diseño de la API
-
-### Descripción tecnologías: Node JS + Express
+## Descripción tecnologías: Node JS + Express
 
 Para el desarrollo del *backend* nos hemos decantado por el uso del entorno *Node.js* en conjunto con el *framework* de este mismo llamado *Express.js* el cual proporciona una manera muy sencilla de implementar gran cantidad de servicios de aplicaciones web.
 
@@ -18,7 +16,7 @@ Para el desarrollo del *backend* nos hemos decantado por el uso del entorno *Nod
 
 Desarrollar en el entorno *Node.js* permite además utilizar gran cantidad de paquetes que se gestionan a través de la herramienta *npm*. Con esta herramienta, que se incluye con la instalación del entorno, puedes descargar e instalar paquetes de los repositorios de *npm* con gran facilidad ya que gestiona de manera automática todas las dependencias. Una vez instalas paquetes, *npm* genera el fichero *package.json* y *package-lock.json* el cual contiene información sobre todos los paquetes instalados y sus dependencias, de esta manera el proyecto puede ser instalado y ejecutado en cualquier máquina resolviendo *npm* todo el proceso de instalación. Esta característica de *Node.js* nos ha facilitado bastante la colaboración en el proceso de desarrollo de la *API* ya que en nuestros repositorios hemos incluido los ficheros mencionados previamente y *npm* ha gestionado completamente la instalación del entorno.
 
-### Express.js
+## Express.js
 
 Para la implementación de la *API* hemos utilizado el *framework Express.js* el cual proporciona herramientas para implementar gran variedad de servicios de *backend* de una manera muy minimalista y sencilla. Express proporciona principalmente herramientas para gestionar el enrutamiento en tu aplicación web, facilita el manejo de *requests* y *responses* de *HTTP* y la implementación de *middlewares* entre otras características. La razón por la que hemos escogido este *framework* es su sencillez para definir manejadores de ruta con los cuales podíamos implementar los diferentes *endpoints* de nuestra *API* además de las facilidades que te proporciona para gestionar tanto *requests* como *responses* lo que nos ha servido para gestionar la de entrada de datos y los errores. 
 

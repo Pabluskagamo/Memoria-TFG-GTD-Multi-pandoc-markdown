@@ -97,12 +97,12 @@ FALTA CAMBIARLO
 ### Estructura de la memoria
 
 A continuación mostraremos como vamos a organizar el resto de memoria:
- - En el **capitulo 2** se realizará un análisis sobre qué es GTD, cual es su método y técnica y hablaremos sobre distintas aplicaciones que implementan GTD.
- - En el **capitulo 3** hablaremos sobre la planificacion del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
+ - En el **capitulo 2** se realizará un análisis sobre qué es *GTD*, cual es su método y técnica y hablaremos sobre distintas aplicaciones que implementan *GTD*.
+ - En el **capitulo 3** hablaremos sobre la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
  - En el **capitulo 4** mostraremos el modelo de datos y la implementación de la base de datos, aquí describiremos las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
- - En el **capitulo 5** desarrollaremos el diseño e implementación del Backend, explicando el uso que hacemos de REST, el diseño de la API, los endpoints de la aplicación, los aspectos de seguridad de la API y la implementación de OAuth 2.0.
+ - En el **capitulo 5** desarrollaremos el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
  - En el **capitulo 6** Diseño e implementación del frontend
- - En el **capitulo 7** hablaremos sobre la integración con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la skill de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAUTH* y los problemas que nos han surgido en este proceso.
+ - En el **capitulo 7** hablaremos sobre la integración con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la *skill* de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
  - En el **capitulo 8** hemos realizado un manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva de tal manera que cualquiera pueda saber como utilizarla.
  - En el **capitulo 9** desarrollaremos las distintas conclusiones a las que hemos llegado y explicaremos el trabajo que debemos realizar en el futuro
- - Finalmente, contaremos con cuatro **apéndices** en nuestra memoria. Los dos primeros corresponden a la traducción al inglés de la introducción y la conclusión, el tercero hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y el cuarto es una guía de despliegue para que cualqiera que quiera utilizar nuestra aplicación pueda hacerlo.
+ - Finalmente, contaremos con cuatro **apéndices** en nuestra memoria. Los dos primeros corresponden a la traducción al inglés de la introducción y la conclusión, el tercero hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y el cuarto es una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
