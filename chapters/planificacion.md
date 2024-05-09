@@ -6,7 +6,7 @@ En nuestro caso, hemos seguido un enfoque adaptativo ya que nuestro proyecto req
 
 ![Ciclo metodologías agile](img/metoagile.png){width=50% #fig:metoagile}
 
-Adicionalmente, hemos empleado herramientas ágiles como el tablero _Kanban_, el cual nos ayuda a gestionar el proyecto de una manera más visual, viendo en qué estado se encuentra cada tarea que hemos definido. Para ello hemos utilizado la herramienta _Notion_ como podemos ver en la figura \ref{fig:tabnotion}, la cual muestra un ejemplo de cómo hemos ido organizando las distintas tareas a lo largo de este proyecto. *Notion* también nos permite crear un tablero distinguiendo el estado actual de las tareas en "sin empezar", "en curso" o "terminadas" y también ofrece la posibilidad de asignar cada tarea a uno o varios miembros del equipo que serán los encargados de completarlas.
+Adicionalmente, hemos empleado herramientas ágiles como el tablero _Kanban_, el cual nos ayuda a gestionar el proyecto de una manera más visual, viendo en qué estado se encuentra cada tarea que hemos definido. Para ello hemos utilizado la herramienta _Notion_ ^[[Pagina web de Notion](https://www.notion.so/es-es)] como podemos ver en la figura \ref{fig:tabnotion}, la cual muestra un ejemplo de cómo hemos ido organizando las distintas tareas a lo largo de este proyecto. *Notion* también nos permite crear un tablero distinguiendo el estado actual de las tareas en "sin empezar", "en curso" o "terminadas" y también ofrece la posibilidad de asignar cada tarea a uno o varios miembros del equipo que serán los encargados de completarlas.
 
 ![Tablero de las tareas en Notion](img/tabnotion.png){width=50% #fig:tabnotion}
 
