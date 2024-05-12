@@ -42,7 +42,7 @@ En esta sección, exploraremos las relaciones entre las diferentes entidades den
 
 - **Usuario y Proyecto/Área:** Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. Esta relación permite a los usuario organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
 
-## Modelo físico de la BD
+## Modelo físico de la BD { #sec:secdbmodelofis }
 
 En la figura \ref{fig:diagramadbeaver} se mostrará un diagrama de la estructuración de las tablas en la base de datos. A continuación, vamos a detallar la implementación concreta del modelo de datos en la base de datos real que respalda nuestra aplicación. Describimos la estructura de tablas, los tipos de datos utilizados, así como las relaciones y restricciones de integridad referencial.
 
