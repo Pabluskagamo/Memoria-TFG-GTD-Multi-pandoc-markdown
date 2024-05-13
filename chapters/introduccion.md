@@ -87,11 +87,11 @@ Una vez terminadas las distintas tareas previas al desarrollo comentadas anterio
 ### Diagramas de Gantt
 
 ##### Backend
-FALTA CAMBIARLO
+
 ![Diagrama de Gantt backend](img/backendgantt.png){width=100% #fig:ganttback}
 
 ##### Frontend
-FALTA CAMBIARLO
+
 ![Diagrama de Gantt frontend](img/frontendgantt.png){width=100% #fig:ganttfront}
 
 ### Estructura de la memoria
