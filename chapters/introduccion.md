@@ -96,14 +96,14 @@ FALTA CAMBIARLO
 
 ### Estructura de la memoria
 
-A continuación mostraremos como vamos a organizar el resto de memoria:
+El resto de memoria se organiza como sigue:
 
- - En el **capitulo 2** se realizará un análisis sobre qué es *GTD*, cual es su método y técnica y hablaremos sobre distintas aplicaciones que implementan *GTD*.
- - En el **capitulo 3** hablaremos sobre la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
- - En el **capitulo 4** mostraremos el modelo de datos y la implementación de la base de datos, aquí describiremos las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
- - En el **capitulo 5** desarrollaremos el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
- - En el **capitulo 6** se detallan los principios de diseño que han guiado la creación de la app, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación. Explorando como los fundamentos del método GTD se han ido plasmando en SwiftDo.
- - En el **capitulo 7** hablaremos sobre la integración con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la *skill* de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
- - En el **capitulo 8** hemos realizado un manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva de tal manera que cualquiera pueda saber como utilizarla.
- - En el **capitulo 9** desarrollaremos las distintas conclusiones a las que hemos llegado y explicaremos el trabajo que debemos realizar en el futuro
- - Finalmente, contaremos con cuatro **apéndices** en nuestra memoria. Los dos primeros corresponden a la traducción al inglés de la introducción y la conclusión, el tercero hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y el cuarto es una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
+ - En el **capitulo 2** se realiza un análisis sobre qué es *GTD*, cual es su método y técnica y también se describen las distintas aplicaciones que implementan *GTD*.
+ - En el **capitulo 3** se discute sobre la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
+ - En el **capitulo 4** mostramos el modelo de datos y la implementación de la base de datos. Aquí se describen las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
+ - En el **capitulo 5** se introduce el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
+ - En el **capitulo 6** se detallan los principios de diseño que han guiado la creación de la *app*, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación. Explorando como los fundamentos del método GTD se han ido plasmando en *SwiftDo*.
+ - En el **capitulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la *skill* de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
+ - En el **capitulo 8** se encuentra el manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva.
+ - En el **capitulo 9** se recogen las principales conclusiones a las que hemos llegado y se discuten lineas de trabajo futuras.
+ - Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y la conclusión, el tercero (apéndice C) hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y el cuarto (apéndice D) es una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
