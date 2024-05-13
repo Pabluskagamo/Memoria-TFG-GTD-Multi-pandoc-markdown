@@ -97,6 +97,7 @@ FALTA CAMBIARLO
 ### Estructura de la memoria
 
 A continuación mostraremos como vamos a organizar el resto de memoria:
+
  - En el **capitulo 2** se realizará un análisis sobre qué es *GTD*, cual es su método y técnica y hablaremos sobre distintas aplicaciones que implementan *GTD*.
  - En el **capitulo 3** hablaremos sobre la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
  - En el **capitulo 4** mostraremos el modelo de datos y la implementación de la base de datos, aquí describiremos las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
