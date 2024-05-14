@@ -37,23 +37,23 @@ Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de es
 Estos principios se encuentran relacionados con la coherencia con la que diseñamos la interfaz. El primero de estos principios, **proximidad**, indica que todos los elementos que se encuentren relacionados entre sí deben agruparse visualmente, familiarizándolo y simplificando el proceso de aprendizaje del usuario con los conceptos tratados, como se observa en la figura \ref{fig:accionesBarraLateral}
 
 
-![barra lateral](img/accionesBarraLateral.png){width=80% #fig:accionesBarraLateral}
+![barra lateral](img/accionesBarraLateral.png){width=50% #fig:accionesBarraLateral}
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{fig:actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
-![barra lateral](img/accionesBarraLateral.png){width=80% #fig:accionesBarraLateral}
+![barra lateral](img/accionesBarraLateral.png){width=50% #fig:accionesBarraLateral}
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{#actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
 
 
-![Archivadas_Screen](img/Archivadas_Screen.png){width=80% #fig:actionScreen}
+![Archivadas_Screen](img/Archivadas_Screen.png){width=50% #fig:actionScreen}
 
-![CuantoAntes_Screen](img/CuantoAntes_Screen.png){width=80% #fig:actionScreen}
+![CuantoAntes_Screen](img/CuantoAntes_Screen.png){width=50% #fig:actionScreen}
 
-![Entrada_Screen](img/Entrada_Screen.png){width=80% #fig:actionScreen}
+![Entrada_Screen](img/Entrada_Screen.png){width=50% #fig:actionScreen}
 
-![Hoy_Screen](img/Hoy_Screen.png){width=80% #fig:actionScreen}
+![Hoy_Screen](img/Hoy_Screen.png){width=50% #fig:actionScreen}
 
 ### Visibilidad
 
@@ -70,7 +70,7 @@ Por último, es conveniente gestionar el estado visible de los componentes de la
 
 ![nombre de usuario y fecha](img/nombre_fecha.png){#fig:nombre_fecha}
 
-![Detalles](img/details.png){width=80% #fig:details.png}
+![Detalles](img/details.png){width=50% #fig:details.png}
 
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones" \ref{fig:accionesBarraLateral} y el número de tareas que tienen tanto, mientras los demás ocupan un segundo plano. 
 
@@ -99,53 +99,53 @@ En primer lugar tenemos las interfaces relacionadas con el registro e inicio de 
 
 ![inicio de sesion](img/componentes/inicio de sesion.png)
 
-![Registro](img/componentes/Registro.png){width=80%}
+![Registro](img/componentes/Registro.png){width=50%}
 
 
 
 En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GTD* y sus acciones tanto en escritorio, como en dispositivos móviles:
 
-![escritorio](img/componentes/escritorio.png){width=80%}
+![escritorio](img/componentes/escritorio.png){width=50%}
 
-![Entrada_Screen](img/componentes/Entrada_Screen.png){width=80%}
+![Entrada_Screen](img/componentes/Entrada_Screen.png){width=50%}
 
-![CuantoAntes_Screen](img/componentes/CuantoAntes_Screen.png){width=80%}
+![CuantoAntes_Screen](img/componentes/CuantoAntes_Screen.png){width=50%}
 
-![Programadas](img/componentes/Programadas.png){width=80%}
+![Programadas](img/componentes/Programadas.png){width=50%}
 
-![Archivadas_Screen](img/componentes/Archivadas_Screen.png){width=80%}
+![Archivadas_Screen](img/componentes/Archivadas_Screen.png){width=50%}
 
 
 
 En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:Hoy} que actue como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
-![Hoy_Screen](img/componentes/Hoy_Screen.png){width=80% #Fig: Hoy}
+![Hoy_Screen](img/componentes/Hoy_Screen.png){width=50% #Fig:Hoy}
 
 
 
 En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y ajustes tanto en formato escritorio como en dispositivos móviles: 
 
-![menu](img/componentes/menu.png){width=80%}
+![menu](img/componentes/menu.png){width=50%}
 
-![Ajustes - Movil](img/componentes/Ajustes - Movil.png){width=80%}
+![Ajustes - Movil](img/componentes/Ajustes - Movil.png){width=50%}
 
-![Ajustes - Escritorio](img/componentes/Group 41.png){width=80%}
+![Ajustes - Escritorio](img/componentes/Group 41.png){width=50%}
 
-![OptionSettings](img/componentes/OptionSettings.png){width=80%}
+![OptionSettings](img/componentes/OptionSettings.png){width=50%}
 
 
 
 Por último tenemos interfaces más detalladas como son la de añadir tarea/proyecto, interfaz de añadir detalles a la tarea, pudiendo insertar markdown texto en formato markdown y distintos modales para la creacion o edicion de tareas.
 
-![details](img/componentes/details.png){width=80%}
+![details](img/componentes/details.png){width=50%}
 
-![editTask](img/componentes/editTask.png){width=80%}
+![editTask](img/componentes/editTask.png){width=50%}
 
-![addProyectOrTask](img/componentes/addProyectOrTask.png){width=80%}
+![addProyectOrTask](img/componentes/addProyectOrTask.png){width=50%}
 
-![Menu add task](img/componentes/Menu add task - Light (old).png){width=80%}
+![Menu add task](img/componentes/Menu add task - Light (old).png){width=50%}
 
-![visualizacionTarea](img/componentes/visualizacionTarea.png){width=80%}
+![visualizacionTarea](img/componentes/visualizacionTarea.png){width=50%}
 
 
 
