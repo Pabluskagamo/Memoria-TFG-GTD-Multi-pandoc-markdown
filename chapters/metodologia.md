@@ -20,14 +20,13 @@ Por último, como comentaremos más adelante, para enfocarnos en un estado de m�
 
 ## Método y técnica
 
-Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se
-apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de éstas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo del método.
+Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de éstas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo del método.
 
 ![Workflow GTD - Getting Things Done de David Allen](img/workflowgtd.png){width=90% #fig:workflowgtd}
 
 En su libro, Allen nos relata este apartado teniendo por analogía la *RAM* de un ordenador. Al igual que este, somos seres secuenciales, sin embargo, podemos realizar cierta multitarea y trabajar en muchos aspectos en paralelo. No obstante, para poder lograrlo, no solo debemos tener bastante capacidad de almacenaje, sino también saber cómo administrarla de forma eficiente. Para ello, se deben seguir las cinco fases del método *GTD*:
 
-### Collect {#sec:collect .unnumbered} 
+### Collect {#sec:collect .unnumbered}
 
 Se trata de una de las fases fundamentales en las que se basa la filosofía *GTD*, en ella debemos recopilar todas las tareas que durante el día nos han ido surgiendo a la mente; independientemente de la importancia de las mismas, pudiendo ir desde tareas tan triviales como “limpiar los platos” a “entregar un proyecto antes de cierto plazo”.
 
@@ -35,7 +34,7 @@ La idea es que, como indica Allen en su libro, “saquemos todo lo que nos preoc
 
 Sin embargo, de nada sirve que cumplamos lo anterior si periódicamente no hacemos una limpieza a nuestra *RAM*. De lo contrario, tendríamos un cajón desastre abocado a la procrastinación, motivo que queremos evitar con *GTD*.
 
-### Process {#sec:process  .unnumbered} 
+### Process {#sec:process  .unnumbered}
 
 Una vez recopiladas, debemos encontrar un hueco para poder catalogarlas, es decir, clasificarlas y procesarlas. Para ello, llega el momento donde nos haremos ciertas preguntas como ¿qué es esto que he apuntado?, ¿requiere más de una acción? ¿necesito clarificarla?
 
@@ -118,14 +117,19 @@ Cuando planteamos este trabajo de fin de grado teníamos como premisa, fusionar 
 
 A pesar de que las apps mencionadas en el anterior apartado son excelentes, observamos ciertas deficiencias en cada una de ellas que hacen que dificulten el acceso y la implementación del método de David Allen, tal y como detallamos en la siguiente tabla:
 
-| **Aplicación** | **¿Multiplataforma?**     | **Aspectos positivos**                                                                                                                            | **Aspectos negativos**                                                                                                          |
-| -------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| NirvanaHQ      | Si                        | Diseñada especialmente para GTD                                                                                                                   | Interfaz demasiado simple pudiendo confundirse                                                                                  |
-| TodoIst        | Si                        | Interfaz intuitiva y fácil de utilizar<br/>Soporte multiplataforma<br/>Funciones avanzadas de recordatorio, etiquetas y filtrado                  | Versión gratuita con muchas restricciones<br/>Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
-| Notion         | Si                        | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...)<br/>Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece  |
-| Things         | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD*                                                                                                  | Uso reducido a dispositivos *Apple*<br/>Carece de características avanzadas                                                     |
-| Omnifocus      | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos                                                                      | Uso reducido a dispositivos *Apple*<br/>Alta curva de aprendizaje                                                               |
-| TickTick       | Si                        | Interfaz intuitiva y fácil de usar                                                                                                                | La versión gratuita difiere bastante de la versión premium                                                                      |
+\lbegin{landscape}
+
+| **Aplicación** | **¿Multiplataforma?**  | **Aspectos positivos**  | **Aspectos negativos**  |
+| -------------- | ------------------------- | ------------------------------------------ | ------------------------------------------- |
+| NirvanaHQ | Si | Diseñada especialmente para GTD | Interfaz demasiado simple pudiendo confundirse |
+| TodoIst | Si | Interfaz intuitiva y fácil de utilizar \linebreak Soporte multiplataforma \linebreak Funciones avanzadas de recordatorio, etiquetas y filtrado | Versión gratuita con muchas restricciones \linebreak Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
+| Notion | Si | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...) \linebreak Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece |
+| Things | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD* | Uso reducido a dispositivos *Apple* \linebreak Carece de características avanzadas |
+| Omnifocus | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos  | Uso reducido a dispositivos *Apple* \linebreak Alta curva de aprendizaje |
+| TickTick | Si | Interfaz intuitiva y fácil de usar | La versión gratuita difiere bastante de la versión premium |
+
+\lend{landscape}
+
 
 Teniendo esto en cuenta, debemos tener en consideración que no solo hay falta una aplicación con una buena interfaz y que integre todas las características del método, sino que además debe ser fácil e intuitiva de utilizar para que se pueda poner en práctica diariamente.
 
@@ -135,4 +139,4 @@ En resumen, la filosofía *Getting things done* pone por escrito muchas de las f
 
 A pesar de que, como todo método, puede presentar ciertas dificultades, merece la pena implementarlo en la rutina diaria pues tiene una corta curva de aprendizaje siendo fácilmente adaptable a múltiples facetas de la vida, a diferencia de otros métodos y/o técnicas (p.ej: técnica pomodoro).
 
-Teniendo esto en cuenta, detallaremos en el Capitulo 7 (**REFERENCIAR**) la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
+Teniendo esto en cuenta, detallaremos en el Capitulo 6 (**REFERENCIAR**) la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.

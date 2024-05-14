@@ -16,6 +16,7 @@ pandoc_common:
   - chapters/planificacion.md
   - chapters/modelodatos.md
   - chapters/backend.md
+  - chapters/frontend.md
   - chapters/agentesconversacionales.md
   - chapters/manualusuario.md
   - chapters/test_chapter.md

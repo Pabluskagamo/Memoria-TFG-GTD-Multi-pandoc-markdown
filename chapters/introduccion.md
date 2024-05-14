@@ -1,20 +1,14 @@
 # Introducción
 
-La metodología *GTD*(*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro que recibe el mismo nombre [@gtd-book] y fue traducido al español como "Organízate con eficacia".
-
-El flujo de trabajo que establece *GTD* pasa por diversas etapas cada una con una finalidad específica que da validez a la efectividad del método. También propone definir en cada tarea el lugar físico donde se realizará, con el fin de asociar los distintos lugares que una persona visita durante el día a tus tareas pendientes. En la sección 2.1 se explica la idea con más detalle.
-
 ## Motivación
 
-Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. Sin embargo, es precisamente en ese entorno donde la productividad personal, guiada por la metodología *GTD*, se vuelve una herramienta fundamental para poder combatir ésta problemática. 
+Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. La metodología *GTD* (*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro titulado *GTD* [@gtd-book] y fue traducido al español como "Organízate con eficacia".
 
-El sistema *GTD* (*Getting Things Done*), es conocido por su eficacia tanto a nivel personal como profesional en la organización, planificación y administración de tareas y proyectos. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. 
+Asimismo, el sistema *GTD* (*Getting Things Done*), es conocido por su eficacia tanto a nivel personal como profesional en la planificación, organización y administración de tareas. Sin embargo, algunas de las aplicaciones que lo mplementan tienen varios inconvenientes. En primer lugar, muchas de estas aplicaciones no informan claramente del proceso de tratamiento de los datos de sus usuarios. (p.e: los datos son alojados en servidores de terceros y no sabemos los protocolos de seguridad que tienen éstos).
 
-En primer lugar, muchas de estas aplicaciones carecen de un enfoque en materia de protección de datos, ya sea por falta de transparencia de los mismos, pues no especifican cómo es el tratamiento y procesamiento de los mismos. O porque las medidas que han llegado a poner en práctica, no son lo suficientemente robustas para proteger la información que alojan sus usuarios (p.e: los datos son alojados en servidores de terceros y no sabemos los protocolos de seguridad que tienen éstos)
+Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un número reducido de sistemas operativos, un claro ejemplo de ésto es Things que a pesar de ser una muy buena aplicación, solo está disponible para dispositivos Apple. Esto condiciona el acceso de esta metodología a un público más general.
 
-Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un parque de dispositivos limitado. Condicionando de esta forma el acceso de esta metodología a un público más generalista.
-
-Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una infraestructura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos.
+Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una arquitectura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos. Esta aplicación, llamada *SwiftDo*, pretende ofrecer una alternativa accesible y versátil para la gestión eficiente de tareas en el día a día.
 
 ## Objetivos
 
@@ -22,9 +16,9 @@ El objetivo central de este proyecto es desarrollar una aplicación multiplatafo
 
 La utilización de *React Native* simplifica el desarrollo, mantenimiento y escalabilidad del proyecto, lo que resulta en una aplicación ágil y adaptable a futuras actualizaciones y cambios en las plataformas de destino.
 
-Nuestra aplicación *GTD* destaca por su modo offline, que permite a los usuarios gestionar tareas incluso sin conexión a Internet (como puede darse el caso en dispositivos móviles). A diferencia de otras alternativas, nuestra app garantiza una experiencia ininterrumpida al almacenar datos localmente y sincronizar automáticamente con el servidor cuando se recupera la conexión, asegurando la disponibilidad constante de la información en todos los dispositivos del usuario.
+Nuestra aplicación *SwiftDo* destaca por su modo offline, que permite a los usuarios gestionar tareas incluso sin conexión a Internet (como puede darse el caso en dispositivos móviles). A diferencia de otras alternativas, nuestra *app* garantiza una experiencia ininterrumpida al almacenar datos localmente y sincronizar automáticamente con el servidor cuando se recupera la conexión, asegurando la disponibilidad constante de la información en todos los dispositivos del usuario.
 
-En el desarrollo de nuestra aplicación *GTD*, la *API REST* desempeña un papel crucial al proporcionar *endpoints* para la comunicación cliente-servidor, permitiendo operaciones *CRUD* en los datos, como por ejemplo, tener un _endpoint_ '/tareas' para la creación y lectura de tareas. De esta manera, la _API REST_ proporciona una interfaz estandarizada y eficiente para la manipulación de datos en nuestra plataforma _GTD_. Además, la implementación de sólidas prácticas de seguridad, como autenticación y cifrado de datos, asegura la integridad y confidencialidad de la información, garantizando una experiencia segura para nuestros usuarios.
+En el desarrollo de nuestra aplicación, la *API REST* desempeña un papel crucial al proporcionar *endpoints* para la comunicación cliente-servidor, permitiendo operaciones *CRUD* en los datos, como por ejemplo, tener un _endpoint_ '/tareas' para la creación y lectura de tareas. De esta manera, la _API REST_ proporciona una interfaz estandarizada y eficiente para la manipulación de datos en nuestra plataforma *GTD*. Además, la implementación de sólidas prácticas de seguridad, como autenticación y cifrado de datos, asegura la integridad y confidencialidad de la información, garantizando una experiencia segura para nuestros usuarios.
 
 Al desarrollar nuestra aplicación perseguimos una serie de objetivos específicos que quedaron representados mediantes los siguientes requisitos de alto nivel:
 
@@ -42,7 +36,7 @@ Al desarrollar nuestra aplicación perseguimos una serie de objetivos específic
 
 - **Seguridad:**
   
-  Nuestra aplicación GTD debe implementar un robusto sistema de autenticación y autorización para garantizar que solo usuarios autorizados puedan acceder y manipular los datos a través de la *API REST*. Además, se requiere cifrado de extremo a extremo para proteger la confidencialidad de la información durante su transmisión y almacenamiento, asegurando así una experiencia segura para todos los usuarios.
+  Nuestra aplicación *SwiftDo* debe implementar un robusto sistema de autenticación y autorización para garantizar que solo usuarios autorizados puedan acceder y manipular los datos a través de la *API REST*. Además, se requiere cifrado de extremo a extremo para proteger la confidencialidad de la información durante su transmisión y almacenamiento, asegurando así una experiencia segura para todos los usuarios.
 
 - **Funcionalidades de Búsqueda y Filtrado:**
   
@@ -56,7 +50,7 @@ Al desarrollar nuestra aplicación perseguimos una serie de objetivos específic
   
   La aplicación se integra con agentes conversacionales como _Alexa_ y _Google Assistant_ ofreciendo una experiencia más versátil, permitiendo así a los usuarios interactuar con la aplicación mediante comandos de voz, simplificando aún más la entrada y gestión de tareas de forma intuitiva y sin esfuerzo.
 
-Estos requisitos proporcionan una base sólida para el desarrollo de la aplicación *GTD*, garantizando una experiencia integral que cumpla con los principios fundamentales de la metodología *GTD* y satisfaga las necesidades de los usuarios en la gestión efectiva de sus tareas y proyectos.
+Estos requisitos proporcionan una base sólida para el desarrollo de la aplicación *SwiftDo*, garantizando una experiencia integral que cumpla con los principios fundamentales de la metodología *GTD* y satisfaga las necesidades de los usuarios en la gestión efectiva de sus tareas y proyectos.
 
 ### Arquitectura del sistema { #sec:arqui }
 
@@ -98,12 +92,12 @@ Una vez terminadas las distintas tareas previas al desarrollo comentadas anterio
 
 El resto de memoria se organiza como sigue:
 
- - En el **capitulo 2** se realiza un análisis sobre qué es *GTD*, cual es su método y técnica y también se describen las distintas aplicaciones que implementan *GTD*.
- - En el **capitulo 3** se discute sobre la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
- - En el **capitulo 4** mostramos el modelo de datos y la implementación de la base de datos. Aquí se describen las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
- - En el **capitulo 5** se introduce el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
- - En el **capitulo 6** se detallan los principios de diseño que han guiado la creación de la *app*, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación. Explorando como los fundamentos del método GTD se han ido plasmando en *SwiftDo*.
- - En el **capitulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la *skill* de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
- - En el **capitulo 8** se encuentra el manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva.
- - En el **capitulo 9** se recogen las principales conclusiones a las que hemos llegado y se discuten lineas de trabajo futuras.
- - Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y la conclusión, el tercero (apéndice C) hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y el cuarto (apéndice D) es una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
+- En el **capitulo 2** se realiza un análisis sobre qué es *GTD*, cual es su método y técnica y también se describen las distintas aplicaciones que implementan *GTD*.
+- En el **capitulo 3** se discute sobre la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
+- En el **capitulo 4** mostramos el modelo de datos y la implementación de la base de datos. Aquí se describen las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
+- En el **capitulo 5** se introduce el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
+- En el **capitulo 6** se detallan los principios de diseño que han guiado la creación de la *app*, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación. Explorando como los fundamentos del método GTD se han ido plasmando en *SwiftDo*.
+- En el **capitulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la *skill* de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
+- En el **capitulo 8** se encuentra el manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva.
+- En el **capitulo 9** se recogen las principales conclusiones a las que hemos llegado y se discuten lineas de trabajo futuras.
+- Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y la conclusión, el tercero (apéndice C) hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y por último, (apéndice D) una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
