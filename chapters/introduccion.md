@@ -1,20 +1,14 @@
 # Introducción
 
-La metodología *GTD*(*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro que recibe el mismo nombre [@gtd-book] y fue traducido al español como "Organízate con eficacia".
-
-El flujo de trabajo que establece *GTD* pasa por diversas etapas cada una con una finalidad específica que da validez a la efectividad del método. También propone definir en cada tarea el lugar físico donde se realizará, con el fin de asociar los distintos lugares que una persona visita durante el día a tus tareas pendientes. En la sección 2.1 se explica la idea con más detalle.
-
 ## Motivación
 
-Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. Sin embargo, es precisamente en ese entorno donde la productividad personal, guiada por la metodología *GTD*, se vuelve una herramienta fundamental para poder combatir ésta problemática. 
+Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. La metodología *GTD* (*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro titulado *GTD* [@gtd-book] y fue traducido al español como "Organízate con eficacia".
 
-El sistema *GTD* (*Getting Things Done*), es conocido por su eficacia tanto a nivel personal como profesional en la organización, planificación y administración de tareas y proyectos. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. 
+El sistema *GTD* (*Getting Things Done*), es conocido por su eficacia tanto a nivel personal como profesional en la planificación, organización y administración de tareas. Sin embargo, algunas de las aplicaciones que lo mplementan tienen varios inconvenientes. En primer lugar, muchas de estas aplicaciones no informan claramente del proceso de tratamiento de los datos de sus usuarios. (p.e: los datos son alojados en servidores de terceros y no sabemos los protocolos de seguridad que tienen éstos).
 
-En primer lugar, muchas de estas aplicaciones carecen de un enfoque en materia de protección de datos, ya sea por falta de transparencia de los mismos, pues no especifican cómo es el tratamiento y procesamiento de los mismos. O porque las medidas que han llegado a poner en práctica, no son lo suficientemente robustas para proteger la información que alojan sus usuarios (p.e: los datos son alojados en servidores de terceros y no sabemos los protocolos de seguridad que tienen éstos)
+Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un número reducido de sistemas operativos, un claro ejemplo de ésto es Things que a pesar de ser una muy buena aplicación, solo está disponible para dispositivos Apple. Esto condiciona el acceso de esta metodología a un público más general.
 
-Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un parque de dispositivos limitado. Condicionando de esta forma el acceso de esta metodología a un público más generalista.
-
-Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una infraestructura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos.
+Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una arquitectura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos.
 
 ## Objetivos
 
@@ -106,4 +100,4 @@ El resto de memoria se organiza como sigue:
  - En el **capitulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la *skill* de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
  - En el **capitulo 8** se encuentra el manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva.
  - En el **capitulo 9** se recogen las principales conclusiones a las que hemos llegado y se discuten lineas de trabajo futuras.
- - Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y la conclusión, el tercero (apéndice C) hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y el cuarto (apéndice D) es una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
+ - Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y la conclusión, el tercero (apéndice C) hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y por último, (apéndice D) una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
