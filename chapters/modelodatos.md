@@ -1,8 +1,8 @@
 # Modelo de datos e implementación de la Base de datos
 
-Este capítulo tiene como objetivo describir en detalle el modelo de datos utilizado en nuestra aplicación de gestión de tareas (*GTD*), proporcionando una visión exhaustiva de cómo se organizan y relacionan los datos esenciales para su funcionamiento.
+Este capítulo tiene como objetivo describir en detalle el modelo de datos utilizado en nuestra aplicación *SwiftDo*, proporcionando una visión exhaustiva de cómo se organizan y relacionan los datos esenciales para su funcionamiento.
 
-En primer lugar, presentaremos las principales entidades que componen nuestro modelo, incluyendo tareas, usuarios, proyectos, áreas, etiquetas y las relaciones asociadas a la autorización _OAuth_. Cada entidad es examinada en profundidad, detallando sus atributos y el propósito que cumplen dentro del contexto de la aplicación _GTD_.
+En primer lugar, presentaremos las principales entidades que componen nuestro modelo, incluyendo tareas, usuarios, proyectos, áreas, etiquetas y las relaciones asociadas a la autorización _OAuth_. Cada entidad es examinada en profundidad, detallando sus atributos y el propósito que cumplen dentro del contexto de la aplicación.
 
 Posteriormente, analizaremos las relaciones entre estas entidades, destacando cómo se conectan y cómo estas conexiones facilitan el flujo de información y la interacción dentro de la aplicación.
 
@@ -155,4 +155,4 @@ La seguridad de la base de datos es un componente fundamental para proteger la i
 
 - **Registro de actividades:** Empleamos las capacidades integradas de registro y auditoría proporcionadas por *AWS* para supervisar todas las actividades realizadas en nuestra base de datos.Estas funciones nos permiten rastrear quién accede a la base de datos, cuándo lo hace y qué operaciones realiza, garantizando la integridad y seguridad de los datos almacenados en la nube.
 
-Para finalizar este capítulo, es crucial destacar la importancia del diseño y la implementación eficientes del modelo de datos en nuestra aplicación de gestión de tareas. A través de un análisis exhaustivo de las entidades, relaciones y consideraciones técnicas, hemos establecido una base sólida para el funcionamiento de nuestra base de datos. Al comprender la estructura subyacente y las decisiones de diseño, estamos mejor preparados para abordar los desafíos futuros y garantizar la integridad, seguridad y escalabilidad continuas de nuestra aplicación *GTD*.
+Para finalizar este capítulo, es crucial destacar la importancia del diseño y la implementación eficientes del modelo de datos en nuestra aplicación de gestión de tareas. A través de un análisis exhaustivo de las entidades, relaciones y consideraciones técnicas, hemos establecido una base sólida para el funcionamiento de nuestra base de datos. Al comprender la estructura subyacente y las decisiones de diseño, estamos mejor preparados para abordar los desafíos futuros y garantizar la integridad, seguridad y escalabilidad continuas de nuestra aplicación *SwiftDo*.
