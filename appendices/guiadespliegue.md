@@ -55,14 +55,10 @@ docker-compose up -d
 
 El flag -d ejecutará los contenedores en segundo plano liberando el terminal donde se haya ejecutado el comando. En el fichero *compose.yaml* se define un volumen para los datos de la base de datos, esto permitirá que cuando finalicemos la ejecución de los contenedores los datos no se borren y sigan estando cuando levantemos los contenedores de nuevo.
 
-
-
-## Compilación de la aplicación de escritorio
+## Compilación de la aplicación de escritorio y web
 
 #### Requisitos {.unnumbered}
 
 - Node.js
 
-
-
-
+Hemos incluido un script en *bash* y *powershell* que realiza los pasos necesarios para la compilación de la aplicación de escritorio. Es importante recalcar que tal compilación se hará para la misma plataforma donde se realize la misma, por ejemplo si deseamos compilar para *windows* se deberá de realizar este proceso en *windows*.

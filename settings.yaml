@@ -17,7 +17,7 @@ header-includes:
 - \pagestyle{fancy}
 # Para incluir fichero separado con código LaTeX
 #- \input{separators/preamble.tex}
-title: Implementación de una infraestructura REST con privacidad para GTD 
+title: Implementación de una infraestructura REST con privacidad para GTD basada en Express y React Native 
 author: Pablo Gamo González, Carlos Gómez López, Javier Gil Caballero, Alejandro Del Río Caballero
 advisor: Juan Carlos Sáez Alcaide
 department: Departamento de Arquitectura de Computadores y Automática

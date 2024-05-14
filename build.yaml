@@ -19,10 +19,11 @@ pandoc_common:
   - chapters/frontend.md
   - chapters/agentesconversacionales.md
   - chapters/manualusuario.md
-  - chapters/test_chapter.md
+  - chapters/conclusion.md
   - separators/backmatter.md
 ## Include appendices here      
-  - appendices/test_appendix.md
+  - appendices/guiadespliegue.md
+  - chapters/endpoints.md
 ## Include this file if your document contains a bibliography  
   - separators/bibliography.md
 pandoc_targets:
