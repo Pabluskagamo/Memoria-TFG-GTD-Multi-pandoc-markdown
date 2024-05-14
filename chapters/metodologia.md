@@ -27,7 +27,7 @@ apoya en cinco fases “collect”, “process”, “organize”, “review” 
 
 En su libro, Allen nos relata este apartado teniendo por analogía la *RAM* de un ordenador. Al igual que este, somos seres secuenciales, sin embargo, podemos realizar cierta multitarea y trabajar en muchos aspectos en paralelo. No obstante, para poder lograrlo, no solo debemos tener bastante capacidad de almacenaje, sino también saber cómo administrarla de forma eficiente. Para ello, se deben seguir las cinco fases del método *GTD*:
 
-### Collect {#sec:collect .unnumbered} 
+### Collect {#sec:collect .unnumbered}
 
 Se trata de una de las fases fundamentales en las que se basa la filosofía *GTD*, en ella debemos recopilar todas las tareas que durante el día nos han ido surgiendo a la mente; independientemente de la importancia de las mismas, pudiendo ir desde tareas tan triviales como “limpiar los platos” a “entregar un proyecto antes de cierto plazo”.
 
@@ -35,7 +35,7 @@ La idea es que, como indica Allen en su libro, “saquemos todo lo que nos preoc
 
 Sin embargo, de nada sirve que cumplamos lo anterior si periódicamente no hacemos una limpieza a nuestra *RAM*. De lo contrario, tendríamos un cajón desastre abocado a la procrastinación, motivo que queremos evitar con *GTD*.
 
-### Process {#sec:process  .unnumbered} 
+### Process {#sec:process  .unnumbered}
 
 Una vez recopiladas, debemos encontrar un hueco para poder catalogarlas, es decir, clasificarlas y procesarlas. Para ello, llega el momento donde nos haremos ciertas preguntas como ¿qué es esto que he apuntado?, ¿requiere más de una acción? ¿necesito clarificarla?
 

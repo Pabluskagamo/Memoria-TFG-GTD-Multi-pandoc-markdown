@@ -58,7 +58,7 @@ Por lo tanto en vez de utilizar las credenciales del servidor de recursos, el cl
 
 ### Roles y Flujo del proceso {.unnumbered}
 
-Existen cuatro roles en *OAuth* :
+Existen cuatro roles en *OAuth*:
 
 - Propietario de los recursos: Es la entidad capaz de conceder acceso a un recurso protegido.
 
@@ -80,23 +80,23 @@ Tras explicar los principales puntos de este estandar de autorización, a contin
 
 En primer lugar se van a identificar cuales son las diferentes entidades o roles de *OAuth* en el caso de nuestra aplicación:
 
-- Propietario de los recursos: En nuestro caso esta entidad será la persona o personas que gestionen el servicio de la aplicación, ya que esta podrá ser instalada y gestionada libremente en cualquier servidor.
+- **Propietario de los recursos**: En nuestro caso esta entidad será la persona o personas que gestionen el servicio de la aplicación, ya que esta podrá ser instalada y gestionada libremente en cualquier servidor.
 
-- Servidor de recursos: Para nuestra aplicación el servidor de recursos es el servidor donde se encuentra el servicio de *API REST* con todos sus endpoints que tienen la capacidad de interactuar con recursos de la aplicación, es decir con tareas, proyectos, usuarios...
+- **Servidor de recursos**: Para nuestra aplicación el servidor de recursos es el servidor donde se encuentra el servicio de *API REST* con todos sus endpoints que tienen la capacidad de interactuar con recursos de la aplicación, es decir con tareas, proyectos, usuarios...
 
-- Cliente/s: Los clientes son la aplicaciones de escritorio y la de móvil que realizan peticiones al servidor de recursos y que por lo tanto necesitan autorización del propietario.
+- **Cliente/s**: Los clientes son la aplicaciones de escritorio y la de móvil que realizan peticiones al servidor de recursos y que por lo tanto necesitan autorización del propietario.
 
-- Servidor de autorización: Este servidor ha sido implementado dentro del mismo entorno que la *API REST* y es el encargado de gestionar la autorización del servicio.
+- **Servidor de autorización**: Este servidor ha sido implementado dentro del mismo entorno que la *API REST* y es el encargado de gestionar la autorización del servicio.
 
 En *OAuth* hay varios tipos de *grants* o formas de concesión de acceso a los recursos por parte del propietario, en otras palabras hay varias formas de conseguir un *token* de acceso y cada una de estas tiene un procedimiento distinto para conseguirlo. Existen cuatro tipos los cuales son:
 
-- Código de autorización: El código de autorización se obtiene utilizando el servidor de autorización como intermediario entre el cliente y el propietario de los recursos.  De esta forma en vez de pedir directamente autorización al propietario, esta petición se dirige al servidor de autorización, que devuelve al cliente un código de autorización con el que luego podrá solicitar un *token* de acceso. Este tipo de *grant* es el que hemos implementado para nuestra aplicación y es por ello que lo explicaremos con mayor extensión en próximos párrafos.
+- **Código de autorización**: El código de autorización se obtiene utilizando el servidor de autorización como intermediario entre el cliente y el propietario de los recursos.  De esta forma en vez de pedir directamente autorización al propietario, esta petición se dirige al servidor de autorización, que devuelve al cliente un código de autorización con el que luego podrá solicitar un *token* de acceso. Este tipo de *grant* es el que hemos implementado para nuestra aplicación y es por ello que lo explicaremos con mayor extensión en próximos párrafos.
 
-- Implícito: En esta forma de conceder autorización, se simplifica el flujo del código de autorización ya que este método está optimizado para para clientes implementados en navegador en lenguajes de *scripting* tipo *JavaScript*. En el flujo implícito en vez de devolver al cliente un código de autorización se le devuelve directamente un *token* de acceso. El tipo de concesión de acceso es implícito puesto que el servidor de autorización no autentica al cliente, pero en algunos casos la identidad del cliente se puede realizar a través de la URI de redirección usada.
+- **Implícito**: En esta forma de conceder autorización, se simplifica el flujo del código de autorización ya que este método está optimizado para para clientes implementados en navegador en lenguajes de *scripting* tipo *JavaScript*. En el flujo implícito en vez de devolver al cliente un código de autorización se le devuelve directamente un *token* de acceso. El tipo de concesión de acceso es implícito puesto que el servidor de autorización no autentica al cliente, pero en algunos casos la identidad del cliente se puede realizar a través de la URI de redirección usada.
 
-- Credenciales del propietario de los recursos: Las credenciales del propietario de los recursos pueden usarse también como forma de concesión de un *token* de acceso. Estas credenciales deben usarse solo cuando exista gran confianza entre el cliente y el propietario y cuando otros métodos de concesión no estan disponibles. 
+- **Credenciales del propietario de los recursos**: Las credenciales del propietario de los recursos pueden usarse también como forma de concesión de un *token* de acceso. Estas credenciales deben usarse solo cuando exista gran confianza entre el cliente y el propietario y cuando otros métodos de concesión no estan disponibles. 
 
-- Credenciales del cliente: Este tipo de concesión con credenciales del cliente se usa normalmente cuando el alcance de la autorización se limita solamente a los recursos bajo el control del mismo cliente, en otras palabras cuando el cliente también es el propietario de los recursos.
+- **Credenciales del cliente**: Este tipo de concesión con credenciales del cliente se usa normalmente cuando el alcance de la autorización se limita solamente a los recursos bajo el control del mismo cliente, en otras palabras cuando el cliente también es el propietario de los recursos.
 
 Para nuestro caso de uso nos hemos decantado por el tipo de concesión de código de autorización ya que es el que dispone de más beneficios en términos de seguridad, como la transmisión del *token* de acceso directamente al cliente sin pasar por el propietario.
 
