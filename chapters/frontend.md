@@ -12,8 +12,6 @@ Para empezar a diseñar la app, investigamos, no solo como funciona el método e
 
 Al haber reunido los conceptos fundamentales en el mapa mental de la figura \ref{fig:mindmap} conseguimos reducir la fricción cognitiva, es decir, reducir la fatiga visual mediante la simplificación de conceptos y hacer que su uso sea intuitivo y eficiente.
 
-
-
 ## Metáforas, Expresiones y Conceptos de diseño
 
 Con la finalidad de hacer que el usuario se vea familiarizado con los conceptos empleados en la app, nos hemos visto envueltos en un conjunto de metáforas y expresiones. 
@@ -38,17 +36,16 @@ Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de es
 
 Estos principios se encuentran relacionados con la coherencia con la que diseñamos la interfaz. El primero de estos principios, **proximidad**, indica que todos los elementos que se encuentren relacionados entre sí deben agruparse visualmente, familiarizándolo y simplificando el proceso de aprendizaje del usuario con los conceptos tratados, como se observa en la figura \ref{fig:accionesBarraLateral}
 
- 
 
-![barra lateral](../img/accionesBarraLateral.png){#fig:accionesBarraLateral}
-
-
+![barra lateral](img/accionesBarraLateral.png){#fig:accionesBarraLateral}
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{fig:actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
+![barra lateral](/img/accionesBarraLateral.png){#fig:accionesBarraLateral}
+
+En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{#actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
 
-<Figura de todas las acciones>
 
 ![Archivadas_Screen](img/Archivadas_Screen.png){#fig:actionScreen}
 
@@ -58,11 +55,10 @@ En segundo lugar, detallamos el principio de **consistencia,** que ha sido funda
 
 ![Hoy_Screen](img/Hoy_Screen.png){#fig:actionScreen}
 
-
-
 ### Visibilidad
 
 D. Norman en su libro **<REFERENCIA AL LIBRO>** explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que éstas desempeñan. Tanto es así, que explica que cuanto mas visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
+
 
 
 
@@ -74,7 +70,13 @@ Por último, es conveniente gestionar el estado visible de los componentes de la
 
 ![nombre de usuario y fecha](img/nombre_fecha.png){#fig:nombre_fecha}
 
-![Detalles](/img/details.png){#fig:details.png}
+![Detalles](img/details.png){#fig:details.png}
+
+Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones" \ref{fig:accionesBarraLateral} y el número de tareas que tienen tanto, mientras los demás ocupan un segundo plano. 
+
+**<REFERENCIA A NUMEROS DE TAREAS EN ACCIONES; ACCIONES Y PROYECTOS Y TAREAS>**  
+
+Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Ejemplo de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas **<REFERENCIA>**. Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” **<REFERENCIA>,** dirigen la atención a lo que realmente importa.
 
 
 
@@ -89,7 +91,6 @@ Asimismo, usamos gran parte de las opciones que ofrece para probar varios de los
 Finalmente, una vez creados todos los prototipos junto a sus componentes, probamos el flujo de diseño que habíamos creado inicialmente, mediante el uso de la aplicación movil, llegando a emular fielmente 1:1 el comportamiento final de la app.
 
 A continuación presentamos todos las interfaces que componen SwiftDo, junto a una breve explicación que las relaciona con el método GTD 
-
 
 
 
@@ -114,7 +115,9 @@ En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GT
 
 ![Archivadas_Screen](img/componentes/Archivadas_Screen.png)
 
-En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "Hoy" \ref{fig:Hoy} que actue como resumen diario inteligente. Éste detectará ...
+
+
+En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:Hoy} que actue como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
 ![Hoy_Screen](img/componentes/Hoy_Screen.png){#Fig: Hoy}
 
@@ -148,8 +151,6 @@ Por último tenemos interfaces más detalladas como son la de añadir tarea/proy
 
 
 
-
-
 ## Implementación: ¿Qué es React Native?
 
 Para implementar el Frontend de la app junto a las interfaces de usuario anteriormente descritas, necesitábamos hacer uso de un framework que pudiera adaptarse no solo a interfaces táctiles sino también a interfaces de escritorio. Para lograrlo hemos hecho uso de ***React Native\*** *y* ***Expo\***. 
@@ -162,5 +163,12 @@ Por otro lado, React Native se trata de un framework desarrollado por Facebook q
 
 Por último, destacar la gran comunidad que tiene, ya que además de la documentación que podemos consultar en la pagina web oficial de React Native, disponemos de bibliotecas externas que se detallan en otras páginas web que son útiles para la implementación de otros componentes que no se encuentran en las fuentes oficiales. Las bibliotecas externas que hemos empleado son las siguientes: 
 
-- …
-- …
+- **Drawer Navigation**: Muestra un cajón de navegación en el costado de la pantalla que se puede abrir y cerrar mediante gestos.
+- **Axios**: Librería de *JavaScript* que se utiliza para hacer solicitudes *HTTP* desde el navegador o desde un servidor usando *Node.js*.
+- **Calendar Strip**: Calendario diario desplazable para acomodar las propiedas y acceder a ellas.
+- **Calendars**: Un componente de calendario declarativo multiplataforma *React Native* para *iOS* y *Android*.
+- **Markdown Display**: Renderizador de *Markdown*.
+- **Modern Datepicker**: Incluye información sobre cómo utilizar este componente de calendario personalizable de *React Native*.
+- **Swipeable**: Componente el cual permite implementar filas deslizables o interacción similar. Representa a sus hijos dentro de un contenedor panable que permite el deslizamiento horizontal hacia la izquierda y hacia la derecha.
+- **Wheel Color Picker**: Componente de seleccionador de colores.
+- **Multiple Switch**: Componente de un interruptor múltiple.
