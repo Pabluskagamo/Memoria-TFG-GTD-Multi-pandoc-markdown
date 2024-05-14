@@ -1,4 +1,4 @@
-## Diseño e Implementacion del Frontend
+# Diseño e Implementacion del Frontend
 
 En este capítulo ahondaremos en varias de las técnicas de diseño de software que hemos usado para bocetar el conjunto de interfaces de usuario que conforman *SwiftDo*. Además, explicaremos las herramientas que hemos utilizado para prototipar e implementar el Frontend de la app. Para que una aplicación llegue a ser utilizada de manera cotidiana, deberá cumplir con los criterios y objetivos para los que fue concebida, así como disponer de un buen diseño que lo complemente. 
 
@@ -41,7 +41,7 @@ Estos principios se encuentran relacionados con la coherencia con la que diseña
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{fig:actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
-![barra lateral](/img/accionesBarraLateral.png){#fig:accionesBarraLateral}
+![barra lateral](img/accionesBarraLateral.png){#fig:accionesBarraLateral}
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{#actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
