@@ -18,27 +18,25 @@ Al haber reunido los conceptos fundamentales en el mapa mental de la figura**<RE
 
 Con la finalidad de hacer que el usuario se vea familiarizado con los conceptos empleados en la app, nos hemos visto envueltos en un conjunto de metáforas y expresiones. 
 
-
-
-En primer lugar, usamos metáforas para asociar cada “acción” del método *GTD* con un icono que exprese fielmente lo que realiza esa categoría. Ejemplo de ello, pueden ser la “entrada”, representada por una bandeja de entrada de mensajes, la bandera roja simbolizando la urgencia o el símbolo de progreso de cada proyecto, tal y como se puede observar en las siguientes figuras:
+En primer lugar, usamos metáforas para asociar cada “acción” del método *GTD* con un icono que exprese fielmente lo que realiza esa categoría. Ejemplo de ello, pueden ser la “entrada”, representada por una bandeja de entrada de mensajes, la bandera roja indicando la urgencia o el símbolo de progreso de cada proyecto, tal y como se puede observar en las siguientes figuras:
 
 
 
-**<FIGURA1>**
+**<FIGURA1>![bandeja de entrada](/Users/alejandro/Developer/Memoria-TFG-GTD-Multi-pandoc-markdown/img/seccionEntrada.png)**
 
-**<FIGURA2>**
+**<FIGURA2>**![bandera roja indicando urgencia](/Users/alejandro/Developer/Memoria-TFG-GTD-Multi-pandoc-markdown/img/tareaPrioridad.png)
 
 **<FIGURA3>**
 
+![simbolo de progreso al 50%](/Users/alejandro/Developer/Memoria-TFG-GTD-Multi-pandoc-markdown/img/progresoProyecto.png)
 
-
-Por otro lado, tenemos las expresiones, éstas son un concepto fundamental, ya que ayudan a definir como interactúa el usuario con la aplicación, haciéndola mas eficiente y consistente. Éstas las podemos ver en el menú lateral, con las secciones de “Entrada”, “Procesar”, “Contexto”, “Calendario”, etc.
+Por otro lado, tenemos las expresiones, éstas son un concepto fundamental, ya que ayudan a definir como interactúa el usuario con la aplicación, haciéndola mas eficiente y consistente. Éstas las podemos ver en el menú lateral, con las secciones de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
 
 
 
 **<Figura4>**
 
- 
+![barra lateral](/Users/alejandro/Developer/Memoria-TFG-GTD-Multi-pandoc-markdown/img/accionesBarraLateral.png) 
 
 Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de esqueuomorfismo, evitando sobrecargar con detalles superfluos la interfaz. Para ello nos hemos basado en el concepto de *affordance*, haciendo que cada componente que se encuentre en la app sea autoexplicativo, como por ejemplo, el botón de añadir tarea y/o proyecto **<Figura 5>.** Para explorar con mayor detalle estos aspectos, nos hemos basado en varios principios de diseño que describiremos a continuación.
 
