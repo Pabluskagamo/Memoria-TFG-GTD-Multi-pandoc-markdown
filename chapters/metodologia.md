@@ -20,8 +20,7 @@ Por último, como comentaremos más adelante, para enfocarnos en un estado de m�
 
 ## Método y técnica
 
-Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se
-apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de éstas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo del método.
+Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de éstas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo del método.
 
 ![Workflow GTD - Getting Things Done de David Allen](img/workflowgtd.png){width=90% #fig:workflowgtd}
 
