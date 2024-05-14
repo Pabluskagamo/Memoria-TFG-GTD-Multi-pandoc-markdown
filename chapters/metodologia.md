@@ -117,14 +117,19 @@ Cuando planteamos este trabajo de fin de grado teníamos como premisa, fusionar 
 
 A pesar de que las apps mencionadas en el anterior apartado son excelentes, observamos ciertas deficiencias en cada una de ellas que hacen que dificulten el acceso y la implementación del método de David Allen, tal y como detallamos en la siguiente tabla:
 
-| **Aplicación** | **¿Multiplataforma?**     | **Aspectos positivos**                                                                                                                            | **Aspectos negativos**                                                                                                          |
-| -------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| NirvanaHQ      | Si                        | Diseñada especialmente para GTD                                                                                                                   | Interfaz demasiado simple pudiendo confundirse                                                                                  |
-| TodoIst        | Si                        | Interfaz intuitiva y fácil de utilizar<br/>Soporte multiplataforma<br/>Funciones avanzadas de recordatorio, etiquetas y filtrado                  | Versión gratuita con muchas restricciones<br/>Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
-| Notion         | Si                        | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...)<br/>Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece  |
-| Things         | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD*                                                                                                  | Uso reducido a dispositivos *Apple*<br/>Carece de características avanzadas                                                     |
-| Omnifocus      | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos                                                                      | Uso reducido a dispositivos *Apple*<br/>Alta curva de aprendizaje                                                               |
-| TickTick       | Si                        | Interfaz intuitiva y fácil de usar                                                                                                                | La versión gratuita difiere bastante de la versión premium                                                                      |
+\lbegin{landscape}
+
+| **Aplicación** | **¿Multiplataforma?**  | **Aspectos positivos**  | **Aspectos negativos**  |
+| -------------- | ------------------------- | ------------------------------------------ | ------------------------------------------- |
+| NirvanaHQ | Si | Diseñada especialmente para GTD | Interfaz demasiado simple pudiendo confundirse |
+| TodoIst | Si | Interfaz intuitiva y fácil de utilizar \linebreak Soporte multiplataforma \linebreak Funciones avanzadas de recordatorio, etiquetas y filtrado | Versión gratuita con muchas restricciones \linebreak Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
+| Notion | Si | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...) \linebreak Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece |
+| Things | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD* | Uso reducido a dispositivos *Apple* \linebreak Carece de características avanzadas |
+| Omnifocus | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos  | Uso reducido a dispositivos *Apple* \linebreak Alta curva de aprendizaje |
+| TickTick | Si | Interfaz intuitiva y fácil de usar | La versión gratuita difiere bastante de la versión premium |
+
+\lend{landscape}
+
 
 Teniendo esto en cuenta, debemos tener en consideración que no solo hay falta una aplicación con una buena interfaz y que integre todas las características del método, sino que además debe ser fácil e intuitiva de utilizar para que se pueda poner en práctica diariamente.
 

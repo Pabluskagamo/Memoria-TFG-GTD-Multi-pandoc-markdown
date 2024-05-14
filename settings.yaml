@@ -9,6 +9,7 @@ fontfamily: tgpagella
 lang: es-ES
 header-includes:
 - \usepackage{subfig}
+- \usepackage{lscape}
 #- \usepackage[ruled,vlined]{algorithm2e}
 - \usepackage{fancyhdr}
 - \fancyhf{}
