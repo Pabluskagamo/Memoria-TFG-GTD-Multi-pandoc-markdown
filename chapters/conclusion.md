@@ -22,12 +22,14 @@ Estos logros son el resultado de un compromiso constante con la excelencia en el
 
 ## Trabajo a futuro
 
-- Mejorar alexa , introduccir mas tipos de agentes conversacionales.--> alternativas a alexa
+En esta sección, exploraremos las ideas y mejoras planificadas para el futuro de *SwiftDo*. Analizaremos las áreas en las que buscamos innovar y las nuevas características que planeamos implementar para seguir mejorando la experiencia del usuario.
 
-- Inicio de sesión con google, apple etc... terceros
+- **Mejora de la integración con agentes conversacionales**: Seguir itentando arreglar *Alexa* y explorar alternativas para ampliar la compatibilidad con otros asistentes virtuales para mejorar la accesibilidad y experiencia del usuario.
 
-- Mejora de los modales --> Mejora de interfaz de creación de tareas y modales en general. 
+- **Inicio de sesión con cuentas de terceros**: Implementar la opción de inicio de sesión con *Google*, *Apple* u otras cuentas de terceros para simplificar el proceso de autenticación y mejorar la seguridad.
 
-- Soporte de aplicación de escritorio para más plataformas ej: linux
+- **Mejora de la interfaz del usuario**: Refinar los modales y la interfaz de creación de tareas para hacerla más intuitiva y fácil de usar.
 
-- Editor de texto enriquecido.
+- **Soporte de aplicación de escritorio**: Desarrollar una versión de escritorio de *SwiftDo* compatible con plataformas como Linux para ampliar su alcance y accesibilidad.
+
+- **Editor de texto enriquecido**: Integrar un editor de texto enriquecido que permita a los usuario dar formato a sus descripciones de tareas de manera más flexible y personalizada.
