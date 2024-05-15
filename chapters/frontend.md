@@ -36,7 +36,6 @@ Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de es
 
 Estos principios se encuentran relacionados con la coherencia con la que diseñamos la interfaz. El primero de estos principios, **proximidad**, indica que todos los elementos que se encuentren relacionados entre sí deben agruparse visualmente, familiarizándolo y simplificando el proceso de aprendizaje del usuario con los conceptos tratados, como se observa en la figura \ref{fig:accionesBarraLateral}
 
-
 ![barra lateral](img/accionesBarraLateral.png){width=50% #fig:accionesBarraLateral}
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{fig:actionScreen} y aprendizaje de la interfaz por parte del usuario final.
@@ -44,8 +43,6 @@ En segundo lugar, detallamos el principio de **consistencia,** que ha sido funda
 ![barra lateral](img/accionesBarraLateral.png){width=50% #fig:accionesBarraLateral}
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{#actionScreen} y aprendizaje de la interfaz por parte del usuario final.
-
-
 
 ![Archivadas_Screen](img/Archivadas_Screen.png){width=50% #fig:actionScreen}
 
@@ -59,12 +56,7 @@ En segundo lugar, detallamos el principio de **consistencia,** que ha sido funda
 
 D. Norman en su libro **<REFERENCIA AL LIBRO>** explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que éstas desempeñan. Tanto es así, que explica que cuanto mas visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
 
-
-
-
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones"  \ref{fig:accionesBarraLateral} , mientras los demás ocupan un segundo plano. 
-
-
 
 Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Ejemplo de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas \ref{fig:nombre_fecha} Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” \ref{fig:details} dirigen la atención a lo que realmente importa.
 
@@ -78,8 +70,6 @@ Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tie
 
 Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Ejemplo de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas **<REFERENCIA>**. Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” **<REFERENCIA>,** dirigen la atención a lo que realmente importa.
 
-
-
 ## Prototipos e Interfaces
 
 Durante el desarrollo prematuro de la app exploramos diferentes herramientas de diseño para poder elaborar varios de los mockups que componen la app, entre ellas destacamos **Balsamiq** y **Figma**. Sin embargo, nos decantamos por Figma, ya que es una herramienta más versátil y con mayores opciones de personalización, abarcando desde modelos de baja a alta fidelidad. 
@@ -92,16 +82,11 @@ Finalmente, una vez creados todos los prototipos junto a sus componentes, probam
 
 A continuación presentamos todos las interfaces que componen SwiftDo, junto a una breve explicación que las relaciona con el método GTD 
 
-
-
-
 En primer lugar tenemos las interfaces relacionadas con el registro e inicio de sesión:
 
 ![inicio de sesion](img/componentes/inicio de sesion.png)
 
 ![Registro](img/componentes/Registro.png){width=50%}
-
-
 
 En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GTD* y sus acciones tanto en escritorio, como en dispositivos móviles:
 
@@ -115,13 +100,9 @@ En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GT
 
 ![Archivadas_Screen](img/componentes/Archivadas_Screen.png){width=50%}
 
-
-
 En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:Hoy} que actue como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
 ![Hoy_Screen](img/componentes/Hoy_Screen.png){width=50% #Fig:Hoy}
-
-
 
 En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y ajustes tanto en formato escritorio como en dispositivos móviles: 
 
@@ -132,8 +113,6 @@ En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y a
 ![Ajustes - Escritorio](img/componentes/Group 41.png){width=50%}
 
 ![OptionSettings](img/componentes/OptionSettings.png){width=50%}
-
-
 
 Por último tenemos interfaces más detalladas como son la de añadir tarea/proyecto, interfaz de añadir detalles a la tarea, pudiendo insertar markdown texto en formato markdown y distintos modales para la creacion o edicion de tareas.
 
@@ -147,28 +126,32 @@ Por último tenemos interfaces más detalladas como son la de añadir tarea/proy
 
 ![visualizacionTarea](img/componentes/visualizacionTarea.png){width=50%}
 
-
-
-
-
 ## Implementación: ¿Qué es React Native?
 
 Para implementar el Frontend de la app junto a las interfaces de usuario anteriormente descritas, necesitábamos hacer uso de un framework que pudiera adaptarse no solo a interfaces táctiles sino también a interfaces de escritorio. Para lograrlo hemos hecho uso de ***React Native\*** *y* ***Expo\***. 
 
 Expo se trata de una plataforma que agiliza el desarrollo y despliegue de aplicaciones en React Native sin la necesidad de lidiar con configuraciones complejas.
 
-Por otro lado, React Native se trata de un framework desarrollado por Facebook que tiene por lema “*Learn once, write anywhere*”, ya que mediante el uso de React y JavaScript, permite la creación de aplicaciones multiplataforma, ya sea en MacOS, iOS, Windows o Android.
+Por otro lado, React Native se trata de un framework desarrollado por Facebook que tiene por lema “*Learn once, write anywhere*”, ya que mediante el uso de React y JavaScript, permite la creación de aplicaciones multiplataforma, ya sea en *MacOS*, *iOS*, *Windows* o *Android*.
 
-Éste framework no solo destaca por la capacidad de reutilización de código sino por ofrecer un comportamiento nativo de los componentes utilizados, es decir, permitir un rendimiento similar al de las aplicaciones desarrolladas con lenguajes nativos (Swift para IOS o Kotlin para Android).
+Éste framework no solo destaca por la capacidad de reutilización de código sino por ofrecer un comportamiento nativo de los componentes utilizados, es decir, permitir un rendimiento similar al de las aplicaciones desarrolladas con lenguajes nativos (*Swift* para *IOS* o *Kotlin* para *Android*).
 
 Por último, destacar la gran comunidad que tiene, ya que además de la documentación que podemos consultar en la pagina web oficial de React Native, disponemos de bibliotecas externas que se detallan en otras páginas web que son útiles para la implementación de otros componentes que no se encuentran en las fuentes oficiales. Las bibliotecas externas que hemos empleado son las siguientes: 
 
-- **Drawer Navigation**: Muestra un cajón de navegación en el costado de la pantalla que se puede abrir y cerrar mediante gestos.
-- **Axios**: Librería de *JavaScript* que se utiliza para hacer solicitudes *HTTP* desde el navegador o desde un servidor usando *Node.js*.
-- **Calendar Strip**: Calendario diario desplazable para acomodar las propiedas y acceder a ellas.
-- **Calendars**: Un componente de calendario declarativo multiplataforma *React Native* para *iOS* y *Android*.
-- **Markdown Display**: Renderizador de *Markdown*.
-- **Modern Datepicker**: Incluye información sobre cómo utilizar este componente de calendario personalizable de *React Native*.
-- **Swipeable**: Componente el cual permite implementar filas deslizables o interacción similar. Representa a sus hijos dentro de un contenedor panable que permite el deslizamiento horizontal hacia la izquierda y hacia la derecha.
-- **Wheel Color Picker**: Componente de seleccionador de colores.
-- **Multiple Switch**: Componente de un interruptor múltiple.
+- **React Navigation** ^[[React Navigation](https://reactnavigation.org/)]: Esta librería permite definir y enrrutar las diferentes pantallas de la aplicación para poder navegar entre ellas. Ha sido de gran importancia en la aplicación ya que la navegación es un aspecto clave en cualquier aplicación. Además este paquete es muy sencillo de entender y usar gracias a su buena documentación.
+
+- **Drawer Navigation** ^[[Drawer Navigation](https://reactnavigation.org/docs/drawer-navigator)]: Muestra un cajón de navegación en el costado de la pantalla que se puede abrir y cerrar mediante gestos. 
+
+- **Axios** ^[[Axios](https://axios-http.com/es/docs/intro)]: Librería de *JavaScript* que se utiliza para hacer solicitudes *HTTP* desde el navegador. Este paquete facilita la gestión y el envio de *requests* y *respones*, esto nos ha servido para gestionar los *headers* de autorización.
+
+- **React Native Calendars** ^[[React Native Calendars](https://github.com/wix/react-native-calendars)]: Un componente de calendario declarativo multiplataforma *React Native* para *iOS* y *Android*. Se ha utilizado para implementar la pantalla de Programadas.
+
+- **React Native Async Storage** ^[[React Native Async Storage](https://www.npmjs.com/package/@react-native-async-storage/async-storage)]: Este paquete ha sido de gran importancia en el desarrollo ya que permite guardar información en el dispositivo. Se ha utilizado para almacenar la información de las sesiones iniciadas como los *tokens* de acceso o la configuración aplicada como el tema seleccionado o los servidores configurados.
+
+- **Markdown Display** ^[[Markdown Display](https://www.npmjs.com/package/react-native-markdown-display)]: Renderizador de *Markdown*. 
+
+- **Modern Datepicker** ^[[Modern Datepicker](https://kiarash-z.github.io/react-modern-calendar-datepicker/)]: Se ha utilizado este paquete para implementar el selector de fecha para una tarea.
+
+- **Swipeable** ^[[Swipeable](https://docs.swmansion.com/react-native-gesture-handler/docs/components/swipeable/)]: Componente el cual permite implementar filas deslizables o interacción similar. Representa a sus hijos dentro de un contenedor panable que permite el deslizamiento horizontal hacia la izquierda y hacia la derecha.
+
+- **Wheel Color Picker** ^[[Wheel Color Picker](https://www.npmjs.com/package/react-native-wheel-color-picker)]: Componente seleccionador de colores. Se ha utilizado en el modal de crear proyecto para seleccionar el color del mismo.
