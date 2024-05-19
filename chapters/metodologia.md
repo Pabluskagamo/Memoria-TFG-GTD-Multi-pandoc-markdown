@@ -1,4 +1,4 @@
-# Metodología GTD y aplicaciones
+# Metodología GTD y aplicaciones {#sec:metodologia}
 
 ## ¿Qué es GTD?
 

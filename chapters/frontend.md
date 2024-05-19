@@ -6,7 +6,7 @@ En este capítulo ahondaremos en varias de las técnicas de diseño de software 
 
 ## Percepción del funcionamiento del sistema
 
-Para empezar a diseñar la app, investigamos, no solo como funciona el método explicado en el capítulo 2 **<(Hacer referencia)>,** sino también como trasladar esa experiencia fielmente al software. La percepción de la filosofía GTD puede variar según cada usuario, sin embargo, la esencia principal de ésta debe ser la misma. Para ello debemos meditar qué tipo de elementos deben estar o no presentes en la app. De esta forma conseguimos que coincidan el **modelo mental**, es decir, cómo el usuario piensa que funciona la aplicación, y el **modelo tecnológico**, que representa el funcionamiento interno.
+Para empezar a diseñar la app, investigamos, no solo como funciona el método explicado en el capítulo \ref{sec:metodologia}, sino también como trasladar esa experiencia fielmente al software. La percepción de la filosofía GTD puede variar según cada usuario, sin embargo, la esencia principal de ésta debe ser la misma. Para ello debemos meditar qué tipo de elementos deben estar o no presentes en la app. De esta forma conseguimos que coincidan el **modelo mental**, es decir, cómo el usuario piensa que funciona la aplicación, y el **modelo tecnológico**, que representa el funcionamiento interno.
 
 <IMAGEN DE UN MINDMAP CON LOS DETALLES PRINCIPALES DE LA APP>
 
@@ -18,11 +18,11 @@ Con la finalidad de hacer que el usuario se vea familiarizado con los conceptos 
 
 En primer lugar, usamos metáforas para asociar cada “acción” del método *GTD* con un icono que exprese fielmente lo que realiza esa categoría. Ejemplo de ello, pueden ser la “entrada”, representada por una bandeja de entrada de mensajes, la bandera roja indicando la urgencia o el símbolo de progreso de cada proyecto, tal y como se puede observar en las figura \ref{fig:menulateral}:
 
-![Menu lateral](img/menu_lateral.png){width=35% #fig:menulateral}
+![Menu lateral](img/menu_lateral.png){width=50% #fig:menulateral}
 
 Por otro lado, tenemos las expresiones, éstas son un concepto fundamental, ya que ayudan a definir como interactúa el usuario con la aplicación, haciéndola mas eficiente y consistente. Éstas las podemos ver en el menú lateral, con las secciones \ref{fig:accionesBarraLateral} de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
 
-<Figura4>![barra lateral](img/accionesBarraLateral.png){width=80% #fig:accionesBarraLateral}
+![barra lateral](img/accionesBarraLateral.png){width=40% #fig:accionesBarraLateral}
 
 Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de esqueuomorfismo, evitando sobrecargar con detalles superfluos la interfaz. Para ello nos hemos basado en el concepto de *affordance*, haciendo que cada componente que se encuentre en la app sea autoexplicativo, como por ejemplo, el botón de añadir tarea y/o proyecto \ref{fig:addbutton} Para explorar con mayor detalle estos aspectos, nos hemos basado en varios principios de diseño que describiremos a continuación.
 
@@ -40,19 +40,15 @@ En segundo lugar, detallamos el principio de **consistencia,** que ha sido funda
 
 D. Norman en su libro **<REFERENCIA AL LIBRO>** explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que éstas desempeñan. Tanto es así, que explica que cuanto mas visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
 
-Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones"  \ref{fig:actionScreen} , mientras los demás ocupan un segundo plano. 
+Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones" \ref{fig:actionScreen}, mientras los demás ocupan un segundo plano. 
 
 Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Ejemplo de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas \ref{fig:nombre_fecha} Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” \ref{fig:details} dirigen la atención a lo que realmente importa.
 
 ![nombre de usuario y fecha](img/nombre_fecha.png){#fig:nombre_fecha}
 
-![Detalles](img/componentes/details.png){width=50% #fig:details.png}
+![Detalles](img/componentes/details.png){width=50% #fig:details}
 
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones" \ref{fig:accionesBarraLateral} y el número de tareas que tienen tanto, mientras los demás ocupan un segundo plano. 
-
-**<REFERENCIA A NUMEROS DE TAREAS EN ACCIONES; ACCIONES Y PROYECTOS Y TAREAS>**  
-
-Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Ejemplo de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas **<REFERENCIA>**. Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” **<REFERENCIA>,** dirigen la atención a lo que realmente importa.
 
 ## Prototipos e Interfaces
 
@@ -76,11 +72,9 @@ En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GT
 
 En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:hoy} que actúe como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
-![Pantalla de sección "hoy"](img/componentes/Hoy_Screen.png){width=50% #Fig:hoy}
+![Pantalla de sección "hoy"](img/componentes/Hoy_Screen.png){width=50% #fig:hoy}
 
 En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y ajustes tanto en formato escritorio como en dispositivos móviles: 
-
-![Barra lateral](img/componentes/menu.png){width=50%}
 
 ![Ajustes - Movil](img/componentes/Ajustes - Movil.png){width=50%}
 
@@ -89,8 +83,6 @@ En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y a
 ![Opciones de ajustes](img/componentes/OptionSettings.png){width=50%}
 
 Por último tenemos interfaces más detalladas como son la de añadir tarea/proyecto, interfaz de añadir detalles a la tarea, pudiendo insertar markdown texto en formato markdown y distintos modales para la creacion o edicion de tareas.
-
-![Detalles](img/componentes/details.png){width=50%}
 
 ![Editor de tareas](img/componentes/editTask.png){width=50%}
 
