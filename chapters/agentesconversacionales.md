@@ -16,7 +16,7 @@ Para habilitar la interacción entre la *skill* de *Alexa* y nuestra aplicación
 
 Al configurar la *skill* de *Alexa*, seguimos un diagrama de secuencia detallado que guía al usuario a través del proceso de vinculación de la cuenta (véase la figura \ref{fig:diagramasecalexa}). Todo este flujo de autorización *Oauth* ya se prueba en la propia aplicación de *Alexa*. Para realizar pruebas y ajustes, es necesario iniciar sesión con el mismo usuario que en *Amazon Developer Console*, donde se define la *skill*.
 
-![Diagrama de secuencia del proceso de vinculación de la cuenta](img/diagramasecalexa.png){width=100% #fig:diagramasecalexa}
+![Diagrama de secuencia del proceso de vinculación de la cuenta. Fuente: [@alexadiagrama]](img/diagramasecalexa.png){width=100% #fig:diagramasecalexa}
 
 El proceso comienza cuando el usuario habilita la *skill* en su dispositivo, la cual informa al usuario que necesita vincular su cuenta a la aplicación *SwiftDo* para que funcione.
 
