@@ -20,9 +20,9 @@ Por último, como comentaremos más adelante, para enfocarnos en un estado de m�
 
 ## Método y técnica
 
-Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de estas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo del [@gtd-book].
+Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de estas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo de la metodología explicada en el libro [@gtd-book].
 
-![Workflow GTD - Getting Things Done de David Allen](img/workflowgtd.png){width=90% #fig:workflowgtd}
+![Workflow GTD - Getting Things Done de David Allen. Fuente: [@workflowgtdref]](img/workflowgtd.png){width=90% #fig:workflowgtd} 
 
 En su libro, Allen nos relata este apartado teniendo por analogía la *RAM* de un ordenador. Al igual que este, somos seres secuenciales, sin embargo, podemos realizar cierta multitarea y trabajar en muchos aspectos en paralelo. No obstante, para poder lograrlo, no sólo debemos tener bastante capacidad de almacenaje, sino también saber cómo administrarla de forma eficiente. Para ello, se deben seguir las cinco fases del método *GTD*:
 

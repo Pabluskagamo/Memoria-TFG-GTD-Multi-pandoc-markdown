@@ -16,13 +16,9 @@ Al haber reunido los conceptos fundamentales en el mapa mental de la figura \ref
 
 Con la finalidad de hacer que el usuario se vea familiarizado con los conceptos empleados en la app, nos hemos visto envueltos en un conjunto de metáforas y expresiones. 
 
-En primer lugar, usamos metáforas para asociar cada “acción” del método *GTD* con un icono que exprese fielmente lo que realiza esa categoría. Ejemplo de ello, pueden ser la “entrada”, representada por una bandeja de entrada de mensajes \ref{fig:inbox}, la bandera roja \ref{fig:redflag} indicando la urgencia o el símbolo de progreso de cada proyecto \ref{fig:progress}, tal y como se puede observar en las siguientes figuras:
+En primer lugar, usamos metáforas para asociar cada “acción” del método *GTD* con un icono que exprese fielmente lo que realiza esa categoría. Ejemplo de ello, pueden ser la “entrada”, representada por una bandeja de entrada de mensajes, la bandera roja indicando la urgencia o el símbolo de progreso de cada proyecto, tal y como se puede observar en las figura \ref{fig:menulateral}:
 
-<FIGURA1>![bandeja de entrada](img/seccionEntrada.png){width=60% #fig:inbox}
-
-<FIGURA2>![red flag](img/tareaPrioridad.png){width=60% #fig:redflag}
-
-<FIGURA3>![simbolo de progreso al 50%](img/progresoProyecto.png){width=60% #fig:progress}
+![Menu lateral](img/menu_lateral.png){width=35% #fig:menulateral}
 
 Por otro lado, tenemos las expresiones, éstas son un concepto fundamental, ya que ayudan a definir como interactúa el usuario con la aplicación, haciéndola mas eficiente y consistente. Éstas las podemos ver en el menú lateral, con las secciones \ref{fig:accionesBarraLateral} de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
 
@@ -35,8 +31,6 @@ Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de es
 ### Proximidad y Consistencia
 
 Estos principios se encuentran relacionados con la coherencia con la que diseñamos la interfaz. El primero de estos principios, **proximidad**, indica que todos los elementos que se encuentren relacionados entre sí deben agruparse visualmente, familiarizándolo y simplificando el proceso de aprendizaje del usuario con los conceptos tratados, como se observa en la figura \ref{fig:accionesBarraLateral}
-
-![barra lateral](img/accionesBarraLateral.png){width=50% #fig:accionesBarraLateral}
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{fig:actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
