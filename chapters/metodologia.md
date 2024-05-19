@@ -6,7 +6,7 @@ El desarrollo tecnológico, sumado a la creciente complejidad del mundo moderno,
 
 En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal. Sin embargo, muchos de estos carecen de sentido para varios de los aspectos con los que nos topamos a diario. O bien son muy específicos, necesitando implementarlos en áreas muy concretas y no ayudan con todo tipo de tareas y actividades cotidianas, o bien, requieren de una alta curva de aprendizaje y dedicación del usuario para mantener dicha productividad que prometen.
 
-En este contexto, David Allen, autor del método, en la pasada década de los ochenta, tras años investigando para dar solución a la problemática anteriormente mencionada, dio con un sistema que denominó como el método *Getting things Done* (al que nos referiremos más adelante como *GTD*), título que le daría a su libro publicado en 2001, “Getting Things Done: The Art of Stress-Free Productivity”. En su obra, detalla un conjunto de técnicas que ayudarían a mejorar la productividad del individuo implementándolas a su rutina diaria.
+En este contexto, David Allen, en la pasada década de los ochenta, tras años investigando para dar solución a la problemática anteriormente mencionada, creó un sistema que denominó como el método *Getting things Done* (al que nos referiremos más adelante como *GTD*), título que le daría a su libro publicado en 2001, [@gtd-book]. En su obra, detalla un conjunto de técnicas que ayudarían a mejorar la productividad del individuo implementándolas a su rutina diaria.
 
 A pesar del desarrollo tecnológico y el paso de los años, *GTD* sigue siendo uno de los métodos de referencia para las personas que buscan alejarse “del ruido” del día a día, permitiéndoles enfocarse en lo que realmente importa; tanto en los aspectos personales como profesionales. De esta forma, permite al individuo gestionar de forma óptima el tiempo del que dispone a diario. Y para ello, hace uso de un lenguaje sencillo, basándose en dos objetivos principales:
 
@@ -20,19 +20,19 @@ Por último, como comentaremos más adelante, para enfocarnos en un estado de m�
 
 ## Método y técnica
 
-Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de éstas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo del método.
+Como comentamos previamente, para seguir los principios en los que se basa, *GTD* se apoya en cinco fases “collect”, “process”, “organize”, “review” y “do” que detallaremos en este apartado. El buen uso de estas, facilitará las gestiones cotidianas, a la par que nos libera del estrés puntual que supone la multitarea a la que el mundo moderno nos tiene acostumbrados. Asimismo, para implementar correctamente la metodología *Getting Things Done*, representada en la figura \ref{fig:workflowgtd}, es imprescindible seguir todos estos pasos de forma secuencial sin evitar ninguna fase, ya que de lo contrario podríamos vernos envueltos en un bucle de descontrol, desviándonos así del objetivo del [@gtd-book].
 
 ![Workflow GTD - Getting Things Done de David Allen](img/workflowgtd.png){width=90% #fig:workflowgtd}
 
-En su libro, Allen nos relata este apartado teniendo por analogía la *RAM* de un ordenador. Al igual que este, somos seres secuenciales, sin embargo, podemos realizar cierta multitarea y trabajar en muchos aspectos en paralelo. No obstante, para poder lograrlo, no solo debemos tener bastante capacidad de almacenaje, sino también saber cómo administrarla de forma eficiente. Para ello, se deben seguir las cinco fases del método *GTD*:
+En su libro, Allen nos relata este apartado teniendo por analogía la *RAM* de un ordenador. Al igual que este, somos seres secuenciales, sin embargo, podemos realizar cierta multitarea y trabajar en muchos aspectos en paralelo. No obstante, para poder lograrlo, no sólo debemos tener bastante capacidad de almacenaje, sino también saber cómo administrarla de forma eficiente. Para ello, se deben seguir las cinco fases del método *GTD*:
 
 ### Collect {#sec:collect .unnumbered}
 
 Se trata de una de las fases fundamentales en las que se basa la filosofía *GTD*, en ella debemos recopilar todas las tareas que durante el día nos han ido surgiendo a la mente; independientemente de la importancia de las mismas, pudiendo ir desde tareas tan triviales como “limpiar los platos” a “entregar un proyecto antes de cierto plazo”.
 
-La idea es que, como indica Allen en su libro, “saquemos todo lo que nos preocupa de la cabeza” de forma que cada idea, tarea o asunto que nos vaya surgiendo a lo largo del día, la podamos almacenar para una organización posterior.
+La idea es que, como indica Allen en su libro, “*saquemos todo lo que nos preocupa de la cabeza*” de forma que cada idea, tarea o asunto que nos vaya surgiendo a lo largo del día, la podamos almacenar para una organización posterior.
 
-Sin embargo, de nada sirve que cumplamos lo anterior si periódicamente no hacemos una limpieza a nuestra *RAM*. De lo contrario, tendríamos un cajón desastre abocado a la procrastinación, motivo que queremos evitar con *GTD*.
+Sin embargo, de nada sirve que cumplamos lo anterior si periódicamente no hacemos una limpieza a nuestra *RAM*. De lo contrario, tendríamos un cajón de sastre abocado a la procrastinación, motivo que queremos evitar con *GTD*.
 
 ### Process {#sec:process  .unnumbered}
 
@@ -60,22 +60,22 @@ Una vez recopiladas, debemos encontrar un hueco para poder catalogarlas, es deci
 
 ### Organize {.unnumbered}
 
-En esta fase tratamos con mayor énfasis las tareas anteriormente procesadas. De esta forma, facilitamos su seguimiento y ejecución, listándolas en categorías más concretas como por ejemplo “Siguientes” o “Calendario” para tareas que requieren menos de 2 minutos y que debíamos “Diferir su naturaleza” y no tienen múltiples pasos o por el contrario, proyectos. Por otro lado, tenemos la posibilidad de listarlas en “Esperando”, esta en si tiene una pequeña peculiaridad ya que se trata de tareas que necesitamos *aplazarlas*, porque estamos pendientes de que finalice un evento anterior que nos permita avanzar. Sin embargo, estas pueden estar en “Siguientes” teniendo en
+En esta fase tratamos con mayor énfasis las tareas anteriormente procesadas. De esta forma, facilitamos su seguimiento y ejecución, listándolas en categorías más concretas como por ejemplo “Siguientes” o “Calendario” para tareas que requieren menos de 2 minutos y que debíamos “Diferir su naturaleza” y no tienen múltiples pasos o por el contrario, proyectos. Por otro lado, tenemos la posibilidad de listarlas en “Esperando”. Esta en sí tiene una pequeña peculiaridad ya que se trata de tareas que necesitamos *aplazarlas*, porque estamos pendientes de que finalice un evento anterior que nos permita avanzar. Sin embargo, estas pueden estar en “Siguientes” teniendo en
 cuenta lo mencionado anteriormente.
 
 Por último Allen, deja claro en su libro qué tipo de material puede ir o no en cada listado:
 
 - **Proyectos**: tareas que requieren una serie de pasos para ser completadas. Los proyectos a diferencia de las tareas, solo se usan en forma de índice y los artefactos generados se deben ir listando en otras categorías.
   
-  > Por ejemplo, si necesitamos grabar un vídeo para YouTube, en el proyecto iremos listando un índice de todo lo que debemos hacer para dar esta tarea por finalizada. Si uno de los ítems era “grabar en x localización” podremos tener otra tarea u proyecto relacionado con las labores que tengamos que hacer en dicha localización.
+  Por ejemplo, si necesitamos grabar un vídeo para YouTube, en el proyecto iremos listando un índice de todo lo que debemos hacer para dar esta tarea por finalizada. Si uno de los ítems era “grabar en x localización” podremos tener otra tarea u proyecto relacionado con las labores que tengamos que hacer en dicha localización.
 
-- **Calendario**: Tareas con acciones de tiempo especificas e información relacionada con horarios, día o semana especifica. Sin embargo, debemos tener en cuenta que no tenemos que caer en el error de utilizarlo como un listado para tareas diarias.
+- **Calendario**: Tareas con acciones de tiempo específicas e información relacionada con horarios, día o semana concreta. Sin embargo, debemos tener en cuenta que no tenemos que caer en el error de utilizarlo como un listado para tareas diarias.
 
 - **Siguientes**: Categoría encargada de listar las tareas que requieren hacerse “cuanto antes”. Es decir, tareas que sin tener fecha específica de finalización, conviene acabarlas en el menor tiempo posible.
 
 ### Review {.unnumbered}
 
-Llegados a este momento, debemos realizar un seguimiento, aproximadamente semanal, en el que volvemos a ejecutar la fases anteriores observando si ha cambiado la naturaleza de alguna tarea o por el contrario existan algunas “rezagadas”, evitando que éstas queden en el olvido.
+Llegados a este momento, debemos realizar un seguimiento, aproximadamente semanal, en el que volvemos a ejecutar la fases anteriores observando si ha cambiado la naturaleza de alguna tarea o por el contrario existan algunas “rezagadas”, evitando que estas queden en el olvido.
 
 En otras palabras, si queremos que un ordenador funcione como el primer día, debemos ejecutar periódicamente un mantenimiento, una *fase de review*, eliminando todos los archivos que no se estén utilizando, depurando el sistema y aligerando la carga de la memoria *RAM*.
 
@@ -105,7 +105,7 @@ Basándonos en esta idea, hemos explorado el mercado de aplicaciones que existen
 
 - **Notion**: *Notion* es una herramienta de productividad versátil que puede personalizarse para adaptarsea *GTD*. Puedes crear bases de datos, tablas y tableros para organizar tus tareas y proyectos.
 
-- **Things**: Se trata de una aplicación de gestión de tareas disponible para dispositivos *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas
+- **Things**: Se trata de una aplicación de gestión de tareas disponible para dispositivos *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas.
 
 - **Omnifocus**: Ofrece una amplia gama de características de organización y permite crear proyectos, tareas y contextos para seguir la metodología *GTD*.
 
@@ -135,8 +135,9 @@ Teniendo esto en cuenta, debemos tener en consideración que no solo hay falta u
 
 ## Conclusiones
 
-En resumen, la filosofía *Getting things done* pone por escrito muchas de las funciones que usualmente tenemos en mente, pero que no conseguimos ejecutarlas correctamente por motivos diversos, estando estos relacionados con la organización. Es por esto por lo que teniendo ciertas fases bien definidas, se consigue gestionar mejor el día a día, permitiendo enfocarnos en lo que realmente importa.
+En resumen, la filosofía *Getting Things Done* pone por escrito muchas de las funciones que usualmente tenemos en mente, pero que no conseguimos ejecutar correctamente por motivos diversos, estando estos relacionados con la organización. Es por esto por lo que tener fases bien definidas, permite gestionar mejor el día a día, consiguiendo enfocarnos en lo que realmente importa.
 
-A pesar de que, como todo método, puede presentar ciertas dificultades, merece la pena implementarlo en la rutina diaria pues tiene una corta curva de aprendizaje siendo fácilmente adaptable a múltiples facetas de la vida, a diferencia de otros métodos y/o técnicas (p.ej: técnica pomodoro).
+A pesar de que, como todo método, puede presentar ciertas dificultades, merece la pena implementarlo en la rutina diaria pues tiene una corta curva de aprendizaje siendo fácilmente adaptable a múltiples facetas de la vida, a diferencia de otros métodos y/o técnicas (p.ej.: técnica pomodoro).
 
-Teniendo esto en cuenta, detallaremos en el Capitulo 6 (**REFERENCIAR**) la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
+Teniendo esto en cuenta, detallaremos en el Capitulo 6 \ref{sec:fronted} la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
+
