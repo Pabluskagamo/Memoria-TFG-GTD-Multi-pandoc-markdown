@@ -20,26 +20,26 @@ Tras haber iniciado sesión, te aparece la pantalla de *inbox*, la cual almacena
 
 ## Filtros
 
-Presionando el botón de filtrado, nos encontramos con la pantalla que podemos observar en la figura \ref{fig:filtros}, la cual nos permite filtrar las tareas por los contextos, proyectos y etiquetas existentes. Una vez seleccionados los filtros que desee el usuario, podrá limpiarlos o aplicarlos.
+Presionando el botón de filtrado, nos encontramos con la pantalla que podemos observar en la figura \ref{fig:filtros}, la cual nos permite filtrar las tareas por los contextos, proyectos y etiquetas existentes. Una vez seleccionados los filtros que desee, el usuario podrá limpiarlos o aplicarlos.
 
 ![Filtros](img/filtrosFinal.png){width=100% #fig:filtros}
 
 ## Sidebar
 
 Al presionar el botón de la *sidebar*, se despliega lo observado en la figura \ref{fig:sidebar}.
-La *sidebar* muestra tu nombre de usuario, icono, la fecha actual, un botón de ajustes y un listado de los contextos, las distintas acciones que se pueden realizar: entrada o inbox, hoy, cuanto antes, programadas o archivadas, por último tiene un listado con todos los proyectos creados por el usuario.
+La *sidebar* muestra el nombre de usuario, icono, la fecha actual, un botón de ajustes y un listado de los contextos, las distintas acciones que se pueden realizar: "entrada" o "inbox", "hoy", "cuanto antes", "programadas" o "archivadas". Por último se muestra un listado con todos los proyectos creados por el usuario.
 
 ![Sidebar](img/sidebarFinal.png){width=80% #fig:sidebar}
 
 ## Ajustes
 
-Pinchando en el botón de ajustes, se abre el modal de la figura \ref{fig:ajustes}, este modal permite actualizar los datos personales cambiando el nombre de usuario o correo, configurar el servidor cómo en la figura \ref{fig:confServer}, personalizar el tema seleccionando modo claro u oscuro, eliminar contextos o etiquetas, ver una lista de las tareas completadas, conocer información acerca del GTD o ver un tutorial de la aplicación, por último te permite cerrar sesión.
+Pinchando en el botón de ajustes, se abre el modal de la figura \ref{fig:ajustes}, este modal permite actualizar los datos personales cambiando el nombre de usuario o correo, configurar el servidor (ver figura \ref{fig:confServer}), personalizar el tema seleccionando modo claro u oscuro, eliminar contextos o etiquetas, ver una lista de las tareas completadas, conocer información acerca del GTD o ver un tutorial de la aplicación, por último te permite cerrar sesión.
 
 ![Ajustes](img/ajustesFinal.png){width=100% #fig:ajustes}
 
 ## Crear tarea y crear proyecto
 
-*Clickando* el botón naranja de la esquina inferior derecha aparece el modal para crear tarea que encontramos en la figura \ref{fig:crear}, el cual permite crear una tarea escribiendo el nombre en el texto Nueva Tarea, añadirle una descripción a la tarea, seleccionar una fecha en la que debe estar terminada, seleccionar un contexto pinchando el icono de usuario, ...No funciona icono de hoja, marcar cómo importante *clickando* el icono de la bandera, añadirle una etiqueta y añadirla a un proyecto.
+Pulsando el botón naranja de la esquina inferior derecha aparece el modal para crear tarea que encontramos en la figura \ref{fig:crear}, el cual permite crear una tarea escribiendo el nombre en el texto Nueva Tarea, añadirle una descripción a la tarea, seleccionar una fecha en la que debe estar terminada, seleccionar un contexto pinchando el icono de usuario, ... No funciona icono de hoja, marcar cómo importante presionando el icono de la bandera, añadirle una etiqueta y añadirla a un proyecto.
 Además, si mantienes presionado el botón naranja comentado anteriormente, te permite elegir si crear una tarea desplegándose el mismo modal que acabamos de mencionar o crear un proyecto añadiendo un título de proyecto, una descripción y un color.
 
 ![Crear tarea y crear proyecto](img/crearFinal.png){width=100% #fig:crear}
@@ -70,7 +70,7 @@ Pinchando en Archivadas, se abre una pantalla con un listado de las tareas que n
 
 ## Proyectos
 
-Por último, cuando pinchamos a cualquier proyecto, se muestra una pantalla con un icono que muestra el porcentaje aproximado de tareas finalizadas que tiene en la parte coloreada del mismo, el nombre del proyecto, un botón para editar el proyecto, la descripción en caso de que exista y un listado de las tareas pertenecientes a dicho proyecto. Esto se muestra en la figura \ref{fig:proyecto}
+Por último, cuando pinchamos en cualquier proyecto, se muestra una pantalla con un icono que muestra el porcentaje aproximado de tareas finalizadas que tiene en la parte coloreada del mismo, el nombre del proyecto, un botón para editar el proyecto, la descripción en caso de que exista y un listado de las tareas pertenecientes a dicho proyecto. Esto se muestra en la figura \ref{fig:proyecto}
 
 ![Proyectos](img/proyecto.png){width=50% #fig:proyecto}
 

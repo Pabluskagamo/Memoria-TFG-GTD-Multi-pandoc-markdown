@@ -2,7 +2,7 @@
 
 ## ¿Qué es GTD?
 
-El desarrollo tecnológico, sumado a la creciente complejidad del mundo moderno, ha desembocado en un notable incremento de responsabilidades tanto personales como profesionales. Es por ello que, mantener la atención al detalle y la gestión eficaz del tiempo se ha vuelto un gran desafío para todo tipo de personas.
+El desarrollo tecnológico, sumado a la creciente complejidad del mundo moderno, ha desembocado en un notable incremento de responsabilidades tanto personales como profesionales. Es por ello que mantener la atención al detalle y la gestión eficaz del tiempo se ha vuelto un gran desafío para todo tipo de personas.
 
 En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal. Sin embargo, muchos de estos carecen de sentido para varios de los aspectos con los que nos topamos a diario. O bien son muy específicos, necesitando implementarlos en áreas muy concretas y no ayudan con todo tipo de tareas y actividades cotidianas, o bien, requieren de una alta curva de aprendizaje y dedicación del usuario para mantener dicha productividad que prometen.
 
