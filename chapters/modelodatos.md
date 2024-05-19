@@ -6,7 +6,7 @@ En primer lugar, presentaremos las principales entidades que componen nuestro mo
 
 Posteriormente, analizaremos las relaciones entre estas entidades, destacando cómo se conectan y cómo estas conexiones facilitan el flujo de información y la interacción dentro de la aplicación.
 
-Además, discutiremos la implementación física del modelo de datos en la base de datos. Nuestra base de datos está alojada en un entorno _Docker_ en _AWS_ (_Amazon Web Services_), utilizando _PostgreSQL_ como sistema de gestión de bases de datos. Describiremos la estructura de tablas, índices y restricciones de integridad referencial, resaltando cómo estas decisiones de diseño se traducen en la configuración final de la base de datos.
+Además, discutiremos la implementación física del modelo de datos en la base de datos. Nuestra base de datos está alojada en un entorno _Docker_ en _AWS_ (*Amazon Web Services*), utilizando _PostgreSQL_ como sistema de gestión de bases de datos. Describiremos la estructura de tablas, índices y restricciones de integridad referencial, resaltando cómo estas decisiones de diseño se traducen en la configuración final de la base de datos.
 
 Por último, analizaremos aspectos críticos como la seguridad de la base de datos, las consideraciones de rendimiento y escalabilidad. Estos temas son esenciales para garantizar la integridad, confidencialidad y disponibilidad de los datos.
 
@@ -38,9 +38,9 @@ En esta sección, exploraremos las relaciones entre las diferentes entidades den
 
 - **Tarea y Área:** Las tareas también pueden estar asociadas a áreas o contextos específicos, lo que proporciona una categorización adicional para una mejor organización. Los usuarios pueden asignar tareas a áreas relevantes según entorno en el que deben realizarse, lo que facilita la priorización y gestión de estas.
 
-- **Tarea y Etiqueta:** Las etiquetas se utilizan para clasificar y categorizar las tareas según temas o características comunes. Las tareas pueden estar etiquetadas con una o más etiquetas, lo que permite una organización más detallada y organizada. Esta relación permite a los usuario filtrar y buscar tareas según etiquetas específicas para una gestión más eficiente.
+- **Tarea y Etiqueta:** Las etiquetas se utilizan para clasificar y categorizar las tareas según temas o características comunes. Las tareas pueden estar etiquetadas con una o más etiquetas, lo que permite una organización más detallada y organizada. Esta relación permite a los usuarios filtrar y buscar tareas según etiquetas específicas para una gestión más eficiente.
 
-- **Usuario y Proyecto/Área:** Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. Esta relación permite a los usuario organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
+- **Usuario y Proyecto/Área:** Los usuarios tienen la capacidad de crear, modificar y eliminar tanto proyectos como áreas dentro de la aplicación. Esta relación permite a los usuarios organizar y personalizar su espacio de trabajo de acuerdo con sus necesidades y preferencias.
 
 ## Modelo físico de la BD { #sec:secdbmodelofis }
 
@@ -139,7 +139,7 @@ A continuación, comentamos cómo se establecen las relaciones entre las tablas 
 
 ## Rendimiento y Escalabilidad de la Base de Datos
 
-En esta sección, detallamos la estructura y el desempeño de la base de datos implementada. Describimos las acciones concretas llevadas a cabo para mejorar la eficiencia y capacidad de respuesta del sistema ante un crecimiento progresivo de carga de trabajo.
+En esta sección, detallamos la estructura y el rendimiento de la base de datos implementada. Describimos las acciones concretas llevadas a cabo para mejorar la eficiencia y capacidad de respuesta del sistema ante un crecimiento progresivo de carga de trabajo.
 
 Para mejorar el rendimiento de la base de datos hemos realizado una optimización de consultas, definiendo claves primarias en las tablas pertinentes para garantizar la unicidad de las filas y mejorar el rendimiento de las consultas. Además de diseñar consultas eficientes para minimizar la carga en el servidor de la base de datos.
 
@@ -151,8 +151,8 @@ La seguridad de la base de datos es un componente fundamental para proteger la i
 
 - **Autenticación y Autorización:** Hemos implementado un sistema de autenticación robusto que requiere credenciales válidas para acceder a la base de datos. Se hablará de este sistema en la sección \ref{sec:oauth}.
 
-- **Cifrado de datos:** Implementamos técnicas de cifrado utilizando la biblioteca *bcrypt* para proteger la información sensible almacenada en la base de datos que pueda ser vulnerable a accesos no autorizados (contraseñas). *Bycript* es un algoritmo de hashing adaptativo diseñado específicamente para almacenar contraseñas de manera segura. Este enfoque garantiza que las contraseñas estén protegidas contra ataques de fuerza bruta y de diccionario, proporcionando una capa adicional de seguridad para mantener la informacion confidencial protegida en todo momento.
+- **Cifrado de datos:** Implementamos técnicas de cifrado utilizando la biblioteca *bcrypt* para proteger la información sensible almacenada en la base de datos que pueda ser vulnerable a accesos no autorizados (contraseñas). *Bcript* es un algoritmo de hashing adaptativo diseñado específicamente para almacenar contraseñas de manera segura. Este enfoque garantiza que las contraseñas estén protegidas contra ataques de fuerza bruta y de diccionario, proporcionando una capa adicional de seguridad para mantener la información confidencial protegida en todo momento.
 
-- **Registro de actividades:** Empleamos las capacidades integradas de registro y auditoría proporcionadas por *AWS* para supervisar todas las actividades realizadas en nuestra base de datos.Estas funciones nos permiten rastrear quién accede a la base de datos, cuándo lo hace y qué operaciones realiza, garantizando la integridad y seguridad de los datos almacenados en la nube.
+- **Registro de actividades:** Empleamos las capacidades integradas de registro y auditoría proporcionadas por *AWS* para supervisar todas las actividades realizadas en nuestra base de datos. Estas funciones nos permiten rastrear quién accede a la base de datos, cuándo lo hace y qué operaciones realiza, garantizando la integridad y seguridad de los datos almacenados en la nube.
 
 Para finalizar este capítulo, es crucial destacar la importancia del diseño y la implementación eficientes del modelo de datos en nuestra aplicación de gestión de tareas. A través de un análisis exhaustivo de las entidades, relaciones y consideraciones técnicas, hemos establecido una base sólida para el funcionamiento de nuestra base de datos. Al comprender la estructura subyacente y las decisiones de diseño, estamos mejor preparados para abordar los desafíos futuros y garantizar la integridad, seguridad y escalabilidad continuas de nuestra aplicación *SwiftDo*.
