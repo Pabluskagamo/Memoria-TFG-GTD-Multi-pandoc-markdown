@@ -40,25 +40,19 @@ Estos principios se encuentran relacionados con la coherencia con la que diseña
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{fig:actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
-![barra lateral](img/accionesBarraLateral.png){width=50% #fig:accionesBarraLateral}
-
-En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{#actionScreen} y aprendizaje de la interfaz por parte del usuario final.
-
-![Prototipo de Bandeja de entrada, Cuanto antes, Programadas y Archivadas](img/componentes/actions.png){width=50% #fig:actionScreen}
-
-![Hoy_Screen](img/Hoy_Screen.png){width=50% #fig:actionScreen}
+![Prototipo de Bandeja de entrada, Cuanto antes, Programadas y Archivadas](img/componentes/actions.png){width=70% #fig:actionScreen}
 
 ### Visibilidad
 
 D. Norman en su libro **<REFERENCIA AL LIBRO>** explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que éstas desempeñan. Tanto es así, que explica que cuanto mas visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
 
-Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones"  \ref{fig:accionesBarraLateral} , mientras los demás ocupan un segundo plano. 
+Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones"  \ref{fig:actionScreen} , mientras los demás ocupan un segundo plano. 
 
 Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Ejemplo de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas \ref{fig:nombre_fecha} Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” \ref{fig:details} dirigen la atención a lo que realmente importa.
 
 ![nombre de usuario y fecha](img/nombre_fecha.png){#fig:nombre_fecha}
 
-![Detalles](img/details.png){width=50% #fig:details.png}
+![Detalles](img/componentes/details.png){width=50% #fig:details.png}
 
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones" \ref{fig:accionesBarraLateral} y el número de tareas que tienen tanto, mientras los demás ocupan un segundo plano. 
 
@@ -80,47 +74,37 @@ A continuación presentamos todos las interfaces que componen SwiftDo, junto a u
 
 En primer lugar tenemos las interfaces relacionadas con el registro e inicio de sesión:
 
-![inicio de sesion](img/componentes/inicio de sesion.png)
+![Inicio de sesión y Registro](img/componentes/inicio-registro.png){width=50%}
 
-![Registro](img/componentes/Registro.png){width=50%}
-
-En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GTD* y sus acciones tanto en escritorio, como en dispositivos móviles:
+En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GTD* y sus acciones en dispositivos móviles \ref{fig:actionScreen}, además del prototipo de escritorio: 
 
 ![escritorio](img/componentes/escritorio.png){width=50%}
 
-![Entrada_Screen](img/componentes/Entrada_Screen.png){width=50%}
+En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:hoy} que actúe como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
-![CuantoAntes_Screen](img/componentes/CuantoAntes_Screen.png){width=50%}
-
-![Programadas](img/componentes/Programadas.png){width=50%}
-
-![Archivadas_Screen](img/componentes/Archivadas_Screen.png){width=50%}
-
-En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:Hoy} que actue como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
-
-![Hoy_Screen](img/componentes/Hoy_Screen.png){width=50% #Fig:Hoy}
+![Pantalla de sección "hoy"](img/componentes/Hoy_Screen.png){width=50% #Fig:hoy}
 
 En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y ajustes tanto en formato escritorio como en dispositivos móviles: 
 
-![menu](img/componentes/menu.png){width=50%}
+![Barra lateral](img/componentes/menu.png){width=50%}
 
 ![Ajustes - Movil](img/componentes/Ajustes - Movil.png){width=50%}
 
 ![Ajustes - Escritorio](img/componentes/Group 41.png){width=50%}
 
-![OptionSettings](img/componentes/OptionSettings.png){width=50%}
+![Opciones de ajustes](img/componentes/OptionSettings.png){width=50%}
 
 Por último tenemos interfaces más detalladas como son la de añadir tarea/proyecto, interfaz de añadir detalles a la tarea, pudiendo insertar markdown texto en formato markdown y distintos modales para la creacion o edicion de tareas.
 
-![details](img/componentes/details.png){width=50%}
+![Detalles](img/componentes/details.png){width=50%}
 
-![editTask](img/componentes/editTask.png){width=50%}
+![Editor de tareas](img/componentes/editTask.png){width=50%}
 
-![addProyectOrTask](img/componentes/addProyectOrTask.png){width=50%}
+![Añadir tareas o proyectos](img/componentes/addProyectOrTask.png){width=50%}
 
-![Menu add task](img/componentes/Menu add task - Light (old).png){width=50%}
+![Menu para añadir tareas](img/componentes/Menu add task - Light (old).png){width=50%}
 
-![visualizacionTarea](img/componentes/visualizacionTarea.png){width=50%}
+![Visualización de tarea](img/componentes/visualizacionTarea.png){width=50%}
 
 ## Implementación: ¿Qué es React Native?
 
