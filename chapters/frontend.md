@@ -44,11 +44,7 @@ En segundo lugar, detallamos el principio de **consistencia,** que ha sido funda
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Siendo de gran utilidad para la optimización del código, diseño \ref{#actionScreen} y aprendizaje de la interfaz por parte del usuario final.
 
-![Archivadas_Screen](img/Archivadas_Screen.png){width=50% #fig:actionScreen}
-
-![CuantoAntes_Screen](img/CuantoAntes_Screen.png){width=50% #fig:actionScreen}
-
-![Entrada_Screen](img/Entrada_Screen.png){width=50% #fig:actionScreen}
+![Prototipo de Bandeja de entrada, Cuanto antes, Programadas y Archivadas](img/componentes/actions.png){width=50% #fig:actionScreen}
 
 ![Hoy_Screen](img/Hoy_Screen.png){width=50% #fig:actionScreen}
 
