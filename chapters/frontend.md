@@ -94,7 +94,7 @@ Por último tenemos interfaces más detalladas como son la de añadir tarea/proy
 
 ## Implementación: ¿Qué es React Native?
 
-Para implementar el Frontend de la app junto a las interfaces de usuario anteriormente descritas, necesitábamos hacer uso de un framework que pudiera adaptarse no solo a interfaces táctiles sino también a interfaces de escritorio. Para lograrlo hemos hecho uso de ***React Native\*** *y* ***Expo\***. 
+Para implementar el Frontend de la app junto a las interfaces de usuario anteriormente descritas, necesitábamos hacer uso de un framework que pudiera adaptarse no solo a interfaces táctiles sino también a interfaces de escritorio. Para lograrlo hemos hecho uso de *React Native* y *Expo*. 
 
 Expo se trata de una plataforma que agiliza el desarrollo y despliegue de aplicaciones en React Native sin la necesidad de lidiar con configuraciones complejas.
 
