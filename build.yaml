@@ -11,16 +11,16 @@ pandoc_common:
   - preamble/authorization.md
   - separators/mainmatter.md
 ## Include chapters here    
-  ##- chapters/introduccion.md
+  - chapters/introduccion.md
   - chapters/metodologia.md
-  # - chapters/planificacion.md
-  # - chapters/modelodatos.md
-  # - chapters/backend.md
+  - chapters/planificacion.md
+  - chapters/modelodatos.md
+  - chapters/backend.md
   - chapters/frontend.md
-  # - chapters/agentesconversacionales.md
-  # - chapters/manualusuario.md
-  # - chapters/conclusion.md
-  # - separators/backmatter.md
+  - chapters/agentesconversacionales.md
+  - chapters/manualusuario.md
+  - chapters/conclusion.md
+  - separators/backmatter.md
 ## Include appendices here      
   - appendices/guiadespliegue.md
   - chapters/endpoints.md

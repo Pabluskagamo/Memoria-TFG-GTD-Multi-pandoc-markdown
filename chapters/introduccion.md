@@ -80,11 +80,11 @@ Una vez terminadas las distintas tareas previas al desarrollo comentadas anterio
 
 ### Diagramas de Gantt
 
-#### Backend
+#### Backend {.unnumbered}
 
 ![Diagrama de Gantt backend](img/backendgantt.png){width=100% #fig:ganttback}
 
-#### Frontend
+#### Frontend {.unnumbered}
 
 ![Diagrama de Gantt frontend](img/frontendgantt.png){width=100% #fig:ganttfront}
 

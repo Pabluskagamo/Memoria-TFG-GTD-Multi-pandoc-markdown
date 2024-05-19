@@ -104,20 +104,20 @@ Por otro lado, React Native se trata de un framework desarrollado por Facebook q
 
 Por último, destacar la gran comunidad que tiene, ya que además de la documentación que podemos consultar en la pagina web oficial de React Native, disponemos de bibliotecas externas que se detallan en otras páginas web que son útiles para la implementación de otros componentes que no se encuentran en las fuentes oficiales. Las bibliotecas externas que hemos empleado son las siguientes: 
 
-- **React Navigation** ^[[React Navigation](https://reactnavigation.org/)]: Esta librería permite definir y enrrutar las diferentes pantallas de la aplicación para poder navegar entre ellas. Ha sido de gran importancia en la aplicación ya que la navegación es un aspecto clave en cualquier aplicación. Además este paquete es muy sencillo de entender y usar gracias a su buena documentación.
+- **React Navigation** [@react-navigation]: Esta librería permite definir y enrrutar las diferentes pantallas de la aplicación para poder navegar entre ellas. Ha sido de gran importancia en la aplicación ya que la navegación es un aspecto clave en cualquier aplicación. Además este paquete es muy sencillo de entender y usar gracias a su buena documentación.
 
-- **Drawer Navigation** ^[[Drawer Navigation](https://reactnavigation.org/docs/drawer-navigator)]: Muestra un cajón de navegación en el costado de la pantalla que se puede abrir y cerrar mediante gestos. 
+- **Drawer Navigation** [@drawer-navigation]: Muestra un cajón de navegación en el costado de la pantalla que se puede abrir y cerrar mediante gestos. 
 
-- **Axios** ^[[Axios](https://axios-http.com/es/docs/intro)]: Librería de *JavaScript* que se utiliza para hacer solicitudes *HTTP* desde el navegador. Este paquete facilita la gestión y el envio de *requests* y *respones*, esto nos ha servido para gestionar los *headers* de autorización.
+- **Axios** [@axios]: Librería de *JavaScript* que se utiliza para hacer solicitudes *HTTP* desde el navegador. Este paquete facilita la gestión y el envio de *requests* y *respones*, esto nos ha servido para gestionar los *headers* de autorización.
 
-- **React Native Calendars** ^[[React Native Calendars](https://github.com/wix/react-native-calendars)]: Un componente de calendario declarativo multiplataforma *React Native* para *iOS* y *Android*. Se ha utilizado para implementar la pantalla de Programadas.
+- **React Native Calendars** [@react-native-calendars]: Un componente de calendario declarativo multiplataforma *React Native* para *iOS* y *Android*. Se ha utilizado para implementar la pantalla de Programadas.
 
-- **React Native Async Storage** ^[[React Native Async Storage](https://www.npmjs.com/package/@react-native-async-storage/async-storage)]: Este paquete ha sido de gran importancia en el desarrollo ya que permite guardar información en el dispositivo. Se ha utilizado para almacenar la información de las sesiones iniciadas como los *tokens* de acceso o la configuración aplicada como el tema seleccionado o los servidores configurados.
+- **React Native Async Storage** [@react-native-async-storage]: Este paquete ha sido de gran importancia en el desarrollo ya que permite guardar información en el dispositivo. Se ha utilizado para almacenar la información de las sesiones iniciadas como los *tokens* de acceso o la configuración aplicada como el tema seleccionado o los servidores configurados.
 
-- **Markdown Display** ^[[Markdown Display](https://www.npmjs.com/package/react-native-markdown-display)]: Renderizador de *Markdown*. 
+- **Markdown Display** [@Markdown-display]: Renderizador de *Markdown*. 
 
-- **Modern Datepicker** ^[[Modern Datepicker](https://kiarash-z.github.io/react-modern-calendar-datepicker/)]: Se ha utilizado este paquete para implementar el selector de fecha para una tarea.
+- **Modern Datepicker** [@Modern-datepicker]: Se ha utilizado este paquete para implementar el selector de fecha para una tarea.
 
-- **Swipeable** ^[[Swipeable](https://docs.swmansion.com/react-native-gesture-handler/docs/components/swipeable/)]: Componente el cual permite implementar filas deslizables o interacción similar. Representa a sus hijos dentro de un contenedor panable que permite el deslizamiento horizontal hacia la izquierda y hacia la derecha.
+- **Swipeable** [@swipeable]: Componente el cual permite implementar filas deslizables o interacción similar. Representa a sus hijos dentro de un contenedor panable que permite el deslizamiento horizontal hacia la izquierda y hacia la derecha.
 
-- **Wheel Color Picker** ^[[Wheel Color Picker](https://www.npmjs.com/package/react-native-wheel-color-picker)]: Componente seleccionador de colores. Se ha utilizado en el modal de crear proyecto para seleccionar el color del mismo.
+- **Wheel Color Picker** [@wheelcolorpicker]: Componente seleccionador de colores. Se ha utilizado en el modal de crear proyecto para seleccionar el color del mismo.

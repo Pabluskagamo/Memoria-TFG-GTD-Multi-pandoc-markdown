@@ -137,13 +137,13 @@ A continuación, comentamos cómo se establecen las relaciones entre las tablas 
 
 - **Tareas y Tags:** Una tarea puede tener muchas etiquetas, y una etiqueta puede estar asociada a muchas tareas. Esta relación muchos a muchos se implementa mediante una tabla intermedia "tagstotask", que contiene las claves foráneas "task_id" y "nametag" que relacionan las "tasks" con las "tags".
 
-## Rendimiento y Escalabilidad de la Base de Datos
+## Rendimiento y Optimización de la Base de Datos
 
 En esta sección, detallamos la estructura y el rendimiento de la base de datos implementada. Describimos las acciones concretas llevadas a cabo para mejorar la eficiencia y capacidad de respuesta del sistema ante un crecimiento progresivo de carga de trabajo.
 
-Para mejorar el rendimiento de la base de datos hemos realizado una optimización de consultas, definiendo claves primarias en las tablas pertinentes para garantizar la unicidad de las filas y mejorar el rendimiento de las consultas. Además de diseñar consultas eficientes para minimizar la carga en el servidor de la base de datos.
+Para mejorar el rendimiento de la base de datos hemos realizado una optimización de consultas, definiendo claves primarias en las tablas pertinentes para garantizar la unicidad de las filas, que además de proporcionar integridad, nos ha ayudado a mejorar el rendimiento de las consultas. Además hemos diseñado consultas eficientes para minimizar la carga en el servidor de la base de datos. 
 
-Con respecto a la escalabilidad, hemos diseñado la estructura de la base de datos con flexibilidad y adaptabilidad, permitiendo una fácil expansión y ajuste para satisfacer futuras necesidades de crecimiento. Cada aspecto del diseño ha sido cuidadosamente planificado para garantizar la escalabilidad del sistema y facilitar la incorporación de nuevas funcionalidades según sea necesario, sin comprometer la integridad de los datos ni la eficiencia del sistema.
+Por otro lado, la base de datos ha sido diseñada siguiendo reglas de normalización, con el fin de mantener la integridad de los datos, aunque es posible que si detectamos con el tiempo que alguna consulta puede ser optimizada, realizaremos un proceso de desnormalización de las tablas para mejorar el rendimiento. De la misma manera se estudiará la implementación de índices de búsqueda en aquellas claves más utilizadas en las consultas.
 
 ## Seguridad de la Base de Datos { #sec:secdb }
 
