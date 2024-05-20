@@ -50,7 +50,7 @@ Por último, es conveniente gestionar el estado visible de los componentes de la
 
 ## Prototipos e Interfaces
 
-Durante el diseño inicial de la intefaz de la app exploramos diferentes herramientas de diseño para poder elaborar varios de los *mockups* que componen la app. Entre ellas destacamos **Balsamiq**^[[Balsamiq](https://balsamiq.com/)] y **Figma**^[[Figma](https://www.figma.com/)]. Sin embargo, nos decantamos por Figma, ya que es una herramienta más versátil y con mayores opciones de personalización, abarcando desde modelos de baja a alta fidelidad. 
+Durante el diseño inicial de la interfaz de la app exploramos diferentes herramientas de diseño para poder elaborar varios de los *mockups* que componen la app. Entre ellas destacamos **Balsamiq**^[[Balsamiq](https://balsamiq.com/)] y **Figma**^[[Figma](https://www.figma.com/)]. Sin embargo, nos decantamos por Figma, ya que es una herramienta más versátil y con mayores opciones de personalización, abarcando desde modelos de baja a alta fidelidad. 
 
 Figma es una plataforma de diseño colaborativo que permite desde la creación de prototipos interactivos hasta interfaces de usuario con alto nivel de detalle. Además de permitir diseñar fácilmente las interfaces, habilita a otros miembros del grupo a colaborar y compartir el contenido que se está diseñando, lo que ha ayudado, en gran parte, a la pronta implementación del *frontend* del proyecto.
 
@@ -64,11 +64,11 @@ En primer lugar tenemos las interfaces relacionadas con el registro e inicio de 
 
 ![Inicio de sesión y Registro](img/componentes/inicio-registro.png){width=50%}
 
-En segundo lugar tenemos las tareas relacionadas con la gestion del flujo de *GTD* y sus acciones en dispositivos móviles \ref{fig:actionScreen}, además del prototipo de escritorio: 
+En segundo lugar tenemos las tareas relacionadas con la gestión del flujo de *GTD* y sus acciones en dispositivos móviles \ref{fig:actionScreen}, además del prototipo de escritorio: 
 
 ![Escritorio](img/componentes/escritorio.png){width=50%}
 
-En adición a las categorias de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:hoy} que actúe como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
+En adición a las categorías de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:hoy} que actúe como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
 ![Pantalla de sección "hoy"](img/componentes/Hoy_Screen.png){width=50% #fig:hoy}
 
@@ -80,7 +80,7 @@ En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y a
 
 ![Opciones de ajustes](img/componentes/OptionSettings.png){width=50%}
 
-Por último tenemos interfaces más detalladas como son la de añadir tarea/proyecto, interfaz de añadir detalles a la tarea, pudiendo insertar markdown texto en formato markdown y distintos modales para la creacion o edicion de tareas.
+Por último tenemos interfaces más detalladas como son la de añadir tarea/proyecto, interfaz de añadir detalles a la tarea, pudiendo insertar markdown texto en formato markdown y distintos modales para la creación o edición de tareas.
 
 ![Editor de tareas](img/componentes/editTask.png){width=50%}
 
@@ -102,11 +102,11 @@ Este framework no solo destaca por la capacidad de reutilización de código sin
 
 Por último, destaca la gran comunidad que tiene, ya que además de la documentación que podemos consultar en la página web oficial de React Native, disponemos de bibliotecas externas que se detallan en otras páginas web que son útiles para la implementación de otros componentes que no se encuentran en las fuentes oficiales. Las bibliotecas externas que hemos empleado son las siguientes: 
 
-- **React Navigation** [@react-navigation]: Esta librería permite definir y enrrutar las diferentes pantallas de la aplicación para poder navegar entre ellas. Ha sido de gran importancia en la aplicación ya que la navegación es un aspecto clave en cualquier aplicación. Además este paquete es muy sencillo de entender y usar gracias a su buena documentación.
+- **React Navigation** [@react-navigation]: Esta librería permite definir y enrutar las diferentes pantallas de la aplicación para poder navegar entre ellas. Ha sido de gran importancia en la aplicación ya que la navegación es un aspecto clave en cualquier aplicación. Además este paquete es muy sencillo de entender y usar gracias a su buena documentación.
 
 - **Drawer Navigation** [@drawer-navigation]: Muestra un cajón de navegación en el costado de la pantalla que se puede abrir y cerrar mediante gestos. 
 
-- **Axios** [@axios]: Biblioteca de *JavaScript* que se utiliza para hacer solicitudes *HTTP* desde el navegador. Este paquete facilita la gestión y el envio de *requests* y *respones*, esto nos ha servido para gestionar los *headers* de autorización.
+- **Axios** [@axios]: Biblioteca de *JavaScript* que se utiliza para hacer solicitudes *HTTP* desde el navegador. Este paquete facilita la gestión y el envío de *requests* y *responses*, esto nos ha servido para gestionar los *headers* de autorización.
 
 - **React Native Calendars** [@react-native-calendars]: Un componente de calendario declarativo multiplataforma *React Native* para *iOS* y *Android*. Se ha utilizado para implementar la pantalla de Programadas.
 

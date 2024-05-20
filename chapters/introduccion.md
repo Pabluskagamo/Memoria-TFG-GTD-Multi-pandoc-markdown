@@ -2,7 +2,7 @@
 
 ## Motivación
 
-Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. La metodología *GTD* (*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro titulado *Getting Things Done* [@gtd-book] y fue traducido al español como "Organízate con eficacia".
+Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. La metodología *GTD* (*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogió en su libro titulado *Getting Things Done* [@gtd-book] y fue traducido al español como "Organízate con eficacia".
 
 Asimismo, el sistema *GTD*, es conocido por su eficacia tanto a nivel personal como profesional en la planificación, organización y administración de tareas. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. En primer lugar, muchas de estas aplicaciones no informan claramente del proceso de tratamiento de los datos de sus usuarios. (p.ej; los datos son alojados en servidores de terceros y se desconocen los protocolos de seguridad que tienen éstos).
 
@@ -94,12 +94,12 @@ Las figuras \ref{fig:ganttback} y \ref{fig:ganttfront} muestran las tareas asoci
 
 El resto de memoria se organiza como sigue:
 
-- En el **capitulo 2** se realiza un análisis sobre qué es *GTD*, cuál es su método y técnica. También se describen las distintas aplicaciones en el mercado que implementan *GTD*.
-- En el **capitulo 3** se discute la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
-- En el **capitulo 4** presentamos el modelo de datos y la implementación de la base de datos. Aquí se describen las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
-- En el **capitulo 5** se introduce el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
-- En el **capitulo 6** se detallan los principios de diseño que han guiado la creación de la *app*, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación, explorando cómo los fundamentos del método GTD se han ido plasmando en *SwiftDo*.
-- En el **capitulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con *Alexa*. Explicaremos cómo hemos configurado la *skill* de *Alexa*, cómo hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
-- En el **capitulo 8** se encuentra el manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva.
-- En el **capitulo 9** se recogen las principales conclusiones a las que hemos llegado y se discuten lineas de trabajo futuras.
+- En el **capítulo 2** se realiza un análisis sobre qué es *GTD*, cuál es su método y técnica. También se describen las distintas aplicaciones en el mercado que implementan *GTD*.
+- En el **capítulo 3** se discute la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
+- En el **capítulo 4** presentamos el modelo de datos y la implementación de la base de datos. Aquí se describen las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
+- En el **capítulo 5** se introduce el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
+- En el **capítulo 6** se detallan los principios de diseño que han guiado la creación de la *app*, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación, explorando cómo los fundamentos del método GTD se han ido plasmando en *SwiftDo*.
+- En el **capítulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con *Alexa*. Explicaremos cómo hemos configurado la *skill* de *Alexa*, cómo hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
+- En el **capítulo 8** se encuentra el manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva.
+- En el **capítulo 9** se recogen las principales conclusiones a las que hemos llegado y se discuten líneas de trabajo futuras.
 - Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y las conclusiones, el tercero (apéndice C) enumera las contribuciones que ha hecho cada miembro del equipo al proyecto, y el último, (apéndice D) proporciona una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.

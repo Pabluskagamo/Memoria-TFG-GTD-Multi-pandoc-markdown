@@ -1,6 +1,6 @@
 # Integración con agentes conversacionales
 
-Desde el inicio del proyecto, nos propusimos habilitar la interacción mediante comandos de voz para mejorar la experiencia del usuario, para ello en este capítulo, profundizaremos en el proceso de integración de nuestra aplicación *SwiftDo* con la plataforma de voz de *Alexa* mediante el desarrollo de una *skill*. Para contextualizar, una *skill* en el ecosistema de *Alexa* es una capacidad o funcionalidad específica que permite a los ususarios interactuar con dispositivos habilitados para *Alexa*, utilizando comandos de voz.
+Desde el inicio del proyecto, nos propusimos habilitar la interacción mediante comandos de voz para mejorar la experiencia del usuario, para ello en este capítulo, profundizaremos en el proceso de integración de nuestra aplicación *SwiftDo* con la plataforma de voz de *Alexa* mediante el desarrollo de una *skill*. Para contextualizar, una *skill* en el ecosistema de *Alexa* es una capacidad o funcionalidad específica que permite a los usuarios interactuar con dispositivos habilitados para *Alexa*, utilizando comandos de voz.
 
 Discutiremos los objetivos que persigue esta integración con *Alexa*, que incluyen proporcionar a los usuarios una forma intuitiva y práctica de administrar sus tareas diarias, así como mejorar la accesibilidad de *SwiftDo* para aquellos que prefieren la interacción por voz. Además, exploraremos la funcionalidad mínima que esperamos ofrecer a los usuarios a través de la *skill* de *Alexa*, centrándonos en la capacidad de añadir una tarea como funcionalidad básica de gestión de tareas que será compatible con esta integración.
 
@@ -10,7 +10,7 @@ El primer paso crucial en nuestra aplicación fue obtener acceso al *Amazon Deve
 
 ## Vinculación de la cuenta del usuario
 
-Para habilitar la interacción entre la *skill* de *Alexa* y nuestra aplicación, implementamos un sólido flujo de autorización *Oauth* realizado también en *Amazon Developer Console*. Optamos por el método de autenticación de código de autorización (*Auth Code Grant*) para permitir que los usuarios vinculen sus cuentas de manera segura. Sin embargo, surgió un desafío significativo: para garantizar la seguridad de la transacción, *Amazon* requiere que las aplicaciones estén protegidas mediante *HTTPS*. Si bien la implementación de *HTTPS* estaba pendiente, este requisito nos incentivó a adelantar su incorporación a nuestra plataforma web, por lo tanto incorporamos *HTTPS*  a nuestra plataforma web y permitir asi la vinculación de las cuentas de usuario.
+Para habilitar la interacción entre la *skill* de *Alexa* y nuestra aplicación, implementamos un sólido flujo de autorización *Oauth* realizado también en *Amazon Developer Console*. Optamos por el método de autenticación de código de autorización (*Auth Code Grant*) para permitir que los usuarios vinculen sus cuentas de manera segura. Sin embargo, surgió un desafío significativo: para garantizar la seguridad de la transacción, *Amazon* requiere que las aplicaciones estén protegidas mediante *HTTPS*. Si bien la implementación de *HTTPS* estaba pendiente, este requisito nos incentivó a adelantar su incorporación a nuestra plataforma web, por lo tanto incorporamos *HTTPS*  a nuestra plataforma web y permitir así la vinculación de las cuentas de usuario.
 
 ## Implementación del flujo de autorización Oauth
 

@@ -1,6 +1,6 @@
 # Manual de usuario {#sec:manualusuario}
 
-A continuación mostraremos el manual de usuario de *SwiftDo* el cual mostrará de manera visual cómo podemos realizar las distintas acciones dentro de la app. Explicaremos como configurar el servidor, como iniciar sesión y registrarse, como filtrar dentro de la aplicación, como funcionan las pantallas de las distintas acciones que ofrece *SwiftDo* (inbox, hoy, cuanto antes, programadas, archivadas, proyectos), como utilizar la sidebar y los ajustes y, por último, como crear tareas y proyectos.
+A continuación mostraremos el manual de usuario de *SwiftDo* el cual mostrará de manera visual cómo podemos realizar las distintas acciones dentro de la app. Explicaremos como configurar el servidor, como iniciar sesión y registrarse, como filtrar dentro de la aplicación, como funcionan las pantallas de las distintas acciones que ofrece *SwiftDo* (inbox, hoy, cuanto antes, programadas, archivadas, proyectos), como utilizar la sidebar y los ajustes y, por último, cómo crear tareas y proyectos.
 
 ## Configuración del servidor
 

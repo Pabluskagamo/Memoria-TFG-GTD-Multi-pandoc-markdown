@@ -6,7 +6,7 @@ En el mundo actual, caracterizado por la constante presión del tiempo y la crec
 
 Nuestra aplicación *SwiftDo* ha sido concebida con la intención de proporcionar una solución a las necesidades organizativas de los usuarios. En el desarrollo de esta aplicación, nos hemos centrado en la eficiencia y en objetivos claros así como en varios aspectos clave:
 
-- **Aplicación de conceptos y valores de GTD:**  *SwiftDo* consigue ser una herramienta efectiva para la gestión del tiempo y la organizacion personal, realizando con éxito todos los puntos que explica el autor del método *GTD*. Proporcionando un enfoque estructurado y minimalista, respaldado por un conjunto de técnicas y principios de diseño.
+- **Aplicación de conceptos y valores de GTD:**  *SwiftDo* consigue ser una herramienta efectiva para la gestión del tiempo y la organización personal, realizando con éxito todos los puntos que explica el autor del método *GTD*. Proporcionando un enfoque estructurado y minimalista, respaldado por un conjunto de técnicas y principios de diseño.
 
 - **Infraestructura multiplataforma**: Empleando tecnologías como *React Native* para el desarrollo del cliente, hemos logrado crear una aplicación que puede ejecutarse en una amplia variedad de dispositivos y sistemas operativos. Esta característica garantiza que los usuarios puedan acceder a sus tareas y proyectos desde cualquier lugar y en cualquier momento, sin importar el dispositivo que utilicen.
 

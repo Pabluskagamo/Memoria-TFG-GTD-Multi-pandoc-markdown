@@ -1,4 +1,4 @@
-## Endpoints
+# Endpoints
 
 ### Tarea
 
@@ -10,7 +10,7 @@
 | Código HTTP (OK)         | 201                                            |
 | Código HTTP (KO)         | 409                                            |
 
-| Parametros               | /task/                  | Tipo        | Opcional |
+| Parámetros               | /task/                  | Tipo        | Opcional |
 | ------------------------ | ----------------------- | ----------- | -------- |
 | title (*Body*)           | Titulo de la tarea      | *String*    | No       |
 | description (*Body*)     | Descripción de la tarea | *String*    | Si       |
@@ -29,7 +29,7 @@
 | Código HTTP (OK)         | 200                                                                        |
 | Código HTTP (KO)         | 409                                                                        |
 
-| Parametros               | /task/:id                          | Tipo        | Opcional |
+| Parámetros               | /task/:id                          | Tipo        | Opcional |
 | ------------------------ | ---------------------------------- | ----------- | -------- |
 | task_id (*Path*)         | id de la tarea a modificar         | *Integer*   | No       |
 | title (*Body*)           | Titulo de la tarea modificado      | *String*    | Si       |
@@ -49,7 +49,7 @@
 | Código HTTP (OK)         | 200                                                 |
 | Código HTTP (KO)         | 404                                                 |
 
-| Parametros       | /task/:id                  | Tipo      | Opcional |
+| Parámetros       | /task/:id                  | Tipo      | Opcional |
 | ---------------- | -------------------------- | --------- | -------- |
 | task_id (*Path*) | id de la tarea a consultar | *Integer* | No       |
 
@@ -69,7 +69,7 @@
 | Código HTTP (OK)         | 200                                  |
 | Código HTTP (KO)         | 409                                  |
 
-| Parametros        | /task/movelist                                 | Tipo             | Opcional |
+| Parámetros        | /task/movelist                                 | Tipo             | Opcional |
 | ----------------- | ---------------------------------------------- | ---------------- | -------- |
 | list_ids (*Body*) | Listado de ids de las tareas a mover de estado | *array[Integer]* | No       |
 | state (*Body*)    | Estado al que se mueven las tareas             | *Integer*        | No       |
@@ -82,7 +82,7 @@
 | Código HTTP (OK)         | 200                           |
 | Código HTTP (KO)         | 409                           |
 
-| Parametros        | /task/completelist                             | Tipo             | Opcional |
+| Parámetros        | /task/completelist                             | Tipo             | Opcional |
 | ----------------- | ---------------------------------------------- | ---------------- | -------- |
 | list_ids (*Body*) | Listado de ids de las tareas a mover de estado | *array[Integer]* | No       |
 | completed(*Body*) | Valor de completar al que modificar las tareas | *Boolean*        | No       |
@@ -95,7 +95,7 @@
 | Código HTTP (OK)         | 200                            |
 | Código HTTP (KO)         | 409                            |
 
-| Parametros       | /task/addTag                                     | Tipo      | Opcional |
+| Parámetros       | /task/addTag                                     | Tipo      | Opcional |
 | ---------------- | ------------------------------------------------ | --------- | -------- |
 | task_id (*Body*) | Id de la tarea a la cual se le añade la etiqueta | *Integer* | No       |
 | tag(*Body*)      | Etiqueta a añadir a la tarea                     | *Object*  | No       |
@@ -108,7 +108,7 @@
 | Código HTTP (OK)         | 200                                                                |
 | Código HTTP (KO)         | 404                                                                |
 
-| Parametros       | /task/:id/tags                         | Tipo      | Opcional |
+| Parámetros       | /task/:id/tags                         | Tipo      | Opcional |
 | ---------------- | -------------------------------------- | --------- | -------- |
 | task_id (*Path*) | Id de la tarea a obtener sus etiquetas | *Integer* | No       |
 
@@ -130,7 +130,7 @@
 | Código HTTP (OK)         | 200                                                    |
 | Código HTTP (KO)         | 409                                                    |
 
-| Parametros        | /user/register         | Tipo     | Opcional |
+| Parámetros        | /user/register         | Tipo     | Opcional |
 | ----------------- | ---------------------- | -------- | -------- |
 | email (*Body*)    | E-mail del usuario     | *String* | No       |
 | name (*Body*)     | Nombre de usuario      | *String* | No       |
@@ -146,7 +146,7 @@
 | Código HTTP (OK)         | 304                                                                              |
 | Código HTTP (KO)         | 401                                                                              |
 
-| Parametros             | /oauth/authorize                                                        | Tipo      | Opcional |
+| Parámetros             | /oauth/authorize                                                        | Tipo      | Opcional |
 | ---------------------- | ----------------------------------------------------------------------- | --------- | -------- |
 | client_id (*Body*)     | id del cliente a autorizar                                              | *Integer* | No       |
 | response_type (*Body*) | *code* por defecto ya que estamos obtieniendo el codigo de autorización | *String*  | No       |
@@ -161,7 +161,7 @@
 | Código HTTP (OK)         | 200                                                                                                                     |
 | Código HTTP (KO)         | 401                                                                                                                     |
 
-| Parametros             | /oauth/token                                                                                                                                                 | Tipo      | Opcional |
+| Parámetros             | /oauth/token                                                                                                                                                 | Tipo      | Opcional |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- | -------- |
 | client_id (*Body*)     | id del cliente desde donde se requiere el token                                                                                                              | *Integer* | No       |
 | client_secret(*Body*)  | secreto del cliente autorizado                                                                                                                               | *String*  | No       |
@@ -190,7 +190,7 @@
 | Código HTTP (OK)         | 200                                               |
 | Código HTTP (KO)         | 409                                               |
 
-| Parametros           | /project/                | Tipo     | Opcional |
+| Parámetros           | /project/                | Tipo     | Opcional |
 | -------------------- | ------------------------ | -------- | -------- |
 | title (*Body*)       | Titulo del proyecto      | *String* | No       |
 | description (*Body*) | Descripción del proyecto | *String* | Si       |
@@ -204,7 +204,7 @@
 | Código HTTP (OK)         | 200                                                                                                                                                    |
 | Código HTTP (KO)         | 404                                                                                                                                                    |
 
-| Parametros          | /project/:id/complete | Tipo      | Opcional |
+| Parámetros          | /project/:id/complete | Tipo      | Opcional |
 | ------------------- | --------------------- | --------- | -------- |
 | project_id (*Path*) | Id del proyecto       | *Integer* | No       |
 
@@ -216,7 +216,7 @@
 | Código HTTP (OK)         | 200                                                                          |
 | Código HTTP (KO)         | 404                                                                          |
 
-| Parametros          | /project/:id    | Tipo      | Opcional |
+| Parámetros          | /project/:id    | Tipo      | Opcional |
 | ------------------- | --------------- | --------- | -------- |
 | project_id (*Path*) | Id del proyecto | *Integer* | No       |
 
@@ -228,7 +228,7 @@
 | Código HTTP (OK)         | 200                                           |
 | Código HTTP (KO)         | 404                                           |
 
-| Parametros           | /project/                | Tipo      | Opcional |
+| Parámetros           | /project/                | Tipo      | Opcional |
 | -------------------- | ------------------------ | --------- | -------- |
 | title (*Body*)       | Titulo del proyecto      | *String*  | Si       |
 | description (*Body*) | Descripción del proyecto | *String*  | Si       |
@@ -245,7 +245,7 @@
 | Código HTTP (OK)         | 200                                              |
 | Código HTTP (KO)         | 404                                              |
 
-| Parametros    | /context/           | Tipo     | Opcional |
+| Parámetros    | /context/           | Tipo     | Opcional |
 | ------------- | ------------------- | -------- | -------- |
 | name (*Body*) | Nombre del contexto | *String* | No       |
 
@@ -265,7 +265,7 @@
 | Código HTTP (OK)         | 200                                                                                                                      |
 | Código HTTP (KO)         | 404                                                                                                                      |
 
-| Parametros          | /context/:id    | Tipo      | Opcional |
+| Parámetros          | /context/:id    | Tipo      | Opcional |
 | ------------------- | --------------- | --------- | -------- |
 | context_id (*Path*) | id del contexto | *Integer* | No       |
 
@@ -277,7 +277,7 @@
 | Código HTTP (OK)         | 200                                               |
 | Código HTTP (KO)         | 404                                               |
 
-| Parametros          | /context/:id              | Tipo      | Opcional |
+| Parámetros          | /context/:id              | Tipo      | Opcional |
 | ------------------- | ------------------------- | --------- | -------- |
 | context_id (*Path*) | id del contexto           | *Integer* | No       |
 | name (*Body*)       | Nuevo nombre del contexto | *String*  | Si       |
@@ -292,7 +292,7 @@
 | Código HTTP (OK)         | 200                                                |
 | Código HTTP (KO)         | 409                                                |
 
-| Parametros    | /tag/                 | Tipo     | Opcional |
+| Parámetros    | /tag/                 | Tipo     | Opcional |
 | ------------- | --------------------- | -------- | -------- |
 | name (*Body*) | Nombre de la etiqueta | *String* | No       |
 
@@ -312,6 +312,6 @@
 | Código HTTP (OK)         | 200                                                     |
 | Código HTTP (KO)         | 404                                                     |
 
-| Parametros    | /tag/                            | Tipo     | Opcional |
+| Parámetros    | /tag/                            | Tipo     | Opcional |
 | ------------- | -------------------------------- | -------- | -------- |
 | name (*Path*) | Nombre de la etiqueta a eliminar | *String* | No       |

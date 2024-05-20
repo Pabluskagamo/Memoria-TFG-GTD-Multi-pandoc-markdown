@@ -67,7 +67,7 @@ Por último Allen, deja claro en su libro qué tipo de material puede ir o no en
 
 - **Proyectos**: tareas que requieren una serie de pasos para ser completadas. Los proyectos a diferencia de las tareas, solo se usan en forma de índice y los artefactos generados se deben ir listando en otras categorías.
   
-  Por ejemplo, si necesitamos grabar un vídeo para YouTube, en el proyecto iremos listando un índice de todo lo que debemos hacer para dar esta tarea por finalizada. Si uno de los ítems era “grabar en x localización” podremos tener otra tarea u proyecto relacionado con las labores que tengamos que hacer en dicha localización.
+  Por ejemplo, si necesitamos grabar un vídeo para YouTube, en el proyecto iremos listando un índice de todo lo que debemos hacer para dar esta tarea por finalizada. Si uno de los ítems era “grabar en x localización” podremos tener otra tarea o proyecto relacionado con las labores que tengamos que hacer en dicha localización.
 
 - **Calendario**: Tareas con acciones de tiempo específicas e información relacionada con horarios, día o semana concreta. Sin embargo, debemos tener en cuenta que no tenemos que caer en el error de utilizarlo como un listado para tareas diarias.
 
@@ -99,11 +99,11 @@ Por lo general, el libro nos da ciertas herramientas para que podamos implementa
 
 Basándonos en esta idea, hemos explorado el mercado de aplicaciones que existen tanto en *App Store* y *Google Play*, encontrándonos con las aplicaciones más destacadas para poder implementar la metodología, siendo estas:
 
-- **NirvanaHQ**: Aplicación web y móvil diseñada específicamente para *GTD*. Ofrece características comolistas de proyectos, listas de acciones y enfoque en el flujo de trabajo *GTD*.
+- **NirvanaHQ**: Aplicación web y móvil diseñada específicamente para *GTD*. Ofrece características como listas de proyectos, listas de acciones y enfoque en el flujo de trabajo *GTD*.
 
 - **TodoIst**: Aplicación de gestión de tareas. Permite crear listas de tareas, recordatorios, establecer etiquetas y organizar tus tareas según los principios básicos de *GTD*.
 
-- **Notion**: *Notion* es una herramienta de productividad versátil que puede personalizarse para adaptarsea *GTD*. Puedes crear bases de datos, tablas y tableros para organizar tus tareas y proyectos.
+- **Notion**: *Notion* es una herramienta de productividad versátil que puede personalizarse para adaptarse a *GTD*. Puedes crear bases de datos, tablas y tableros para organizar tus tareas y proyectos.
 
 - **Things**: Se trata de una aplicación de gestión de tareas disponible para dispositivos *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas.
 
@@ -119,14 +119,14 @@ A pesar de que las apps mencionadas en el anterior apartado son excelentes, obse
 
 \lbegin{landscape}
 
-| **Aplicación** | **¿Multiplataforma?** | **Aspectos positivos** | **Aspectos negativos** |
-| ---------------- | ------------------------- | -------------------------------------------------------------------------------------------------| ---------------------------------------------------------------------------------------- |
-| NirvanaHQ | Si | Diseñada especialmente para GTD | Interfaz demasiado simple pudiendo confundirse |
-| TodoIst | Si | Interfaz intuitiva y fácil de utilizar \linebreak Soporte multiplataforma \linebreak Funciones avanzadas de recordatorio, etiquetas y filtrado | Versión gratuita con muchas restricciones \linebreak Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
-| Notion | Si | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...) \linebreak Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece |
-| Things | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD* | Uso reducido a dispositivos *Apple* \linebreak Carece de características avanzadas |
-| Omnifocus | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos | Uso reducido a dispositivos *Apple* \linebreak Alta curva de aprendizaje |
-| TickTick | Si | Interfaz intuitiva y fácil de usar | La versión gratuita difiere bastante de la versión premium |
+| **Aplicación** | **¿Multiplataforma?**     | **Aspectos positivos**                                                                                                                                   | **Aspectos negativos**                                                                                                                 |
+| -------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| NirvanaHQ      | Si                        | Diseñada especialmente para GTD                                                                                                                          | Interfaz demasiado simple pudiendo confundirse                                                                                         |
+| TodoIst        | Si                        | Interfaz intuitiva y fácil de utilizar \linebreak Soporte multiplataforma \linebreak Funciones avanzadas de recordatorio, etiquetas y filtrado           | Versión gratuita con muchas restricciones \linebreak Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
+| Notion         | Si                        | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...) \linebreak Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece         |
+| Things         | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD*                                                                                                         | Uso reducido a dispositivos *Apple* \linebreak Carece de características avanzadas                                                     |
+| Omnifocus      | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos                                                                             | Uso reducido a dispositivos *Apple* \linebreak Alta curva de aprendizaje                                                               |
+| TickTick       | Si                        | Interfaz intuitiva y fácil de usar                                                                                                                       | La versión gratuita difiere bastante de la versión premium                                                                             |
 
 \lend{landscape}
 
@@ -134,8 +134,8 @@ Teniendo esto en cuenta, debemos tener en consideración que no solo hay falta u
 
 ## Conclusiones
 
-En resumen, la filosofía *Getting Things Done* pone por escrito muchas de las funciones que usualmente tenemos en mente, pero que no conseguimos ejecutar correctamente por motivos diversos, estando estos relacionados con la organización. Es por esto por lo que tener fases bien definidas, permite gestionar mejor el día a día, consiguiendo enfocarnos en lo que realmente importa.
+En resumen, la filosofía *Getting Things Done* pone por escrito muchas de las funciones que usualmente tenemos en mente, pero que no conseguimos ejecutar correctamente por motivos diversos, estando éstos relacionados con la organización. Es por esto por lo que tener fases bien definidas, permite gestionar mejor el día a día, consiguiendo enfocarnos en lo que realmente importa.
 
 A pesar de que, como todo método, puede presentar ciertas dificultades, merece la pena implementarlo en la rutina diaria pues tiene una corta curva de aprendizaje siendo fácilmente adaptable a múltiples facetas de la vida, a diferencia de otros métodos y/o técnicas (p.ej.: técnica pomodoro).
 
-Teniendo esto en cuenta, detallaremos en el Capitulo \ref{sec:frontend} la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
+Teniendo esto en cuenta, detallaremos en el Capítulo \ref{sec:frontend} la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
