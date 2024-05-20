@@ -79,7 +79,9 @@ A continuación, tuvimos una fase de aprendizaje en la cual buscamos informació
 Una vez terminadas las distintas tareas previas al desarrollo comentadas anteriormente, comenzamos con la programación del *backend* que nos llevó aproximadamente cuatro meses. Durante este tiempo estuvimos implementando los servicios principales de la aplicación además del sistema de autenticación y autorización. Una vez terminada la parte esencial del *backend*, comenzamos con el desarrollo del *frontend*, que ha sido la fase más costosa en tiempo y esfuerzo, ya que hemos dedicado un gran trabajo a crear una interfaz amigable y usable además de funcionalidad extensa (filtrado, búsqueda, edición…). Es por ello que hemos ido realizando actualizaciones necesarias en *backend* para el correcto funcionamiento de la aplicación.
 
 ### Planificación temporal
+
 Las figuras \ref{fig:ganttback} y \ref{fig:ganttfront} muestran las tareas asociadas al desarrollo del backend y del frontend respectivamente, así como la fecha de inicio, la fecha de fin y la duración de cada tarea:
+
 #### Backend {.unnumbered}
 
 ![Diagrama de Gantt backend](img/backendgantt.png){width=100% #fig:ganttback}
