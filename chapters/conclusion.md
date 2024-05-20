@@ -1,4 +1,4 @@
-# Conclusiones y Trabajo a futuro
+# Conclusiones y Trabajo futuro
 
 ## Conclusiones
 
@@ -10,9 +10,9 @@ Nuestra aplicación *SwiftDo* ha sido concebida con la intención de proporciona
 
 - **Infraestructura multiplataforma**: Empleando tecnologías como *React Native* para el desarrollo del cliente, hemos logrado crear una aplicación que puede ejecutarse en una amplia variedad de dispositivos y sistemas operativos. Esta característica garantiza que los usuarios puedan acceder a sus tareas y proyectos desde cualquier lugar y en cualquier momento, sin importar el dispositivo que utilicen.
 
-- **Infraestructura REST**: Con la infraestructura implementada en la parte del *backend* hemos logrado desarrollar un servicio sencillo de comprender y mantener   gracias a los principios de la arquitectura *REST*. Además lo hemos hecho en un entorno y con unas tecnologías ampliamente usadas en la actualidad como son *Node.js* y *Express.js*. Por ello este servicio, a parte de cumplir con su función podrá seguir desarrollándose, mejorándose y ampliándose de cara al futuro.
+- **Infraestructura REST**: Con la infraestructura implementada en la parte del *backend* hemos logrado desarrollar un servicio sencillo de comprender y mantener gracias a los principios de la arquitectura *REST*. Además lo hemos hecho en un entorno y con unas tecnologías ampliamente usadas en la actualidad como son *Node.js* y *Express.js*. Por ello este servicio, a parte de cumplir con su función podrá seguir desarrollándose, mejorándose y ampliándose de cara al futuro.
 
-- **Aplicación de estándares de seguridad**: Tener las medidas de seguridad adecuadas se ha vuelto un aspecto crucial para cualquier servicio y más si se trata con datos personales. Por ello hemos invertido gran parte del desarrollo de esta aplicación en incluir un sistema seguro y fiable de acceso a datos como es *OAuth2.0* , afrontando así uno de los retos más importantes en la actualidad de los servicios web como son la privacidad y la seguridad.
+- **Aplicación de estándares de seguridad**: Tener las medidas de seguridad adecuadas se ha vuelto un aspecto crucial para cualquier servicio y más si se trata con datos personales. Por ello hemos invertido gran parte del desarrollo de esta aplicación en incluir un sistema seguro y fiable de acceso a datos como es *OAuth2.0*, afrontando así uno de los retos más importantes en la actualidad de los servicios web como son la privacidad y la seguridad.
 
 - **Modo offline**: Conscientes de que los usuarios pueden encontrarse en situaciones donde no dispongan de conexión a *Internet*, hemos diseñado nuestra aplicación para funcionar de manera eficiente incluso en modo *offline*. Los usuarios pueden acceder y actualizar sus tareas sin conexión, y una vez que recuperan la conexión, los cambios se sincronizan automáticamente con el servidor, garantizando una experiencia fluida y sin interrupciones.
 
@@ -20,11 +20,11 @@ Nuestra aplicación *SwiftDo* ha sido concebida con la intención de proporciona
 
 Estos logros son el resultado de un gran esfuerzo por parte del equipo en el desarrollo de esta aplicación, motivado por aportar nuestros conocimientos a la causa de solucionar un problema real. Estamos orgullosos de haber creado una aplicación que no solo ayuda a las personas a organizar sus vidas de manera más efectiva, sino que también les permite adaptarse y prosperar en un entorno en constante cambio.
 
-## Trabajo a futuro
+## Trabajo futuro
 
 En esta sección, exploraremos las ideas y mejoras planificadas para el futuro de *SwiftDo*. Enumeramos a continuación las áreas en las que buscamos innovar y las nuevas características que planeamos implementar para seguir mejorando la experiencia del usuario.
 
-- **Mejora de la integración con agentes conversacionales**: Nuestro objetivo es ampliar la funcionalidad de *Alexa*. Por ejemplo, planeamos implementar la capacidad de añadir proyectos y áreas, y el poder vincularlos a tareas. Además, exploraremos alternativas para ampliar la compatibilidad con otros asistentes virtuales para mejorar la accesibilidad y experiencia del usuario.
+- **Mejora de la integración con agentes conversacionales**: Nuestro objetivo es ampliar la funcionalidad de *Alexa*. Por ejemplo, planeamos implementar la capacidad de añadir proyectos y áreas, y el poder vincularlos a tareas. Además, exploraremos alternativas para ampliar la compatibilidad con otros asistentes virtuales para mejorar la accesibilidad y experiencia del usuario:
 
 - **Inicio de sesión con cuentas de terceros**: Implementar la opción de inicio de sesión con *Google*, *Apple* u otras cuentas de terceros para simplificar el proceso de autenticación y mejorar la seguridad.
 
