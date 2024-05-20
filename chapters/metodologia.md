@@ -120,7 +120,7 @@ A pesar de que las apps mencionadas en el anterior apartado son excelentes, obse
 \lbegin{landscape}
 
 | **Aplicación** | **¿Multiplataforma?** | **Aspectos positivos** | **Aspectos negativos** |
-| -------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------- | ------------------------- | -------------------------------------------------------------------------------------------------| ---------------------------------------------------------------------------------------- |
 | NirvanaHQ | Si | Diseñada especialmente para GTD | Interfaz demasiado simple pudiendo confundirse |
 | TodoIst | Si | Interfaz intuitiva y fácil de utilizar \linebreak Soporte multiplataforma \linebreak Funciones avanzadas de recordatorio, etiquetas y filtrado | Versión gratuita con muchas restricciones \linebreak Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
 | Notion | Si | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...) \linebreak Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece |
