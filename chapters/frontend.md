@@ -1,4 +1,4 @@
-# Diseño e Implementacion del Frontend {#sec:frontend}
+# Diseño e Implementación del Frontend {#sec:frontend}
 
 En este capítulo ahondaremos en varias de las técnicas de diseño de software que hemos usado para bocetar el conjunto de interfaces de usuario que conforman *SwiftDo*. Además, explicaremos las herramientas que hemos utilizado para prototipar e implementar el *frontend* de la app. Para que una aplicación llegue a ser utilizada de manera cotidiana, deberá cumplir con los criterios y objetivos para los que fue concebida, así como disponer de un buen diseño que lo complemente. 
 
