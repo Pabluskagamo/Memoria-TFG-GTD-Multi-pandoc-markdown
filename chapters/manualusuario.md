@@ -1,4 +1,4 @@
-# Manual de usuario
+# Manual de usuario {#sec:manualusuario}
 
 ## Configuración del servidor
 
