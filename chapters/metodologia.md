@@ -138,4 +138,4 @@ En resumen, la filosofía *Getting Things Done* pone por escrito muchas de las f
 
 A pesar de que, como todo método, puede presentar ciertas dificultades, merece la pena implementarlo en la rutina diaria pues tiene una corta curva de aprendizaje siendo fácilmente adaptable a múltiples facetas de la vida, a diferencia de otros métodos y/o técnicas (p.ej.: técnica pomodoro).
 
-Teniendo esto en cuenta, detallaremos en el Capitulo 6 \ref{sec:fronted} la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
+Teniendo esto en cuenta, detallaremos en el Capitulo \ref{sec:frontend} la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
