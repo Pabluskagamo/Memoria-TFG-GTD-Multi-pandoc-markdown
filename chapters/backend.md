@@ -40,7 +40,7 @@ Debido a las razones explicadas previamente hemos puesto gran énfasis en implem
 
 Uno de los aspectos más importantes que hemos podido implementar en nuestra *API* es el estándar *OAuth 2.0* [@rfc6749]. Este estándar introduce una nueva capa de autorización separando este rol del servidor de recursos y proporcionando así varias ventajas principalmente en términos de seguridad.  A continuación se describe en profundidad cómo funciona este estándar y cuáles son sus principales ventajas.
 
-### Autorización, Atenticación y posibilidades de *OAuth* {.unnumbered}
+### Autorización, Autenticación y posibilidades de *OAuth* {.unnumbered}
 
 Es común que con frecuencia se confundan o se mezclen los conceptos de autorización y autenticación, ya que en el modelo tradicional de autenticación entre cliente-servidor no se utilizaban y ahora es frecuente verlos siempre que se habla de acceso a *APIs* o recursos web. 
 
