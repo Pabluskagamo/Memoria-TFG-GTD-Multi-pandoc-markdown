@@ -2,11 +2,11 @@
 
 ## Motivación
 
-Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. La metodología *GTD* (*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro titulado *GTD* [@gtd-book] y fue traducido al español como "Organízate con eficacia".
+Inmersos en plena era digital, caracterizada por la cultura de la inmediatez, no resulta tarea fácil mantener el enfoque y evitar distracciones en medio de una vorágine de información y estímulos. La metodología *GTD* (*Getting Things Done*) tiene como objetivo ayudar a las personas a realizar sus tareas del día a día de manera que no dependan de su memoria y se centren en el ahora, sin estar pendiente de futuras tareas. Este método fue creado por David Allen, quien lo recogío en su libro titulado *Getting Things Done* [@gtd-book] y fue traducido al español como "Organízate con eficacia".
 
-Asimismo, el sistema *GTD* (*Getting Things Done*), es conocido por su eficacia tanto a nivel personal como profesional en la planificación, organización y administración de tareas. Sin embargo, algunas de las aplicaciones que lo mplementan tienen varios inconvenientes. En primer lugar, muchas de estas aplicaciones no informan claramente del proceso de tratamiento de los datos de sus usuarios. (p.ej.: los datos son alojados en servidores de terceros y no sabemos los protocolos de seguridad que tienen éstos).
+Asimismo, el sistema *GTD*, es conocido por su eficacia tanto a nivel personal como profesional en la planificación, organización y administración de tareas. Sin embargo, algunas de las aplicaciones que lo implementan tienen varios inconvenientes. En primer lugar, muchas de estas aplicaciones no informan claramente del proceso de tratamiento de los datos de sus usuarios. (p.ej; los datos son alojados en servidores de terceros y se desconocen los protocolos de seguridad que tienen éstos).
 
-Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un número reducido de sistemas operativos, un claro ejemplo de ésto es Things que a pesar de ser una muy buena aplicación, solo está disponible para dispositivos Apple. Esto condiciona el acceso de esta metodología a un público más general.
+Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje o son compatibles con un número reducido de sistemas operativos. Un claro ejemplo de ésto es Things ^[[Things](https://culturedcode.com/things/)] que a pesar de ser una muy buena aplicación, solo está disponible para dispositivos Apple. Esto condiciona el acceso de esta metodología a un público más general.
 
 Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una arquitectura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos. Esta aplicación, llamada *SwiftDo*, pretende ofrecer una alternativa accesible y versátil para la gestión eficiente de tareas en el día a día.
 
@@ -22,7 +22,7 @@ En el desarrollo de nuestra aplicación, la *API REST* desempeña un papel cruci
 
 Al desarrollar nuestra aplicación perseguimos una serie de objetivos específicos que quedaron representados mediantes los siguientes requisitos de alto nivel:
 
-- **Gestión de tareas centralizadas:**
+- **Gestión de tareas centralizada:**
   
   La aplicación debe permitir a los usuarios crear nuevas tareas, las cuales por defecto se agregarán al *Inbox* (almacén de tareas sin organizar dentro de la metodología _GTD_). Desde allí, los usuarios podrán asignarles etiquetas, vincularlas a proyectos o áreas específicas, y moverlas entre diferentes secciones.
 
@@ -48,7 +48,7 @@ Al desarrollar nuestra aplicación perseguimos una serie de objetivos específic
 
 - **Integración con agentes conversacionales:**
   
-  La aplicación se integra con agentes conversacionales como _Alexa_ y _Google Assistant_ ofreciendo una experiencia más versátil, permitiendo así a los usuarios interactuar con la aplicación mediante comandos de voz, simplificando aún más la entrada y gestión de tareas de forma intuitiva y sin esfuerzo.
+  La aplicación se integra con agentes conversacionales como *Alexa* ofreciendo una experiencia más versátil, permitiendo así a los usuarios interactuar con la aplicación mediante comandos de voz, simplificando aún más la entrada y gestión de tareas de forma intuitiva y sin esfuerzo.
 
 Estos requisitos proporcionan una base sólida para el desarrollo de la aplicación *SwiftDo*, garantizando una experiencia integral que cumpla con los principios fundamentales de la metodología *GTD* y satisfaga las necesidades de los usuarios en la gestión efectiva de sus tareas y proyectos.
 
@@ -56,7 +56,7 @@ Estos requisitos proporcionan una base sólida para el desarrollo de la aplicaci
 
 ![Diagrama de bloques del sistema](img/diagramabloques.png){width=100% #fig:bloqusis}
 
-La figura \ref{fig:bloqusis} muestra el diagrama de bloques del sistema, que está compuesto principalmente por 2 componentes principales, una aplicación cliente, disponible para diversos dispositivos y un *backend* el cual cuenta con una *API Rest* con un sistema de autorización seguro.
+La figura \ref{fig:bloqusis} muestra el diagrama de bloques del sistema, que está compuesto por 2 componentes principales: una aplicación cliente, formado esencialmente para diversos dispositivos y un *backend* el cual cuenta con una *API REST* con un sistema de autorización seguro.
 
 La aplicación cliente está implementada con el framework multiplataforma *React Native*, pudiendo ser ejecutada en diversos dispositivos. Los clientes interactúan mediante *REST* sobre *HTTPS* con el *backend*.
 
@@ -70,16 +70,16 @@ Por último, el sistema contiene un tercer componente el cual permite conectar a
 
 Para llevar a cabo el desarrollo del proyecto hemos dividido las tareas a realizar en varias fases que se comentan a continuación.
 
-En primer lugar y de manera individual, realizamos una labor de búsqueda comparando nuestro modelo de proyecto con otras aplicaciones existentes en el mercado para posteriormente poner en común las distintas ideas. Cada miembro del equipo se instaló una de estas aplicaciones y fue apuntando las posibles mejoras que podríamos implementar para aportar más valor a nuestro producto. Gracias a este ejercicio, llegamos a muchas de las conclusiones explicadas en la **sección 1.1**.
+En primer lugar y de manera individual, realizamos una labor de búsqueda comparando nuestro modelo de proyecto con otras aplicaciones existentes en el mercado para posteriormente poner en común las distintas ideas. Cada miembro del equipo instaló y analizó una de estas aplicaciones y fue apuntando las posibles mejoras que podríamos implementar para aportar más valor a nuestro producto. Gracias a este ejercicio, llegamos a muchas de las conclusiones explicadas en la **sección 1.1**.
 
-Posteriormente, hubo una fase de diseño en la cual realizamos un *mockup* de como nos gustaría que fuese nuestra aplicación.
+Posteriormente, hubo una fase de diseño en la cual realizamos un *mockup* de cómo nos gustaría que fuese nuestra aplicación.
 
-A continuación, tuvimos una fase de aprendizaje en la cual buscamos información y experimentamos con las distintas herramientas y componentes necesarios para montar nuestra aplicación. Entre estos componentes buscamos familiarizarnos con *express*, *docker*, *AWS*, *React Native*, *firebase* entre otros para realizar una comparación y escoger las tecnologías que mejor se adaptaban a nuestras necesidades para el futuro desarrollo de nuestra aplicación.
+A continuación, tuvimos una fase de aprendizaje en la cual buscamos información y experimentamos con las distintas herramientas y componentes necesarios para montar nuestra aplicación. Entre estos componentes buscamos familiarizarnos con *Express*, *Docker*, *AWS*, *React Native*, *firebase* entre otros para realizar una comparativa y escoger las tecnologías que mejor se adaptaban a nuestras necesidades para el futuro desarrollo de nuestra aplicación.
 
-Una vez terminadas las distintas tareas previas al desarrollo comentadas anteriormente, comenzamos con la programación del *backend* que nos llevó aproximadamente cuatro meses, durante este tiempo estuvimos implementando los servicios principales de la aplicación además del sistema de autenticación y autorización. Una vez terminada la parte esencial del *backend*, comenzamos con el desarrollo del *frontend*, que ha sido la fase más costosa en tiempo y esfuerzo, ya que hemos dedicado un gran trabajo a crear una interfaz amigable y usable además de funcionalidad extensa (filtrado, búsqueda, edición…). Es por ello que hemos ido realizando actualizaciones necesarias en *backend* para el correcto funcionamiento de la aplicación.
+Una vez terminadas las distintas tareas previas al desarrollo comentadas anteriormente, comenzamos con la programación del *backend* que nos llevó aproximadamente cuatro meses. Durante este tiempo estuvimos implementando los servicios principales de la aplicación además del sistema de autenticación y autorización. Una vez terminada la parte esencial del *backend*, comenzamos con el desarrollo del *frontend*, que ha sido la fase más costosa en tiempo y esfuerzo, ya que hemos dedicado un gran trabajo a crear una interfaz amigable y usable además de funcionalidad extensa (filtrado, búsqueda, edición…). Es por ello que hemos ido realizando actualizaciones necesarias en *backend* para el correcto funcionamiento de la aplicación.
 
-### Diagramas de Gantt
-
+### Planificación temporal
+Las figuras \ref{fig:ganttback} y \ref{fig:ganttfront} muestran las tareas asociadas al desarrollo del backend y del frontend respectivamente, así como la fecha de inicio, la fecha de fin y la duración de cada tarea:
 #### Backend {.unnumbered}
 
 ![Diagrama de Gantt backend](img/backendgantt.png){width=100% #fig:ganttback}
@@ -92,12 +92,12 @@ Una vez terminadas las distintas tareas previas al desarrollo comentadas anterio
 
 El resto de memoria se organiza como sigue:
 
-- En el **capitulo 2** se realiza un análisis sobre qué es *GTD*, cual es su método y técnica y también se describen las distintas aplicaciones que implementan *GTD*.
-- En el **capitulo 3** se discute sobre la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
-- En el **capitulo 4** mostramos el modelo de datos y la implementación de la base de datos. Aquí se describen las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
+- En el **capitulo 2** se realiza un análisis sobre qué es *GTD*, cuál es su método y técnica. También se describen las distintas aplicaciones en el mercado que implementan *GTD*.
+- En el **capitulo 3** se discute la planificación del proyecto, tratando puntos como el sistema de control de versiones, los entornos de desarrollo e integración utilizados y el sistema de despliegue.
+- En el **capitulo 4** presentamos el modelo de datos y la implementación de la base de datos. Aquí se describen las entidades, el modelo físico de la base de datos, su rendimiento y escalabilidad y la seguridad de la misma.
 - En el **capitulo 5** se introduce el diseño e implementación del *backend*, explicando el uso que hacemos de *REST*, el diseño de la *API*, los *endpoints* de la aplicación, los aspectos de seguridad de la *API* y la implementación de *OAuth 2.0*.
-- En el **capitulo 6** se detallan los principios de diseño que han guiado la creación de la *app*, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación. Explorando como los fundamentos del método GTD se han ido plasmando en *SwiftDo*.
-- En el **capitulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con Alexa. Explicaremos como hemos configurado la *skill* de alexa, como hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
+- En el **capitulo 6** se detallan los principios de diseño que han guiado la creación de la *app*, junto a las distintas tecnologías empleadas en el desarrollo de la misma, desde la etapa inicial del prototipado hasta su implementación, explorando cómo los fundamentos del método GTD se han ido plasmando en *SwiftDo*.
+- En el **capitulo 7** se describe la integración de nuestra aplicación GTD con agentes conversacionales, en nuestro caso con *Alexa*. Explicaremos cómo hemos configurado la *skill* de *Alexa*, cómo hemos vinculado nuestra cuenta de usuario, la implementación del flujo de autorización *OAuth 2.0* y los problemas que nos han surgido en este proceso.
 - En el **capitulo 8** se encuentra el manual  de usuario, mostrando la funcionalidad al completo de nuestra aplicación de manera fácil e intuitiva.
 - En el **capitulo 9** se recogen las principales conclusiones a las que hemos llegado y se discuten lineas de trabajo futuras.
-- Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y la conclusión, el tercero (apéndice C) hace referencia a las contribuciones que ha hecho cada miembro del equipo al proyecto y por último, (apéndice D) una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
+- Esta memoria consta también de cuatro apéndices. Los dos primeros (apéndices A y B) corresponden a la traducción al inglés de la introducción y las conclusiones, el tercero (apéndice C) enumera las contribuciones que ha hecho cada miembro del equipo al proyecto, y el último, (apéndice D) proporciona una guía de despliegue para que cualquiera que quiera utilizar nuestra aplicación pueda hacerlo.
