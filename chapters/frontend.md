@@ -38,7 +38,7 @@ En segundo lugar, detallamos el principio de **consistencia,** que ha sido funda
 
 ### Visibilidad
 
-D. Norman en su libro **<REFERENCIA AL LIBRO>** explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que éstas desempeñan. Tanto es así, que explica que cuanto más visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
+D. Norman en su libro [@design-book] explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que éstas desempeñan. Tanto es así, que explica que cuanto más visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
 
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones", que se representa en la figura \ref{fig:actionScreen}, mientras los demás ocupan un segundo plano. 
 
@@ -46,7 +46,7 @@ Por último, es conveniente gestionar el estado visible de los componentes de la
 
 ![Nombre de usuario y fecha](img/nombre_fecha.png){#fig:nombre_fecha}
 
-![Detalles](img/componentes/details.png){width=50% #fig:details}
+![Sección para ver y editar aspectos más detallados de la tarea (incluso observaciones en Markdown)](img/componentes/details.png){width=50% #fig:details}
 
 ## Prototipos e Interfaces
 
