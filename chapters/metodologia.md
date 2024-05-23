@@ -1,12 +1,18 @@
+[^]: 
+
 # Metodología GTD y aplicaciones {#sec:metodologia}
+
+En este capítulo nos preocuparemos en saber como funciona detalladamente el método *GTD* y cuales son las fases que debemos seguir para poder implementarlo cotidianamente. Por otro lado, analizaremos la competencia a la que se enfrenta *SwiftDo*, destacando los puntos positivos y negativos de las aplicaciones populares que implementan o permiten implementar *Getting Things Done*
+
+
 
 ## ¿Qué es GTD?
 
 El desarrollo tecnológico, sumado a la creciente complejidad del mundo moderno, ha desembocado en un notable incremento de responsabilidades tanto personales como profesionales. Es por ello que mantener la atención al detalle y la gestión eficaz del tiempo se ha vuelto un gran desafío para todo tipo de personas.
 
-En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal. Sin embargo, muchos de estos carecen de sentido para varios de los aspectos con los que nos topamos a diario. O bien son muy específicos, necesitando implementarlos en áreas muy concretas y no ayudan con todo tipo de tareas y actividades cotidianas, o bien, requieren de una alta curva de aprendizaje y dedicación del usuario para mantener dicha productividad que prometen.
+En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal, tales como la técnica <u>pomodoro</u> ^[[Técnica pomodoro](https://asana.com/es/resources/pomodoro-technique)], <u>Kanban</u> ^[[Tablero Kanban](https://asana.com/es/templates/kanban-board#)] o la <u>matriz de Eisenhower</u> ^[[Matriz de Eisenhower](https://asana.com/es/resources/eisenhower-matrix)]. Sin embargo, a pesar de que algunos de estos métodos mejoren la visualización de prioridades o gestionen correctamente el flujo de trabajo, carecen de sentido para varios aspectos con los que nos topamos a diario. O bien son muy específicos, y carecen de una estructura bien definida, necesitando implementarlos en áreas muy concretas y tareas a corto plazo, o bien, requieren de una alta curva de aprendizaje y dedicación del usuario para mantener dicha productividad que prometen.
 
-En este contexto, David Allen, en la pasada década de los ochenta, tras años investigando para dar solución a la problemática anteriormente mencionada, creó un sistema que denominó como el método *Getting things Done* (al que nos referiremos más adelante como *GTD*), título que le daría a su libro publicado en 2001, [@gtd-book]. En su obra, detalla un conjunto de técnicas que ayudarían a mejorar la productividad del individuo implementándolas a su rutina diaria.
+En este contexto, David Allen, en la década de los ochenta, tras años investigando para dar solución a la problemática anteriormente mencionada, creó un sistema que denominó como el método *Getting Things Done* (al que nos referiremos más adelante como *GTD*), título que le daría a su libro publicado en 2001, [@gtd-book]. En su obra, detalla un conjunto de técnicas que ayudarían a mejorar la productividad del individuo implementándolas a su rutina diaria.
 
 A pesar del desarrollo tecnológico y el paso de los años, *GTD* sigue siendo uno de los métodos de referencia para las personas que buscan alejarse “del ruido” del día a día, permitiéndoles enfocarse en lo que realmente importa; tanto en los aspectos personales como profesionales. De esta forma, permite al individuo gestionar de forma óptima el tiempo del que dispone a diario. Y para ello, hace uso de un lenguaje sencillo, basándose en dos objetivos principales:
 
@@ -16,7 +22,7 @@ A pesar del desarrollo tecnológico y el paso de los años, *GTD* sigue siendo u
 
 El fijar objetivos tan abstractos y concisos, hace que *GTD* obtenga un carácter de mayor relevancia para tareas de ámbito general, sin encasillarlo en áreas muy específicas de la vida, como puede ser el trabajo, un proyecto o simples labores domésticas. Esto posibilita la integración de todo tipo de tareas, reduciendo la carga de trabajo mental que supone acordarse de todo constantemente, evitando posibles distracciones mientras nos mantenemos enfocados en lo que de verdad importa.
 
-Por último, como comentaremos más adelante, para enfocarnos en un estado de máxima concentración, debemos seguir una serie de principios fundamentales que resumiremos en: \ref{sec:collect} y \ref{sec:process}.
+Por último, para enfocarnos en un estado de máxima concentración, debemos seguir una serie de principios fundamentales que resumiremos en las siguientes secciones.
 
 ## Método y técnica
 
@@ -93,9 +99,7 @@ Por último, tenemos la fase *Do*. En esta fase ya hemos terminado de *capturar*
 
 ## Aplicaciones
 
-En este apartado trataremos de cumplimentar todas las fases anteriormente descritas, teniendo en cuenta las herramientas que nos proporciona Allen en su libro, aunque adaptadas a la década en la que nos encontramos.
-
-Por lo general, el libro nos da ciertas herramientas para que podamos implementar la filosofía *GTD* como una extensión más allá de nuestra rutina cotidiana. Sin embargo, debemos tener en cuenta que el libro fue escrito a comienzos de los años dos mil. Por ello, en lugar de usar términos como “papeleras”, “notas de voz” o “apuntes en papel”, usaremos herramientas actuales que vemos todos los días, tales como los ordenadores, móviles o *iPads*, de forma que podamos integrarlo con mayor facilidad en nuestro día a día.
+Por lo general, David Allen, nos da ciertas herramientas para poder implementar la filosofía *GTD* como una extensión más allá de nuestra rutina cotidiana. Sin embargo, debemos tener en cuenta que el libro fue escrito a comienzos de los años dos mil. Por ello, en lugar de usar términos como “papeleras”, “notas de voz” o “apuntes en papel”, usaremos herramientas actuales que vemos todos los días, tales como los ordenadores, móviles o tablets, de forma que podamos integrarlo con mayor facilidad en nuestro día a día.
 
 Basándonos en esta idea, hemos explorado el mercado de aplicaciones que existen tanto en *App Store* y *Google Play*, encontrándonos con las aplicaciones más destacadas para poder implementar la metodología, siendo estas:
 
@@ -103,9 +107,9 @@ Basándonos en esta idea, hemos explorado el mercado de aplicaciones que existen
 
 - **TodoIst**: Aplicación de gestión de tareas. Permite crear listas de tareas, recordatorios, establecer etiquetas y organizar tus tareas según los principios básicos de *GTD*.
 
-- **Notion**: *Notion* es una herramienta de productividad versátil que puede personalizarse para adaptarse a *GTD*. Puedes crear bases de datos, tablas y tableros para organizar tus tareas y proyectos.
+- **Notion**: *Notion* es una herramienta de productividad versátil que puede personalizarse para adaptarse a *GTD*. Permite crear bases de datos, tablas y tableros para organizar tus tareas y proyectos.
 
-- **Things**: Se trata de una aplicación de gestión de tareas disponible para dispositivos *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas.
+- **Things**: Se trata de una aplicación de gestión de tareas disponible para dispositivos de *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas.
 
 - **Omnifocus**: Ofrece una amplia gama de características de organización y permite crear proyectos, tareas y contextos para seguir la metodología *GTD*.
 
@@ -130,12 +134,12 @@ A pesar de que las apps mencionadas en el anterior apartado son excelentes, obse
 
 \lend{landscape}
 
-Teniendo esto en cuenta, debemos tener en consideración que no solo hay falta una aplicación con una buena interfaz y que integre todas las características del método, sino que además debe ser fácil e intuitiva de utilizar para que se pueda poner en práctica diariamente.
+Teniendo esto en cuenta, debemos tener en consideración que no solo hay falta una aplicación con una buena interfaz y que integre todas las características del método, sino que además debe ser fácil e intuitiva de utilizar para que se pueda poner en práctica diariamente. Y sobre todo, que aunando estas características, proporcione e informe de forma transparente el tratamiento de datos de sus usuarios.
 
 ## Conclusiones
 
-En resumen, la filosofía *Getting Things Done* pone por escrito muchas de las funciones que usualmente tenemos en mente, pero que no conseguimos ejecutar correctamente por motivos diversos, estando éstos relacionados con la organización. Es por esto por lo que tener fases bien definidas, permite gestionar mejor el día a día, consiguiendo enfocarnos en lo que realmente importa.
+En resumen, la filosofía *Getting Things Done* pone por escrito muchas de las funciones que usualmente tenemos en mente, pero que no conseguimos ejecutar correctamente por motivos diversos, estando estos relacionados con la organización. Es por esto por lo que tener fases bien definidas, permite gestionar mejor el día a día, consiguiendo enfocarnos en lo que relmente importa.
 
 A pesar de que, como todo método, puede presentar ciertas dificultades, merece la pena implementarlo en la rutina diaria pues tiene una corta curva de aprendizaje siendo fácilmente adaptable a múltiples facetas de la vida, a diferencia de otros métodos y/o técnicas (p.ej.: técnica pomodoro).
 
-Teniendo esto en cuenta, detallaremos en el Capítulo \ref{sec:frontend} la implementación del frontend de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.
+Teniendo esto en cuenta, detallaremos en el Capítulo \ref{sec:frontend} la implementación del *Frontend* de la app, así como qué características destacamos para hacer llegar este método a los dispositivos personales de todo individuo.

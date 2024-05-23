@@ -6,7 +6,7 @@ En este capítulo ahondaremos en varias de las técnicas de diseño de software 
 
 ## Percepción del funcionamiento del sistema
 
-Para empezar a diseñar la app, investigamos, no sólo cómo funciona el método *GTD*, explicado en el capítulo \ref{sec:metodologia}, sino también cómo trasladar esa experiencia fielmente al software. La percepción de la filosofía GTD puede variar según cada usuario, sin embargo, la esencia principal de ésta debe ser la misma. Para ello debemos meditar qué tipo de elementos deben estar o no presentes en la app. De esta forma conseguimos que coincidan el **modelo mental**, es decir, cómo el usuario piensa que funciona la aplicación, y el **modelo tecnológico**, que representa el funcionamiento interno.
+Para empezar a diseñar la app, investigamos, no sólo cómo funciona el método *GTD*, explicado en el capítulo \ref{sec:metodologia}, sino también cómo trasladar esa experiencia fielmente al software. La percepción de la filosofía GTD puede variar según cada usuario, sin embargo, la esencia principal de esta debe ser la misma. Para ello debemos meditar qué tipo de elementos deben estar o no presentes en la app. De esta forma conseguimos que coincidan el **modelo mental**, es decir, cómo el usuario piensa que funciona la aplicación, y el **modelo tecnológico**, que representa el funcionamiento interno.
 
 <IMAGEN DE UN MINDMAP CON LOS DETALLES PRINCIPALES DE LA APP>
 
@@ -38,7 +38,7 @@ En segundo lugar, detallamos el principio de **consistencia,** que ha sido funda
 
 ### Visibilidad
 
-D. Norman en su libro [@design-book] explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que éstas desempeñan. Tanto es así, que explica que cuanto más visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
+D. Norman en su libro [@design-book] explica que todo componente debe proporcionar una representación clara, tanto de su estado como de las funciones que estas desempeñan. Tanto es así, que explica que cuanto más visible sea un objeto, mayor será la interacción que tendrá el usuario con él.
 
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones", que se representa en la figura \ref{fig:actionScreen}, mientras los demás ocupan un segundo plano. 
 
@@ -68,7 +68,7 @@ En segundo lugar tenemos las tareas relacionadas con la gestión del flujo de *G
 
 ![Escritorio](img/componentes/escritorio.png){width=50%}
 
-En adición a las categorías de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:hoy} que actúe como resumen diario inteligente. Éste detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
+En adición a las categorías de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:hoy} que actúe como resumen diario inteligente. Este detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
 ![Pantalla de sección "hoy"](img/componentes/Hoy_Screen.png){width=50% #fig:hoy}
 
