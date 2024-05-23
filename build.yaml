@@ -22,6 +22,8 @@ pandoc_common:
   - chapters/conclusion.md
   - separators/backmatter.md
 ## Include appendices here      
+  - appendices/introduction.md
+  - appendices/contribuciones.md
   - appendices/guiadespliegue.md
   - chapters/endpoints.md
 ## Include this file if your document contains a bibliography  
