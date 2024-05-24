@@ -26,7 +26,7 @@ Este código de autorización y el estado son devueltos por nuestro servidor a l
 
 ## Guía para vincular Alexa con SwiftDo (Desarrollo)
 
-Para vincular *Alexa* con *SwiftDo* durante el desarrollo, debemos seguir una serie de pasos específicos debido a las limitaciones del entorno de desarrollo. En este entrono, la *skill* solo está disponibl en la cuenta en la que se ha desarrollado. Los pasos son los siguientes:
+Para vincular *Alexa* con *SwiftDo* durante el desarrollo, debemos seguir una serie de pasos específicos debido a las limitaciones del entorno de desarrollo. En este entorno, la *skill* solo está disponible en la cuenta en la que se ha desarrollado. Los pasos son los siguientes:
 
 Primero, accedemos a la aplicación de "Amazon Alexa" en nuestro dispositivo móvil (véase la figura \ref{fig:alexahome}). Una vez dentro de la aplicación, nos dirigimos a la sección "Más", ubicada en la parte inferior derecha de la pantalla. Desde ahí, seleccionamos "Skills y juegos" en el menú desplegable. Esta sección permite explorar y habilitar diversas *skills* que expanden las capacidades de *Alexa*.
 
@@ -38,13 +38,13 @@ Nos desplazamos hasta la parte inferior de la página, donde encontramos "Mis sk
 
 ![Página de la Skill SwiftDo ya habilitada](img/skillswiftdo.png){width=25% #fig:skillswiftdo}
 
-El siguiente paso es crucial para la vinculación de cuentas. Nos dirigimos a la opción "Configuración" dentro de la *skill* de *SwiftDo* y seleccionamos "Vincular cuenta". Esto nos redirige a una página, mostrada en la figura \ref{fig:vinculacion}, donde debemos introducir nuestro "Correo electrónico" y "Contraseña" asociados a nuestra cuenta de *SwiftDo*. Una vez ingreados estos datos, presionamos "Vincular" para completar el proceso de autenticación.
+El siguiente paso es crucial para la vinculación de cuentas. Nos dirigimos a la opción "Configuración" dentro de la *skill* de *SwiftDo* y seleccionamos "Vincular cuenta". Esto nos redirige a una página, mostrada en la figura \ref{fig:vinculacion}, donde debemos introducir nuestro "Correo electrónico" y "Contraseña" asociados a nuestra cuenta de *SwiftDo*. Una vez integrados estos datos, presionamos "Vincular" para completar el proceso de autenticación.
 
 ![Página redirigida para vinculación de Alexa con SwiftDo](img/vinculacion.png){width=25% #fig:vinculacion}
 
 Una vez vinculada la cuenta, es necesario activar la *skill* mediante el comando de voz: "Alexa, abre añadir tarea". Este comando inicializa la *skill* y permite a *Alexa* la capacidad de añadir una nueva tarea a nuestra aplicación.
 
-Para añadir una tarea, indicamos el título de la tarea obligatoriamente. Por ejemplo, "Añade la tarea Prueba con Amazon". Posteriormente, podemos añadir más información a la tarea, como una descripción dicieno "Añade de descripción Esto es una prueba con Amazon". También podemos definir la importancia de la tarea con el comando "Si la tarea es importante" y establecer una fecha límite diciendo "Pon de fecha límite el 15 de junio". Si no deseamos añadir más detalles, podemos finalizar con el comando "Eso es todo".
+Para añadir una tarea, indicamos el título de la tarea obligatoriamente. Por ejemplo, "Añade la tarea Prueba con Amazon". Posteriormente, podemos añadir más información a la tarea, como una descripción diciendo "Añade de descripción Esto es una prueba con Amazon". También podemos definir la importancia de la tarea con el comando "Si la tarea es importante" y establecer una fecha límite diciendo "Pon de fecha límite el 15 de junio". Si no deseamos añadir más detalles, podemos finalizar con el comando "Eso es todo".
 
 ## Guía para vincular Alexa con SwiftDo (Público)
 
@@ -56,7 +56,7 @@ Para vincular *Alexa* con *SwiftDo* públicamente, los usuarios seguirán estos 
 
 2. Ir a la sección "Más" y seleccionar "Skills y juegos".
 
-3. Buscar la *skill* de "SwiftDo" en la barra de búsquedas (véase la figura \ref{fig:skills}), acceder y habilitarla presionando "Permitir su uso".
+3. Buscar la *skill* de "SwiftDo" en la barra de búsquedas, acceder y habilitarla presionando "Permitir su uso".
 
 4. En la configuración de la *skill*, seleccionar "Vincular cuenta" y ser redirigido a una página de autenticación.
 
