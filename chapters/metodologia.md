@@ -1,5 +1,3 @@
-[^]: 
-
 # Metodología GTD y aplicaciones {#sec:metodologia}
 
 En este capítulo nos preocuparemos en saber como funciona detalladamente el método *GTD* y cuales son las fases que debemos seguir para poder implementarlo cotidianamente. Por otro lado, analizaremos la competencia a la que se enfrenta *SwiftDo*, destacando los puntos positivos y negativos de las aplicaciones populares que implementan o permiten implementar *Getting Things Done*
