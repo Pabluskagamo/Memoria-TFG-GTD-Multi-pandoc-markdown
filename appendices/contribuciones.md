@@ -4,13 +4,11 @@ Desde el inicio del curso escolar 23/24 y con ello, desde el inicio de este trab
 
 ## Alejandro del Río Caballero
 
-### Puesta en escena: Aprendizaje 
+### Puesta en escena: Aprendizaje
 
 Tras la primera reunión con el tutor y con los objetivos estipulados, Alejandro asumió la responsabilidad inicial de familiarizarse con la metodología *GTD* con "THE MAIN IDEA" (REF: https://saanys.org/wp-content/uploads/2020/10/The-Main-Idea-Getting-Things-Done-August-2017.pdf), un resumen de apenas 12 páginas donde explicaban los fundamentos de *GTD*.  De esta forma pudo comenzar a escribir en la motivación en el Capítulo \ref{sec:intro}.
 
 Por otro lado, me documenté sobre las tecnologías que íbamos a utilizar, tales como *Node.js* y *React Native* para el desarrollo de *Backend* y *Frontend*. Además de Figma para el diseño de interfaces de usuario. 
-
-
 
 ### Documentación de la metodología
 
@@ -36,7 +34,7 @@ Para ello, Alejandro definió un "validador de datos" a modo de esquema en un ar
 
 Para llevar a cabo los aspectos de *Backend*, Alejandro aprendió las bases de*Node.js y Express.js* en un curso de FreeCodeCamp (https://www.youtube.com/watch?v=Oe421EPjeBE) , ya que la titulación de Ingeniería Informática carece de asignaturas en las que se imparta dicho framework en profundidad. También aprendió mediante otro curso en FreeCodeCamp (https://www.youtube.com/watch?v=VywxIQ2ZXw4), el funcionamiento de Postman, para probar y verificar la API que íbamos creando.
 
-####  Frontend
+#### Frontend
 
 En cuanto al *Frontend*, hemos mantenido un desarrollo consistente y cohesionado gracias a la participación activa de todos los integrantes del equipo en todos las áreas de la aplicación. 
 
@@ -54,48 +52,92 @@ Para llevar a cabo el desarrollo de la aplicación en React Native, Alejandro se
 
 ---
 
-
-
-
-
 ## Carlos Gómez López
 
+### Puesta en escena: Aprendizaje
 
+El desarrollo de *SwiftDo*, nuestra aplicación basada en la metodología *GTD*, comenzó con una fase de búsqueda y familiarización con esta metodología. Nos sumergimos en la literatura y recursos disponibles sobre *GTD* para entender mejor sus principios y cómo podríamos aplicarlos a nuestra aplicación. Además, nos inspiramos en otras aplicaciones existentes que implementan la metodología *GTD*, lo que ayudó a visualizar cómo estructurar las funcionalidades y la interfaz de usuario. Durante esta etapa, surgieron muchas dudas sobre la arquitectura de la aplicación y las "acciones" específicas que necesitábamos implementar. Estas dudas las fuimos resolviendo con la orientación de nuestro profesor y mediante investigaciones exhaustivas.
+
+Paralelamente, dedicamos tiempo a investigar las tecnologías que utilizaríamos para el desarrollo. Decidimos optar por *React Native* y *Express.js*. Aunque algunos ya teníamos experiencia previa con *Express.js* de una asignatura en el grado universitario, *React Native* representó un nuevo desafío. A pesar de que algunos miembros del equipo tenían conocimientos de *React*, nos dimos cuenta de que *React Native* presentaba diferencias significativas y requería un enfoque de estudio y aprendizaje específico. Esta fase inicial fue crucial para sentar las bases técnicas y conceptuales de *SwiftDo* y preparar a nuestro equipo para el entorno de desarrollo.
+
+### Documentación
+
+Después de familiarizarnos con la metodología *GTD* y las tecnologías que íbamos a utilizar, nos enfocamos en identificar aplicaciones similares a las que queríamos desarrollar, con especial atención en aquellas que también implementaban la metodología *GTD*. Para llevar a cabo esta investigación, dividimos la tareas entre los miembros del equipo, asignando a cada uno la responsabilidad de analizar diferentes aplicaciones.
+
+Durante esta fase, recopilamos información sobre las ventajas y desventajas de cada aplicación, lo que nos permitió desarrollar una visión clara de qué características eran esenciales para nuestra aplicación. A partir de este análisis, obtuvimos ideas tanto de funcionalidades como diseño de la interfaz de usuario, que consideramos importantes integrar en *SwiftDo*.
+
+Paralelamente, dado que una de nuestras metas era integrar nuestra aplicación con agentes conversacionales, Carlos se encargó de investigar las opciones disponibles para esta integración. Exploró la viabilidad de trabajar con agentes como *Alexa* y *Google Assistant*, evaluando cuál de ellos ofrecía mejores características y facilidades para su integración.
+
+### Diseño: Desarrollo de la Interfaz de Usuario (UI)
+
+Para desarrollar la interfaz de usuario de *SwiftDo*, Alejandro y Carlos lideraron respectivamente el diseño para dispositivos móviles y web/aplicación. Si bien se evaluaron ambas propuestas, se destacaron y se incorporaron más ideas provenientes del diseño de Alejandro. La colaboración resultó en una interfaz equilibrada que reflejaba la visión del equipo y satisfacía las necesidades de los usuarios.
+
+### Desarrollo
+
+#### Base de datos
+
+En el desarrollo de la base de datos, Javier asumió principalmente la responsabilidad, aunque Carlos realizó ajustes específicos en las relaciones entre las entidades "Tasks" y "Tags", incluyendo la creación de una tabla nueva llamada "TagToTask".
+
+#### Backend
+
+En el desarrollo del *backend*, Carlos asumió varias responsabilidades. Inicialmente, se encargó de la configuración de los *routes* y *services* de la entidad "Task", así como en la implementación del *CRUD* para esta entidad. Además, desarrolló la funcionalidad para la creación de áreas/contextos y un buscador de etiquetas, tanto específicas como para obtener todas.
+
+Carlos también realizó modificaciones significativas en la sección de filtros previamente creada por Pablo, adaptándola para generar filtros específicos para la acción "Hoy". Por último, cabe mencionar su contribución en la personalización del diseño predeterminado de *OAuth* para la integración con *Alexa*.
+
+#### Frontend
+
+En el *frontend*, Carlos lideró una serie de cambios y diseños significativos. En la sección de "Inbox", se enfocó en desarrollar la interfaz de usuario, integrando funciones clave como la adición y edición de tareas. Diseñó varios modales, incluyendo los de adición, edición, completado, movimiento y selección de tareas, así como el selector entre tarea o proyecto. También implementó la integración de etiquetas en las tareas, contando con la colaboración de Javier.
+
+Para la mejora de la experiencia del usuario, se llevó a cabo la introducción de funcionalidades de desplazamiento y la capacidad de seleccionar tareas. Además, Carlos se encargó de la visualización de etiquetas y la importancia de las tareas en las vistas de las "acciones", lo que proporcionó una mejora significativa en esta sección de la aplicación.
+
+En el "Sidebar", Carlos diseñó el perfil, la funcionalidad para añadir y listar "áreas", y los indicadores de las tareas disponibles en cada "acción".
+
+Carlos trabajó en el diseño la sección "Hoy" junto con Javier, aunque las funcionalidades las desarrolló de manera individual. Esta parte de la aplicación resultó ser una de las más tediosas debido a la complejidad de las adaptaciones necesarias para garantizar el funcionamiento como en el resto de la aplicación.
+
+Además, Carlos también realizó adaptaciones para web y escritorio, y se ocupó de implementar el apartado de "Tutorial" y "Vincular con Alexa" en el menú de configuración.
+
+Finalmente, se dedicó a realizar ajustes finos y correcciones de errores en toda la aplicación.
+
+### Vinculación con Alexa
+
+Carlos fue el encargado de desarrollar la skill de *SwiftDo* desde cero para la integración con Alexa, partiendo de una plantilla base proporcionada por Amazon Developer. En esta fase, el hecho de que la plantilla base ofreciera la opción de elegir entre Node.js y Python facilitó el proceso para Carlos, ya que contaba con conocimientos sólidos en Node.js. Después de estudiar en solitario el funcionamiento del agente conversacional, enfrentó los desafíos técnicos que surgieron en el desarrollo de la skill. Una vez que logró tener todo funcional, solicitó la ayuda de Pablo para poner en marcha la integración, ya que requería de sus conocimientos en OAuth. Tras un arduo trabajo y pruebas exhaustivas, lograron la vinculación y el correcto funcionamiento de la skill, realizando pruebas Carlos desde su propio dispositivo Alexa.
+
+### Conclusiones
+
+La experiencia de llevar a cabo este proyecto nos ha brindado valiosas oportunidades para crecer y mejorar nuestras habilidades en diversas áreas, desde la programación hasta el diseño de interfaces de usuario y la gestión de proyectos. Afrontar los obstáculos nos ha permitido desarrollar soluciones prácticas y ganar confianza en nuestras capacidades técnicas y de trabajo en equipo.
 
 ## Pablo Gamo González
 
-
-
 ## Javier Gil Caballero
 
- ### Puesta en escena: Aprendizaje
+### Puesta en escena: Aprendizaje
 
  Con el comienzo del curso y con el tema ya seleccionado del TFG, iniciamos una labor de búsqueda para familiarizarnos con la metodología *GTD*. Durante esta investigación nos surgieron varias dudas de conceptos las cuales fuimos resolviendo con nuestro tutor en diversas reuniones, esto nos ha permitido desarrollar nuestra aplicación siguiendo los principios que se establecen en *GTD*.
- 
+
  Una vez decididas las tecnologías que íbamos a utilizar para el desarrollo de la aplicación que en nuestro caso ha sido *Express.js* y *React Native*, comenzamos una labor de aprendizaje de las mismas. Aprender *Express.js* fue más sencillo ya que varios miembros del equipo lo habíamos utilizado en la carrera y *React Native* fue todo un desafío ya que nadie conocía este *framework* y nos tocó aprenderlo desde cero.
 
- ### Documentación
+### Documentación
 
  Al finalizar esta investigación y conociendo los principales aspectos de *GTD*, Javier buscó información sobre distintas aplicaciones que implementan esta tecnología tanto en dispositivos móviles como en ordenadores, aportando datos como los sistemas operativos que permiten instalar cada aplicación, sus funcionalidades y sus puntos fuertes y débiles con el propósito de realizar un primer diseño de *SwiftDo* utilizando las características más útiles, mejorando aquellas que no nos convencieron en el resto de aplicaciones e implementando nuevas funcionalidades para desarrollar una aplicación más completa que cualquiera de la competencia. 
 
- ### Desarollo: 
+### Desarollo:
 
  En este apartado distinguiremos las aportaciones de Javier al proyecto en relación con la base de datos, el *backend* y el *frontend*.
 
- #### Base de datos
+#### Base de datos
 
  Javier se encargó de crear la primera versión de la base de datos, creando las tablas "users", "projects", "tags", "contexts", y "tasks" con sus respectivos atributos. Además definió las claves primarias de cada tabla e incluyó las relaciones con el resto de entidades añadiendo sus *foreign keys*. 
 
- #### Backend 
- 
+#### Backend
+
  En cuanto al desarrollo de la aplicación, decidimos comenzar por el *backend*. Javier inició la configuración del *backend* desarrollando el archivo “app.js” para organizar y estructurar el código y las distintas rutas que se utilizarían a lo largo de este proyecto. Como equipo, distribuimos el trabajo del *backend* asignando cada entidad a un miembro del equipo. Javier se encargó de desarrollar la entidad “contexto”, implementando las operaciones *CRUD* y funciones complementarias.
 
  Además, Javier creó un validador de datos para los contextos, garantizando que los nuevos contextos esten vacíos y tengan una longitud máxima de 50 caracteres. También desarrolló las rutas necesarias para manejar las solicitudes *HTTP*, permitiendo crear, modificar, eliminar, mostrar un contexto y mostrar todos los contextos asociados a un usuario, gestionando los errores en caso de fallos en las rutas. 
- 
+
  Por último, Javier sirvió de apoyo en otras entidades, desarrollando la ruta principal de la aplicación, rutas de usuarios y las funciones de buscar tareas por su ID y por el ID del usuario.
 
- #### Frontend
- 
+#### Frontend
+
  Respecto al *frontend*, hemos distribuido las tareas de forma diferente, manteniendo un orden de prioridad. De este modo, todos los miembros del equipo hemos participado en todas las áreas de la aplicación.
 
  Para empezar, Javier ha desarrollado todas las funcionalidades relacionadas con proyectos. Esto incluye el servicio de proyectos que permite crear, mostrar, modificar, completar un proyecto y mostrar los proyectos de un usuario, así como el diseño de la pantalla de proyectos.
@@ -109,4 +151,3 @@ Para llevar a cabo el desarrollo de la aplicación en React Native, Alejandro se
 ## Conclusiones finales
 
 La participación de cada miembro del grupo ha sido fundamental para el desarrollo de la aplicación. Demostrando la cohesión y consistencia de los conocimientos adquiridos tanto en ingeniería de software como en informática, así como la importancia del trabajo en equipo, pudiendo destacar las habilidades y destrezas adquiridas.
-
