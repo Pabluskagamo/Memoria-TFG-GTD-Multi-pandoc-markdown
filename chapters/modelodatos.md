@@ -2,11 +2,11 @@
 
 Este capítulo tiene como objetivo describir en detalle el modelo de datos utilizado en nuestra aplicación *SwiftDo*, proporcionando una visión exhaustiva de cómo se organizan y relacionan los datos esenciales para su funcionamiento.
 
-En primer lugar, presentaremos las principales entidades que componen nuestro modelo, incluyendo tareas, usuarios, proyectos, áreas, etiquetas y las relaciones asociadas a la autorización _OAuth_. Cada entidad es examinada en profundidad, detallando sus atributos y el propósito que cumplen dentro del contexto de la aplicación.
+En primer lugar, presentaremos las principales entidades que componen nuestro modelo, incluyendo tareas, usuarios, proyectos, áreas, etiquetas y las relaciones asociadas a la autorización *OAuth*. Cada entidad es examinada en profundidad, detallando sus atributos y el propósito que cumplen dentro del contexto de la aplicación.
 
 Posteriormente, analizaremos las relaciones entre estas entidades, destacando cómo se conectan y cómo estas conexiones facilitan el flujo de información y la interacción dentro de la aplicación.
 
-Además, discutiremos la implementación física del modelo de datos en la base de datos. Nuestra base de datos está alojada en un entorno _Docker_ en _AWS_ (*Amazon Web Services*), utilizando _PostgreSQL_ como sistema de gestión de bases de datos. Describiremos la estructura de tablas, índices y restricciones de integridad referencial, resaltando cómo estas decisiones de diseño se traducen en la configuración final de la base de datos.
+Además, discutiremos la implementación física del modelo de datos en la base de datos. Nuestra base de datos está alojada en un entorno *Docker* en *AWS* (*Amazon Web Services*), utilizando *PostgreSQL* como sistema de gestión de bases de datos. Describiremos la estructura de tablas, índices y restricciones de integridad referencial, resaltando cómo estas decisiones de diseño se traducen en la configuración final de la base de datos.
 
 Por último, analizaremos aspectos críticos como la seguridad de la base de datos, las consideraciones de rendimiento y escalabilidad. Estos temas son esenciales para garantizar la integridad, confidencialidad y disponibilidad de los datos.
 
@@ -26,7 +26,7 @@ En la figura \ref{fig:diagramaer} se muestra la relación entre las distintas en
 
 - **Etiqueta:** La entidad etiquetas permite etiquetar las tareas con palabras clave relevantes para una clasificación más detallada. Los usuarios pueden crear, editar y eliminar etiquetas, y asignarlas a tareas individuales para una organización más flexible y personalizada.
 
-- **Relaciones de _OAuth_:** Las entidades *oauth_authcode*, *oauth_clients* y *oauth_tokens* están relacionadas con el proceso de autorización _OAuth_ para la autenticación de usuarios en la aplicación, facilitando la seguridad y la gestión de accesos.
+- **Relaciones de *OAuth*:** Las entidades *oauth_authcode*, *oauth_clients* y *oauth_tokens* están relacionadas con el proceso de autorización *OAuth* para la autenticación de usuarios en la aplicación, facilitando la seguridad y la gestión de accesos.
 
 ## Relaciones entre entidades
 

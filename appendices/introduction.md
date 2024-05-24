@@ -13,15 +13,15 @@ Therefore, motivated to solve this problem, we seek to develop a multiplatform a
 
 ## Goals
 
-El objetivo central de este proyecto es desarrollar una aplicación multiplataforma *GTD*. Para ello hemos utilizado el framework *React Native* que permite crear una interfaz de usuario coherente que funcione en todos los sistemas operativos principales, como *Android*, *iOS*, *MacOS*, *GNU/Linux* y *Windows*, y garantiza que los usuarios puedan gestionar sus tareas y proyectos de manera eficiente desde cualquier dispositivo, sin importar la plataforma que utilicen. 
+The main objective of this project is to develop a cross-platform *GTD* application. To do this, we have used the *React Native* framework that allows us to create a consistent user interface that works on all major operating systems, such as *Android*, *iOS*, *MacOS*, *GNU/Linux* and *Windows*, and ensures that users can manage their tasks and projects efficiently from any device, no matter what platform they use.
 
-La utilización de *React Native* simplifica el desarrollo, mantenimiento y escalabilidad del proyecto, lo que resulta en una aplicación ágil y adaptable a futuras actualizaciones y cambios en las plataformas de destino.
+The use of *React Native* simplifies the development, manteinance, and scalability of the project, resulting in an agile application that is adaptable to future updates and changes in the target platforms.
 
-Nuestra aplicación *SwiftDo* destaca por su modo offline, que permite a los usuarios gestionar tareas incluso sin conexión a Internet (como puede darse el caso en dispositivos móviles). A diferencia de otras alternativas, nuestra *app* garantiza una experiencia ininterrumpida al almacenar datos localmente y sincronizar automáticamente con el servidor cuando se recupera la conexión, asegurando la disponibilidad constante de la información en todos los dispositivos del usuario.
+*SwiftDo* stands out for its offline mode, which allows users to manage tasks even without an internet connection (as can be the case on mobile devices). Unlike other alternatives, our app ensures an uninterrupted experience by storing data locally and automatically synchronizing with the server when the connection is restored, ensuring the constant availability of information on all the user's devices.
 
-En el desarrollo de nuestra aplicación, la *API REST* desempeña un papel crucial al proporcionar *endpoints* para la comunicación cliente-servidor, permitiendo operaciones *CRUD* en los datos, como por ejemplo, tener un _endpoint_ '/tareas' para la creación y lectura de tareas. De esta manera, la _API REST_ proporciona una interfaz estandarizada y eficiente para la manipulación de datos en nuestra plataforma *GTD*. Además, la implementación de sólidas prácticas de seguridad, como autenticación y cifrado de datos, asegura la integridad y confidencialidad de la información, garantizando una experiencia segura para nuestros usuarios.
+In the development of *SwiftDo*, the REST API plays a crucial role as it provides endpoints for the client-server communication, enabling CRUD operations on data, such as having an *endpoint* '/tareas' for creating and reading tasks. In this way, the REST API provides a standardized and efficient interface for data manipulation on out *GTD* platform. In addition, implementing solid security practices, such as authentication and data encryption, ensures the integrity and confidenciality of information, guaranteeing a secure experience for our users.
 
-Al desarrollar nuestra aplicación perseguimos una serie de objetivos específicos que quedaron representados mediantes los siguientes requisitos de alto nivel:
+When developing our application, we pursue a series of specific objectives that were represented by the following high-level requirements.
 
 - **Gestión de tareas centralizada:**
   
