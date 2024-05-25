@@ -8,7 +8,7 @@ Desde el inicio del curso escolar 23/24 y con ello, desde el inicio de este trab
 
 Tras la primera reunión con el tutor y con los objetivos estipulados, Alejandro asumió la responsabilidad inicial de familiarizarse con la metodología *GTD* con "THE MAIN IDEA" [@gtd-tmi], un resumen de apenas 12 páginas donde explicaban los fundamentos de *GTD*.  De esta forma pudo comenzar a escribir en la motivación en el Capítulo \ref{sec:intro}.
 
-Por otro lado, me documenté sobre las tecnologías que íbamos a utilizar, tales como *Node.js* y *React Native* para el desarrollo de *Backend* y *Frontend*. Además de Figma para el diseño de interfaces de usuario. 
+Por otro lado, me documenté sobre las tecnologías que íbamos a utilizar, tales como *Node.js* y *React Native* para el desarrollo de *backend* y *frontend*. Además de Figma para el diseño de interfaces de usuario. 
 
 ### Documentación de la metodología
 
@@ -28,15 +28,15 @@ El uso de los principios de diseño, sumado a la capacidad de identificar y apli
 
 #### Backend
 
-Al inicio de la aplicación nos centrarnos fundamentalmente en el desarrollo del *Backend*, concretamente en las acciones *CRUD*, "Crear, Leer, Actualizar y Borrar" (del inglés: *Create, Read, Update and Delete*). Una vez repartidas las *CRUD* mas relevantes de la aplicación, Alejandro se encargó de la sección de Proyectos. 
+Al inicio de la aplicación nos centrarnos fundamentalmente en el desarrollo del *backend*, concretamente en las acciones *CRUD*, "Crear, Leer, Actualizar y Borrar" (del inglés: *Create, Read, Update and Delete*). Una vez repartidas las *CRUD* mas relevantes de la aplicación, Alejandro se encargó de la sección de Proyectos. 
 
 Para ello, Alejandro definió un "validador de datos" a modo de esquema en un archivo "<u>projectValidator.js</u>", asegurándose que los campos título y descripción de un proyecto se crearan y modificaran correctamente en la base de datos. Luego, implementó las rutas necesarias mediante el framework de *Node.js* y *Express*, manejando así las solicitudes HTTP correspondientes para <u>crear</u>, <u>completar</u>, <u>mostrar</u> y <u>actualizar</u> los campos de un proyecto. Así como la adición de los códigos de estado HTTP para notificar al usuario en caso de error.
 
-Para llevar a cabo los aspectos de *Backend*, Alejandro aprendió las bases de *Node.js y Express.js* en un curso de freeCodeCamp [@fcc-node] , ya que la titulación de Ingeniería Informática carece de asignaturas en las que se imparta dicho framework en profundidad. También aprendió mediante el mismo curso [@fcc-node]  el funcionamiento de Postman, para probar y verificar la API que íbamos creando.
+Para llevar a cabo los aspectos de *backend*, Alejandro aprendió las bases de *Node.js y Express.js* en un curso de freeCodeCamp [@fcc-node] , ya que la titulación de Ingeniería Informática carece de asignaturas en las que se imparta dicho framework en profundidad. También aprendió mediante el mismo curso [@fcc-node]  el funcionamiento de Postman, para probar y verificar la API que íbamos creando.
 
 #### Frontend
 
-En cuanto al *Frontend*, hemos mantenido un desarrollo consistente y cohesionado gracias a la participación activa de todos los integrantes del equipo en todos las áreas de la aplicación. 
+En cuanto al *frontend*, hemos mantenido un desarrollo consistente y cohesionado gracias a la participación activa de todos los integrantes del equipo en todos las áreas de la aplicación. 
 
 En un primer lugar, Alejandro contribuyó en gran parte al diseño e implementación de componentes reutilizables de manera que las pantallas y la navegación de la aplicación, reduciendo significativamente el numero de archivos creados y el numero de lineas de código por archivo.
 

@@ -8,7 +8,7 @@ En este capítulo ahondaremos en varias de las técnicas de diseño de software 
 
 Para empezar a diseñar la app, investigamos, no sólo cómo funciona el método *GTD*, explicado en el capítulo \ref{sec:metodologia}, sino también cómo trasladar esa experiencia fielmente al software. La percepción de la filosofía GTD puede variar según cada usuario, sin embargo, la esencia principal de esta debe ser la misma. Para ello debemos meditar qué tipo de elementos deben estar o no presentes en la app. De esta forma conseguimos que coincidan el **modelo mental**, es decir, cómo el usuario piensa que funciona la aplicación, y el **modelo tecnológico**, que representa el funcionamiento interno.
 
-<IMAGEN DE UN MINDMAP CON LOS DETALLES PRINCIPALES DE LA APP>
+![mindmap inicial con conceptos a tener en cuenta para el diseño de la aplicación](img/mindmap.png){width=50% #fig:mindmap}
 
 Al haber reunido los conceptos fundamentales en el mapa mental de la figura \ref{fig:mindmap} conseguimos reducir la fricción cognitiva, es decir, reducir la fatiga visual mediante la simplificación de conceptos y hacer que su uso sea intuitivo y eficiente.
 
@@ -20,7 +20,7 @@ En primer lugar, usamos metáforas para asociar cada “acción” del método *
 
 ![Menu lateral](img/menu_lateral.png){width=50% #fig:menulateral}
 
-Por otro lado, tenemos las expresiones. Estas son un concepto fundamental, ya que ayudan a definir cómo interactúa el usuario con la aplicación, haciéndola más eficiente y consistente. Estas las podemos ver en el menú lateral, con las secciones \ref{fig:accionesBarraLateral} de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
+Por otro lado, tenemos las expresiones. Estas son un concepto fundamental, ya que ayudan a definir cómo interactúa el usuario con la aplicación, haciéndola más eficiente y consistente. Estas las podemos ver en el menú lateral, con las secciones de la figura \ref{fig:accionesBarraLateral} de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
 
 ![barra lateral](img/accionesBarraLateral.png){width=40% #fig:accionesBarraLateral}
 
@@ -64,11 +64,11 @@ En primer lugar tenemos las interfaces relacionadas con el registro e inicio de 
 
 ![Inicio de sesión y Registro](img/componentes/inicio-registro.png){width=50%}
 
-En segundo lugar tenemos las tareas relacionadas con la gestión del flujo de *GTD* y sus acciones en dispositivos móviles \ref{fig:actionScreen}, además del prototipo de escritorio: 
+En segundo lugar tenemos las tareas relacionadas con la gestión del flujo de *GTD* y sus acciones en dispositivos móviles como se observa en la figura \ref{fig:actionScreen}, además del prototipo de escritorio: 
 
 ![Escritorio](img/componentes/escritorio.png){width=50%}
 
-En adición a las categorías de *GTD* mencionadas en el capítulo 2, hemos querido añadir una nueva categoría "**Hoy**" \ref{fig:hoy} que actúe como resumen diario inteligente. Este detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
+En adición a las categorías de *GTD* mencionadas en el capítulo \ref{sec:metodologia}, hemos querido añadir una nueva categoría "**Hoy**", como se observa en la figura \ref{fig:hoy} , que actúa a modo de resumen diario inteligente. Este detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
 ![Pantalla de sección "hoy"](img/componentes/Hoy_Screen.png){width=50% #fig:hoy}
 
