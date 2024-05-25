@@ -6,13 +6,13 @@ Desde el inicio del curso escolar 23/24 y con ello, desde el inicio de este trab
 
 ### Puesta en escena: Aprendizaje
 
-Tras la primera reunión con el tutor y con los objetivos estipulados, Alejandro asumió la responsabilidad inicial de familiarizarse con la metodología *GTD* con "THE MAIN IDEA" (REF: https://saanys.org/wp-content/uploads/2020/10/The-Main-Idea-Getting-Things-Done-August-2017.pdf), un resumen de apenas 12 páginas donde explicaban los fundamentos de *GTD*.  De esta forma pudo comenzar a escribir en la motivación en el Capítulo \ref{sec:intro}.
+Tras la primera reunión con el tutor y con los objetivos estipulados, Alejandro asumió la responsabilidad inicial de familiarizarse con la metodología *GTD* con "THE MAIN IDEA" [@gtd-tmi], un resumen de apenas 12 páginas donde explicaban los fundamentos de *GTD*.  De esta forma pudo comenzar a escribir en la motivación en el Capítulo \ref{sec:intro}.
 
 Por otro lado, me documenté sobre las tecnologías que íbamos a utilizar, tales como *Node.js* y *React Native* para el desarrollo de *Backend* y *Frontend*. Además de Figma para el diseño de interfaces de usuario. 
 
 ### Documentación de la metodología
 
-Una vez conocida la metodología y las tecnologías que íbamos a utilizar,  Alejandro, a modo de analizar la competencia a la que nos enfrentábamos, investigó las aplicaciones más populares de la *AppStore y Google Play Store* que implementan *GTD*, sacando sus ventajas y desventajas. De esta forma, podíamos comprender que puntos fuertes queríamos destacar y que puntos débiles debíamos evitar para desarrollar *SwiftDo*. 
+Una vez conocida la metodología y las tecnologías que íbamos a utilizar, Alejandro, a modo de analizar la competencia a la que nos enfrentábamos, investigó las aplicaciones más populares de la *AppStore y Google Play Store* que implementan *GTD*, sacando sus ventajas y desventajas. De esta forma, podíamos comprender que puntos fuertes queríamos destacar y que puntos débiles debíamos evitar para desarrollar *SwiftDo*. 
 
 Por otro lado, al ver las aplicaciones más populares, Alejandro leyó el libro de David Allen, [@gtd-boook], pudiendo retener el conocimiento para comunicárselo a los demás integrantes del equipo. Este estudio permitió enfatizar los aspectos y características que debían estar en el diseño final de la aplicación, además de poder utilizarlo para poder escribir el Capítulo \ref{sec:metodologia}.
 
@@ -32,7 +32,7 @@ Al inicio de la aplicación nos centrarnos fundamentalmente en el desarrollo del
 
 Para ello, Alejandro definió un "validador de datos" a modo de esquema en un archivo "<u>projectValidator.js</u>", asegurándose que los campos título y descripción de un proyecto se crearan y modificaran correctamente en la base de datos. Luego, implementó las rutas necesarias mediante el framework de *Node.js* y *Express*, manejando así las solicitudes HTTP correspondientes para <u>crear</u>, <u>completar</u>, <u>mostrar</u> y <u>actualizar</u> los campos de un proyecto. Así como la adición de los códigos de estado HTTP para notificar al usuario en caso de error.
 
-Para llevar a cabo los aspectos de *Backend*, Alejandro aprendió las bases de*Node.js y Express.js* en un curso de FreeCodeCamp (https://www.youtube.com/watch?v=Oe421EPjeBE) , ya que la titulación de Ingeniería Informática carece de asignaturas en las que se imparta dicho framework en profundidad. También aprendió mediante otro curso en FreeCodeCamp (https://www.youtube.com/watch?v=VywxIQ2ZXw4), el funcionamiento de Postman, para probar y verificar la API que íbamos creando.
+Para llevar a cabo los aspectos de *Backend*, Alejandro aprendió las bases de *Node.js y Express.js* en un curso de freeCodeCamp [@fcc-node] , ya que la titulación de Ingeniería Informática carece de asignaturas en las que se imparta dicho framework en profundidad. También aprendió mediante el mismo curso [@fcc-node]  el funcionamiento de Postman, para probar y verificar la API que íbamos creando.
 
 #### Frontend
 
@@ -44,7 +44,7 @@ Uno de los componentes principales de los que se encargó Alejandro fue de la *<
 
 En cuanto a otros aspectos, Alejandro se encargó de implementar las interfaces de inicio y registro de sesión, la pantalla para agregar detalles en las tareas y la previsualización de dichos detalles en *markdown*. Además de adaptar varios estilos de la aplicación para hacerlo compatible con el modo oscuro.
 
-Para llevar a cabo el desarrollo de la aplicación en React Native, Alejandro se documentó mediante el libro [@rn-book] además de la documentación de la página oficial de React Native(https://reactnative.dev) y React Navigation (https://reactnavigation.org/docs/drawer-based-navigation/). Además de realizar un curso en FreeCodeCamp (https://www.youtube.com/watch?v=obH0Po_RdWk) para entender el funcionamiento de *React Native y Expo* .
+Para llevar a cabo el desarrollo de la aplicación en React Native, Alejandro se documentó mediante el libro [@rn-book] además de la documentación de la página oficial de React Native [@rn-website] y React Navigation [@drawer-navigation]. Además de realizar un curso en FreeCodeCamp [@fcc-rn] para entender el funcionamiento de *React Native y Expo* .
 
 ---
 
@@ -112,41 +112,42 @@ La experiencia de llevar a cabo este proyecto nos ha brindado valiosas oportunid
 
 ### Puesta en escena: Aprendizaje
 
- Con el comienzo del curso y con el tema ya seleccionado del TFG, iniciamos una labor de búsqueda para familiarizarnos con la metodología *GTD*. Durante esta investigación nos surgieron varias dudas de conceptos las cuales fuimos resolviendo con nuestro tutor en diversas reuniones, esto nos ha permitido desarrollar nuestra aplicación siguiendo los principios que se establecen en *GTD*.
+Con el comienzo del curso y con el tema ya seleccionado del TFG, iniciamos una labor de búsqueda para familiarizarnos con la metodología *GTD*. Durante esta investigación nos surgieron varias dudas de conceptos las cuales fuimos resolviendo con nuestro tutor en diversas reuniones, esto nos ha permitido desarrollar nuestra aplicación siguiendo los principios que se establecen en *GTD*.
 
  Una vez decididas las tecnologías que íbamos a utilizar para el desarrollo de la aplicación que en nuestro caso ha sido *Express.js* y *React Native*, comenzamos una labor de aprendizaje de las mismas. Aprender *Express.js* fue más sencillo ya que varios miembros del equipo lo habíamos utilizado en la carrera y *React Native* fue todo un desafío ya que nadie conocía este *framework* y nos tocó aprenderlo desde cero.
 
 ### Documentación
 
- Al finalizar esta investigación y conociendo los principales aspectos de *GTD*, Javier buscó información sobre distintas aplicaciones que implementan esta tecnología tanto en dispositivos móviles como en ordenadores, aportando datos como los sistemas operativos que permiten instalar cada aplicación, sus funcionalidades y sus puntos fuertes y débiles con el propósito de realizar un primer diseño de *SwiftDo* utilizando las características más útiles, mejorando aquellas que no nos convencieron en el resto de aplicaciones e implementando nuevas funcionalidades para desarrollar una aplicación más completa que cualquiera de la competencia. 
+Al finalizar esta investigación y conociendo los principales aspectos de *GTD*, Javier buscó información sobre distintas aplicaciones que implementan esta tecnología tanto en dispositivos móviles como en ordenadores, aportando datos como los sistemas operativos que permiten instalar cada aplicación, sus funcionalidades y sus puntos fuertes y débiles con el propósito de realizar un primer diseño de *SwiftDo* utilizando las características más útiles, mejorando aquellas que no nos convencieron en el resto de aplicaciones e implementando nuevas funcionalidades para desarrollar una aplicación más completa que cualquiera de la competencia. 
 
 ### Desarollo:
 
- En este apartado distinguiremos las aportaciones de Javier al proyecto en relación con la base de datos, el *backend* y el *frontend*.
+En este apartado distinguiremos las aportaciones de Javier al proyecto en relación con la base de datos, el *backend* y el *frontend*.
 
 #### Base de datos
 
  Javier se encargó de crear la primera versión de la base de datos, creando las tablas "users", "projects", "tags", "contexts", y "tasks" con sus respectivos atributos. Además definió las claves primarias de cada tabla e incluyó las relaciones con el resto de entidades añadiendo sus *foreign keys*. 
 
+
 #### Backend
 
- En cuanto al desarrollo de la aplicación, decidimos comenzar por el *backend*. Javier inició la configuración del *backend* desarrollando el archivo “app.js” para organizar y estructurar el código y las distintas rutas que se utilizarían a lo largo de este proyecto. Como equipo, distribuimos el trabajo del *backend* asignando cada entidad a un miembro del equipo. Javier se encargó de desarrollar la entidad “contexto”, implementando las operaciones *CRUD* y funciones complementarias.
+En cuanto al desarrollo de la aplicación, decidimos comenzar por el *backend*. Javier inició la configuración del *backend* desarrollando el archivo “app.js” para organizar y estructurar el código y las distintas rutas que se utilizarían a lo largo de este proyecto. Como equipo, distribuimos el trabajo del *backend* asignando cada entidad a un miembro del equipo. Javier se encargó de desarrollar la entidad “contexto”, implementando las operaciones *CRUD* y funciones complementarias.
 
- Además, Javier creó un validador de datos para los contextos, garantizando que los nuevos contextos esten vacíos y tengan una longitud máxima de 50 caracteres. También desarrolló las rutas necesarias para manejar las solicitudes *HTTP*, permitiendo crear, modificar, eliminar, mostrar un contexto y mostrar todos los contextos asociados a un usuario, gestionando los errores en caso de fallos en las rutas. 
+Además, Javier creó un validador de datos para los contextos, garantizando que los nuevos contextos esten vacíos y tengan una longitud máxima de 50 caracteres. También desarrolló las rutas necesarias para manejar las solicitudes *HTTP*, permitiendo crear, modificar, eliminar, mostrar un contexto y mostrar todos los contextos asociados a un usuario, gestionando los errores en caso de fallos en las rutas. 
 
- Por último, Javier sirvió de apoyo en otras entidades, desarrollando la ruta principal de la aplicación, rutas de usuarios y las funciones de buscar tareas por su ID y por el ID del usuario.
+Por último, Javier sirvió de apoyo en otras entidades, desarrollando la ruta principal de la aplicación, rutas de usuarios y las funciones de buscar tareas por su ID y por el ID del usuario.
+
 
 #### Frontend
+Respecto al *frontend*, hemos distribuido las tareas de forma diferente, manteniendo un orden de prioridad. De este modo, todos los miembros del equipo hemos participado en todas las áreas de la aplicación.
 
- Respecto al *frontend*, hemos distribuido las tareas de forma diferente, manteniendo un orden de prioridad. De este modo, todos los miembros del equipo hemos participado en todas las áreas de la aplicación.
+Para empezar, Javier ha desarrollado todas las funcionalidades relacionadas con proyectos. Esto incluye el servicio de proyectos que permite crear, mostrar, modificar, completar un proyecto y mostrar los proyectos de un usuario, así como el diseño de la pantalla de proyectos.
 
- Para empezar, Javier ha desarrollado todas las funcionalidades relacionadas con proyectos. Esto incluye el servicio de proyectos que permite crear, mostrar, modificar, completar un proyecto y mostrar los proyectos de un usuario, así como el diseño de la pantalla de proyectos.
+Además, ha diseñado el modal de selección para la creación de tareas o proyectos, y el modal específico para crear proyectos, el cual permite asignar un nombre, una descripcion y un color al proyecto.
 
- Además, ha diseñado el modal de selección para la creación de tareas o proyectos, y el modal específico para crear proyectos, el cual permite asignar un nombre, una descripcion y un color al proyecto.
+También colaboró con Carlos en el desarrollo de las etiquetas y del diseño de la pantalla de “hoy” y trabajó junto a Alejandro en el desarrollo de la barra lateral, especialmente en el apartado de proyectos y la representación del porcentaje de completitud de los mismos, así como en la numeración de las tareas para cada acción de la barra lateral.
 
- También colaboró con Carlos en el desarrollo de las etiquetas y del diseño de la pantalla de “hoy” y trabajó junto a Alejandro en el desarrollo de la barra lateral, especialmente en el apartado de proyectos y la representación del porcentaje de completitud de los mismos, así como en la numeración de las tareas para cada acción de la barra lateral.
-
- Por último, se encargó de diseñar el modal de configuración y de implementar varias de las funcionalidades que este ofrece. Específicamente, trabajó en los apartados de datos personales, gestión de contextos y etiquetas, tareas completadas y acerca de GTD.
+Por último, se encargó de diseñar el modal de configuración y de implementar varias de las funcionalidades que este ofrece. Específicamente, trabajó en los apartados de datos personales, gestión de contextos y etiquetas, tareas completadas y acerca de GTD.
 
 ## Conclusiones finales
 
