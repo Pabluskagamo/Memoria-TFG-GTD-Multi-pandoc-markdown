@@ -1,6 +1,6 @@
 # Metodología GTD y aplicaciones {#sec:metodologia}
 
-En este capítulo nos preocuparemos en saber como funciona detalladamente el método *GTD* y cuales son las fases que debemos seguir para poder implementarlo cotidianamente. Por otro lado, analizaremos la competencia a la que se enfrenta *SwiftDo*, destacando los puntos positivos y negativos de las aplicaciones populares que implementan o permiten implementar *Getting Things Done*
+En este capítulo nos preocuparemos en saber como funciona detalladamente el método *GTD* y cuales son las fases que debemos seguir para poder implementarlo cotidianamente. Por otro lado, analizaremos la competencia a la que se enfrenta *SwiftDo*, destacando los puntos positivos y negativos de las aplicaciones populares que implementan o permiten implementar *Getting Things Done*.
 
 
 
@@ -8,7 +8,13 @@ En este capítulo nos preocuparemos en saber como funciona detalladamente el mé
 
 El desarrollo tecnológico, sumado a la creciente complejidad del mundo moderno, ha desembocado en un notable incremento de responsabilidades tanto personales como profesionales. Es por ello que mantener la atención al detalle y la gestión eficaz del tiempo se ha vuelto un gran desafío para todo tipo de personas.
 
-En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal, tales como la técnica <u>pomodoro</u> ^[[Técnica pomodoro](https://asana.com/es/resources/pomodoro-technique)], <u>Kanban</u> ^[[Tablero Kanban](https://asana.com/es/templates/kanban-board#)] o la <u>matriz de Eisenhower</u> ^[[Matriz de Eisenhower](https://asana.com/es/resources/eisenhower-matrix)]. Sin embargo, a pesar de que algunos de estos métodos mejoren la visualización de prioridades o gestionen correctamente el flujo de trabajo, carecen de sentido para varios aspectos con los que nos topamos a diario. O bien son muy específicos, y carecen de una estructura bien definida, necesitando implementarlos en áreas muy concretas y tareas a corto plazo, o bien, requieren de una alta curva de aprendizaje y dedicación del usuario para mantener dicha productividad que prometen.
+En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal, tales como la técnica <u>pomodoro</u>,  <u>Kanban</u> o la <u>matriz de Eisenhower</u>.
+
+[^[Técnica pomodoro\](https://asana.com/es/resources/pomodoro-technique)]: Estrategia de concentración durante periodos de tiempo determinados.
+[^[Tablero Kanban\](https://asana.com/es/templates/kanban-board#)]: Método visual para la gestión de proyectos.
+[^[Matriz de Eisenhower\](https://asana.com/es/resources/eisenhower-matrix)]: Herramienta de gestión de tareas que ayuda a distinguir entre tareas urgentes e importantes.
+
+Sin embargo, a pesar de que algunos de estos métodos mejoren la visualización de prioridades o gestionen correctamente el flujo de trabajo, carecen de sentido para varios aspectos con los que nos topamos a diario. O bien son muy específicos, y carecen de una estructura bien definida, necesitando implementarlos en áreas muy concretas y tareas a corto plazo, o bien, requieren de una alta curva de aprendizaje y dedicación del usuario para mantener dicha productividad que prometen.
 
 En este contexto, David Allen, en la década de los ochenta, tras años investigando para dar solución a la problemática anteriormente mencionada, creó un sistema que denominó como el método *Getting Things Done* (al que nos referiremos más adelante como *GTD*), título que le daría a su libro publicado en 2001, [@gtd-book]. En su obra, detalla un conjunto de técnicas que ayudarían a mejorar la productividad del individuo implementándolas a su rutina diaria.
 
@@ -101,17 +107,17 @@ Por lo general, David Allen, nos da ciertas herramientas para poder implementar 
 
 Basándonos en esta idea, hemos explorado el mercado de aplicaciones que existen tanto en *App Store* y *Google Play*, encontrándonos con las aplicaciones más destacadas para poder implementar la metodología, siendo estas:
 
-- **NirvanaHQ**: Aplicación web y móvil diseñada específicamente para *GTD*. Ofrece características como listas de proyectos, listas de acciones y enfoque en el flujo de trabajo *GTD*.
+- **NirvanaHQ** [@nirvana]: Aplicación web y móvil diseñada específicamente para *GTD*. Ofrece características como listas de proyectos, listas de acciones y enfoque en el flujo de trabajo *GTD*.
 
-- **TodoIst**: Aplicación de gestión de tareas. Permite crear listas de tareas, recordatorios, establecer etiquetas y organizar tus tareas según los principios básicos de *GTD*.
+- **TodoIst** [@todoist]: Aplicación de gestión de tareas. Permite crear listas de tareas, recordatorios, establecer etiquetas y organizar tus tareas según los principios básicos de *GTD*.
 
-- **Notion**: *Notion* es una herramienta de productividad versátil que puede personalizarse para adaptarse a *GTD*. Permite crear bases de datos, tablas y tableros para organizar tus tareas y proyectos.
+- **Notion** [@notion]: *Notion* es una herramienta de productividad versátil que puede personalizarse para adaptarse a *GTD*. Permite crear bases de datos, tablas y tableros para organizar tus tareas y proyectos.
 
-- **Things**: Se trata de una aplicación de gestión de tareas disponible para dispositivos de *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas.
+- **Things** [@things]: Se trata de una aplicación de gestión de tareas disponible para dispositivos de *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas.
 
-- **Omnifocus**: Ofrece una amplia gama de características de organización y permite crear proyectos, tareas y contextos para seguir la metodología *GTD*.
+- **Omnifocus **[@omni]: Ofrece una amplia gama de características de organización y permite crear proyectos, tareas y contextos para seguir la metodología *GTD*.
 
-- **TickTick**: *TickTick* es una aplicación de gestión de tareas con múltiples características que pueden utilizarse para implementar *GTD*. Ofrece listas de tareas, calendario y recordatorios.
+- **TickTick** [@ticktick]: *TickTick* es una aplicación de gestión de tareas con múltiples características que pueden utilizarse para implementar *GTD*. Ofrece listas de tareas, calendario y recordatorios.
 
 ## Desafíos que encontramos
 
