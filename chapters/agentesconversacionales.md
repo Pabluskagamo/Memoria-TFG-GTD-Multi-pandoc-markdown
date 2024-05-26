@@ -30,17 +30,17 @@ Para vincular *Alexa* con *SwiftDo* durante el desarrollo, debemos seguir una se
 
 Primero, accedemos a la aplicación de "Amazon Alexa" en nuestro dispositivo móvil (véase la figura \ref{fig:alexahome}). Una vez dentro de la aplicación, nos dirigimos a la sección "Más", ubicada en la parte inferior derecha de la pantalla. Desde ahí, seleccionamos "Skills y juegos" en el menú desplegable. Esta sección permite explorar y habilitar diversas *skills* que expanden las capacidades de *Alexa*.
 
-![Página principal aplicacion "Amazon Alexa"](img/alexahome.png){width=25% #fig:alexahome}
+![Página principal aplicacion "Amazon Alexa"](img/alexahome.png){width=35% #fig:alexahome}
 
 Nos desplazamos hasta la parte inferior de la página, donde encontramos "Mis skills", en la cual al acceder visualizamos la pestaña "Desarrollo" (véase la figura \ref{fig:skills}). Ahí encontramos la *skill* de "SwiftDo". Como se muestra en la figura \ref{fig:skillswiftdo}, una vez encontrada la *skill*, presionamos en "Permitir su uso" para habilitar la *skill* en nuestra cuenta de *Alexa*.
 
-![Mis skills entorno Desarrollo](img/skills.png){width=25% #fig:skills}
+![Mis skills entorno Desarrollo](img/skills.png){width=35% #fig:skills}
 
-![Página de la Skill SwiftDo ya habilitada](img/skillswiftdo.png){width=25% #fig:skillswiftdo}
+![Página de la Skill SwiftDo ya habilitada](img/skillswiftdo.png){width=35% #fig:skillswiftdo}
 
 El siguiente paso es crucial para la vinculación de cuentas. Nos dirigimos a la opción "Configuración" dentro de la *skill* de *SwiftDo* y seleccionamos "Vincular cuenta". Esto nos redirige a una página, mostrada en la figura \ref{fig:vinculacion}, donde debemos introducir nuestro "Correo electrónico" y "Contraseña" asociados a nuestra cuenta de *SwiftDo*. Una vez integrados estos datos, presionamos "Vincular" para completar el proceso de autenticación.
 
-![Página redirigida para vinculación de Alexa con SwiftDo](img/vinculacion.png){width=25% #fig:vinculacion}
+![Página redirigida para vinculación de Alexa con SwiftDo](img/vinculacion.png){width=35% #fig:vinculacion}
 
 Una vez vinculada la cuenta, es necesario activar la *skill* mediante el comando de voz: "Alexa, abre añadir tarea". Este comando inicializa la *skill* y permite a *Alexa* la capacidad de añadir una nueva tarea a nuestra aplicación.
 

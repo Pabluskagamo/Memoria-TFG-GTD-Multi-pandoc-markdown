@@ -8,6 +8,3 @@ Para solventar este problema en este proyecto se ha desarrollado una infraestruc
 
 **palabras clave**: GTD, React Native, Express.js, REST API, OAuth 2.0, Multiplataforma
 
-# Abstract {.unnumbered}
-
-Blah Blah ...
