@@ -98,6 +98,14 @@ Finalmente, se dedicó a realizar ajustes finos y correcciones de errores en tod
 
 Carlos fue el encargado de desarrollar la skill de *SwiftDo* desde cero para la integración con Alexa, partiendo de una plantilla base proporcionada por Amazon Developer. En esta fase, el hecho de que la plantilla base ofreciera la opción de elegir entre Node.js y Python facilitó el proceso para Carlos, ya que contaba con conocimientos sólidos en Node.js. Después de estudiar en solitario el funcionamiento del agente conversacional, enfrentó los desafíos técnicos que surgieron en el desarrollo de la skill. Una vez que logró tener todo funcional, solicitó la ayuda de Pablo para poner en marcha la integración, ya que requería de sus conocimientos en OAuth. Tras un arduo trabajo y pruebas exhaustivas, lograron la vinculación y el correcto funcionamiento de la skill, realizando pruebas Carlos desde su propio dispositivo Alexa.
 
+### Memoria
+
+La redacción de la memoria se organizó distribuyendo el trabajo en capítulos, a excepción de los capitulos de "Introducción" y "Conclusiones". Una vez terminado cada capítulo, este era revisado por los miembros del equipo, tras lo cual se agendaba una reunión con el profesor para obtener su *feedback* y realizar las correcciones necesarias.
+
+Para la "Introducción", se siguieron las indicaciones del profesor y Carlos se encargó de redactar la sección de "Objetivos" (sección \ref{sec:objetivos}). Además, Carlos fue responsable de los capítulos sobre el "Modelo de datos e implementación de la base de datos" (sección \ref{sec:modeloBD}), así como de la "Integración con agentes conversacionales" (sección \ref{sec:agentesConver}).
+
+El capítulo de "Conclusiones" se elaboró mediante una sesión de *brainstorming*, donde discutimos qué aspectos destacar y cómo reflejar mejor nuestras experiencias y aprendizajes. Finalmente, tras completar todos los capítulos, se llevó a cabo una revisión conjunta del documento completo antes de la entrega final.
+
 ### Conclusiones
 
 La experiencia de llevar a cabo este proyecto nos ha brindado valiosas oportunidades para crecer y mejorar nuestras habilidades en diversas áreas, desde la programación hasta el diseño de interfaces de usuario y la gestión de proyectos. Afrontar los obstáculos nos ha permitido desarrollar soluciones prácticas y ganar confianza en nuestras capacidades técnicas y de trabajo en equipo.
