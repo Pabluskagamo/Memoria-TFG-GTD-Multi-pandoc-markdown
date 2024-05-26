@@ -1,4 +1,4 @@
-# Planificación del proyecto
+# Planificación del proyecto {#sec:plan}
 
 A la hora de gestionar y planificar un proyecto existen dos tipos de enfoque, el predictivo y el adaptativo. El enfoque predictivo se utiliza cuando se tiene claro cómo va a ser el proyecto y se conocen las variables y resultados del mismo, mientras que el enfoque adaptativo es más flexible y permite modificar el alcance del proyecto conforme a las necesidades que van surgiendo a lo largo del desarrollo del propio proyecto. Este segundo enfoque conduce a una mayor calidad y productividad aumentando el compromiso del equipo [@enfoquesagiles]. 
 

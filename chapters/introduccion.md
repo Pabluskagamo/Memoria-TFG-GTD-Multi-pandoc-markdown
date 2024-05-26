@@ -64,7 +64,7 @@ El *backend* implementa 2 componentes principales e incluye una base de datos. P
 
 Por último, el sistema contiene un tercer componente el cual permite conectar algunos agentes conversacionales con la aplicación. Desde los clientes es posible realizar dicha configuración de agentes mediante la generación de una clave especial para estos, de manera que los agentes una vez configurados puedan acceder a los servicios del *backend* mediante comandos de voz.
 
-## Plan de Trabajo
+## Plan de Trabajo { #sec:workplan }
 
 ### Tareas
 
@@ -90,7 +90,7 @@ Las figuras \ref{fig:ganttback} y \ref{fig:ganttfront} muestran las tareas asoci
 
 ![Diagrama de Gantt frontend](img/frontendgantt.png){width=100% #fig:ganttfront}
 
-### Estructura de la memoria
+### Estructura de la memoria { #sec:estruct }
 
 El resto de memoria se organiza como sigue:
 

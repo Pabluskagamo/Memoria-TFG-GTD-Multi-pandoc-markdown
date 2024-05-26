@@ -153,7 +153,11 @@ También colaboró con Carlos en el desarrollo de las etiquetas y del diseño de
 
 Por último, se encargó de diseñar el modal de configuración y de implementar varias de las funcionalidades que este ofrece. Específicamente, trabajó en los apartados de datos personales, gestión de contextos y etiquetas, tareas completadas y acerca de GTD.
 
-### Memoria:
+### Memoria
+
+Para la realización de la memoria, organizamos el trabajo por capítulos. Sin embargo, para la introducción, debido a su extensión, cada miembro del equipo contribuyó con una parte. En cuanto al apartado de conclusiones y trabajo futuro,hicimos un brainstorming entre todos y lo redactamos de manera conjunta.
+
+Javier fue el encargado de realizar las secciones \ref{sec:workplan} "Plan de Trabajo" y \ref{sec:estruct} "Estructura de la memoria" en la parte de introducción y redactó los capítulos \ref{sec:plan} \ref{sec:manualusuario}
 
 ## Conclusiones finales
 
