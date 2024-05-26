@@ -15,6 +15,7 @@ header-includes:
 - \fancyhf{}
 - \cfoot{\thepage}
 - \pagestyle{fancy}
+# - \usepackage{libertine}
 # Para incluir fichero separado con código LaTeX
 #- \input{separators/preamble.tex}
 title: Implementación de una infraestructura REST con privacidad para GTD basada en Express y React Native 
