@@ -36,21 +36,17 @@ Para llevar a cabo los aspectos de *backend*, Alejandro aprendió las bases de *
 
 #### Frontend
 
-En cuanto al *frontend*, hemos mantenido un desarrollo consistente y cohesionado gracias a la participación activa de todos los integrantes del equipo en todos las áreas de la aplicación. 
+En cuanto al *frontend*, hemos mantenido un desarrollo consistente y cohesionado gracias a la participación activa de todos los integrantes del equipo en todos las áreas de la aplicación.  
 
-En un primer lugar, Alejandro contribuyó en gran parte al diseño e implementación de componentes reutilizables de manera que las pantallas y la navegación de la aplicación, reduciendo significativamente el numero de archivos creados y el numero de lineas de código por archivo.
+En un primer lugar, Alejandro contribuyó en gran parte al diseño e implementación de componentes reutilizables como las pantallas principales, así como con la navegación de la aplicación, reduciendo significativamente el numero de archivos creados y el numero de lineas de código por archivo.
 
 Uno de los componentes principales de los que se encargó Alejandro fue de la *<u>sidebar</u>*, proporcionando una navegación rápida a diversas secciones y funcionalidades de la aplicación. Ya que como vimos en el Capítulo \ref{sec:frontend} está cargada de varios elementos, tales como el nombre de usuario en la parte superior de la misma (subcomponente que se encargó de implementar Carlos Gómez), las acciones de *GTD* explicadas en el Capítulo \ref{sec:metodologia} junto al numero de tareas asociadas, además de los proyectos creados por el usuario y la representación del porcentaje de completitud de estos. Así como un archivo a modo de esquema reutilizable que utilizarían todas las pantallas que implementan las acciones de *GTD*. 
 
-En cuanto a otros aspectos, Alejandro se encargó de implementar las interfaces de inicio y registro de sesión, la pantalla para agregar detalles en las tareas y la previsualización de dichos detalles en *markdown*. Además de adaptar varios estilos de la aplicación para hacerlo compatible con el modo oscuro.
+En cuanto a otros aspectos, Alejandro se encargó de implementar las interfaces de inicio y registro de sesión, rediseño e implementación al completar tareas, así como la pantalla para agregar detalles en las tareas y la previsualización de dichos detalles en *markdown*. Además de adaptar los estilos de la aplicación para hacerlo compatible con el modo oscuro.
 
 Para llevar a cabo el desarrollo de la aplicación en React Native, Alejandro se documentó mediante el libro [@rn-book] además de la documentación de la página oficial de React Native [@rn-website] y React Navigation [@drawer-navigation]. Además de realizar un curso en FreeCodeCamp [@fcc-rn] para entender el funcionamiento de *React Native y Expo* .
 
----
 
-(ADAPTAR ESTE PARRAFO) En resumen, la contribución de Alejandro abarcó desde la creación de componentes reutilizables para optimizar el código de la aplicación como de componentes claves como son la Sidebar, y diversas pantallas proporcionando una visión coherente de la aplicación.
-
----
 
 ## Carlos Gómez López
 
