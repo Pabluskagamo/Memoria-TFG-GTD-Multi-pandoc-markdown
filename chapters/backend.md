@@ -1,4 +1,4 @@
-# Diseño e implementación del Backend
+# Diseño e implementación del Backend {#sec:secbackend}
 
 La arquitectura cliente-servidor es una de las más usadas hoy en día y por lo tanto tener un *backend* robusto es de vital importancia en cualquier aplicación. Por ello hemos invertido gran cantidad de esfuerzo en el diseño y la implementación del *backend* para asegurar un correcto funcionamiento de la aplicación a nivel de lógica de negocio además de garantizar seguridad en la comunicación con los clientes a la hora de acceder a datos y ejecutar operaciones sobre los mismos.
 

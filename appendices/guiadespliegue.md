@@ -1,4 +1,4 @@
-# Guía de despliegue
+# Guía de despliegue  {sec:guiadespl}
 
 En este apéndice se va a detallar cómo desplegar o compilar los distintos componentes de la aplicación. También se va a explicar la estructura de carpetas del proyecto para ayudar a realizar dicho proceso de despliegue/compilación de los distintos componentes.
 
@@ -39,11 +39,11 @@ El proyecto está formado por 3 directorios principales. El primer directorio es
 
 Para desplegar el *backend* debemos utilizar la herramienta *docker-compose* y para ello debemos definir un fichero *compose.yaml*. Este fichero puede definirse desde cero ajustándolo a las necesidades de infraestructura que tenga cada usuario, aun así proporcionamos la configuración que hemos utilizado nosotros el cual también se puede aplicar a cualquier necesidad. Dicho fichero se encuentra en la raíz del proyecto *Backend* y sigue la estructura que se puede ver en el siguiente definición:
 
-```yaml
-services:
+```{.yaml}
+  services:
   backend:
     image: node:18-alpine
-    command: sh -c "npm install && cp ./instalation/oauth/authorize-handler.js ./node_modules/oauth2-server/lib/handlers/authorize-handler.js && npm run start"
+    command: sh -c "npm install && cp ./instalation/oauth/author..."
     ports:
       - 3000:3000
     working_dir: /Backend
@@ -68,7 +68,7 @@ services:
     ports:
       - 127.0.0.1:5432:5432
 
-volumes:
+  volumes:
   posgresql-data:
 ```
 
@@ -83,7 +83,7 @@ Por último, en el fichero *compose.yaml* también se define un volumen para los
 Para ejecutar el *backend* completo basta con ejecutar el siguiente comando:
 
 ```bash
-docker-compose up -d 
+  docker-compose up -d 
 ```
 
 El flag *-d* ejecutará los contenedores en segundo plano liberando el terminal donde se haya ejecutado el comando. 
@@ -100,8 +100,8 @@ Las versiones indicadas son las que hemos utilizado nosotros, con versiones más
 Para la compilación y generación de la aplicación web basta con ejecutar los siguientes comandos situándonos en el directorio *Frontend*:
 
 ```bash
-npm install
-npx expo export -p web
+  npm install
+  npx expo export -p web
 ```
 
 La ejecución de estos dos comandos generará una carpeta en el mismo directorio llamada *dist*, la cual contiene el *bundle* o paquete de la aplicación generada para web. Este contiene un *index.html* y los *scripts* necesarios. Por lo que para ejecutar la aplicación, bastará con iniciar cualquier servidor web sirviendo dicho directorio y el *index.html* como página de entrada.

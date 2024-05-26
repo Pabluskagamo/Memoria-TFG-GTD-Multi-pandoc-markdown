@@ -8,7 +8,7 @@ En este capítulo ahondaremos en varias de las técnicas de diseño de software 
 
 Para empezar a diseñar la app, investigamos, no sólo cómo funciona el método *GTD*, explicado en el capítulo \ref{sec:metodologia}, sino también cómo trasladar esa experiencia fielmente al software. La percepción de la filosofía GTD puede variar según cada usuario, sin embargo, la esencia principal de esta debe ser la misma. Para ello debemos meditar qué tipo de elementos deben estar o no presentes en la app. De esta forma conseguimos que coincidan el **modelo mental**, es decir, cómo el usuario piensa que funciona la aplicación, y el **modelo tecnológico**, que representa el funcionamiento interno.
 
-![mindmap inicial con conceptos a tener en cuenta para el diseño de la aplicación](img/mindmap.png){width=50% #fig:mindmap}
+![mindmap inicial con conceptos a tener en cuenta para el diseño de la aplicación](img/mindmap.png){width=100% #fig:mindmap}
 
 Al haber reunido los conceptos fundamentales en el mapa mental de la figura \ref{fig:mindmap} conseguimos reducir la fricción cognitiva, es decir, reducir la fatiga visual mediante la simplificación de conceptos y hacer que su uso sea intuitivo y eficiente.
 

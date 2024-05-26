@@ -14,7 +14,7 @@ Por otro lado, Alejandro se documentó sobre las tecnologías que íbamos a util
 
 Una vez conocida la metodología y las tecnologías que íbamos a utilizar, Alejandro, con el objetivo de analizar la competencia a la que nos enfrentábamos, investigó las aplicaciones más populares de la *AppStore y Google Play Store* que implementan *GTD*, sacando sus ventajas y desventajas. De esta forma, pudimos comprender los puntos fuertes que queríamos destacar y los puntos débiles que debíamos evitar para el desarrollo de *SwiftDo*. 
 
-Por otro lado, al ver las aplicaciones más populares, Alejandro leyó el libro de David Allen, [@gtd-boook], pudiendo retener el conocimiento para comunicárselo a los demás integrantes del equipo. Este estudio permitió enfatizar los aspectos y características que debían estar en el diseño final de la aplicación, además de poder utilizarlo para poder escribir el Capítulo \ref{sec:metodologia}.
+Por otro lado, al ver las aplicaciones más populares, Alejandro leyó el libro de David Allen, [@gtd-book], pudiendo retener el conocimiento para comunicárselo a los demás integrantes del equipo. Este estudio permitió enfatizar los aspectos y características que debían estar en el diseño final de la aplicación, además de poder utilizarlo para poder escribir el Capítulo \ref{sec:metodologia}.
 
 ### Diseño: Desarrollo de la Interfaz de Usuario (UI)
 
@@ -45,8 +45,6 @@ Uno de los componentes principales de los que se encargó Alejandro fue de la *<
 En cuanto a otros aspectos, Alejandro se encargó de implementar las interfaces de inicio y registro de sesión, el rediseño e implementación al completar tareas, así como la pantalla para agregar detalles en las tareas y la previsualización de dichos detalles en *markdown*. Además de adaptar los estilos de la aplicación para hacerlo compatible con el modo oscuro.
 
 Para llevar a cabo el desarrollo de la aplicación en React Native, Alejandro se documentó mediante el libro [@rn-book] además de la documentación de la página oficial de React Native [@rn-website] y React Navigation [@drawer-navigation]. Además de realizar un curso en FreeCodeCamp [@fcc-rn] para entender el funcionamiento de *React Native y Expo* .
-
-
 
 ## Carlos Gómez López
 
@@ -104,6 +102,46 @@ La experiencia de llevar a cabo este proyecto nos ha brindado valiosas oportunid
 
 ## Pablo Gamo González
 
+### Puesta en escena: Aprendizaje
+
+Al igual que el resto de los compañeros el primer paso que dió Pablo para empezar el proyecto fue informarse bien sobre la metodología *GTD*. Para ello investigó por internet acerca de los principios de este método para entender su funcionamiento. También realizó un proceso de búsqueda de aplicaciones similares, que aunque no implementaran la metodología, fueran de organización personal. El fin de está búsqueda fue preguntarnos qué podría aportar o mejorar nuestra aplicación, respecto a otras existentes. 
+
+Una vez que tuvimos claros los conceptos, llegó el momento de definir las tecnologías a utilizar para el desarrollo del proyecto. Desde que acordamos realizar este trabajo con el tutor, en las primeras reuniones Pablo fue el principal defensor de utilizar la tecnología *React Native* para la implementación de los clientes ya que tenía experiencia previa con ella y sabía del potencial que tenía.  Por esta razón, una vez empezado el trabajo llegamos a la conclusión de usar esta tecnología. En cuanto a las tecnologías con las que se ha implementado el *backend*, también propuso utilizar *Node.js* y *Express.js* ya que varios de nosotros teníamos ya experiencia en ellas. Dada la previa experiencia de Pablo con las tecnologías mencionadas, no tuvo que familiarizarse con ellas, pero sí realizó un proceso de búsqueda de posibles soluciones para la aplicación, donde pudo ir aprendiendo sobre paquetes tanto de *backend* como de *frontend* que fueron de utilidad en el desarrollo. 
+
+### Documentación
+
+Sobre el trabajo realizado en el desarrollo de la memoria, Pablo se ha encargado de documentar el capítulo del *backend* en su totalidad, ya que es la persona que más conocimiento tenía sobre las tecnologías así como sobre el estándar *OAuth 2.0*. También ha realizado gran parte del capítulo de planificación, sobre todo la parte en la que se habla del sistema de despliegue ya que fue él quien desarrolló dicho sistema.  Además ha documentado completamente los apéndices de la guía de despliegue y los *endpoints*. En cuanto la introducción y la conclusión, estos capítulos fueron redactados en conjunto por todos los participantes  del proyecto, aunque Pablo fue quién realizó el diagrama de bloques del sistema de la introducción.
+
+### Desarrollo de la aplicación
+
+El rol de Pablo  en el desarrollo de aplicación ha sido principal, ya que al ser la persona que más experiencia tenía con las tecnologías ha aportado gran cantidad de soluciones a los desafíos técnicos afrontados. 
+
+#### Backend {.unnumbered}
+
+Sobre el desarrollo del *backend* Pablo realizó el diseño de la estructura de la *API* aplicando los principios de la arquitectura *REST*. Además, realizó la creación y estructuración de la estructura de carpetas y de ficheros del *backend*. En cuanto a funcionalidades desarrolladas, Pablo realizó la mayoría de las operaciones de la entidad Tarea y aportó también al desarrollo del resto de funcionalidad, apoyando al resto de compañeros en los problemas surgidos.  
+
+#### Implementación del estándar *OAuth2.0* {.unnumbered}
+
+En cuanto a la implementación del estándar *OAuth2.0* en la aplicación, Pablo se encargó completamente. En primer lugar Pablo tuvo que informarse sobre el funcionamiento del estándar, para ello realizó varias lecturas, entre ellas el trabajo realizado por los autores. Después, realizó un proceso de búsqueda de una posible forma de implementar el estándar, donde encontró el paquete *oauth2-server* mencionado en el capítulo \ref{sec:secbackend} y procedió a realizar su implementación en el *backend*.
+
+#### *Frontend* {.unnumbered}
+
+En la parte del *frontend*, de la misma manera que en *backend* Pablo desarrolló los primeros pasos para empezar a implementar funcionalidad, entre estos estaba la implementación de un *navigator* o navegador, donde se utilizó el *framework* mencionado en el capítulo \ref{sec:frontend} *React-Navigation*. También realizó la integración del proceso de autorización de *OAuth* implementado en el *backend* con el *frontend* donde realizó el sistema de guardado de información en el dispositivo necesario para almacenar los tokens de acceso. En cuanto a la funcionalidad desarrollada, Pablo se ha centrado más en la parte funcional que en la parte de diseño de las pantallas, destacando la implementación de las operaciones de la entidad Tarea, aunque también sirvió de apoyo al resto de los compañeros en prácticamente todas las partes de la aplicación.  
+
+Pablo también realizó completamente el proceso de configuración de servidores, donde utilizó un mecanismo similar al de gestión de tokens para almacenar la información sobre los servidores en los dispositivos.
+
+#### Modo Offline {.unnumbered}
+
+Pablo ha desarrollado completamente el modo offline de la aplicación.
+
+#### Implementación y compilación de la aplicación de escritorio {.unnumbered}
+
+Pablo ha desarrollado completamente la implementación y la compilación de la aplicación de escritorio. Para ello buscó en un primer lugar cuál era la mejor forma de generar las aplicaciones de escritorio en las diferentes plataformas. Tras explorar la posibilidad de utilizar *React-Native for Windows and MacOS*, se descartó al estar dicho  proyecto en un estado de desarrollo en el que muchos componentes que ya se habían implementado eran incompatibles. Por ello se accedió a implementar los clientes con el *framework* *Electron*, explicado en el apéndice \ref{sec:guiadespl}.
+
+### Conclusiones
+
+El resultado final del trabajo ha cumplido con nuestras expectativas, ya que hemos desarrollado una aplicación que cumple con los objetivos establecidos y consideramos que puede aportar gran valor a la solución de un problema como es el de organizar tus tareas. Además, este viaje nos ha hecho aprender por el camino tecnologías, estándares, metodologías, gestión de proyectos y otros aspectos que nos han hecho crecer en lo académico y en lo personal. 
+
 ## Javier Gil Caballero
 
 ### Puesta en escena: Aprendizaje
@@ -124,7 +162,6 @@ En este apartado distinguiremos las aportaciones de Javier al proyecto en relaci
 
  Javier se encargó de crear la primera versión de la base de datos, creando las tablas "users", "projects", "tags", "contexts", y "tasks" con sus respectivos atributos. Además definió las claves primarias de cada tabla e incluyó las relaciones con el resto de entidades añadiendo sus *foreign keys*. 
 
-
 #### Backend
 
 En cuanto al desarrollo de la aplicación, decidimos comenzar por el *backend*. Javier inició la configuración del *backend* desarrollando el archivo “app.js” para organizar y estructurar el código y las distintas rutas que se utilizarían a lo largo de este proyecto. Como equipo, distribuimos el trabajo del *backend* asignando cada entidad a un miembro del equipo. Javier se encargó de desarrollar la entidad “contexto”, implementando las operaciones *CRUD* y funciones complementarias.
@@ -133,8 +170,8 @@ Además, Javier creó un validador de datos para los contextos, garantizando que
 
 Por último, Javier sirvió de apoyo en otras entidades, desarrollando la ruta principal de la aplicación, rutas de usuarios y las funciones de buscar tareas por su ID y por el ID del usuario.
 
-
 #### Frontend
+
 Respecto al *frontend*, hemos distribuido las tareas de forma diferente, manteniendo un orden de prioridad. De este modo, todos los miembros del equipo hemos participado en todas las áreas de la aplicación.
 
 Para empezar, Javier ha desarrollado todas las funcionalidades relacionadas con proyectos. Esto incluye el servicio de proyectos que permite crear, mostrar, modificar, completar un proyecto y mostrar los proyectos de un usuario, así como el diseño de la pantalla de proyectos.
