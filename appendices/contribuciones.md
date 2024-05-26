@@ -134,17 +134,17 @@ En cuanto a la implementación del estándar *OAuth2.0* en la aplicación, Pablo
 
 #### *Frontend* {.unnumbered}
 
-En la parte del *frontend*, de la misma manera que en *backend* Pablo desarrolló los primeros pasos para empezar a implementar funcionalidad, entre estos estaba la implementación de un *navigator* o navegador, donde se utilizó el *framework* mencionado en el capítulo \ref{sec:frontend} *React-Navigation*. También realizó la integración del proceso de autorización de *OAuth* implementado en el *backend* con el *frontend* donde realizó el sistema de guardado de información en el dispositivo necesario para almacenar los tokens de acceso. En cuanto a la funcionalidad desarrollada, Pablo se ha centrado más en la parte funcional que en la parte de diseño de las pantallas, destacando la implementación de las operaciones de la entidad Tarea, aunque también sirvió de apoyo al resto de los compañeros en prácticamente todas las partes de la aplicación.  
+En la parte del *frontend*, de la misma manera que en *backend* Pablo desarrolló los primeros pasos para empezar a implementar funcionalidad, entre estos estaba la implementación de un *navigator* o navegador, donde se utilizó el *framework* mencionado en el capítulo \ref{sec:frontend} *React-Navigation*. También realizó la integración del proceso de autorización de *OAuth* implementado en el *backend* con el *frontend* donde realizó el sistema de guardado de información en el dispositivo necesario para almacenar los *tokens* de acceso. En cuanto a la funcionalidad desarrollada, Pablo se ha centrado más en la parte funcional que en la parte de diseño de las pantallas, destacando la implementación de las operaciones de la entidad Tarea, aunque también sirvió de apoyo al resto de los compañeros en prácticamente todas las partes de la aplicación.  
 
-Pablo también realizó completamente el proceso de configuración de servidores, donde utilizó un mecanismo similar al de gestión de tokens para almacenar la información sobre los servidores en los dispositivos.
+Pablo también realizó completamente el proceso de configuración de servidores, donde utilizó un mecanismo similar al de gestión de *tokens* para almacenar la información sobre los servidores en los dispositivos.
 
 #### Modo Offline {.unnumbered}
 
-Pablo ha desarrollado completamente el modo offline de la aplicación.
+Pablo ha desarrollado completamente el modo *offline* de la aplicación.
 
 #### Implementación y compilación de la aplicación de escritorio {.unnumbered}
 
-Pablo ha desarrollado completamente la implementación y la compilación de la aplicación de escritorio. Para ello buscó en un primer lugar cuál era la mejor forma de generar las aplicaciones de escritorio en las diferentes plataformas. Tras explorar la posibilidad de utilizar *React-Native for Windows and MacOS*, se descartó al estar dicho  proyecto en un estado de desarrollo en el que muchos componentes que ya se habían implementado eran incompatibles. Por ello se accedió a implementar los clientes con el *framework* *Electron*, explicado en el apéndice \ref{sec:guiadespl}.
+Pablo ha desarrollado completamente la implementación y la compilación de la aplicación de escritorio. Para ello buscó en un primer lugar cuál era la mejor forma de generar las aplicaciones de escritorio en las diferentes plataformas. Tras explorar la posibilidad de utilizar *React-Native for Windows and MacOS* [@rn-windows-macos], se descartó al estar dicho  proyecto en un estado de desarrollo en el que muchos componentes que ya se habían implementado eran incompatibles. Por ello se accedió a implementar los clientes con el *framework* *Electron*, explicado en el apéndice \ref{sec:guiadespl}.
 
 ### Conclusiones
 
@@ -170,7 +170,6 @@ En este apartado distinguiremos las aportaciones de Javier al proyecto en relaci
 
  Javier se encargó de crear la primera versión de la base de datos, creando las tablas "users", "projects", "tags", "contexts", y "tasks" con sus respectivos atributos. Además definió las claves primarias de cada tabla e incluyó las relaciones con el resto de entidades añadiendo sus *foreign keys*. Carlos y Pablo se encargaron de modificar la base de datos a medida que avanzaba el proyecto y surgían nuevas necesidades.
 
-
 #### Backend {.unnumbered}
 
 En cuanto al desarrollo de la aplicación, decidimos comenzar por el *backend*. Javier inició la configuración del *backend* desarrollando el archivo “app.js” para organizar y estructurar el código y las distintas rutas que se utilizarían a lo largo de este proyecto. Como equipo, distribuimos el trabajo del *backend* asignando cada entidad a un miembro del equipo. Javier se encargó de desarrollar la entidad “contexto”, implementando las operaciones *CRUD* y funciones complementarias.
@@ -179,8 +178,8 @@ Además, Javier creó un validador de datos para los contextos, garantizando que
 
 Por último, Javier sirvió de apoyo en otras entidades, desarrollando la ruta principal de la aplicación, rutas de usuarios y las funciones de buscar tareas por su ID y por el ID del usuario.
 
-
 #### Frontend {.unnumbered}
+
 Respecto al *frontend*, hemos distribuido las tareas de forma diferente, manteniendo un orden de prioridad. De este modo, todos los miembros del equipo hemos participado en todas las áreas de la aplicación.
 
 Para empezar, Javier ha desarrollado todas las funcionalidades relacionadas con proyectos. Esto incluye el servicio de proyectos que permite crear, mostrar, modificar, completar un proyecto y mostrar los proyectos de un usuario, así como el diseño de la pantalla de proyectos.
