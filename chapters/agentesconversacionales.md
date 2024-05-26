@@ -1,4 +1,4 @@
-# Integración con agentes conversacionales
+# Integración con agentes conversacionales { #sec:agentesConver }
 
 Desde el inicio del proyecto, nos propusimos habilitar la interacción mediante comandos de voz para mejorar la experiencia del usuario, para ello en este capítulo, profundizaremos en el proceso de integración de nuestra aplicación *SwiftDo* con la plataforma de voz de *Alexa* mediante el desarrollo de una *skill*. Para contextualizar, una *skill* en el ecosistema de *Alexa* es una capacidad o funcionalidad específica que permite a los usuarios interactuar con dispositivos habilitados para *Alexa*, utilizando comandos de voz.
 
@@ -28,19 +28,15 @@ Este código de autorización y el estado son devueltos por nuestro servidor a l
 
 Para vincular *Alexa* con *SwiftDo* durante el desarrollo, debemos seguir una serie de pasos específicos debido a las limitaciones del entorno de desarrollo. En este entorno, la *skill* solo está disponible en la cuenta en la que se ha desarrollado. Los pasos son los siguientes:
 
-Primero, accedemos a la aplicación de "Amazon Alexa" en nuestro dispositivo móvil (véase la figura \ref{fig:alexahome}). Una vez dentro de la aplicación, nos dirigimos a la sección "Más", ubicada en la parte inferior derecha de la pantalla. Desde ahí, seleccionamos "Skills y juegos" en el menú desplegable. Esta sección permite explorar y habilitar diversas *skills* que expanden las capacidades de *Alexa*.
+Primero, accedemos a la aplicación de "Amazon Alexa" en nuestro dispositivo móvil (véase la primera pantalla de la figura \ref{fig:fasesAlexa}). Una vez dentro de la aplicación, nos dirigimos a la sección "Más", ubicada en la parte inferior derecha de la pantalla. Desde ahí, seleccionamos "Skills y juegos" en el menú desplegable. Esta sección permite explorar y habilitar diversas *skills* que expanden las capacidades de *Alexa*.
 
-![Página principal aplicacion "Amazon Alexa"](img/alexahome.png){width=25% #fig:alexahome}
+![Guía para habilitar la skill de SwiftDo en Amazon Alexa](img/fasesAlexa.png){width=100% #fig:fasesAlexa}
 
-Nos desplazamos hasta la parte inferior de la página, donde encontramos "Mis skills", en la cual al acceder visualizamos la pestaña "Desarrollo" (véase la figura \ref{fig:skills}). Ahí encontramos la *skill* de "SwiftDo". Como se muestra en la figura \ref{fig:skillswiftdo}, una vez encontrada la *skill*, presionamos en "Permitir su uso" para habilitar la *skill* en nuestra cuenta de *Alexa*.
-
-![Mis skills entorno Desarrollo](img/skills.png){width=25% #fig:skills}
-
-![Página de la Skill SwiftDo ya habilitada](img/skillswiftdo.png){width=25% #fig:skillswiftdo}
+Nos desplazamos hasta la parte inferior de la página, donde encontramos "Mis skills", en la cual al acceder visualizamos la pestaña "Desarrollo" (véase la segunda pantalla de la figura \ref{fig:fasesAlexa}). Ahí encontramos la *skill* de "SwiftDo". Como se muestra en la tercera pantalla de la figura \ref{fig:fasesAlexa}, una vez encontrada la *skill*, presionamos en "Permitir su uso" para habilitar la *skill* en nuestra cuenta de *Alexa*.
 
 El siguiente paso es crucial para la vinculación de cuentas. Nos dirigimos a la opción "Configuración" dentro de la *skill* de *SwiftDo* y seleccionamos "Vincular cuenta". Esto nos redirige a una página, mostrada en la figura \ref{fig:vinculacion}, donde debemos introducir nuestro "Correo electrónico" y "Contraseña" asociados a nuestra cuenta de *SwiftDo*. Una vez integrados estos datos, presionamos "Vincular" para completar el proceso de autenticación.
 
-![Página redirigida para vinculación de Alexa con SwiftDo](img/vinculacion.png){width=25% #fig:vinculacion}
+![Página redirigida para vinculación de Alexa con SwiftDo](img/vinculacion.png){width=35% #fig:vinculacion}
 
 Una vez vinculada la cuenta, es necesario activar la *skill* mediante el comando de voz: "Alexa, abre añadir tarea". Este comando inicializa la *skill* y permite a *Alexa* la capacidad de añadir una nueva tarea a nuestra aplicación.
 

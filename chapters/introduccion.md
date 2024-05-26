@@ -10,7 +10,7 @@ Por otro lado, muchas de estas aplicaciones tienen una alta curva de aprendizaje
 
 Por ello, motivados por poner solución a esta problemática, buscamos desarrollar una aplicación multiplataforma que además de implementar la metodología *GTD*, destaque por su interfaz intuitiva y amigable, guiada por una arquitectura *REST*, con el objetivo de permitir al usuario tener el control de sus datos, garantizando la privacidad y la transparencia de los mismos. Esta aplicación, llamada *SwiftDo*, pretende ofrecer una alternativa accesible y versátil para la gestión eficiente de tareas en el día a día.
 
-## Objetivos
+## Objetivos { #sec:objetivos }
 
 El objetivo central de este proyecto es desarrollar una aplicación multiplataforma *GTD*. Para ello hemos utilizado el framework *React Native* que permite crear una interfaz de usuario coherente que funcione en todos los sistemas operativos principales, como *Android*, *iOS*, *MacOS*, *GNU/Linux* y *Windows*, y garantiza que los usuarios puedan gestionar sus tareas y proyectos de manera eficiente desde cualquier dispositivo, sin importar la plataforma que utilicen. 
 
@@ -64,7 +64,7 @@ El *backend* implementa 2 componentes principales e incluye una base de datos. P
 
 Por último, el sistema contiene un tercer componente el cual permite conectar algunos agentes conversacionales con la aplicación. Desde los clientes es posible realizar dicha configuración de agentes mediante la generación de una clave especial para estos, de manera que los agentes una vez configurados puedan acceder a los servicios del *backend* mediante comandos de voz.
 
-## Plan de Trabajo
+## Plan de Trabajo { #sec:workplan }
 
 ### Tareas
 
@@ -90,7 +90,7 @@ Las figuras \ref{fig:ganttback} y \ref{fig:ganttfront} muestran las tareas asoci
 
 ![Diagrama de Gantt frontend](img/frontendgantt.png){width=100% #fig:ganttfront}
 
-### Estructura de la memoria
+### Estructura de la memoria { #sec:estruct }
 
 El resto de memoria se organiza como sigue:
 

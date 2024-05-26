@@ -26,7 +26,7 @@ El uso de los principios de diseño, sumado a la capacidad de identificar y apli
 
 ### Desarrollo
 
-#### Backend
+#### Backend {.unnumbered}
 
 Al inicio de la aplicación nos centramos fundamentalmente en el desarrollo del *backend*, concretamente en las acciones *CRUD*, "Crear, Leer, Actualizar y Borrar" (del inglés: *Create, Read, Update and Delete*). Una vez repartidas las *CRUD* mas relevantes de la aplicación entre todos los integrantes del grupo, Alejandro se encargó de la sección de Proyectos. 
 
@@ -34,7 +34,7 @@ Para ello, Alejandro definió un "validador de datos" a modo de esquema en un ar
 
 Para llevar a cabo los aspectos de *backend*, Alejandro aprendió las bases de *Node.js y Express.js* en un curso de freeCodeCamp [@fcc-node] , ya que la titulación de Ingeniería Informática carece de asignaturas en las que se imparta dicho framework en profundidad. También aprendió mediante el mismo curso [@fcc-node]  el funcionamiento de Postman, para probar y verificar la API que íbamos creando.
 
-#### Frontend
+#### Frontend {.unnumbered}
 
 En cuanto al *frontend*, hemos mantenido un desarrollo consistente y cohesionado gracias a la participación activa de todos los integrantes del equipo en todos las áreas de la aplicación.  
 
@@ -68,17 +68,17 @@ Para desarrollar la interfaz de usuario de *SwiftDo*, Alejandro y Carlos liderar
 
 ### Desarrollo
 
-#### Base de datos
+#### Base de datos {.unnumbered}
 
 En el desarrollo de la base de datos, Javier asumió principalmente la responsabilidad, aunque Carlos realizó ajustes específicos en las relaciones entre las entidades "Tasks" y "Tags", incluyendo la creación de una tabla nueva llamada "TagToTask".
 
-#### Backend
+#### Backend {.unnumbered}
 
 En el desarrollo del *backend*, Carlos asumió varias responsabilidades. Inicialmente, se encargó de la configuración de los *routes* y *services* de la entidad "Task", así como en la implementación del *CRUD* para esta entidad. Además, desarrolló la funcionalidad para la creación de áreas/contextos y un buscador de etiquetas, tanto específicas como para obtener todas.
 
 Carlos también realizó modificaciones significativas en la sección de filtros previamente creada por Pablo, adaptándola para generar filtros específicos para la acción "Hoy". Por último, cabe mencionar su contribución en la personalización del diseño predeterminado de *OAuth* para la integración con *Alexa*.
 
-#### Frontend
+#### Frontend {.unnumbered}
 
 En el *frontend*, Carlos lideró una serie de cambios y diseños significativos. En la sección de "Inbox", se enfocó en desarrollar la interfaz de usuario, integrando funciones clave como la adición y edición de tareas. Diseñó varios modales, incluyendo los de adición, edición, completado, movimiento y selección de tareas, así como el selector entre tarea o proyecto. También implementó la integración de etiquetas en las tareas, contando con la colaboración de Javier.
 
@@ -95,6 +95,14 @@ Finalmente, se dedicó a realizar ajustes finos y correcciones de errores en tod
 ### Vinculación con Alexa
 
 Carlos fue el encargado de desarrollar la skill de *SwiftDo* desde cero para la integración con Alexa, partiendo de una plantilla base proporcionada por Amazon Developer. En esta fase, el hecho de que la plantilla base ofreciera la opción de elegir entre Node.js y Python facilitó el proceso para Carlos, ya que contaba con conocimientos sólidos en Node.js. Después de estudiar en solitario el funcionamiento del agente conversacional, enfrentó los desafíos técnicos que surgieron en el desarrollo de la skill. Una vez que logró tener todo funcional, solicitó la ayuda de Pablo para poner en marcha la integración, ya que requería de sus conocimientos en OAuth. Tras un arduo trabajo y pruebas exhaustivas, lograron la vinculación y el correcto funcionamiento de la skill, realizando pruebas Carlos desde su propio dispositivo Alexa.
+
+### Memoria
+
+La redacción de la memoria se organizó distribuyendo el trabajo en capítulos, a excepción de los capitulos de "Introducción" y "Conclusiones". Una vez terminado cada capítulo, este era revisado por los miembros del equipo, tras lo cual se agendaba una reunión con el profesor para obtener su *feedback* y realizar las correcciones necesarias.
+
+Para la "Introducción", se siguieron las indicaciones del profesor y Carlos se encargó de redactar la sección de "Objetivos" (sección \ref{sec:objetivos}). Además, Carlos fue responsable de los capítulos sobre el "Modelo de datos e implementación de la base de datos" (capítulo \ref{sec:modeloBD}), así como de la "Integración con agentes conversacionales" (capítulo \ref{sec:agentesConver}).
+
+El capítulo de "Conclusiones" se elaboró mediante una sesión de *brainstorming*, donde discutimos qué aspectos destacar y cómo reflejar mejor nuestras experiencias y aprendizajes. Finalmente, tras completar todos los capítulos, se llevó a cabo una revisión conjunta del documento completo antes de la entrega final.
 
 ### Conclusiones
 
@@ -158,11 +166,12 @@ Al finalizar esta investigación y conociendo los principales aspectos de *GTD*,
 
 En este apartado distinguiremos las aportaciones de Javier al proyecto en relación con la base de datos, el *backend* y el *frontend*.
 
-#### Base de datos
+#### Base de datos {.unnumbered}
 
- Javier se encargó de crear la primera versión de la base de datos, creando las tablas "users", "projects", "tags", "contexts", y "tasks" con sus respectivos atributos. Además definió las claves primarias de cada tabla e incluyó las relaciones con el resto de entidades añadiendo sus *foreign keys*. 
+ Javier se encargó de crear la primera versión de la base de datos, creando las tablas "users", "projects", "tags", "contexts", y "tasks" con sus respectivos atributos. Además definió las claves primarias de cada tabla e incluyó las relaciones con el resto de entidades añadiendo sus *foreign keys*. Carlos y Pablo se encargaron de modificar la base de datos a medida que avanzaba el proyecto y surgían nuevas necesidades.
 
-#### Backend
+
+#### Backend {.unnumbered}
 
 En cuanto al desarrollo de la aplicación, decidimos comenzar por el *backend*. Javier inició la configuración del *backend* desarrollando el archivo “app.js” para organizar y estructurar el código y las distintas rutas que se utilizarían a lo largo de este proyecto. Como equipo, distribuimos el trabajo del *backend* asignando cada entidad a un miembro del equipo. Javier se encargó de desarrollar la entidad “contexto”, implementando las operaciones *CRUD* y funciones complementarias.
 
@@ -170,8 +179,8 @@ Además, Javier creó un validador de datos para los contextos, garantizando que
 
 Por último, Javier sirvió de apoyo en otras entidades, desarrollando la ruta principal de la aplicación, rutas de usuarios y las funciones de buscar tareas por su ID y por el ID del usuario.
 
-#### Frontend
 
+#### Frontend {.unnumbered}
 Respecto al *frontend*, hemos distribuido las tareas de forma diferente, manteniendo un orden de prioridad. De este modo, todos los miembros del equipo hemos participado en todas las áreas de la aplicación.
 
 Para empezar, Javier ha desarrollado todas las funcionalidades relacionadas con proyectos. Esto incluye el servicio de proyectos que permite crear, mostrar, modificar, completar un proyecto y mostrar los proyectos de un usuario, así como el diseño de la pantalla de proyectos.
@@ -182,6 +191,14 @@ También colaboró con Carlos en el desarrollo de las etiquetas y del diseño de
 
 Por último, se encargó de diseñar el modal de configuración y de implementar varias de las funcionalidades que este ofrece. Específicamente, trabajó en los apartados de datos personales, gestión de contextos y etiquetas, tareas completadas y acerca de GTD.
 
-## Conclusiones finales
+### Memoria
+
+Para la realización de la memoria, organizamos el trabajo por capítulos, realizando versiones incrementales que se revisaban antes de cada entrega. Sin embargo, para la introducción, debido a su extensión, cada miembro del equipo contribuyó con una parte. 
+
+Javier fue el encargado de realizar las secciones \ref{sec:workplan} "Plan de Trabajo" y \ref{sec:estruct} "Estructura de la memoria" en el capítulo de introducción y redactó los capítulos \ref{sec:plan} "Planificación del proyecto" con la ayuda de Pablo y \ref{sec:manualusuario} Manual de usuario.
+
+En cuanto al apartado de conclusiones y trabajo futuro, hicimos un brainstorming entre todos y lo redactamos de manera conjunta.
+
+## Conclusiones
 
 La participación de cada miembro del grupo ha sido fundamental para el desarrollo de la aplicación. Demostrando la cohesión y consistencia de los conocimientos adquiridos tanto en ingeniería de software como en informática, así como la importancia del trabajo en equipo, pudiendo destacar las habilidades y destrezas adquiridas.
