@@ -1,6 +1,6 @@
 # Contribución de cada miembro del equipo
 
-Desde el inicio del curso escolar 23/24 y con ello, desde el inicio de este trabajo de fin de grado, cada miembro del grupo ha ido aportando una serie de características que han sido cruciales para el desarollo de la aplicación. A continuación se precisa la contribución de cada integrante a las fases del proyecto, destacando cómo la coordinacion grupal ha permitido el objetivo final.
+Desde el inicio del curso escolar 23/24 y con ello, desde el inicio de este trabajo de fin de grado, cada miembro del grupo ha ido aportando una serie de características que han sido cruciales para el desarollo de la aplicación. A continuación se precisa la contribución de cada integrante a las fases del proyecto, destacando cómo la coordinación grupal ha permitido el objetivo final.
 
 ## Alejandro del Río Caballero
 
@@ -40,7 +40,7 @@ En cuanto al *frontend*, hemos mantenido un desarrollo consistente y cohesionado
 
 En un primer lugar, Alejandro contribuyó en gran parte al diseño e implementación de componentes reutilizables como las pantallas principales, así como con la navegación de la aplicación, reduciendo significativamente el número de archivos creados y el número de líneas de código por archivo.
 
-Uno de los componentes principales de los que se encargó Alejandro fue de la *<u>sidebar</u>*, proporcionando una navegación rápida a diversas secciones y funcionalidades de la aplicación. Ya que como vimos en el Capítulo \ref{sec:frontend} está cargada de varios elementos, tales como el nombre de usuario en la parte superior de la misma (subcomponente que se encargó de implementar Carlos Gómez), las acciones de *GTD* explicadas en el Capítulo \ref{sec:metodologia} junto al numero de tareas asociadas, además de los proyectos creados por el usuario y la representación del porcentaje de completitud de estos. Así como un archivo a modo de esquema reutilizable que utilizarían todas las pantallas que implementan las acciones de *GTD*. 
+Uno de los componentes principales de los que se encargó Alejandro fue de la *<u>sidebar</u>*, proporcionando una navegación rápida a diversas secciones y funcionalidades de la aplicación. Ya que como vimos en el Capítulo \ref{sec:frontend} está cargada de varios elementos, tales como el nombre de usuario en la parte superior de la misma (subcomponente que se encargó de implementar Carlos Gómez), las acciones de *GTD* explicadas en el Capítulo \ref{sec:metodologia} junto al número de tareas asociadas, además de los proyectos creados por el usuario y la representación del porcentaje de completitud de estos. Así como un archivo a modo de esquema reutilizable que utilizarían todas las pantallas que implementan las acciones de *GTD*. 
 
 En cuanto a otros aspectos, Alejandro se encargó de implementar las interfaces de inicio y registro de sesión, el rediseño e implementación al completar tareas, así como la pantalla para agregar detalles en las tareas y la previsualización de dichos detalles en *markdown*. Además de adaptar los estilos de la aplicación para hacerlo compatible con el modo oscuro.
 
