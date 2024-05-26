@@ -14,7 +14,7 @@ Por otro lado, Alejandro se documentó sobre las tecnologías que íbamos a util
 
 Una vez conocida la metodología y las tecnologías que íbamos a utilizar, Alejandro, con el objetivo de analizar la competencia a la que nos enfrentábamos, investigó las aplicaciones más populares de la *AppStore y Google Play Store* que implementan *GTD*, sacando sus ventajas y desventajas. De esta forma, pudimos comprender los puntos fuertes que queríamos destacar y los puntos débiles que debíamos evitar para el desarrollo de *SwiftDo*. 
 
-Por otro lado, al ver las aplicaciones más populares, Alejandro leyó el libro de David Allen, [@gtd-boook], pudiendo retener el conocimiento para comunicárselo a los demás integrantes del equipo. Este estudio permitió enfatizar los aspectos y características que debían estar en el diseño final de la aplicación, además de poder utilizarlo para poder escribir el Capítulo \ref{sec:metodologia}.
+Por otro lado, al ver las aplicaciones más populares, Alejandro leyó el libro de David Allen, [@gtd-book], pudiendo retener el conocimiento para comunicárselo a los demás integrantes del equipo. Este estudio permitió enfatizar los aspectos y características que debían estar en el diseño final de la aplicación, además de poder utilizarlo para poder escribir el Capítulo \ref{sec:metodologia}.
 
 ### Diseño: Desarrollo de la Interfaz de Usuario (UI)
 
@@ -102,7 +102,7 @@ Carlos fue el encargado de desarrollar la skill de *SwiftDo* desde cero para la 
 
 La redacción de la memoria se organizó distribuyendo el trabajo en capítulos, a excepción de los capitulos de "Introducción" y "Conclusiones". Una vez terminado cada capítulo, este era revisado por los miembros del equipo, tras lo cual se agendaba una reunión con el profesor para obtener su *feedback* y realizar las correcciones necesarias.
 
-Para la "Introducción", se siguieron las indicaciones del profesor y Carlos se encargó de redactar la sección de "Objetivos" (sección \ref{sec:objetivos}). Además, Carlos fue responsable de los capítulos sobre el "Modelo de datos e implementación de la base de datos" (sección \ref{sec:modeloBD}), así como de la "Integración con agentes conversacionales" (sección \ref{sec:agentesConver}).
+Para la "Introducción", se siguieron las indicaciones del profesor y Carlos se encargó de redactar la sección de "Objetivos" (sección \ref{sec:objetivos}). Además, Carlos fue responsable de los capítulos sobre el "Modelo de datos e implementación de la base de datos" (capítulo \ref{sec:modeloBD}), así como de la "Integración con agentes conversacionales" (capítulo \ref{sec:agentesConver}).
 
 El capítulo de "Conclusiones" se elaboró mediante una sesión de *brainstorming*, donde discutimos qué aspectos destacar y cómo reflejar mejor nuestras experiencias y aprendizajes. Finalmente, tras completar todos los capítulos, se llevó a cabo una revisión conjunta del documento completo antes de la entrega final.
 
@@ -155,10 +155,12 @@ Por último, se encargó de diseñar el modal de configuración y de implementar
 
 ### Memoria
 
-Para la realización de la memoria, organizamos el trabajo por capítulos. Sin embargo, para la introducción, debido a su extensión, cada miembro del equipo contribuyó con una parte. En cuanto al apartado de conclusiones y trabajo futuro,hicimos un brainstorming entre todos y lo redactamos de manera conjunta.
+Para la realización de la memoria, organizamos el trabajo por capítulos, realizando versiones incrementales que se revisaban antes de cada entrega. Sin embargo, para la introducción, debido a su extensión, cada miembro del equipo contribuyó con una parte. 
 
-Javier fue el encargado de realizar las secciones \ref{sec:workplan} "Plan de Trabajo" y \ref{sec:estruct} "Estructura de la memoria" en la parte de introducción y redactó los capítulos \ref{sec:plan} \ref{sec:manualusuario}
+Javier fue el encargado de realizar las secciones \ref{sec:workplan} "Plan de Trabajo" y \ref{sec:estruct} "Estructura de la memoria" en el capítulo de introducción y redactó los capítulos \ref{sec:plan} "Planificación del proyecto" con la ayuda de Pablo y \ref{sec:manualusuario} Manual de usuario.
 
-## Conclusiones finales
+En cuanto al apartado de conclusiones y trabajo futuro, hicimos un brainstorming entre todos y lo redactamos de manera conjunta.
+
+## Conclusiones
 
 La participación de cada miembro del grupo ha sido fundamental para el desarrollo de la aplicación. Demostrando la cohesión y consistencia de los conocimientos adquiridos tanto en ingeniería de software como en informática, así como la importancia del trabajo en equipo, pudiendo destacar las habilidades y destrezas adquiridas.
