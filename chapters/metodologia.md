@@ -2,8 +2,6 @@
 
 En este capítulo nos preocuparemos en saber como funciona detalladamente el método *GTD* y cuales son las fases que debemos seguir para poder implementarlo cotidianamente. Por otro lado, analizaremos la competencia a la que se enfrenta *SwiftDo*, destacando los puntos positivos y negativos de las aplicaciones populares que implementan o permiten implementar *Getting Things Done*.
 
-
-
 ## ¿Qué es GTD?
 
 El desarrollo tecnológico, sumado a la creciente complejidad del mundo moderno, ha desembocado en un notable incremento de responsabilidades tanto personales como profesionales. Es por ello que mantener la atención al detalle y la gestión eficaz del tiempo se ha vuelto un gran desafío para todo tipo de personas.
