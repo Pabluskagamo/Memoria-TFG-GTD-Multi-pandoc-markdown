@@ -8,6 +8,7 @@ pandoc_common:
   - settings.yaml
 ## Put preambles here  
   - preamble/abstract.md
+  - preamble/agradecimientos.md
   - separators/mainmatter.md
 ## Include chapters here    
   - chapters/introduccion.md
