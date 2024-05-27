@@ -198,6 +198,10 @@ Javier fue el encargado de realizar las secciones \ref{sec:workplan} "Plan de Tr
 
 En cuanto al apartado de conclusiones y trabajo futuro, hicimos un brainstorming entre todos y lo redactamos de manera conjunta.
 
-## Conclusiones
+### Conclusiones
+
+Realizar un proyecto de estas características nos ha permitido aprender nuevas tecnologías, lo que ha mejorado nuestras habilidades como programadores. Gracias al trabajo en equipo, hemos afrontado y superado juntos todos los errores que surgieron a lo largo del proyecto, demostrando nuestra capacidad de colaboración y comunicación. Gracias a la buena gestión de proyecto que hemos llevado, hemos sido capaces de crear una aplicación funcional y útil, dando lugar a un producto de alta calidad.
+
+## Conclusiones generales
 
 La participación de cada miembro del grupo ha sido fundamental para el desarrollo de la aplicación. Demostrando la cohesión y consistencia de los conocimientos adquiridos tanto en ingeniería de software como en informática, así como la importancia del trabajo en equipo, pudiendo destacar las habilidades y destrezas adquiridas.

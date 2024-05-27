@@ -18,7 +18,7 @@ Una vez configurado y conectado el servidor, aparece una pantalla de inicio de s
 
 Tras haber iniciado sesión, aparece la pantalla de *inbox*, la cual almacena las tareas sin organizar del usuario. Cómo podemos observar en la figura \ref{fig:inbox}, en esta pantalla aparecen varios elementos cómo el filtrado en la esquina superior derecha, la *sidebar* en la esquina superior izquierda, el botón de creación de tareas y proyectos en la esquina inferior derecha y las propias tareas en el centro. 
 
-![Inbox](img/inbox.png){width=50% #fig:inbox}
+![Inbox](img/inbox.png){width=40% #fig:inbox}
 
 ## Filtros
 
@@ -31,7 +31,7 @@ Presionando el botón de filtrado, nos encontramos con la pantalla que podemos o
 Al presionar el botón de la *sidebar*, se despliega lo observado en la figura \ref{fig:sidebar}.
 La *sidebar* muestra el nombre de usuario, icono, la fecha actual, un botón de ajustes y un listado de los contextos, las distintas acciones que se pueden realizar: "entrada" o "inbox", "hoy", "cuanto antes", "programadas" o "archivadas". Por último se muestra un listado con todos los proyectos creados por el usuario.
 
-![Sidebar](img/sidebarFinal.png){width=80% #fig:sidebar}
+![Sidebar](img/sidebarFinal.png){width=70% #fig:sidebar}
 
 ## Ajustes
 
@@ -50,34 +50,38 @@ Además, manteniendo presionado el botón naranja comentado anteriormente, permi
 
 Ahora nos centraremos en los elementos de la *sidebar*, al pinchar en Hoy podemos observar en la figura \ref{fig:hoy} cómo aparecen dos listados, uno con las tareas retrasadas y otro con las tareas acumuladas.
 
-![Hoy](img/hoyFinal.png){width=80% #fig:hoy}
+![Hoy](img/hoyFinal.png){width=70% #fig:hoy}
 
 ## Cuanto antes
 
 Pinchando en cuanto antes, podemos ver en la figura \ref{fig:cuantoantes} cómo se despliega una pantalla con un listado de las tareas que deben ser realizadas de manera más urgente.
 
-![Cuanto antes](img/cuantoantes.png){width=50% #fig:cuantoantes}
+![Cuanto antes](img/cuantoantes.png){width=40% #fig:cuantoantes}
 
 ## Programadas
 
 Pinchando en Programadas, se muestra en la figura \ref{fig:programadas} cómo se abre una pantalla con las distintas tareas y la fecha programada de finalización de las mismas.
 
-![Programadas](img/programadas.png){width=50% #fig:programadas}
+![Programadas](img/programadas.png){width=40% #fig:programadas}
 
 ## Archivadas
 
 Pinchando en Archivadas (ver figura \ref{fig:archivadas}), se abre una pantalla con un listado de las tareas que no son urgentes y que pueden realizarse en cualquier momento.
 
-![Archivadas](img/archivadas.png){width=50% #fig:archivadas}
+![Archivadas](img/archivadas.png){width=40% #fig:archivadas}
 
 ## Proyectos
 
 Por último, cuando pinchamos en cualquier proyecto (ver figura \ref{fig:proyecto}), se muestra una pantalla con un icono que muestra el porcentaje aproximado de tareas finalizadas que tiene en la parte coloreada del mismo, el nombre del proyecto, un botón para editar el proyecto, la descripción en caso de que exista y un listado de las tareas pertenecientes a dicho proyecto.
 
-![Proyectos](img/proyecto.png){width=50% #fig:proyecto}
+![Proyectos](img/proyecto.png){width=40% #fig:proyecto}
 
 ## Tareas
 
 En todos los casos en los que aparecen tareas, cómo podemos ver en la figura \ref{fig:tareas}, los listados tienen tareas interactivas, de tal forma que si se arrastra el cursor hacia la derecha aparece en verde la opción de mover la tarea mediante un modal o si se arrastra el cursor a la izquierda permite completar la tarea. Pinchando en el *checkbox* de la izquierda de cada tarea se abre una opción de selección múltiple para que si queremos, podamos mover o completar varias tareas a la vez.
 
 ![Funcionalidad tareas](img/tareasFinal.png){width=100% #fig:tareas}
+
+Por último, al presionar el botón de información a la derecha de cada tarea, se abre una pantalla (ver figura: \ref{fig:infotareas}) que contiene información detallada de la tarea seleccionada. Esta pantalla muestra el contexto de la tarea y el proyecto al que pertenece, si los tienen, las etiquetas asociadas, si es o no importante, el título, la descripción, y te permite editar la tarea completa o solo la descripción en formato *markdown*.
+
+![Información de las tareas](img/infotarea.png){width=40% #fig:infotareas}
