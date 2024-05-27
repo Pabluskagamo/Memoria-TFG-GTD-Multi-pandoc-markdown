@@ -46,6 +46,10 @@ En cuanto a otros aspectos, también se encargó de implementar las interfaces d
 
 Para llevar a cabo el desarrollo de la aplicación en *React Native*, igualmente se documentó a través del libro [@rn-book], además de la documentación de la página oficial de *React Native* [@rn-website] y *React Navigation* [@drawer-navigation], además de realizar un curso en FreeCodeCamp [@fcc-rn] para entender el funcionamiento de *React Native y Expo* .
 
+### Conclusiones
+
+La participación de cada miembro del grupo ha sido fundamental para el desarrollo de la aplicación. Demostrando la cohesión y consistencia de los conocimientos adquiridos tanto en ingeniería de software como en informática, así como la importancia del trabajo en equipo, pudiendo destacar las habilidades y destrezas adquiridas.
+
 ## Carlos Gómez López
 
 ### Puesta en escena: Aprendizaje
@@ -201,7 +205,3 @@ En cuanto al apartado de conclusiones y trabajo futuro, hicimos un brainstorming
 ### Conclusiones
 
 Realizar un proyecto de estas características nos ha permitido aprender nuevas tecnologías, lo que ha mejorado nuestras habilidades como programadores. Gracias al trabajo en equipo, hemos afrontado y superado juntos todos los errores que surgieron a lo largo del proyecto, demostrando nuestra capacidad de colaboración y comunicación. Gracias a la buena gestión de proyecto que hemos llevado, hemos sido capaces de crear una aplicación funcional y útil, dando lugar a un producto de alta calidad.
-
-## Conclusiones generales
-
-La participación de cada miembro del grupo ha sido fundamental para el desarrollo de la aplicación. Demostrando la cohesión y consistencia de los conocimientos adquiridos tanto en ingeniería de software como en informática, así como la importancia del trabajo en equipo, pudiendo destacar las habilidades y destrezas adquiridas.
