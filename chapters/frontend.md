@@ -42,7 +42,7 @@ Por último, es conveniente gestionar el estado visible de los componentes de la
 
 ## Prototipos e Interfaces
 
-Durante el diseño inicial de la interfaz de la aplicación, exploramos diferentes herramientas de diseño para poder elaborar varios de los *mockups* que componen la app. Entre ellas destacamos **Balsamiq**^[[Balsamiq](https://balsamiq.com/)] y **Figma**^[[Figma](https://www.figma.com/)]. Sin embargo, nos decantamos por Figma, ya que es una herramienta más versátil y con mayores opciones de personalización, abarcando desde modelos de baja a alta fidelidad. 
+Durante el diseño inicial de la interfaz de la aplicación, exploramos diferentes herramientas de diseño para poder elaborar varios de los *mockups* que componen la app. Entre ellas destacamos **Balsamiq**[@balsamiq] y **Figma**[@figma]. Sin embargo, nos decantamos por Figma, ya que es una herramienta más versátil y con mayores opciones de personalización, abarcando desde modelos de baja a alta fidelidad. 
 
 Figma es una plataforma de diseño colaborativo que permite desde la creación de prototipos interactivos hasta interfaces de usuario con alto nivel de detalle. Además de permitir diseñar fácilmente las interfaces, habilita a otros miembros del grupo a colaborar y compartir el contenido que se está diseñando, lo que ha ayudado, en gran parte, a la pronta implementación del *frontend* del proyecto.
 
@@ -74,7 +74,7 @@ Por último, tenemos interfaces más detalladas como visualizar la creación o e
 
 ![Flujo de la creación de una tarea](img/componentes/creaTareas.png){width=70% #fig:flujo_creacion}
 
-![Sección para ver una tarea y editar aspectos más detallados de la misma (incluso observaciones en Markdown](img/componentes/visualizaTareas.png){width=70% #fig:visualiza_tareas}
+![Sección para ver una tarea y editar aspectos más detallados de la misma (incluso observaciones en Markdown)](img/componentes/visualizaTareas.png){width=70% #fig:visualizaTareas}
 
 ## Implementación: ¿Qué es React Native?
 
