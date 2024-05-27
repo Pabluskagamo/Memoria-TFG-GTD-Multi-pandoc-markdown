@@ -1,4 +1,4 @@
-# Guía de despliegue {#sec:guiadespl}
+# Apéndice D. Guía de despliegue {#sec:guiadespl}
 
 En este apéndice se va a detallar cómo desplegar o compilar los distintos componentes de la aplicación. También se va a explicar la estructura de carpetas del proyecto para ayudar a realizar dicho proceso de despliegue/compilación de los distintos componentes.
 

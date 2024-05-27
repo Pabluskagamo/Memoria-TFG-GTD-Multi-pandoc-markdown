@@ -1,4 +1,4 @@
-# Endpoints
+# Apéndice E. Endpoints
 
 En el este apéndice se detallan los *endpoints* implementados en la *API REST*. Cada *endpoint* se describe mediante dos tablas, una que define las características de este y otra que define los parámetros que puede recibir.
 

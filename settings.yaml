@@ -18,7 +18,7 @@ header-includes:
 # - \usepackage{libertine}
 # Para incluir fichero separado con código LaTeX
 #- \input{separators/preamble.tex}
-title: Implementación de una infraestructura REST con privacidad para GTD basada en Express y React Native 
+title: Implementación de una infraestructura REST con privacidad para GTD basada en Express y React Native \linebreak \linebreak \large Implementation of a privacy-enabled REST infrastructure for GTD based on Express and React Native
 author: Pablo Gamo González, Carlos Gómez López, Javier Gil Caballero, Alejandro Del Río Caballero
 advisor: Juan Carlos Sáez Alcaide
 department: Departamento de Arquitectura de Computadores y Automática
