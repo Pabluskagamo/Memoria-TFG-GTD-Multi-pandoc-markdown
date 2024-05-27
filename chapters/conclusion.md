@@ -33,3 +33,7 @@ En esta sección, exploraremos las ideas y mejoras planificadas para el futuro d
 - **Soporte de aplicación de escritorio a más plataformas**: Desarrollar una versión de escritorio de *SwiftDo* compatible con plataformas como Linux para ampliar su alcance y accesibilidad.
 
 - **Editor de texto enriquecido**: Integrar un editor de texto enriquecido que permita a los usuarios dar formato a sus descripciones de tareas de manera más flexible y personalizada.
+
+## Link al repositorio de GitHub
+
+- https://github.com/Alejandrodlrio/SwiftDo

@@ -1,4 +1,4 @@
-# Introduction
+# Apéndice A. Introduction
 
 ## Motivation {#sec:motiv2}
 
@@ -103,4 +103,4 @@ The rest of the report is organized as follows:
 - **Chapter 7** describes the integration of our *GTD* app with conversational agents, in our case with *Alexa*. We'll explain how we set up the *Alexa* skill, how we linked our user account, the implementation of the *OAuth 2.0* authorization flow, and the issues we encountered during this process.
 - In **chapter 8** you will find the user manual, showing the full functionality of our application in an easy and intuitive way.
 - **Chapter 9** sets out the main conclusions we have reached and discusses future lines of work.
-- This report also consists of four appendices. The first two (Appendices A and B) correspond to the English translation of the introduction and conclusions, the third (Appendix C) lists the contributions that each team member has made to the project, and the last one, (Appendix D) provides a deployment guide so that anyone who wants to use our application can do so.
+- This report also consists of five appendices. The first two (Appendices A and B) correspond to the English translation of the introduction and conclusions, the third (Appendix C) lists the contributions that each team member has made to the project, (Appendix D) provides a deployment guide so that anyone who wants to use our application can do so, and the last one, (Appendix E) contains the endpoints of the application.

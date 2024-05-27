@@ -1,4 +1,4 @@
-# Contribución de cada miembro del equipo
+# Apéndice C. Contribución de cada miembro del equipo
 
 Desde el inicio del curso escolar 23/24 y con ello, desde el inicio de este trabajo de fin de grado, cada miembro del grupo ha ido aportando una serie de características que han sido cruciales para el desarollo de la aplicación. A continuación se precisa la contribución de cada integrante a las fases del proyecto, destacando cómo la coordinación grupal ha permitido el objetivo final.
 
