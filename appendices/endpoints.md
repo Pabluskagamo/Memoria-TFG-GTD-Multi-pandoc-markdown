@@ -144,7 +144,7 @@ En el este apéndice se detallan los *endpoints* implementados en la *API REST*.
 
 | Endpoint                 | /oauth/authorize                                                                 |
 | ------------------------ | -------------------------------------------------------------------------------- |
-| Descripción              | Obtiene el codigo de autorización de *OAuth* si el la autenticación es correcta. |
+| Descripción              | Obtiene el código de autorización de *OAuth* si el la autenticación es correcta. |
 | Método HTTP              | POST                                                                             |
 | Cabecera de Autorización |                                                                                  |
 | Código HTTP (OK)         | 304                                                                              |
@@ -153,13 +153,13 @@ En el este apéndice se detallan los *endpoints* implementados en la *API REST*.
 | Parámetros             | Descripción                                                             | Tipo      | Opcional |
 | ---------------------- | ----------------------------------------------------------------------- | --------- | -------- |
 | client_id (*Body*)     | id del cliente a autorizar                                              | *Integer* | No       |
-| response_type (*Body*) | *code* por defecto ya que estamos obtieniendo el codigo de autorización | *String*  | No       |
+| response_type (*Body*) | *code* por defecto ya que estamos obteniendo el código de autorización | *String*  | No       |
 | email (*Body*)         | E-mail del usuario                                                      | *String*  | No       |
 | password (*Body*)      | Contraseña del usuario                                                  | *String*  | No       |
 
 | Endpoint                 | /oauth/token                                                                                                            |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| Descripción              | Si el codigo de autorización es correcto devuelve el token de acceso. Tambien permite realizar la renovación del token. |
+| Descripción              | Si el código de autorización es correcto devuelve el token de acceso. También permite realizar la renovación del token. |
 | Método HTTP              | POST                                                                                                                    |
 | Cabecera de Autorización |                                                                                                                         |
 | Código HTTP (OK)         | 200                                                                                                                     |
@@ -169,7 +169,7 @@ En el este apéndice se detallan los *endpoints* implementados en la *API REST*.
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- | -------- |
 | client_id (*Body*)     | id del cliente desde donde se requiere el token                                                                                                              | *Integer* | No       |
 | client_secret(*Body*)  | secreto del cliente autorizado                                                                                                                               | *String*  | No       |
-| grant_type (*Body*)    | Tipo de proceso de *OAuth* puede ser *authorization_code* para obtener el token a partir de un codigo o *refresh_token* para refrescar un token ya existente | *String*  | No       |
+| grant_type (*Body*)    | Tipo de proceso de *OAuth* puede ser *authorization_code* para obtener el token a partir de un código o *refresh_token* para refrescar un token ya existente | *String*  | No       |
 | code (*Body*)          | Si estamos en el proceso *authorization_code* es el código de autorización obtenido previamente. Si no, no es necesario                                      | *String*  | Si       |
 | redirect_uri (*Body*)  | uri a la que redireccionará al obtener el token                                                                                                              | *String*  | No       |
 | refresh_token (*Body*) | Si estamos en el proceso *refresh_token* es el token de renovación necesario para obtener un nuevo token. Si no, no es necesario.                            | *String*  | Si       |
@@ -226,7 +226,7 @@ En el este apéndice se detallan los *endpoints* implementados en la *API REST*.
 
 | Endpoint                 | /project/:id                                  |
 | ------------------------ | --------------------------------------------- |
-| Descripción              | Modifica el proyeto con id pasado por la url. |
+| Descripción              | Modifica el proyecto con id pasado por la url. |
 | Método HTTP              | POST                                          |
 | Cabecera de Autorización | Bearer token                                  |
 | Código HTTP (OK)         | 200                                           |
@@ -243,7 +243,7 @@ En el este apéndice se detallan los *endpoints* implementados en la *API REST*.
 
 | Endpoint                 | /context/                                        |
 | ------------------------ | ------------------------------------------------ |
-| Descripción              | Crea un context para el usuario que lo requiere. |
+| Descripción              | Crea un contexto para el usuario que lo requiere. |
 | Método HTTP              | POST                                             |
 | Cabecera de Autorización | Bearer token                                     |
 | Código HTTP (OK)         | 200                                              |
@@ -310,7 +310,7 @@ En el este apéndice se detallan los *endpoints* implementados en la *API REST*.
 
 | Endpoint                 | /tag/:name                                              |
 | ------------------------ | ------------------------------------------------------- |
-| Descripción              | Elimina la etiqueta con el nombre pasado por parametro. |
+| Descripción              | Elimina la etiqueta con el nombre pasado por parámetro. |
 | Método HTTP              | DELETE                                                  |
 | Cabecera de Autorización | Bearer token                                            |
 | Código HTTP (OK)         | 200                                                     |

@@ -18,11 +18,11 @@ Con la finalidad de hacer que el usuario se vea familiarizado con los conceptos 
 
 En primer lugar, usamos metáforas para asociar cada “acción” del método *GTD* con un icono que exprese fielmente lo que realiza esa categoría. Ejemplo de ello, pueden ser la “entrada”, representada por una bandeja de entrada de mensajes, la bandera roja indicando la urgencia o el símbolo de progreso de cada proyecto, tal y como se puede observar en las figura \ref{fig:menulateral}.
 
-![Menu lateral](img/menu_lateral.png){width=50% #fig:menulateral}
+![Menú lateral](img/menu_lateral.png){width=50% #fig:menulateral}
 
 Por otro lado, tenemos las expresiones. Estas son un concepto fundamental, ya que ayudan a definir cómo interactúa el usuario con la aplicación, haciéndola más eficiente y consistente. Estas las podemos ver en el menú lateral, con las secciones de la figura \ref{fig:menulateral} de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
 
-Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de esqueuomorfismo, evitando sobrecargar con detalles superfluos la interfaz. Para ello nos hemos basado en el concepto de *affordance*, haciendo que cada componente que se encuentre en la app sea autoexplicativo, como por ejemplo el botón de añadir tarea y/o proyecto que se muestra en la figura \ref{fig:actionScreen} en la esquina inferior derecha. Para explorar con mayor detalle estos aspectos, nos hemos basado en varios principios de diseño que describiremos a continuación.
+Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de esquemomorfismo, evitando sobrecargar con detalles superfluos la interfaz. Para ello nos hemos basado en el concepto de *affordance*, haciendo que cada componente que se encuentre en la app sea autoexplicativo, como por ejemplo el botón de añadir tarea y/o proyecto que se muestra en la figura \ref{fig:actionScreen} en la esquina inferior derecha. Para explorar con mayor detalle estos aspectos, nos hemos basado en varios principios de diseño que describiremos a continuación.
 
 ### Proximidad y Consistencia
 
@@ -38,7 +38,7 @@ D. Norman en su libro [@design-book] explica que todo componente debe proporcion
 
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones", que se representa en la figura \ref{fig:actionScreen}, mientras los demás ocupan un segundo plano. 
 
-Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Un ejemplo de de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas (véase la figura \ref{fig:menulateral}). Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” (véase en la figura \ref{fig:visualizaTareas}) , dirigen la atención a lo que realmente importa.
+Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Un ejemplo de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas (véase la figura \ref{fig:menulateral}). Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” (véase en la figura \ref{fig:visualizaTareas}) , dirigen la atención a lo que realmente importa.
 
 ## Prototipos e Interfaces
 
@@ -105,3 +105,23 @@ Por último, destaca la gran comunidad que tiene, ya que además de la documenta
 - **Swipeable** [@swipeable]: Componente que permite implementar filas deslizables o interacción similar. Representa a sus hijos dentro de un contenedor que permite el deslizamiento horizontal hacia la izquierda y hacia la derecha.
 
 - **Wheel Color Picker** [@wheelcolorpicker]: Componente seleccionador de colores. Se ha utilizado en el modal de crear proyecto para seleccionar el color del mismo.
+
+
+
+### Modo *offline*
+
+La aplicación desarrollada dispone de un modo *offline*, el cual permite seguir usando la aplicación cuando no disponemos de conexión a internet. Esta característica ha sido implementada mediante un sistema de almacenamiento de datos en *caché* el cual almacena en el dispositivo las tareas que se obtienen de la *API REST* mientras se dispone de conexión. De esta manera cuando se pierda la conexión, el usuario podrá seguir accediendo de forma *offline* a sus tareas. Para este modo, además del proceso de almacenamiento en *caché* se ha implementado la posibilidad de poder seguir añadiendo contenido a la aplicación y modificar el existente, de manera que la información se almacene en el dispositivo y una vez este recupere la conexión se realice una sincronización de la información. 
+
+#### Almacenamiento en *caché* de datos {.unnumbered}
+
+El almacenamiento de los datos en *caché* ha sido implementado con contextos de *React-Native* y con el paquete mencionado en el anterior apartado *React Native Async Storage*.  El contexto de *React Native* permite guardar de manera global a la aplicación información en tiempo de ejecución, para nuestro se  va almacenando la información devuelta por el *backend* en el contexto por si en algún momento se pierde la conexión, y en tal caso entrar en el modo *offline*. Si se da tal caso, al seguir utilizando la aplicación  sin conexión, la información de cargará del contexto. En ambos situaciones, es decir tanto en modo *offline* como en el modo estándar, al cerrar la aplicación, la información almacenada en *caché* en el contexto es guardada en el almacenamiento del dispositivo, de manera que si al iniciar  la aplicación la próxima vez no disponemos de conexión, se iniciará el modo *offline* con la información almacenada.
+
+#### *Sincronización con el servidor* {.unnumbered}
+
+En cuanto al proceso de sincronización, se ha implementado un sistema que permite tanto crear como modificar tareas de manera *offline*.  Esto es posible ya que guardamos en el contexto una cola de las tareas que han sido creadas sin conexión, y marcamos aquellas que han sido modificadas. Así cuando se vuelva a tener conexión se mandará al servidor esta información para ser sincronizada. 
+
+Este sistema tiene en cuenta el campo *num_version* o número de versión el cual permite comprobar a la hora de sincronizar, si la tarea ha sido modificada paralelamente al modo *offline* para evitar conflictos. De esta manera si el número de versión de la tarea modificada es mayor en el servidor que en la tarea a sincronizar, se descartará la información de la tarea a sincronizar. Esto será mejorado en un futuro para poder conseguir una sincronización completa cuando haya conflictos.
+
+#### Conclusiones Modo *Offline* {.unnumbered}
+
+La funcionalidad implementada, permite gestionar de manera *offline* todo lo referente a tareas, sin embargo no permite por el momento gestionar las demás entidades, lo cual quedará pendiente para mejorar en el futuro.
