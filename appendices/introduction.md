@@ -6,7 +6,7 @@ Immersed in the digital age, characterized by the culture of immediacy, it's not
 
 Likewise, the *GTD* system is known for its effectiveness both personally and professionally in planning, organizing and managing tasks. However, some of the apps that implement it have several problems. First of all, many of these applications do not clearly inform about the process of processing their users' data. (e.g., the data is hosted on third-party servers and their security protocols are unknown).
 
-On the other hand, many of these apps have a high learning curve or are compatible with a small number of operating systems. A clear example of this is Things ^[[Things](https://culturedcode.com/things/)] which, despite being a very good application, is only available for Apple devices. This conditions the access of this methodology to a more general public.
+On the other hand, many of these apps have a high learning curve or are compatible with a small number of operating systems. A clear example of this is Things [@things] which, despite being a very good application, is only available for Apple devices. This conditions the access of this methodology to a more general public.
 
 Therefore, motivated to solve this problem, we seek to develop a multiplatform application that, in addition to implementing the *GTD* methodology, stands out for its intuitive and friendly interface, guided by a *REST* architecture, with the aim of allowing the user to have control of their data, guaranteeing their privacy and transparency. This application, called *SwiftDo*, aims to offer an accessible and versatile alternative for the efficient management of daily tasks.
 

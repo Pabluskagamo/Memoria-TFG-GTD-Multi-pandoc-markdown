@@ -30,7 +30,7 @@ Estos principios se encuentran relacionados con la coherencia con la que diseña
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Esto ha sido de gran utilidad para la optimización del código, diseño, que se muestra en la figura \ref{fig:actionScreen}, y aprendizaje de la interfaz por parte del usuario final.
 
-![Prototipo de Bandeja de entrada, Cuanto antes, Programadas y Archivadas](img/componentes/actions.png){width=70% #fig:actionScreen}
+![Prototipo de Bandeja de entrada, Cuanto antes, Programadas y Archivadas](img/componentes/actions.png){width=70% height=90% #fig:actionScreen}
 
 ### Visibilidad
 
@@ -42,7 +42,7 @@ Por último, es conveniente gestionar el estado visible de los componentes de la
 
 ## Prototipos e Interfaces
 
-Durante el diseño inicial de la interfaz de la aplicación, exploramos diferentes herramientas de diseño para poder elaborar varios de los *mockups* que componen la app. Entre ellas destacamos **Balsamiq**^[[Balsamiq](https://balsamiq.com/)] y **Figma**^[[Figma](https://www.figma.com/)]. Sin embargo, nos decantamos por Figma, ya que es una herramienta más versátil y con mayores opciones de personalización, abarcando desde modelos de baja a alta fidelidad. 
+Durante el diseño inicial de la interfaz de la aplicación, exploramos diferentes herramientas de diseño para poder elaborar varios de los *mockups* que componen la app. Entre ellas destacamos **Balsamiq**[@balsamiq] y **Figma**[@figma]. Sin embargo, nos decantamos por Figma, ya que es una herramienta más versátil y con mayores opciones de personalización, abarcando desde modelos de baja a alta fidelidad. 
 
 Figma es una plataforma de diseño colaborativo que permite desde la creación de prototipos interactivos hasta interfaces de usuario con alto nivel de detalle. Además de permitir diseñar fácilmente las interfaces, habilita a otros miembros del grupo a colaborar y compartir el contenido que se está diseñando, lo que ha ayudado, en gran parte, a la pronta implementación del *frontend* del proyecto.
 
@@ -54,27 +54,27 @@ A continuación presentamos todos las interfaces que componen *SwiftDo*, junto a
 
 En primer lugar tenemos las interfaces relacionadas con el registro e inicio de sesión \ref{fig:iniciosesion}, que usamos de introducción para que el usuario acceda a la aplicación.
 
-![Inicio de sesión y Registro](img/componentes/inicio-registro.png){width=50%}{width=100% #fig:iniciosesion}
+![Inicio de sesión y Registro](img/componentes/inicio-registro.png){width=70% #fig:iniciosesion}
 
 En segundo lugar tenemos las tareas relacionadas con la gestión del flujo de *GTD* y sus acciones en dispositivos móviles como se observa en la figura \ref{fig:actionScreen}, además de la misma pero en formato escritorio \ref{fig:escritorio}. 
 
-![Interfaz de SwiftDo en formato Escritorio](img/componentes/escritorio.png){width=50% #fig:escritorio}
+![Interfaz de SwiftDo en formato Escritorio](img/componentes/escritorio.png){width=70% #fig:escritorio}
 
 En adición a las categorías de *GTD* mencionadas en el capítulo \ref{sec:metodologia}, hemos querido añadir una nueva categoría "**Hoy**", como se observa en la figura \ref{fig:hoy} , que actúa a modo de resumen diario inteligente. Este detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
-![Pantalla de sección "Hoy" o resumen inteligente](img/componentes/Hoy_Screen.png){width=50% #fig:hoy}
+![Pantalla de sección "Hoy" o resumen inteligente](img/componentes/Hoy_Screen.png){width=50% height=70% #fig:hoy}
 
-En tercer lugar tenemos interfaces relacionadas con el menú ajustes tanto en formato escritorio \ref{#fig:ajustes_escritorio} como en dispositivos móviles \ref{#fig:ajustes_movil} desde los que podemos modificar varios campos de la aplicación.
+En tercer lugar tenemos interfaces relacionadas con el menú ajustes tanto en formato escritorio \ref{fig:ajustes_escritorio} como en dispositivos móviles \ref{fig:ajustes_movil} desde los que podemos modificar varios campos de la aplicación.
 
-![Ajustes de SwiftDo en Móvil](img/componentes/Ajustes - Movil.png){width=50% #fig:ajustes_movil}
+![Ajustes de SwiftDo en Móvil](img/componentes/Ajustes - Movil.png){width=50% height=50% #fig:ajustes_movil}
 
-![Ajustes de SwiftDo en Escritorio con distintas opciones](img/componentes/OptionSettings.png){width=100% #fig:ajustes_escritorio}
+![Ajustes de SwiftDo en Escritorio con distintas opciones](img/componentes/OptionSettings.png){width=100% height=50% #fig:ajustes_escritorio}
 
 Por último, tenemos interfaces más detalladas como visualizar la creación o edición de tareas \ref{fig:flujo_creacion}. Además de visualizar las tareas ya creadas y añadir detalles a estas, pudiendo insertar texto con formato *markdown* \ref{fig:visualiza_tareas}.
 
-![Flujo de la creación de una tarea](img/componentes/creaTareas.png){width=50% #fig:flujo_creacion}
+![Flujo de la creación de una tarea](img/componentes/creaTareas.png){width=70% #fig:flujo_creacion}
 
-![Sección para ver una tarea y editar aspectos más detallados de la misma (incluso observaciones en Markdown](img/componentes/visualizaTareas.png){width=50% #fig:visualiza_tareas}
+![Sección para ver una tarea y editar aspectos más detallados de la misma (incluso observaciones en Markdown)](img/componentes/visualizaTareas.png){width=70% #fig:visualizaTareas}
 
 ## Implementación: ¿Qué es React Native?
 

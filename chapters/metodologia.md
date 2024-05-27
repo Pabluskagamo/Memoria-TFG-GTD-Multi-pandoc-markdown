@@ -109,7 +109,7 @@ Basándonos en esta idea, hemos explorado el mercado de aplicaciones que existen
 
 - **Things** [@things]: Se trata de una aplicación de gestión de tareas disponible para dispositivos de *Apple*. Tiene una interfaz elegante y herramientas que se alinean con *GTD*, como áreas, proyectos y tareas.
 
-- **Omnifocus **[@omni]: Ofrece una amplia gama de características de organización y permite crear proyectos, tareas y contextos para seguir la metodología *GTD*.
+- **Omnifocus** [@omni]: Ofrece una amplia gama de características de organización y permite crear proyectos, tareas y contextos para seguir la metodología *GTD*.
 
 - **TickTick** [@ticktick]: *TickTick* es una aplicación de gestión de tareas con múltiples características que pueden utilizarse para implementar *GTD*. Ofrece listas de tareas, calendario y recordatorios.
 
@@ -121,14 +121,14 @@ A pesar de que las apps mencionadas en el anterior apartado son excelentes, obse
 
 \lbegin{landscape}
 
-| **Aplicación** | **¿Multiplataforma?**     | **Aspectos positivos**                                                                                                                                   | **Aspectos negativos**                                                                                                                 |
-| -------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| NirvanaHQ      | Si                        | Diseñada especialmente para GTD                                                                                                                          | Interfaz demasiado simple pudiendo confundirse                                                                                         |
-| TodoIst        | Si                        | Interfaz intuitiva y fácil de utilizar \linebreak Soporte multiplataforma \linebreak Funciones avanzadas de recordatorio, etiquetas y filtrado           | Versión gratuita con muchas restricciones \linebreak Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
-| Notion         | Si                        | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...) \linebreak Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece         |
-| Things         | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD*                                                                                                         | Uso reducido a dispositivos *Apple* \linebreak Carece de características avanzadas                                                     |
-| Omnifocus      | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos                                                                             | Uso reducido a dispositivos *Apple* \linebreak Alta curva de aprendizaje                                                               |
-| TickTick       | Si                        | Interfaz intuitiva y fácil de usar                                                                                                                       | La versión gratuita difiere bastante de la versión premium                                                                             |
+| **Aplicación** | **¿Multiplataforma?** | **Aspectos positivos** | **Aspectos negativos** |
+| -------------- | ------------------------- | ----------------------------- | ----------------------------------- |
+| NirvanaHQ | Si | Diseñada especialmente para GTD | Interfaz demasiado simple pudiendo confundirse |
+| TodoIst | Si | Interfaz intuitiva y fácil de utilizar \linebreak Soporte multiplataforma \linebreak Funciones avanzadas de recordatorio, etiquetas y filtrado | Versión gratuita con muchas restricciones \linebreak Difícil integración de *GTD* ya que carece de la función de creación de proyectos |
+| Notion | Si | Altamente personalizable y con grandes capacidades (Uso de base de datos, tablas...) \linebreak Se puede integrar gran cantidad de métodos no solo *GTD* | Alta curva de aprendizaje combinado con un sentimiento abrumador dada la cantidad de características y flexibilidad que ofrece |
+| Things | Solo dispositivos *Apple* | Diseño elegante, minimalista y centrado en *GTD* | Uso reducido a dispositivos *Apple* \linebreak Carece de características avanzadas |
+| Omnifocus | Solo dispositivos *Apple* | Alta capacidad de organización para proyectos, tareas y manejos de contextos | Uso reducido a dispositivos *Apple* \linebreak Alta curva de aprendizaje |
+| TickTick | Si | Interfaz intuitiva y fácil de usar | La versión gratuita difiere bastante de la versión premium |
 
 \lend{landscape}
 
