@@ -11,21 +11,21 @@ pandoc_common:
   - preamble/authorization.md
   - separators/mainmatter.md
 ## Include chapters here    
-  - chapters/introduccion.md
-  - chapters/metodologia.md
-  - chapters/planificacion.md
-  - chapters/modelodatos.md
-  - chapters/backend.md
-  - chapters/frontend.md
-  - chapters/agentesconversacionales.md
-  - chapters/manualusuario.md
-  - chapters/conclusion.md
-  - separators/backmatter.md
+  # - chapters/introduccion.md
+  # - chapters/metodologia.md
+  # - chapters/planificacion.md
+  # - chapters/modelodatos.md
+  # - chapters/backend.md
+  # - chapters/frontend.md
+  # - chapters/agentesconversacionales.md
+  # - chapters/manualusuario.md
+  # - chapters/conclusion.md
+  # - separators/backmatter.md
 ## Include appendices here      
   - appendices/introduction.md
   - appendices/contribuciones.md
   - appendices/guiadespliegue.md
-  - chapters/endpoints.md
+  - appendices/endpoints.md
 ## Include this file if your document contains a bibliography  
   - separators/bibliography.md
 pandoc_targets:
