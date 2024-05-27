@@ -70,7 +70,7 @@ En tercer lugar tenemos interfaces relacionadas con el menú ajustes tanto en fo
 
 ![Ajustes de SwiftDo en Escritorio con distintas opciones](img/componentes/OptionSettings.png){width=100% height=50% #fig:ajustes_escritorio}
 
-Por último, tenemos interfaces más detalladas como visualizar la creación o edición de tareas \ref{fig:flujo_creacion}. Además de visualizar las tareas ya creadas y añadir detalles a estas, pudiendo insertar texto con formato *markdown* \ref{fig:visualiza_tareas}.
+Por último, tenemos interfaces más detalladas como visualizar la creación o edición de tareas \ref{fig:flujo_creacion}. Además de visualizar las tareas ya creadas y añadir detalles a estas, pudiendo insertar texto con formato *markdown* \ref{fig:visualizaTareas}.
 
 ![Flujo de la creación de una tarea](img/componentes/creaTareas.png){width=70% #fig:flujo_creacion}
 
