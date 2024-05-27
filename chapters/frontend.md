@@ -20,17 +20,13 @@ En primer lugar, usamos metáforas para asociar cada “acción” del método *
 
 ![Menu lateral](img/menu_lateral.png){width=50% #fig:menulateral}
 
-Por otro lado, tenemos las expresiones. Estas son un concepto fundamental, ya que ayudan a definir cómo interactúa el usuario con la aplicación, haciéndola más eficiente y consistente. Estas las podemos ver en el menú lateral, con las secciones de la figura \ref{fig:accionesBarraLateral} de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
+Por otro lado, tenemos las expresiones. Estas son un concepto fundamental, ya que ayudan a definir cómo interactúa el usuario con la aplicación, haciéndola más eficiente y consistente. Estas las podemos ver en el menú lateral, con las secciones de la figura \ref{fig:menulateral} de “Entrada”, “Hoy”, “Cuanto antes”, “Programadas”, etc.
 
-![barra lateral](img/accionesBarraLateral.png){width=40% #fig:accionesBarraLateral}
-
-Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de esqueuomorfismo, evitando sobrecargar con detalles superfluos la interfaz. Para ello nos hemos basado en el concepto de *affordance*, haciendo que cada componente que se encuentre en la app sea autoexplicativo, como por ejemplo el botón de añadir tarea y/o proyecto que se muestra en la figura \ref{fig:addbutton} Para explorar con mayor detalle estos aspectos, nos hemos basado en varios principios de diseño que describiremos a continuación.
-
-![Botón para añadir tarea/proyecto](img/addbutton.png){#fig:addbutton}
+Finalmente, hemos optado por un diseño plano y elegante, con pocas trazas de esqueuomorfismo, evitando sobrecargar con detalles superfluos la interfaz. Para ello nos hemos basado en el concepto de *affordance*, haciendo que cada componente que se encuentre en la app sea autoexplicativo, como por ejemplo el botón de añadir tarea y/o proyecto que se muestra en la figura \ref{fig:actionScreen} en la esquina inferior derecha. Para explorar con mayor detalle estos aspectos, nos hemos basado en varios principios de diseño que describiremos a continuación.
 
 ### Proximidad y Consistencia
 
-Estos principios se encuentran relacionados con la coherencia con la que diseñamos la interfaz. El primero de estos principios, **proximidad**, indica que todos los elementos que se encuentren relacionados entre sí deben agruparse visualmente, familiarizándolo y simplificando el proceso de aprendizaje del usuario con los conceptos tratados, como se observa en la figura \ref{fig:accionesBarraLateral}.
+Estos principios se encuentran relacionados con la coherencia con la que diseñamos la interfaz. El primero de estos principios, **proximidad**, indica que todos los elementos que se encuentren relacionados entre sí deben agruparse visualmente, familiarizándolo y simplificando el proceso de aprendizaje del usuario con los conceptos tratados, como se observa en la figura \ref{fig:menulateral}.
 
 En segundo lugar, detallamos el principio de **consistencia,** que ha sido fundamental tanto para el diseño como para la implementación. Esto ha sido de gran utilidad para la optimización del código, diseño, que se muestra en la figura \ref{fig:actionScreen}, y aprendizaje de la interfaz por parte del usuario final.
 
@@ -42,11 +38,7 @@ D. Norman en su libro [@design-book] explica que todo componente debe proporcion
 
 Por esto, hemos usado un diseño plano y minimalista, donde los detalles que tienen alta relevancia y que se relacionan con el método GTD, pasan a un primer plano, como son las "acciones", que se representa en la figura \ref{fig:actionScreen}, mientras los demás ocupan un segundo plano. 
 
-Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Un ejemplo de de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas (véase la figura \ref{fig:nombre_fecha}). Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles”, que se muestra en la figura \ref{fig:details}, dirigen la atención a lo que realmente importa.
-
-![Nombre de usuario y fecha](img/nombre_fecha.png){#fig:nombre_fecha}
-
-![Sección para ver y editar aspectos más detallados de la tarea (incluso observaciones en Markdown)](img/componentes/details.png){width=50% #fig:details}
+Por último, es conveniente gestionar el estado visible de los componentes de la app, es decir, que el usuario pueda observar claramente el estado actual del sistema. Un ejemplo de de ello son los detalles en el menú lateral, como el nombre de usuario, que le informa que ha iniciado sesión en la app, así como la fecha actual, que puede ser de especial relevancia para la creación de tareas (véase la figura \ref{fig:menulateral}). Por otro lado, las etiquetas y el contexto asociado a cada tarea en la pantalla de “detalles” (véase en la figura \ref{fig:visualizaTareas}) , dirigen la atención a lo que realmente importa.
 
 ## Prototipos e Interfaces
 
@@ -56,39 +48,33 @@ Figma es una plataforma de diseño colaborativo que permite desde la creación d
 
 Asimismo, usamos gran parte de las opciones que ofrece para probar varios de los principios de diseño que hemos logrado implementar en la aplicación final, además de las fuentes y colores utilizados en la misma.
 
-Finalmente, una vez creados todos los prototipos junto a sus componentes, probamos el flujo de diseño que habíamos creado inicialmente, mediante el uso de la aplicación móvil, llegando a emular fielmente el comportamiento final de la app.
+Finalmente, una vez creados todos los prototipos junto a sus componentes, probamos el flujo de diseño mediante el uso de la aplicación móvil, llegando a emular fielmente el comportamiento final de la app.
 
-A continuación presentamos todos las interfaces que componen SwiftDo, junto a una breve explicación que las relaciona con el método GTD 
+A continuación presentamos todos las interfaces que componen *SwiftDo*, junto a una breve explicación que las relaciona con el método GTD.
 
-En primer lugar tenemos las interfaces relacionadas con el registro e inicio de sesión:
+En primer lugar tenemos las interfaces relacionadas con el registro e inicio de sesión \ref{fig:iniciosesion}, que usamos de introducción para que el usuario acceda a la aplicación.
 
-![Inicio de sesión y Registro](img/componentes/inicio-registro.png){width=50%}
+![Inicio de sesión y Registro](img/componentes/inicio-registro.png){width=50%}{width=100% #fig:iniciosesion}
 
-En segundo lugar tenemos las tareas relacionadas con la gestión del flujo de *GTD* y sus acciones en dispositivos móviles como se observa en la figura \ref{fig:actionScreen}, además del prototipo de escritorio: 
+En segundo lugar tenemos las tareas relacionadas con la gestión del flujo de *GTD* y sus acciones en dispositivos móviles como se observa en la figura \ref{fig:actionScreen}, además de la misma pero en formato escritorio \ref{fig:escritorio}. 
 
-![Escritorio](img/componentes/escritorio.png){width=50%}
+![Interfaz de SwiftDo en formato Escritorio](img/componentes/escritorio.png){width=50% #fig:escritorio}
 
 En adición a las categorías de *GTD* mencionadas en el capítulo \ref{sec:metodologia}, hemos querido añadir una nueva categoría "**Hoy**", como se observa en la figura \ref{fig:hoy} , que actúa a modo de resumen diario inteligente. Este detectará cuyas tareas pertenecen al día de "hoy",  tareas atrasadas cuya finalización ha expirado y por último, en caso de tener pocas tareas para realizar en el día, se irán adjuntando, otras pertenecientes a la categoría "**cuanto antes**".
 
-![Pantalla de sección "hoy"](img/componentes/Hoy_Screen.png){width=50% #fig:hoy}
+![Pantalla de sección "Hoy" o resumen inteligente](img/componentes/Hoy_Screen.png){width=50% #fig:hoy}
 
-En tercer lugar tenemos interfaces relacionadas con el menú o barra lateral y ajustes tanto en formato escritorio como en dispositivos móviles: 
+En tercer lugar tenemos interfaces relacionadas con el menú ajustes tanto en formato escritorio \ref{#fig:ajustes_escritorio} como en dispositivos móviles \ref{#fig:ajustes_movil} desde los que podemos modificar varios campos de la aplicación.
 
-![Ajustes - Móvil](img/componentes/Ajustes - Movil.png){width=50%}
+![Ajustes de SwiftDo en Móvil](img/componentes/Ajustes - Movil.png){width=50% #fig:ajustes_movil}
 
-![Ajustes - Escritorio](img/componentes/Group 41.png){width=50%}
+![Ajustes de SwiftDo en Escritorio con distintas opciones](img/componentes/OptionSettings.png){width=100% #fig:ajustes_escritorio}
 
-![Opciones de ajustes](img/componentes/OptionSettings.png){width=50%}
+Por último, tenemos interfaces más detalladas como visualizar la creación o edición de tareas \ref{fig:flujo_creacion}. Además de visualizar las tareas ya creadas y añadir detalles a estas, pudiendo insertar texto con formato *markdown* \ref{fig:visualiza_tareas}.
 
-Por último tenemos interfaces más detalladas como son la de añadir tarea/proyecto, interfaz de añadir detalles a la tarea, pudiendo insertar markdown texto en formato markdown y distintos modales para la creación o edición de tareas.
+![Flujo de la creación de una tarea](img/componentes/creaTareas.png){width=50% #fig:flujo_creacion}
 
-![Editor de tareas](img/componentes/editTask.png){width=50%}
-
-![Añadir tareas o proyectos](img/componentes/addProyectOrTask.png){width=50%}
-
-![Menu para añadir tareas](img/componentes/Menu add task - Light (old).png){width=50%}
-
-![Visualización de tarea](img/componentes/visualizacionTarea.png){width=50%}
+![Sección para ver una tarea y editar aspectos más detallados de la misma (incluso observaciones en Markdown](img/componentes/visualizaTareas.png){width=50% #fig:visualiza_tareas}
 
 ## Implementación: ¿Qué es React Native?
 
