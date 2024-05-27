@@ -6,19 +6,7 @@ En este capítulo nos preocuparemos en saber como funciona detalladamente el mé
 
 El desarrollo tecnológico, sumado a la creciente complejidad del mundo moderno, ha desembocado en un notable incremento de responsabilidades tanto personales como profesionales. Es por ello que mantener la atención al detalle y la gestión eficaz del tiempo se ha vuelto un gran desafío para todo tipo de personas.
 
-En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal, tales como la técnica <u>pomodoro</u> 
-
-[^[Técnica pomodoro\](https://asana.com/es/resources/pomodoro-technique)]: Estrategia de concentración durante periodos de tiempo determinados.
-
-,  <u>Kanban</u> 
-
-[^[Tablero Kanban\](https://asana.com/es/templates/kanban-board#)]: Método visual para la gestión de proyectos.
-
-o la <u>matriz de Eisenhower</u>
-
-[^[Matriz de Eisenhower\](https://asana.com/es/resources/eisenhower-matrix)]: Herramienta de gestión de tareas que ayuda a distinguir entre tareas urgentes e importantes.
-
-.
+En la actualidad, existen varios métodos que afirman ser de gran utilidad para aumentar la productividad diaria y el desarrollo personal, tales como la técnica <u>pomodoro</u> [@pomodoro],  <u>Kanban</u> [@kanban] o la <u>matriz de Eisenhower</u> [@eisen].
 
 Sin embargo, a pesar de que algunos de estos métodos mejoren la visualización de prioridades o gestionen correctamente el flujo de trabajo, carecen de sentido para varios aspectos con los que nos topamos a diario. O bien son muy específicos, y carecen de una estructura bien definida, necesitando implementarlos en áreas muy concretas y tareas a corto plazo, o bien, requieren de una alta curva de aprendizaje y dedicación del usuario para mantener dicha productividad que prometen.
 
