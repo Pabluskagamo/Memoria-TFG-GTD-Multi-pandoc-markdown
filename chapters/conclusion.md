@@ -34,6 +34,9 @@ En esta sección, exploraremos las ideas y mejoras planificadas para el futuro d
 
 - **Editor de texto enriquecido**: Integrar un editor de texto enriquecido que permita a los usuarios dar formato a sus descripciones de tareas de manera más flexible y personalizada.
 
+- **Mejora del modo *offline***: Mejorar el proceso de sincronización con el servidor, así como ampliar el almacenamiento en *caché* al resto de entidades.
+
+
 ## Link al repositorio de GitHub
 
 - https://github.com/Alejandrodlrio/SwiftDo

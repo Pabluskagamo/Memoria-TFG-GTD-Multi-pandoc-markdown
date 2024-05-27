@@ -33,3 +33,9 @@ In this section, we'll explore the ideas and improvements planned for the future
 - **Desktop app support to more platforms**: Develop a desktop version of *SwiftDo* compatible with platforms such as Linux to expand its reach and accessibility.
 
 - **Rich Text Editor**: Integrate a rich text editor that allows users to format their task descriptions more flexibly and customarily.
+
+- **Improvement of the offline mode**: Improve the synchronization process with the server, as well as extend the *cache* storage to the rest of the entities.
+
+## GitHub repository link
+
+- https://github.com/Alejandrodlrio/SwiftDo
